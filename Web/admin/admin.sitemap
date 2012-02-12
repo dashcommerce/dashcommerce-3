@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
+  <siteMapNode url="~/admin/default.aspx" title="$Resources:adminNav, Default" tooltip="$Resources:adminNavTooltips, Default">
+    <siteMapNode url="~/admin/overview.aspx?view=si" title="$Resources:adminNav, Site"  >
+      <siteMapNode url="~/admin/sitesettings.aspx" title="$Resources:adminNav, SiteSettings" />
+      <siteMapNode url="~/admin/contentedit.aspx" title="$Resources:adminNav, ContentManagement" />
+      <siteMapNode url="~/admin/overview.aspx?view=sec" title="$Resources:adminNav, Security">
+        <siteMapNode url="~/admin/userlist.aspx" title="$Resources:adminNav, UserAdministration"/>
+        <siteMapNode url="~/admin/rolelist.aspx" title="$Resources:adminNav, RoleAdministration"/>
+      </siteMapNode>
+      <siteMapNode url="~/admin/trackinglogs.aspx" title="$Resources:adminNav, TrackingLogs" />
+      <siteMapNode url="~/admin/errorlogs.aspx" title="$Resources:adminNav, ErrorLogs" />
+    </siteMapNode>
+    <siteMapNode url="~/admin/overview.aspx?view=s" title="$Resources:adminNav, Sales" >
+      <siteMapNode url="~/admin/overview.aspx?view=cs" title="$Resources:adminNav, CustomerService">
+        <siteMapNode url="~/admin/customerinformation.aspx" title="$Resources:adminNav, CustomerInformation"/>
+      </siteMapNode>
+      <siteMapNode url="~/admin/orders.aspx" title="$Resources:adminNav, OrderSearch" />
+    </siteMapNode>
+    <siteMapNode url="~/admin/overview.aspx?view=pm" title="$Resources:adminNav, ProductManagement" >
+      <siteMapNode url="~/admin/productlist.aspx" title="$Resources:adminNav, ProductListing" />
+      <siteMapNode url="~/admin/categoryedit.aspx" title="$Resources:adminNav, ProductCategories" />
+      <siteMapNode url="~/admin/manufacturers.aspx" title="$Resources:adminNav, ProductManufacturers" />
+      <siteMapNode url="~/admin/attributeedit.aspx" title="$Resources:adminNav, ProductAttributes" />
+      <siteMapNode url="~/admin/downloadedit.aspx" title="$Resources:adminNav, ProductDownloads" />
+      <siteMapNode url="~/admin/overview.aspx?view=pco" title="$Resources:adminNav, ProductCoupons" >
+        <siteMapNode url="~/admin/coupons.aspx" title="$Resources:adminNav, Coupons" />
+        <siteMapNode url="~/admin/couponprovidermanagement.aspx" title="$Resources:adminNav, ManageCouponProviders" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/admin/overview.aspx?view=c" title="$Resources:adminNav, Configuration" >
+      <siteMapNode url="~/admin/overview.aspx?view=mc" title="$Resources:adminNav, MailConfiguration">
+        <siteMapNode url="~/admin/notifications.aspx" title="$Resources:adminNav, Notifications" />
+        <siteMapNode url="~/admin/mailsettings.aspx" title="$Resources:adminNav, MailSettings" />
+      </siteMapNode>
+      <siteMapNode url="~/admin/overview.aspx?view=pc" title="$Resources:adminNav, PaymentConfiguration" >
+        <siteMapNode url="~/admin/paymentsettings.aspx" title="$Resources:adminNav, GeneralPaymentProviderSettings" />
+        <siteMapNode url="~/admin/paymentconfiguration.aspx" title="$Resources:adminNav, ConfigurePaymentProviders" />
+        <siteMapNode url="~/admin/paymentprovidermanagement.aspx" title="$Resources:adminNav, ManagePaymentProviders" />
+      </siteMapNode>
+      <siteMapNode url="~/admin/overview.aspx?view=tc" title="$Resources:adminNav, TaxConfiguration">
+        <siteMapNode url="~/admin/taxsettings.aspx" title="$Resources:adminNav, GeneralTaxProviderSettings" />
+        <siteMapNode url="~/admin/taxconfiguration.aspx" title="$Resources:adminNav, ConfigureTaxProviders" />
+        <siteMapNode url="~/admin/taxprovidermanagement.aspx" title="$Resources:adminNav, ManageTaxProviders"/>
+      </siteMapNode>
+      <siteMapNode url="~/admin/overview.aspx?view=sc" title="$Resources:adminNav, ShippingConfiguration">
+        <siteMapNode url="~/admin/shippingsettings.aspx" title="$Resources:adminNav, GeneralShippingProviderSettings" />
+        <siteMapNode url="~/admin/shippingconfiguration.aspx" title="$Resources:adminNav, ConfigureShippingProviders" />
+        <siteMapNode url="~/admin/shippingprovidermanagement.aspx" title="$Resources:adminNav, ManageShippingProviders"/>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/admin/overview.aspx?view=help" title="$Resources:adminNav, Help" tooltip="$Resources:adminNavTooltips, Help">
+      <siteMapNode url="http://dashcommerce.org/forums/" title="$Resources:adminNav, CommunityForums" target="_blank" tooltip="$Resources:adminNavTooltips, CommunityForums" />
+      <siteMapNode url="http://dashcommerce.org/files/14/default.aspx" title="$Resources:adminNav, Documentation" target="_blank" tooltip="$Resources:adminNavTooltips, Documentation"/>
+      <siteMapNode url="http://dashcommerce.org" title="$Resources:adminNav, dashCommerceorg" target="_blank" tooltip="$Resources:adminNavTooltips, dashCommerceorg"/>
+      <siteMapNode url="http://dashcommerce.com" title="$Resources:adminNav, dashCommercecom" target="_blank" tooltip="$Resources:adminNavTooltips, dashCommercecom"/>
+      <siteMapNode url="~/admin/about.aspx" title="$Resources:adminNav, About" tooltip="$Resources:adminNavTooltips, About"/>
+    </siteMapNode>
+    <siteMapNode url="~/default.aspx" title="$Resources:adminNav, ReturnToSite"/>
+  </siteMapNode>
+ </siteMap>
+

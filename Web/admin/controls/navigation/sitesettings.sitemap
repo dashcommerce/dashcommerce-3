@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
+  <siteMapNode url="~/admin/sitesettings.aspx?view=s" title="$Resources:siteSettings, Site">
+    <siteMapNode url="~/admin/sitesettings.aspx?view=gl" title="$Resources:siteSettings, Globalization" />
+    <siteMapNode url="~/admin/sitesettings.aspx?view=w" title="$Resources:siteSettings, Widgets" />
+    <siteMapNode url="~/admin/sitesettings.aspx?view=b" title="$Resources:siteSettings, BrowsingLog" />
+    <siteMapNode url="~/admin/sitesettings.aspx?view=a" title="$Resources:siteSettings, Analytics" />
+    <siteMapNode url="~/admin/sitesettings.aspx?view=c" title="$Resources:siteSettings, Caching" />
+    <siteMapNode url="~/admin/sitesettings.aspx?view=i" title="$Resources:siteSettings, Images" />
+    <siteMapNode url="~/admin/sitesettings.aspx?view=seo" title="$Resources:siteSettings, SeoSettings" />
+  </siteMapNode>
+</siteMap>

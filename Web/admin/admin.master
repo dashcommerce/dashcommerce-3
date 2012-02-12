@@ -1,0 +1,44 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="MettleSystems.dashCommerce.Web.admin.admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+  <link rel="stylesheet" type="text/css" href="../resources/submodal/subModal.css" />
+  <script type="text/javascript" src="../resources/submodal/common.js"></script>
+  <script type="text/javascript" src="../resources/submodal/subModal.js"></script>
+  <script type="text/javascript" src="../resources/overlib/overlib.js"><!-- overLIB (c) Erik Bosrup --></script>  
+  <title></title>
+</head>
+<body>
+  <div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+  <form id="form1" runat="server">
+    <asp:scriptmanager ID="scriptManager" runat="server" EnablePartialRendering="true" />
+    <div id="allContent" runat="server" class="allContent">
+      <div id="headerRegion">
+        <dashCommerce:HyperLink ID="hlLogo" runat="server" SkinID="logo" />
+        <dashCommerce:Label ID="lblSiteAdministration" runat="server" SkinId="adminHeader" />
+        <div class="mainMenu">
+          <asp:Menu ID="adminMenu" runat="server" CssClass="adminMenu" Orientation="Horizontal" DataSourceID="smdsAdminMenu" StaticDisplayLevels="2" SkinID="menu" OnMenuItemDataBound="OnMenuItemDataBound">
+            <DynamicMenuStyle CssClass="dynamicMenuStyle" />
+            <LevelMenuItemStyles>
+              <asp:MenuItemStyle CssClass="level1" />
+              <asp:MenuItemStyle CssClass="level2" />
+              <asp:MenuItemStyle CssClass="level3" />
+              <asp:MenuItemStyle CssClass="level4" />
+           </LevelMenuItemStyles>
+          </asp:Menu>
+          <asp:SiteMapDataSource ID="smdsAdminMenu" runat="server" SiteMapProvider="AdminXmlSiteMapProvider" />
+        </div>
+      </div>
+      <div id="divMessageCenter" runat="server"></div><br />
+      <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
+      <div id="footer">
+        <hr />
+      </div>
+    </div>
+  </form>
+</body>
+</html>

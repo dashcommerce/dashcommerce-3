@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="helpActive" xml:space="preserve">
+    <value>Indicates if the user is active.</value>
+  </data>
+  <data name="helpAddProduct" xml:space="preserve">
+    <value>[+] Add Product</value>
+  </data>
+  <data name="helpAddUser" xml:space="preserve">
+    <value>[+] Add User</value>
+  </data>
+  <data name="helpAllowNegativeInventories" xml:space="preserve">
+    <value>Select this if you do not wish to track inventories for this product. </value>
+  </data>
+  <data name="helpAnalytics" xml:space="preserve">
+    <value>Copy and past your analytics code here (such as Google Analytics). This code will then be included in each page to help you collect data.</value>
+  </data>
+  <data name="helpApiPassword" xml:space="preserve">
+    <value>This is the PayPal API Password required to use the PayPal API.</value>
+  </data>
+  <data name="helpApiSignature" xml:space="preserve">
+    <value>The PayPal API Signature is an encrypted string required to use the PayPal API.</value>
+  </data>
+  <data name="helpApiUserName" xml:space="preserve">
+    <value>This is the PayPal API Username required to use the PayPal API.</value>
+  </data>
+  <data name="helpBaseSku" xml:space="preserve">
+    <value>This is the base Sku for the product. If the product has attributes, then the final sku will use this as the base.</value>
+  </data>
+  <data name="helpBrowsingCategory" xml:space="preserve">
+    <value>If you would like to track when a category is viewed, then select this.</value>
+  </data>
+  <data name="helpBrowsingProduct" xml:space="preserve">
+    <value>If you would like to track when a product is viewed, then select this.</value>
+  </data>
+  <data name="helpBusinessEmail" xml:space="preserve">
+    <value>This is the email account you use for your PayPal account.</value>
+  </data>
+  <data name="helpCategoryDescription" xml:space="preserve">
+    <value>The description will appear on the category page. This will give visitors to your site an idea of the types of products they will find in the category.</value>
+  </data>
+  <data name="helpCategoryImageFile" xml:space="preserve">
+    <value>This image file will be displayed at the top of the category page.</value>
+  </data>
+  <data name="helpCategoryItems" xml:space="preserve">
+    <value>This sets the number of items that are displayed in the catalog page. We recommend keeping this number between 6 - 12, depending on your skin and layout.</value>
+  </data>
+  <data name="helpCategoryName" xml:space="preserve">
+    <value>This is the name of the category that will be displayed in the navigation.</value>
+  </data>
+  <data name="helpCollectBrowsingStatistics" xml:space="preserve">
+    <value>Select this if you would like to collect browsing statistics. However, please note that if the site is frequently crawled or very popular, this can result in a lot of database records being created. </value>
+  </data>
+  <data name="helpCollectSearchTerms" xml:space="preserve">
+    <value>If you would like to track the search terms that are searched on the site, then select this.</value>
+  </data>
+  <data name="helpContent" xml:space="preserve">
+    <value>This is the content of the page. Write whatever you want on the page in here.</value>
+  </data>
+  <data name="helpCurrency" xml:space="preserve">
+    <value>Select the currency for the site.</value>
+  </data>
+  <data name="helpDatabaseName" xml:space="preserve">
+    <value>This is the name of the database that was created on the database server.</value>
+  </data>
+  <data name="helpDatabasePassword" xml:space="preserve">
+    <value>This is the password for the user account.</value>
+  </data>
+  <data name="helpDatabaseServer" xml:space="preserve">
+    <value>The database server name should be supplied by your hosting provider. If you are unsure, please contact the hosting provider.</value>
+  </data>
+  <data name="helpDatabaseUserName" xml:space="preserve">
+    <value>This is the name of the user account that has access to the database server. This account is usually created when creating the database.</value>
+  </data>
+  <data name="helpDefaultRate" xml:space="preserve">
+    <value>The is the default rate that will be used in the event that an appropriate rate is not found.</value>
+  </data>
+  <data name="helpDescription" xml:space="preserve">
+    <value>The words entered here will be included in the META tag included in this page.</value>
+  </data>
+  <data name="helpDescriptorDescription" xml:space="preserve">
+    <value>This is descriptive text that is meant to showcase and differentiate the product. This can include technical specifications, features, etc. You can add multiple descriptors to a product, so you can break these out however you like.</value>
+  </data>
+  <data name="helpDescriptorTitle" xml:space="preserve">
+    <value>The title of the descriptive text. This will be displayed above the Description.</value>
+  </data>
+  <data name="helpDisplayNarrowByManufacturer" xml:space="preserve">
+    <value>This option determines whether the Narrow By Manufacturer widget is displayed on the catalog page.</value>
+  </data>
+  <data name="helpDisplaySortBy" xml:space="preserve">
+    <value>This option determines whether the Sort By widget is displayed on the catalog page.</value>
+  </data>
+  <data name="helpDisplayNarrowByCategory" xml:space="preserve">
+    <value>This option determines whether the narrow by sub-category widget is displayed on the catalog page.</value>
+  </data>
+  <data name="helpDisplayNarrowByPrice" xml:space="preserve">
+    <value>This option determines whether the Narrow By Price widget is displayed on the catalog page.</value>
+  </data>
+  <data name="helpDisplayRatings" xml:space="preserve">
+    <value>This option determines whether the product reviews feature is enabled.</value>
+  </data>
+  <data name="helpDisplayShippingOnCart" xml:space="preserve">
+    <value>This option determines whether the shipping options is displayed on cart.</value>
+  </data>
+  <data name="helpDisplayRetailPrice" xml:space="preserve">
+    <value>This option determines whether the product Retail Price is displayed.</value>
+  </data>
+  <data name="helpEmail" xml:space="preserve">
+    <value>The email address of the registered user.</value>
+  </data>
+  <data name="helpFooter" xml:space="preserve">
+    <value>Adjusts the footer color.</value>
+  </data>
+  <data name="helpHeight" xml:space="preserve">
+    <value>The height of the header area. Adjust this for a larger or smaller content area.</value>
+  </data>
+  <data name="helpImageCaption" xml:space="preserve">
+    <value>The image caption will appear below the image on the product page.</value>
+  </data>
+  <data name="helpImageFile" xml:space="preserve">
+    <value>This is the image file used.</value>
+  </data>
+  <data name="helpIsLive" xml:space="preserve">
+    <value>Select this if you are ready to go live with your site.</value>
+  </data>
+  <data name="helpKeywords" xml:space="preserve">
+    <value>The keywords entered here will be included in the META tag included in this page.</value>
+  </data>
+  <data name="helpLanguage" xml:space="preserve">
+    <value>Select the language for the site.</value>
+  </data>
+  <data name="helpLoginRequirement" xml:space="preserve">
+    <value>Select if and when you will require people to log into the site.</value>
+  </data>
+  <data name="helpLongCache" xml:space="preserve">
+    <value>The length, in seconds, of the long cache duration.</value>
+  </data>
+  <data name="helpMailRequireSsl" xml:space="preserve">
+    <value>If your mail server requires SSL, ensure this is selected.</value>
+  </data>
+  <data name="helpMailSettingsFrom" xml:space="preserve">
+    <value>This is the email address that will be used to send emails.</value>
+  </data>
+  <data name="helpMailSettingsHost" xml:space="preserve">
+    <value>This is the email server you will use. Most frequently it will look like "mail.yourdomain.com", but consult your hosting provider if you are unsure.</value>
+  </data>
+  <data name="helpMailSettingsPassword" xml:space="preserve">
+    <value>This is the password for the account that will be used to log into your mail server when sending system emails.</value>
+  </data>
+  <data name="helpMailSettingsPort" xml:space="preserve">
+    <value>This is the port that the SMTP service is listening on for sending emails. Most frequently this is 25, but consult your hosting provider if you are unsure. If you leave this blank we will default it to port 25.</value>
+  </data>
+  <data name="helpMailSettingsUserName" xml:space="preserve">
+    <value>This is the user name of the account that will be used to log into your mail server when sending system emails.</value>
+  </data>
+  <data name="helpManufacturerName" xml:space="preserve">
+    <value>The name of the manufacturer you are adding.</value>
+  </data>
+  <data name="helpMenuTitle" xml:space="preserve">
+    <value>This is the title that will appear in the site navigation. This should be pretty short and easily identifiable.</value>
+  </data>
+  <data name="helpName" xml:space="preserve">
+    <value>The name of the product.</value>
+  </data>
+  <data name="helpNewsFeedUrl" xml:space="preserve">
+    <value>You may enter the URL for an RSS feed here and that feed will be displayed in the "News" section on the dashBoard page.</value>
+  </data>
+  <data name="helpNormalCache" xml:space="preserve">
+    <value>The length, in seconds, of the normal cache duration.</value>
+  </data>
+  <data name="helpPageTemplate" xml:space="preserve">
+    <value>This is the template that the page will use when being created. </value>
+  </data>
+  <data name="helpParentCategory" xml:space="preserve">
+    <value>This determines the category that is the parent of the category you are creating. If you wish your category to be at the top level, then select "Root".</value>
+  </data>
+  <data name="helpParentPage" xml:space="preserve">
+    <value>This determines which page or navigational node is the parent of the page your are creating. If you wish your page to be at the top level, then select "Root".</value>
+  </data>
+  <data name="helpPdtId" xml:space="preserve">
+    <value>This is the PayPal PDT Id required as part of the PayPal Standard process.</value>
+  </data>
+  <data name="helppPayPalApiUserName" xml:space="preserve">
+    <value>This is the PayPal API UserName.</value>
+  </data>
+  <data name="helpProductEnabled" xml:space="preserve">
+    <value>A product is only enabled once all of the attributes, if any, have been assigned to the product and the Sku\'s have been saved. If a product does not have any attributes, then the base Sku will be used for the single Sku item. If you wish to enable a product, please check the Sku tab to ensure they have been saved.</value>
+  </data>
+  <data name="helpProvider" xml:space="preserve">
+    <value>Select the type of content provider you wish to use.</value>
+  </data>
+  <data name="helpRate" xml:space="preserve">
+    <value>The is the tax rate that will be applied to the purchase for the provided region code.</value>
+  </data>
+  <data name="helpRegionCode" xml:space="preserve">
+    <value>This is the region code associated with the provided rate.This will act as the primary lookup criteria.</value>
+  </data>
+  <data name="helpRegionTitle" xml:space="preserve">
+    <value>This is the title for the content region.</value>
+  </data>
+  <data name="helpRequireAuthentication" xml:space="preserve">
+    <value>If your mail server requires authentication in order to send email, ensure this is selected. In most cases, you should have this selected as it will help prevent email SPAM.</value>
+  </data>
+  <data name="helpRequireSsl" xml:space="preserve">
+    <value>Check this if your site will be utilizing SSL. For sites that redirect to another site to process payment (such as when using PayPal Standard) then you may de-select this. If you are unsure, please ensure it is selected until you are certain you will not need it.</value>
+  </data>
+  <data name="helpShipFromCountry" xml:space="preserve">
+    <value>This is the Country from which the packages will be shipped.</value>
+  </data>
+  <data name="helpShipFromZip" xml:space="preserve">
+    <value>This is the Postal Code from which the packages will be shipped.</value>
+  </data>
+  <data name="helpShippingBuffer" xml:space="preserve">
+    <value>This is a buffer that is added to the calculated shipping amount.</value>
+  </data>
+  <data name="helpShortCache" xml:space="preserve">
+    <value>The length, in seconds, of the short cache duration.</value>
+  </data>
+  <data name="helpShortDescription" xml:space="preserve">
+    <value>A short description of the product.</value>
+  </data>
+  <data name="helpShowTitle" xml:space="preserve">
+    <value>Select this if you want the title for the content region to be displayed.</value>
+  </data>
+  <data name="helpSimpleWeightAmountPerUnit" xml:space="preserve">
+    <value>The amount to be charged per unit for shipping.</value>
+  </data>
+  <data name="helpSimpleWeightService" xml:space="preserve">
+    <value>The name of the service to be used.</value>
+  </data>
+  <data name="helpSiteLogo" xml:space="preserve">
+    <value>This allows you to select the logo that will be used for the site.</value>
+  </data>
+  <data name="helpSiteName" xml:space="preserve">
+    <value>This is the name of the site and will frequently appear in the title bar.</value>
+  </data>
+  <data name="helpSortOrder" xml:space="preserve">
+    <value>Determines the sort order for the element.</value>
+  </data>
+  <data name="helpTagLine" xml:space="preserve">
+    <value>Your TagLine will appear in your emails. Make it something catchy!!</value>
+  </data>
+  <data name="helpTemplateRegion" xml:space="preserve">
+    <value>Based on the Page Template, you can now select in which Template Region you want this content area to appear.</value>
+  </data>
+  <data name="helpTheme" xml:space="preserve">
+    <value>Select the theme for the site.</value>
+  </data>
+  <data name="helpTitle" xml:space="preserve">
+    <value>This is the title of the page that will appear in browser window. This can be pretty long and descriptive. If you want to include an existing .aspx page, you can put in \'mypage.aspx\' and dashCommerce will then link to the existing web page.</value>
+  </data>
+  <data name="helpUseCache" xml:space="preserve">
+    <value>Caching can increase the speed of your website by keeping some of the site information in memory. You should use caching if you have large product catalogs or if you want your site to respond quicker. When developing, you should keep caching off as the changes you make on the administrative side of the site may not be reflected immediately.</value>
+  </data>
+  <data name="helpGenerateThumbs" xml:space="preserve">
+    <value>Will automatically create thumbnails for product and catalog pages.</value>
+  </data>
+  <data name="helpUserName" xml:space="preserve">
+    <value>This is the user name of the registered user.</value>
+  </data>
+  <data name="helpUseShipping" xml:space="preserve">
+    <value>This is a system wide setting. If your store will require the shipping of products, then select Use Shipping.</value>
+  </data>
+  <data name="helpWidth" xml:space="preserve">
+    <value>Sets the width of the site in pixels.</value>
+  </data>
+  <data name="noHelp" xml:space="preserve">
+    <value>No help available.</value>
+  </data>
+  <data name="helpCopyrightText" xml:space="preserve">
+    <value>The text that will be put into the copyright Meta Tag. If blank it will use the Site Name.</value>
+  </data>
+  <data name="helphShowdCCopyright" xml:space="preserve">
+    <value>Insert "dashCommerce" into the page Generator Meta Tag.</value>
+  </data>
+  <data name="helpSiteDescription" xml:space="preserve">
+    <value>Site Description that will be put into the description Meta Tag.</value>
+  </data>
+  <data name="helpSiteKeywords" xml:space="preserve">
+    <value>A comma delimited list of keywords for the site that will be put into the keyword Meta Tag.</value>
+  </data>
+  <data name="helpMaximumProductsToAddToCart" xml:space="preserve">
+    <value>For stores that carry high inventories, this will restrict the drop down list for the amount of products that can be added to the cart.</value>
+  </data>
+  <data name="helpFilter" xml:space="preserve">
+    <value> This is a comma separated list of state or province abbreviations for which you would like to recieve tax rates.</value>
+  </data>
+  <data name="helpMailSettingTo" xml:space="preserve">
+    <value>Website admin email address to send contact us email to.</value>
+  </data>
+  <data name="helpBackToErrorLogListing" xml:space="preserve">
+    <value>&lt;- Back to Error Log Listing</value>
+  </data>
+  <data name="helpDownloadDescriptionHelp" xml:space="preserve">
+    <value>This is a description of the file and it\'s contents.</value>
+  </data>
+  <data name="helpDownloadTitleHelp" xml:space="preserve">
+    <value>Title for the file.</value>
+  </data>
+  <data name="helpForPurchaseOnly" xml:space="preserve">
+    <value>Downloads marked as "For Purchase Only" will only be accessible by people that have purchased the product.</value>
+  </data>
+  <data name="helpManufacturer" xml:space="preserve">
+    <value>This is the Manufacturer of the product.</value>
+  </data>
+  <data name="helpProductType" xml:space="preserve">
+    <value>This is the Type of Product. You can use this to do certain things based on the product type.</value>
+  </data>
+  <data name="helpLicenseKey" xml:space="preserve">
+    <value>This is the License Key that is created when you purchased the dashCommerce Tax Web Service at dashCommerce.com. You will get this from the My Account page at dashCommerce.com.</value>
+  </data>
+  <data name="helpPassword" xml:space="preserve">
+    <value>This is your password for the dashCommerce.com web site.</value>
+  </data>
+  <data name="helpProviderConfigurationControlPath" xml:space="preserve">
+    <value>This is the path to the configuration control that is tied to your provider. Most of these will live in "~/admin/control/configuration/...". Check other providers to see how this is done.</value>
+  </data>
+  <data name="helpProviderDescription" xml:space="preserve">
+    <value>This is a description of the provider. This will appear on the provider configuration page, so it is a good idea to make this as detailed as you can.</value>
+  </data>
+  <data name="helpProviderName" xml:space="preserve">
+    <value>This should be the name of the class of the provider. In the case where you have purchased the provider, the provider vendor should be able to supply this information.</value>
+  </data>
+  <data name="helpUser" xml:space="preserve">
+    <value>This is your username for the dashCommerce.com web site.</value>
+  </data>
+  <data name="helpAddTaxToPrice" xml:space="preserve">
+    <value>Select this if you would like to have tax added to the displayed price. This is most often used by VAT tax users.</value>
+  </data>
+  <data name="helpTaxRate" xml:space="preserve">
+    <value>If your configured TaxProvider supports product level taxation, then you will be able to select the applicable tax rate here.</value>
+  </data>
+  <data name="helpStoreClosed" xml:space="preserve">
+    <value>When you select this option, your site will appear to be closed to visitors on their next web site page request. &lt;br/&gt;&lt;br/&gt;&lt;b&gt;If you happen to forget to turn the store back on AND logout, you can log back in by going directly to http://yoursitename/login.aspx&lt;/b&gt;</value>
+  </data>
+  <data name="helpPayPalPending" xml:space="preserve">
+    <value>This transaction has been created using the PayPal Express Checkout Accelerated Boarding process. Prior to shipment, you should verify receipt of payment.</value>
+  </data>
+  <data name="helpCouponCode" xml:space="preserve">
+    <value>This is the coupon code that will be needed by your customers in order to apply the coupon.</value>
+  </data>
+  <data name="helpCouponExpirationDate" xml:space="preserve">
+    <value>This is the expiration date of the coupon.</value>
+  </data>
+  <data name="helpCouponIsSingleUse" xml:space="preserve">
+    <value>This is provided for those that wish to customize dashCommerce for single use coupons. No logic is provided to account for how you wish to apply a single use coupon, but we do provide the field for use if you wish to customize this behavior.</value>
+  </data>
+  <data name="helpCouponPercentOff" xml:space="preserve">
+    <value>This is the percentage off you wish to be applied for the coupon. This should be entered in decimal form. For example, for a 10% coupon, you would enter .10.</value>
+  </data>
+</root>

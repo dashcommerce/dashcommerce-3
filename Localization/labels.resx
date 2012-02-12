@@ -1,0 +1,2736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="adminNavSite" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnAddProduct" xml:space="preserve">
+    <value>Add Product</value>
+  </data>
+  <data name="btnCancelAddNew" xml:space="preserve">
+    <value>Cancel Add New</value>
+  </data>
+  <data name="btnClearCache" xml:space="preserve">
+    <value>Clear Cache</value>
+  </data>
+  <data name="btnCreateNew" xml:space="preserve">
+    <value>Create New</value>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnDeleteAll" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="btnGenerate" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="btnManufacturerAdd" xml:space="preserve">
+    <value>Add Manufacturer</value>
+  </data>
+  <data name="btnNext" xml:space="preserve">
+    <value>Next &gt;&gt;</value>
+  </data>
+  <data name="btnTestConnection" xml:space="preserve">
+    <value>Test Connection</value>
+  </data>
+  <data name="btnOrderStatus" xml:space="preserve">
+    <value>Change Order Status</value>
+  </data>
+  <data name="btnPrevious" xml:space="preserve">
+    <value>&lt;&lt; Previous</value>
+  </data>
+  <data name="btnProcessOrder" xml:space="preserve">
+    <value>Process Order</value>
+  </data>
+  <data name="btnProductTypeAdd" xml:space="preserve">
+    <value>Add Product Type</value>
+  </data>
+  <data name="btnRefreshCache" xml:space="preserve">
+    <value>Refresh Cache</value>
+  </data>
+  <data name="btnRefreshProviders" xml:space="preserve">
+    <value>Refresh Providers</value>
+  </data>
+  <data name="btnRefundTransaction" xml:space="preserve">
+    <value>Refund Transaction</value>
+  </data>
+  <data name="btnRemoveProvider" xml:space="preserve">
+    <value>Remove Provider</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="btnTest" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="btnSaveInventory" xml:space="preserve">
+    <value>Save Inventory</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnSetDefaultProvider" xml:space="preserve">
+    <value>Set Default Provider</value>
+  </data>
+  <data name="btnSetProvider" xml:space="preserve">
+    <value>Configure Provider</value>
+  </data>
+  <data name="btnUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="chkActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="chkAllowNegativeInventories" xml:space="preserve">
+    <value>Allow Negative Inventories</value>
+  </data>
+  <data name="chkUseCache" xml:space="preserve">
+    <value>Use Cache</value>
+  </data>
+  <data name="chkGenerateThumbs" xml:space="preserve">
+    <value>Auto-Generate Thumbnails</value>
+  </data>
+  <data name="chkUseForShipping" xml:space="preserve">
+    <value>Use for Shipping?</value>
+  </data>
+  <data name="copy" xml:space="preserve">
+    <value>Copyright &amp;copy; 2007 - {0} Mettle Systems LLC</value>
+  </data>
+  <data name="cuwRegisterAnswerLabelText" xml:space="preserve">
+    <value>Security Answer</value>
+  </data>
+  <data name="cuwRegisterCompleteStepTitle" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="cuwRegisterCompleteSuccessText" xml:space="preserve">
+    <value>Your account has been successfully created.</value>
+  </data>
+  <data name="cuwRegisterConfirmPasswordLabelText" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="cuwRegisterCreateUserButtonText" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="cuwRegisterCreateUserStepTitle" xml:space="preserve">
+    <value>Sign Up for your New Account</value>
+  </data>
+  <data name="cuwRegisterEmailLabelText" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="cuwRegisterFinishCompleteButtonText" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="cuwRegisterPasswordLabelText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="cuwRegisterQuestionLabelText" xml:space="preserve">
+    <value>Security Question</value>
+  </data>
+  <data name="cuwRegisterUserNameLabelText" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="exCannotRemoveDefaultProvider" xml:space="preserve">
+    <value>This provider is the default provider. Please select a different default provider and then try removing this provider.</value>
+  </data>
+  <data name="hdrActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="hdrAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="hdrAddRemove" xml:space="preserve">
+    <value>Add / Remove</value>
+  </data>
+  <data name="hdrAdjustment" xml:space="preserve">
+    <value>Adjustment</value>
+  </data>
+  <data name="hdrAmountPerUnit" xml:space="preserve">
+    <value>Amount Per Unit</value>
+  </data>
+  <data name="hdrApproved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="hdrAttributeType" xml:space="preserve">
+    <value>AttributeType</value>
+  </data>
+  <data name="hdrConfigurationControlPath" xml:space="preserve">
+    <value>Configuration Control Path</value>
+  </data>
+  <data name="hdrCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="hdrCouponCode" xml:space="preserve">
+    <value>Coupon Code</value>
+  </data>
+  <data name="hdrCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="hdrCreatedDate" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="hdrCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+  </data>
+  <data name="hdrDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="hdrDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="hdrDescriptor" xml:space="preserve">
+    <value>Descriptor (HTML stripped for brevity)</value>
+  </data>
+  <data name="hdrDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="hdrDiscount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="hdrDiscountAmount" xml:space="preserve">
+    <value>Discount Amount</value>
+  </data>
+  <data name="hdrDisplayed" xml:space="preserve">
+    <value>Displayed</value>
+  </data>
+  <data name="hdrEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="hdrEditRegion" xml:space="preserve">
+    <value>Edit Region</value>
+  </data>
+  <data name="hdrEmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="hdrExpirationDate" xml:space="preserve">
+    <value>Expiration Date</value>
+  </data>
+  <data name="hdrHits" xml:space="preserve">
+    <value>Hits</value>
+  </data>
+  <data name="hdrImage" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="hdrImageCaption" xml:space="preserve">
+    <value>Image Caption</value>
+  </data>
+  <data name="hdrInventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="hdrIsDeleted" xml:space="preserve">
+    <value>Is Deleted</value>
+  </data>
+  <data name="hdrIsEnabled" xml:space="preserve">
+    <value>Is Enabled</value>
+  </data>
+  <data name="hdrIsRequired" xml:space="preserve">
+    <value>Is Required</value>
+  </data>
+  <data name="hdrItemTax" xml:space="preserve">
+    <value>Item Tax</value>
+  </data>
+  <data name="hdrLastLogin" xml:space="preserve">
+    <value>Last Login</value>
+  </data>
+  <data name="hdrLastModified" xml:space="preserve">
+    <value>Last Modified</value>
+  </data>
+  <data name="hdrLogDate" xml:space="preserve">
+    <value>Log Date</value>
+  </data>
+  <data name="hdrLogLevel" xml:space="preserve">
+    <value>Log Level</value>
+  </data>
+  <data name="hdrScriptName" xml:space="preserve">
+    <value>Script Name</value>
+  </data>
+  <data name="hdrRemoteHost" xml:space="preserve">
+    <value>Remote Host</value>
+  </data>
+  <data name="hdrExceptionType" xml:space="preserve">
+    <value>Exception Type</value>
+  </data>
+  <data name="hdrExceptionMessage" xml:space="preserve">
+    <value>Exception Message</value>
+  </data>
+  <data name="hdrQueryStringData" xml:space="preserve">
+    <value>Query String Data</value>
+  </data>
+  <data name="hdrAuthenticatedUser" xml:space="preserve">
+    <value>Authenticated User</value>
+  </data>
+  <data name="hdrUserAgent" xml:space="preserve">
+    <value>User Agent</value>
+  </data>
+  <data name="hdrReferrer" xml:space="preserve">
+    <value>Referrer</value>
+  </data>
+  <data name="hdrLogMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="hdrMove" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="hdrName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="hdrOrderDate" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="hdrOrderNumber" xml:space="preserve">
+    <value>Order Number</value>
+  </data>
+  <data name="hdrPath" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="hdrPricePaid" xml:space="preserve">
+    <value>Price Paid</value>
+  </data>
+  <data name="hdrQuantityRemaining" xml:space="preserve">
+    <value>Quantity Remaining</value>
+  </data>
+  <data name="hdrRate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="hdrRefund" xml:space="preserve">
+    <value>Refund</value>
+  </data>
+  <data name="hdrRegionCode" xml:space="preserve">
+    <value>Region Code</value>
+  </data>
+  <data name="hdrReviewSample" xml:space="preserve">
+    <value>Review Sample</value>
+  </data>
+  <data name="hdrRoleName" xml:space="preserve">
+    <value>Role Name</value>
+  </data>
+  <data name="hdrSearchTerm" xml:space="preserve">
+    <value>Search Term</value>
+  </data>
+  <data name="hdrService" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="hdrSku" xml:space="preserve">
+    <value>Sku</value>
+  </data>
+  <data name="hdrSkuSuffix" xml:space="preserve">
+    <value>Sku Suffix</value>
+  </data>
+  <data name="hdrSortOrder" xml:space="preserve">
+    <value>Sort Order</value>
+  </data>
+  <data name="hdrStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="hdrSystemNotification" xml:space="preserve">
+    <value>System Notification</value>
+  </data>
+  <data name="hdrTemplateRegion" xml:space="preserve">
+    <value>Template Region</value>
+  </data>
+  <data name="hdrTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="hdrTodo" xml:space="preserve">
+    <value>To Do</value>
+  </data>
+  <data name="hdrTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="hdrType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="hdrUserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="hlAddProduct" xml:space="preserve">
+    <value>[+] Add Product</value>
+  </data>
+  <data name="hlAddRegion" xml:space="preserve">
+    <value>Add Region</value>
+  </data>
+  <data name="hlConfigureProviders" xml:space="preserve">
+    <value>Configure {0} Providers</value>
+  </data>
+  <data name="hlContentManagement" xml:space="preserve">
+    <value>Content Management</value>
+  </data>
+  <data name="hlCoupons" xml:space="preserve">
+    <value>Coupons</value>
+  </data>
+  <data name="hlEditLink" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="hlErrorLogs" xml:space="preserve">
+    <value>Error Logs</value>
+  </data>
+  <data name="hlGeneralSettings" xml:space="preserve">
+    <value>General {0} Settings</value>
+  </data>
+  <data name="hlLogin" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="hlMailConfiguration" xml:space="preserve">
+    <value>Mail Configuration</value>
+  </data>
+  <data name="hlMailSettings" xml:space="preserve">
+    <value>Mail Settings</value>
+  </data>
+  <data name="hlManageCouponProviders" xml:space="preserve">
+    <value>Manage Coupon Providers</value>
+  </data>
+  <data name="hlManageProviders" xml:space="preserve">
+    <value>Manage {0} Providers</value>
+  </data>
+  <data name="hlMyAccount" xml:space="preserve">
+    <value>My Account</value>
+  </data>
+  <data name="hlNotifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="hlOrderSearch" xml:space="preserve">
+    <value>Order Search</value>
+  </data>
+  <data name="hlPaymentConfiguration" xml:space="preserve">
+    <value>Payment Configuration</value>
+  </data>
+  <data name="hlProductAttributes" xml:space="preserve">
+    <value>Product Attributes</value>
+  </data>
+  <data name="hlProductCategories" xml:space="preserve">
+    <value>Product Categories</value>
+  </data>
+  <data name="hlProductCoupons" xml:space="preserve">
+    <value>Product Coupons</value>
+  </data>
+  <data name="hlProductListing" xml:space="preserve">
+    <value>Product Listing</value>
+  </data>
+  <data name="hlProductManufacturers" xml:space="preserve">
+    <value>Product Manufacturers</value>
+  </data>
+  <data name="hlRegister" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="hlReview" xml:space="preserve">
+    <value>Review It!</value>
+  </data>
+  <data name="hlRoleAdministration" xml:space="preserve">
+    <value>Role Administration</value>
+  </data>
+  <data name="hlSecurity" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="hlShippingConfiguration" xml:space="preserve">
+    <value>Shipping Configuration</value>
+  </data>
+  <data name="hlSiteSettings" xml:space="preserve">
+    <value>Site Settings</value>
+  </data>
+  <data name="hlTaxConfiguration" xml:space="preserve">
+    <value>Tax Configuration</value>
+  </data>
+  <data name="hlTrackingLogs" xml:space="preserve">
+    <value>Tracking Logs</value>
+  </data>
+  <data name="hlUserAdministration" xml:space="preserve">
+    <value>User Administration</value>
+  </data>
+  <data name="lbAddNew" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="lbChangeEmail" xml:space="preserve">
+    <value>Change Email</value>
+  </data>
+  <data name="lbChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="lbChangeSecurityQuestion" xml:space="preserve">
+    <value>Change Security Question</value>
+  </data>
+  <data name="lbCheckout" xml:space="preserve">
+    <value>Proceed To Checkout »</value>
+  </data>
+  <data name="lblAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lblAdditionalRefundAmount" xml:space="preserve">
+    <value>Additional Refund Amount:</value>
+  </data>
+  <data name="lblAddNote" xml:space="preserve">
+    <value>Add Note:</value>
+  </data>
+  <data name="lblAddress" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="lblAddUser" xml:space="preserve">
+    <value>[+] Add User</value>
+  </data>
+  <data name="lblAdjustment" xml:space="preserve">
+    <value>Adjustment:</value>
+  </data>
+  <data name="lblAlreadyReviewed" xml:space="preserve">
+    <value>You have already reviewed this product.</value>
+  </data>
+  <data name="lblAmountPerUnit" xml:space="preserve">
+    <value>Amount Per Unit:</value>
+  </data>
+  <data name="lblAnalytics" xml:space="preserve">
+    <value>Analytics:</value>
+  </data>
+  <data name="lblApiPassword" xml:space="preserve">
+    <value>API Password:</value>
+  </data>
+  <data name="lblApiUserName" xml:space="preserve">
+    <value>API User Name:</value>
+  </data>
+  <data name="lblAttributeAdministration" xml:space="preserve">
+    <value>Attribute Administration</value>
+  </data>
+  <data name="lblAttributedAdded" xml:space="preserve">
+    <value>Attribute added.</value>
+  </data>
+  <data name="lblAttributedDeleted" xml:space="preserve">
+    <value>Attributed deleted.</value>
+  </data>
+  <data name="lblAttributeItemName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="lblAttributesNotSaved" xml:space="preserve">
+    <value>Attributes not saved.</value>
+  </data>
+  <data name="lblAttributesSaved" xml:space="preserve">
+    <value>Attributes saved.</value>
+  </data>
+  <data name="lblAttributeType" xml:space="preserve">
+    <value>Attribute Type:</value>
+  </data>
+  <data name="lblAverageRating" xml:space="preserve">
+    <value>Average Rating:</value>
+  </data>
+  <data name="lblAVSCode" xml:space="preserve">
+    <value>AVS Code:</value>
+  </data>
+  <data name="lblBaseSku" xml:space="preserve">
+    <value>Sku / Base Sku:</value>
+  </data>
+  <data name="lblBillingAddressTitle" xml:space="preserve">
+    <value>Billing Address</value>
+  </data>
+  <data name="lblBillingInformation" xml:space="preserve">
+    <value>Billing Information</value>
+  </data>
+  <data name="lblBrowsingCategory" xml:space="preserve">
+    <value>Browse Category:</value>
+  </data>
+  <data name="lblBrowsingLogListing" xml:space="preserve">
+    <value>Browsing Log Listing</value>
+  </data>
+  <data name="lblBrowsingProduct" xml:space="preserve">
+    <value>Browse Product:</value>
+  </data>
+  <data name="lblBundleAdministration" xml:space="preserve">
+    <value>Bundle Administration</value>
+  </data>
+  <data name="lblBundleSaved" xml:space="preserve">
+    <value>Bundle saved.</value>
+  </data>
+  <data name="lblBusinessEmail" xml:space="preserve">
+    <value>Business Email:</value>
+  </data>
+  <data name="lblCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblCart" xml:space="preserve">
+    <value>My Cart</value>
+  </data>
+  <data name="lblCategory" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="lblCategoryItems" xml:space="preserve">
+    <value>Number of items to display on catalog page:</value>
+  </data>
+  <data name="lblDefaultCategorySorting" xml:space="preserve">
+    <value>Default sorting of products on catalog page:</value>
+  </data>
+  <data name="lblCategoryListing" xml:space="preserve">
+    <value>Category Browsing Log Listing:</value>
+  </data>
+  <data name="lblCcList" xml:space="preserve">
+    <value>Cc List:</value>
+  </data>
+  <data name="lblCity" xml:space="preserve">
+    <value>City:</value>
+  </data>
+  <data name="lblCollectBrowsingStatistics" xml:space="preserve">
+    <value>Collect Browsing Statistics:</value>
+  </data>
+  <data name="lblCollectSearchTerms" xml:space="preserve">
+    <value>Collect Search Terms:</value>
+  </data>
+  <data name="lblCompleteInstructions" xml:space="preserve">
+    <value>&lt;p&gt;The installation of dashCommerce has been completed! &lt;strong&gt;You should now remove this install folder from your site to ensure it is not run again.&lt;/strong&gt; You may now login with the Administrator account you just created and begin loading your site with products!&lt;/p&gt;</value>
+  </data>
+  <data name="lblConfigurationControlPath" xml:space="preserve">
+    <value>Configuration Control Path:</value>
+  </data>
+  <data name="lblConfigureProvidersDescription" xml:space="preserve">
+    <value>The Configure {1} Providers section allows you to administer the details of the specific {0} providers you have added through the Manage {1} Provider screens. Here you will set things such as usernames and passwords for the respective {0} providers you have loaded into dashCommerce.</value>
+  </data>
+  <data name="lblConfirmDelete" xml:space="preserve">
+    <value>Are you sure you wish to delete?</value>
+  </data>
+  <data name="lblConnectionStringInstructions" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;Before proceeding&lt;/strong&gt;, please copy and paste the connection string below into the connectionString.config file. Simply replace the line that has:&lt;br/&gt;&lt;br/&gt;&lt;span style="font-family: Courier New"&gt; &amp;lt;add name="dashCommerce" connectionString="SOMETEXT"  providerName="System.Data.SqlClient" /&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; with the following:&lt;/p&gt;</value>
+  </data>
+  <data name="lblContent" xml:space="preserve">
+    <value>Content:</value>
+  </data>
+  <data name="lblContentManagement" xml:space="preserve">
+    <value>Content Management</value>
+  </data>
+  <data name="lblContentManagementDescription" xml:space="preserve">
+    <value>The Content Management section allows you to create additional web pages for your site, that may or may not be product oriented.</value>
+  </data>
+  <data name="lblContinue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="lblCoupon" xml:space="preserve">
+    <value>Coupon:</value>
+  </data>
+  <data name="lblCouponCode" xml:space="preserve">
+    <value>Coupon Code:</value>
+  </data>
+  <data name="lblCouponDescription" xml:space="preserve">
+    <value>The Coupon section allows you to add and edit coupons for use by your store.</value>
+  </data>
+  <data name="lblCouponInformation" xml:space="preserve">
+    <value>Coupon Information</value>
+  </data>
+  <data name="lblCouponInformationTitle" xml:space="preserve">
+    <value>Coupon Information</value>
+  </data>
+  <data name="lblCouponManagement" xml:space="preserve">
+    <value>Coupon Management</value>
+  </data>
+  <data name="lblCouponNotSaved" xml:space="preserve">
+    <value>Coupon not saved.</value>
+  </data>
+  <data name="lblCouponProviderManagement" xml:space="preserve">
+    <value>Coupon Provider Management</value>
+  </data>
+  <data name="lblCouponSaved" xml:space="preserve">
+    <value>Coupon saved.</value>
+  </data>
+  <data name="lblCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+  </data>
+  <data name="lblCreditCardNumber" xml:space="preserve">
+    <value>Credit Card Number:</value>
+  </data>
+  <data name="lblCreditCardSecurityNumber" xml:space="preserve">
+    <value>Credit Card Security Number:</value>
+  </data>
+  <data name="lblCrossSellDeleted" xml:space="preserve">
+    <value>Cross sell deleted.</value>
+  </data>
+  <data name="lblCrossSells" xml:space="preserve">
+    <value>You may also be interested in:</value>
+  </data>
+  <data name="lblCrossSellSaved" xml:space="preserve">
+    <value>Cross sell saved.</value>
+  </data>
+  <data name="lblCurrency" xml:space="preserve">
+    <value>Currency:</value>
+  </data>
+  <data name="lblCVV2Code" xml:space="preserve">
+    <value>CVV2 Code:</value>
+  </data>
+  <data name="lblDashCommerceTaxProviderDescriptionTitle" xml:space="preserve">
+    <value>dashCommerce Tax Provider</value>
+  </data>
+  <data name="lblDatabaseInstructions" xml:space="preserve">
+    <value>&lt;p&gt;This installer will help you with creating and installing the database for dashCommerce.&lt;/p&gt;&lt;p&gt;Once you have entered the information below, the information will be used to create the database and run the installer scripts.&lt;/p&gt;</value>
+  </data>
+  <data name="lblDatabaseName" xml:space="preserve">
+    <value>Database Name:</value>
+  </data>
+  <data name="lblDatabasePassword" xml:space="preserve">
+    <value>Database Password:</value>
+  </data>
+  <data name="lblDatabaseServer" xml:space="preserve">
+    <value>Database Server:</value>
+  </data>
+  <data name="chkWindowsAuth" xml:space="preserve">
+    <value>Windows Authentication</value>
+  </data>
+  <data name="lblTestDatabaseConnection" xml:space="preserve">
+    <value>Sucessfully Connected to Database</value>
+  </data>
+  <data name="lblDefaultPaymentProviderNotSaved" xml:space="preserve">
+    <value>The default payment provider has not been saved.</value>
+  </data>
+  <data name="lblDefaultPaymentProviderSaved" xml:space="preserve">
+    <value>The default payment provider has been saved.</value>
+  </data>
+  <data name="lblDefaultProviderInstructions" xml:space="preserve">
+    <value>The default provider, if any, is identified in bold.</value>
+  </data>
+  <data name="lblDefaultRate" xml:space="preserve">
+    <value>Default Rate:</value>
+  </data>
+  <data name="lblDefaultShippingProviderNotSaved" xml:space="preserve">
+    <value>The default shipping provider has not been saved.</value>
+  </data>
+  <data name="lblDefaultShippingProviderSaved" xml:space="preserve">
+    <value>The default shipping provider has been saved.</value>
+  </data>
+  <data name="lblDefaultTaxProviderNotSaved" xml:space="preserve">
+    <value>The default tax provider has not been saved.</value>
+  </data>
+  <data name="lblDefaultTaxProviderSaved" xml:space="preserve">
+    <value>The default tax provider has been saved.</value>
+  </data>
+  <data name="lblDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lblDeleteAllLogs" xml:space="preserve">
+    <value>All logs deleted.</value>
+  </data>
+  <data name="lblDescription" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lblDescriptorSaved" xml:space="preserve">
+    <value>The product descriptor has been saved.</value>
+  </data>
+  <data name="lblDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="lblDimensions" xml:space="preserve">
+    <value>Dimensions:</value>
+  </data>
+  <data name="lblDiscount" xml:space="preserve">
+    <value>Discount:</value>
+  </data>
+  <data name="lblDisplayNarrowByManufacturer" xml:space="preserve">
+    <value>Display Narrow By Manufacturer Widget:</value>
+  </data>
+  <data name="lblDisplaySortBy" xml:space="preserve">
+    <value>Display Sort By Widget:</value>
+  </data>
+  <data name="lblDisplayNarrowCategory" xml:space="preserve">
+    <value>Display Narrow By Sub-Category Widget:</value>
+  </data>
+  <data name="lblDisplayNarrowByPrice" xml:space="preserve">
+    <value>Display Narrow By Price Widget:</value>
+  </data>
+  <data name="lblDisplayRetailPrice" xml:space="preserve">
+    <value>Display Retail Price:</value>
+  </data>
+  <data name="lblDisplayRatings" xml:space="preserve">
+    <value>Enable Reviews:</value>
+  </data>
+  <data name="lblShowShippingOnCart" xml:space="preserve">
+    <value>Display Shipping on Cart:</value>
+  </data>
+  <data name="lblEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lblEditRegion" xml:space="preserve">
+    <value>Edit Region</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="lblEmailAddress" xml:space="preserve">
+    <value>Email Address:</value>
+  </data>
+  <data name="lblEmailAddressesDoNotMatch" xml:space="preserve">
+    <value>The email addresses do not match.</value>
+  </data>
+  <data name="lblEmailConfirmation" xml:space="preserve">
+    <value>Confirm Email:</value>
+  </data>
+  <data name="lblErrorLogDetail" xml:space="preserve">
+    <value>Error Log Detail</value>
+  </data>
+  <data name="lblErrorLogListing" xml:space="preserve">
+    <value>Error Log Listing</value>
+  </data>
+  <data name="lblErrorLogs" xml:space="preserve">
+    <value>Error Logs</value>
+  </data>
+  <data name="lblErrorLogsDescription" xml:space="preserve">
+    <value>The Error Logs section gives you insight into errors that your site may be encountering. Some errors may occur as a natural course of your site functionality, but if something is wrong, you will want to look here for some insight into what may be happening.</value>
+  </data>
+  <data name="lblErrorMessage" xml:space="preserve">
+    <value>Oops! An error has occurred. This error has been logged. If the problem persists, please contact us!</value>
+  </data>
+  <data name="lblExpiration" xml:space="preserve">
+    <value>Expiration:</value>
+  </data>
+  <data name="lblExpirationDate" xml:space="preserve">
+    <value>Expiration Date:</value>
+  </data>
+  <data name="lblStart" xml:space="preserve">
+    <value>Start Date:</value>
+  </data>
+  <data name="lblIssueNumber" xml:space="preserve">
+    <value>Issue No:</value>
+  </data>
+  <data name="lblExtendedAmount" xml:space="preserve">
+    <value>Extended Amount</value>
+  </data>
+  <data name="lblFeeAmount" xml:space="preserve">
+    <value>Fee Amount:</value>
+  </data>
+  <data name="lblFirstName" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
+  <data name="lblFooterColor" xml:space="preserve">
+    <value>Footer Color:</value>
+  </data>
+  <data name="lblFrom" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="lblFromEmail" xml:space="preserve">
+    <value> From Email:</value>
+  </data>
+  <data name="lblFromName" xml:space="preserve">
+    <value>From Name:</value>
+  </data>
+  <data name="lblGatewayErrors" xml:space="preserve">
+    <value>Gateway Errors:</value>
+  </data>
+  <data name="lblGatewayName" xml:space="preserve">
+    <value>Gateway Name:</value>
+  </data>
+  <data name="lblGatewayResponse" xml:space="preserve">
+    <value>Gateway Response:</value>
+  </data>
+  <data name="lblGatewayTransactionId" xml:space="preserve">
+    <value>Gateway Transaction Id:</value>
+  </data>
+  <data name="lblGeneralPaymentSettings" xml:space="preserve">
+    <value>General Payment Settings</value>
+  </data>
+  <data name="lblGeneralSettingsDescription" xml:space="preserve">
+    <value>These are the general settings for the {0} service. These settings are not {0} provider specific and apply at the store level.</value>
+  </data>
+  <data name="lblGeneralShippingSettings" xml:space="preserve">
+    <value>General Shipping Settings</value>
+  </data>
+  <data name="lblGeneralTaxSettings" xml:space="preserve">
+    <value>General Tax Settings</value>
+  </data>
+  <data name="lblGrossAmount" xml:space="preserve">
+    <value>Gross Amount:</value>
+  </data>
+  <data name="lblHeaderHeight" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="lblHeight" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="lblHost" xml:space="preserve">
+    <value>Host:</value>
+  </data>
+  <data name="lblImageCaption" xml:space="preserve">
+    <value>Image Caption:</value>
+  </data>
+  <data name="lblImageFile" xml:space="preserve">
+    <value>Image File:</value>
+  </data>
+  <data name="lblImageSaved" xml:space="preserve">
+    <value>Image saved.</value>
+  </data>
+  <data name="lblInstalledPaymentProviders" xml:space="preserve">
+    <value>Installed Payment Providers:</value>
+  </data>
+  <data name="lblInstalledShippingProviders" xml:space="preserve">
+    <value>Installed Shipping Providers:</value>
+  </data>
+  <data name="lblInstalledTaxProviders" xml:space="preserve">
+    <value>Installed Tax Providers</value>
+  </data>
+  <data name="lblInventoriesSaved" xml:space="preserve">
+    <value>Inventories saved.</value>
+  </data>
+  <data name="lblIsApproved" xml:space="preserve">
+    <value>Approved:</value>
+  </data>
+  <data name="lblIsDisplayed" xml:space="preserve">
+    <value>Displayed:</value>
+  </data>
+  <data name="lblIsHtml" xml:space="preserve">
+    <value>Is Html:</value>
+  </data>
+  <data name="lblIsLive" xml:space="preserve">
+    <value>Is Live:</value>
+  </data>
+  <data name="lblIsSingleUse" xml:space="preserve">
+    <value>Is Single Use:</value>
+  </data>
+  <data name="lblIsSystemNotification" xml:space="preserve">
+    <value>System Notification:</value>
+  </data>
+  <data name="lblItem" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="lblItemSku" xml:space="preserve">
+    <value>Sku</value>
+  </data>
+  <data name="lblKeywords" xml:space="preserve">
+    <value>Keywords:</value>
+  </data>
+  <data name="lblLabel" xml:space="preserve">
+    <value>Label:</value>
+  </data>
+  <data name="lblLanguage" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="lblLanguagePack" xml:space="preserve">
+    <value>dashCommerce is localizable, so if you want to install a specific language pack to your database (and that language pack exists) then select the language below.</value>
+  </data>
+  <data name="lblLastLogin" xml:space="preserve">
+    <value>Last Login</value>
+  </data>
+  <data name="lblLastName" xml:space="preserve">
+    <value>Last Name:</value>
+  </data>
+  <data name="lblLength" xml:space="preserve">
+    <value>Length:</value>
+  </data>
+  <data name="lblLoading" xml:space="preserve">
+    <value>Loading . . . please wait.</value>
+  </data>
+  <data name="lblLogDate" xml:space="preserve">
+    <value>Log Date:</value>
+  </data>
+  <data name="lblLogInfo" xml:space="preserve">
+    <value>Log Info:</value>
+  </data>
+  <data name="lblLoginRequirement" xml:space="preserve">
+    <value>Login Requirement:</value>
+  </data>
+  <data name="lblLogLevel" xml:space="preserve">
+    <value>Log Level:</value>
+  </data>
+  <data name="lblLogMessage" xml:space="preserve">
+    <value>Log Message:</value>
+  </data>
+  <data name="lblLongCache" xml:space="preserve">
+    <value>Long Cache:</value>
+  </data>
+  <data name="lblMailConfiguration" xml:space="preserve">
+    <value>Mail Configuration</value>
+  </data>
+  <data name="lblMailConfigurationDescription" xml:space="preserve">
+    <value>The Mail Configuration section allow you to configure your SMTP server and allows you to administer notifications - emails that are send out as part of the ordering process.</value>
+  </data>
+  <data name="lblMailSettingsDescription" xml:space="preserve">
+    <value>Mail Settings are the settings for your SMTP server, which will be used to send the Notifications. If you are unsure about these settings, please contact your hosting provider.</value>
+  </data>
+  <data name="lblMailSettingsNotSaved" xml:space="preserve">
+    <value>Mail Settings not saved.</value>
+  </data>
+  <data name="lblMailSettingsSaved" xml:space="preserve">
+    <value>Mail Settings saved.</value>
+  </data>
+  <data name="lblMailSettingsTestSucessfull" xml:space="preserve">
+    <value>Sucessfully sent test email.</value>
+  </data>
+  <data name="lblMailSettingsTestFailed" xml:space="preserve">
+    <value>Failed to send test email.</value>
+  </data>
+  <data name="lblManageCouponProviderDescription" xml:space="preserve">
+    <value>The Manage Coupon Providers section allows you to add additional coupon providers to your store, that your store can then use to offer discounts to your customers.</value>
+  </data>
+  <data name="lblManageProvidersDescription" xml:space="preserve">
+    <value>The Manage {1} Providers section allows you to add, edit, and remove {0} providers into dashCommerce that can then be used by this store. </value>
+  </data>
+  <data name="lblManufacturer" xml:space="preserve">
+    <value>Manufacturer:</value>
+  </data>
+  <data name="lblManufacturerAdministration" xml:space="preserve">
+    <value>Manufacturer Administration</value>
+  </data>
+  <data name="lblManufacturerDeleted" xml:space="preserve">
+    <value>Manufacturer deleted.</value>
+  </data>
+  <data name="lblManufacturerSaved" xml:space="preserve">
+    <value>Manufacturer saved.</value>
+  </data>
+  <data name="lblMembershipInstructions" xml:space="preserve">
+    <value>&lt;p&gt;You will now create the Administrator account which will allow you administer dashCommerce.&lt;/p&gt;&lt;p&gt;Please keep this account information in a safe location and do not give it out.&lt;/p&gt;</value>
+  </data>
+  <data name="lblMenuTitle" xml:space="preserve">
+    <value>Menu Title:</value>
+  </data>
+  <data name="lblMyAccount" xml:space="preserve">
+    <value>My Account</value>
+  </data>
+  <data name="lblMyAccountDetails" xml:space="preserve">
+    <value>My Account Details</value>
+  </data>
+  <data name="lblMyOrders" xml:space="preserve">
+    <value>My Orders</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="lblNetAmount" xml:space="preserve">
+    <value>Net Amount:</value>
+  </data>
+  <data name="lblNewsFeedUrl" xml:space="preserve">
+    <value>News Feed Url:</value>
+  </data>
+  <data name="lblNoCart" xml:space="preserve">
+    <value>There is nothing in your cart. You may be interested in the following items:</value>
+  </data>
+  <data name="lblNoCouponProvidersInstalled" xml:space="preserve">
+    <value>There are no Coupon Providers installed.</value>
+  </data>
+  <data name="lblNoCouponsConfigured" xml:space="preserve">
+    <value>There are no Coupons configured.</value>
+  </data>
+  <data name="lblNoDescriptors" xml:space="preserve">
+    <value>There are no descriptors for this product.</value>
+  </data>
+  <data name="lblNoErrorLogs" xml:space="preserve">
+    <value>There are no error logs.</value>
+  </data>
+  <data name="lblNoPaymentProvidersConfigured" xml:space="preserve">
+    <value>There are no payment providers configured. Please see the  'Configure Payment Providers' menu option.</value>
+  </data>
+  <data name="lblNoPaymentProvidersInstalled" xml:space="preserve">
+    <value>There are no Payment Providers installed.</value>
+  </data>
+  <data name="lblNoReviews" xml:space="preserve">
+    <value>There are no reviews for this product.</value>
+  </data>
+  <data name="lblNormalCache" xml:space="preserve">
+    <value>Normal Cache:</value>
+  </data>
+  <data name="lblTinySize" xml:space="preserve">
+    <value>Tiny Thumb Pixel Size (WxH):</value>
+  </data>
+  <data name="lblSmallSize" xml:space="preserve">
+    <value>Small Thumb Pixel Size (WxH):</value>
+  </data>
+  <data name="lblNoShippingProvidersConfigured" xml:space="preserve">
+    <value>There are no shipping providers configured. Please see the 'Configure Shipping Providers' menu option. You may set the General Settings options below before configuring the shipping providers.</value>
+  </data>
+  <data name="lblNoShippingProvidersInstalled" xml:space="preserve">
+    <value>There are no Shipping Providers installed.</value>
+  </data>
+  <data name="lblNotAvailable" xml:space="preserve">
+    <value>Not Available</value>
+  </data>
+  <data name="lblNoTaxProvidersConfigured" xml:space="preserve">
+    <value>There are no tax providers configured. Please see the 'Configure Tax Providers' menu option.</value>
+  </data>
+  <data name="lblNoTaxProvidersInstalled" xml:space="preserve">
+    <value>There are no Tax Providers installed.</value>
+  </data>
+  <data name="lblNotificationBody" xml:space="preserve">
+    <value>Notification Body:</value>
+  </data>
+  <data name="lblNotificationEdit" xml:space="preserve">
+    <value>Edit Notification</value>
+  </data>
+  <data name="lblNotificationList" xml:space="preserve">
+    <value>Notification List</value>
+  </data>
+  <data name="lblNotificationSaved" xml:space="preserve">
+    <value>Notification saved.</value>
+  </data>
+  <data name="lblNotificationsDescription" xml:space="preserve">
+    <value>Notifications are system generated emails that are used to inform both you and your customers to certain system events, such as order placement, order refund, and order shipment.</value>
+  </data>
+  <data name="lblOrderEdit" xml:space="preserve">
+    <value>Order Edit</value>
+  </data>
+  <data name="lblOrderList" xml:space="preserve">
+    <value>Order List</value>
+  </data>
+  <data name="lblOrderNoteSaved" xml:space="preserve">
+    <value>Order Note saved.</value>
+  </data>
+  <data name="lblOrderNumber" xml:space="preserve">
+    <value>Order Number</value>
+  </data>
+  <data name="lblOrderRefunded" xml:space="preserve">
+    <value>Order Refunded</value>
+  </data>
+  <data name="lblOrderReview" xml:space="preserve">
+    <value>Order Review</value>
+  </data>
+  <data name="lblOrderSearchDescription" xml:space="preserve">
+    <value>The Order Search is your primary method of administering the orders you receive. Here you can see the order items, the order amount and the status of the order. You can also make order notes, refund orders, etc.</value>
+  </data>
+  <data name="lblOrderStatus" xml:space="preserve">
+    <value>Order Status:</value>
+  </data>
+  <data name="lblOrderStatusChanged" xml:space="preserve">
+    <value>Order Status Changed.</value>
+  </data>
+  <data name="lblOrderSummary" xml:space="preserve">
+    <value>Order Summary</value>
+  </data>
+  <data name="lblOurPrice" xml:space="preserve">
+    <value>Our Price:</value>
+  </data>
+  <data name="lblPageDeleted" xml:space="preserve">
+    <value>Page deleted.</value>
+  </data>
+  <data name="lblPageSaved" xml:space="preserve">
+    <value>Page saved.</value>
+  </data>
+  <data name="lblPageTemplate" xml:space="preserve">
+    <value>Page Template:</value>
+  </data>
+  <data name="lblParentCategory" xml:space="preserve">
+    <value>Parent Category:</value>
+  </data>
+  <data name="lblParentPage" xml:space="preserve">
+    <value>Parent Page:</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="lblPaymentConfiguration" xml:space="preserve">
+    <value>Payment Configuration</value>
+  </data>
+  <data name="lblPaymentConfigurationDescription" xml:space="preserve">
+    <value>The Payment Configuration section allows you to administer payment providers. You can manage and configure payment providers as well as set general settings for the payment service.</value>
+  </data>
+  <data name="lblPaymentConfigurationNotSaved" xml:space="preserve">
+    <value>Payment Configuration not saved.</value>
+  </data>
+  <data name="lblPaymentConfigurationSaved" xml:space="preserve">
+    <value>Payment Configuration saved.</value>
+  </data>
+  <data name="lblPaymentInformation" xml:space="preserve">
+    <value>Payment Information</value>
+  </data>
+  <data name="lblPaymentInformationTitle" xml:space="preserve">
+    <value>Payment Information</value>
+  </data>
+  <data name="lblPaymentMethod" xml:space="preserve">
+    <value>Payment Method:</value>
+  </data>
+  <data name="lblPaymentName" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="lblPaymentProviderManagement" xml:space="preserve">
+    <value>Payment Provider Management</value>
+  </data>
+  <data name="lblPayPalProDescriptionTitle" xml:space="preserve">
+    <value> PayPal Pro with Express Checkout</value>
+  </data>
+  <data name="lblPayPalStandardDescriptionTitle" xml:space="preserve">
+    <value>PayPal Standard </value>
+  </data>
+  <data name="lblPayPalStandardRefundInstructions" xml:space="preserve">
+    <value>PayPal Standard transactions need to be refunded via the PayPal website. However, once you refund the transaction through PayPal, you should perform a refund here as well to keep the order in sync.</value>
+  </data>
+  <data name="lblPdtId" xml:space="preserve">
+    <value>PDT ID:</value>
+  </data>
+  <data name="lblPercentOff" xml:space="preserve">
+    <value>Percent Off:</value>
+  </data>
+  <data name="lblPercentOffCouponDescriptionTitle" xml:space="preserve">
+    <value>Percent Off Coupon</value>
+  </data>
+  <data name="lblPhone" xml:space="preserve">
+    <value>Phone:</value>
+  </data>
+  <data name="lblPleaseSelect" xml:space="preserve">
+    <value>Please select {0}:</value>
+  </data>
+  <data name="lblPleaseSupply" xml:space="preserve">
+    <value>Please supply {0}:</value>
+  </data>
+  <data name="lblPleaseWait" xml:space="preserve">
+    <value>Please Wait . . .</value>
+  </data>
+  <data name="lblPort" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="lblPostalCode" xml:space="preserve">
+    <value>Postal Code:</value>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="lblProductAdd" xml:space="preserve">
+    <value>Add Product</value>
+  </data>
+  <data name="lblProductAttributesDescription" xml:space="preserve">
+    <value>The Product Attributes section allows you to create attributes that can be associated with your products and used in the ordering process. These are product attributes such as sizes, colors, etc.</value>
+  </data>
+  <data name="lblProductCategories" xml:space="preserve">
+    <value>Product Categories</value>
+  </data>
+  <data name="lblProductCategoriesDescription" xml:space="preserve">
+    <value>The Product Categories section allows you to create categories that drive your store navigation and allows you to associate products with categories.</value>
+  </data>
+  <data name="lblProductCategoryDeleted" xml:space="preserve">
+    <value>Product category deleted.</value>
+  </data>
+  <data name="lblProductCategoryImages" xml:space="preserve">
+    <value>Product Category Images</value>
+  </data>
+  <data name="lblProductCategorySaved" xml:space="preserve">
+    <value>Product category saved.</value>
+  </data>
+  <data name="lblProductCouponsDescription" xml:space="preserve">
+    <value>The Product Coupons sections allows you to create coupons for use by your store. Your clients can then use the coupon codes to receive discounts when shopping your store.</value>
+  </data>
+  <data name="lblProductEdit" xml:space="preserve">
+    <value>Edit Product</value>
+  </data>
+  <data name="lblProductImageDeleted" xml:space="preserve">
+    <value>Product image deleted.</value>
+  </data>
+  <data name="lblDeletedFromServer" xml:space="preserve">
+    <value>Deleted from server.</value>
+  </data>
+  <data name="lblProductImages" xml:space="preserve">
+    <value>Product Images</value>
+  </data>
+  <data name="lblProductImageSaved" xml:space="preserve">
+    <value>Product image saved.</value>
+  </data>
+  <data name="lblProductList" xml:space="preserve">
+    <value>Product List</value>
+  </data>
+  <data name="lblProductListing" xml:space="preserve">
+    <value>Product Browsing Log Listing:</value>
+  </data>
+  <data name="lblProductListingDescription" xml:space="preserve">
+    <value>The Product Listing section is where all of the products in your store are listed. From here you can select a product and edit it.</value>
+  </data>
+  <data name="lblProductManufacturersDescription" xml:space="preserve">
+    <value>The Product Manufacturers section allows you to specify the manufacturers of the products you are offering.</value>
+  </data>
+  <data name="lblProductNotEnabled" xml:space="preserve">
+    <value>(Product Not Enabled)</value>
+  </data>
+  <data name="lblProductNotSaved" xml:space="preserve">
+    <value>Product not saved.</value>
+  </data>
+  <data name="lblProductSaved" xml:space="preserve">
+    <value>Product saved.</value>
+  </data>
+  <data name="lblProductType" xml:space="preserve">
+    <value>Product Type:</value>
+  </data>
+  <data name="lblProvider" xml:space="preserve">
+    <value>Provider:</value>
+  </data>
+  <data name="lblProviderSaved" xml:space="preserve">
+    <value>Provider saved.</value>
+  </data>
+  <data name="lblProviderType" xml:space="preserve">
+    <value>ProviderType</value>
+  </data>
+  <data name="lblQuantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="lblRangeIsInvalid" xml:space="preserve">
+    <value>The range is invalid for the item: {0}.</value>
+  </data>
+  <data name="lblRate" xml:space="preserve">
+    <value>Rate:</value>
+  </data>
+  <data name="lblRateAdded" xml:space="preserve">
+    <value>The rate has been added.</value>
+  </data>
+  <data name="lblRateDeleted" xml:space="preserve">
+    <value>The rate has been deleted.</value>
+  </data>
+  <data name="lblRating" xml:space="preserve">
+    <value>Rating:</value>
+  </data>
+  <data name="lblReceipt" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="lblRegionCode" xml:space="preserve">
+    <value>Region Code:</value>
+  </data>
+  <data name="lblRegionCodeDecriptionTitle" xml:space="preserve">
+    <value>Region Code Tax Provider</value>
+  </data>
+  <data name="lblRegionTitle" xml:space="preserve">
+    <value>Region Title:</value>
+  </data>
+  <data name="lblRemoveCoupon" xml:space="preserve">
+    <value>Coupon deleted.</value>
+  </data>
+  <data name="lblRemoveProvider" xml:space="preserve">
+    <value>The provider has been removed.</value>
+  </data>
+  <data name="lblRequireAuthentication" xml:space="preserve">
+    <value>Require Authentication:</value>
+  </data>
+  <data name="lblRequireSsl" xml:space="preserve">
+    <value>Require SSL:</value>
+  </data>
+  <data name="lblRetailPrice" xml:space="preserve">
+    <value>Retail Price:</value>
+  </data>
+  <data name="lblRetialPrice" xml:space="preserve">
+    <value>Retail Price:</value>
+  </data>
+  <data name="lblReview" xml:space="preserve">
+    <value>Review:</value>
+  </data>
+  <data name="lblReviewSaved" xml:space="preserve">
+    <value>Review saved.</value>
+  </data>
+  <data name="lblReviewsTitle" xml:space="preserve">
+    <value>Reviews</value>
+  </data>
+  <data name="lblRoleAdministration" xml:space="preserve">
+    <value>Role Administration</value>
+  </data>
+  <data name="lblRoleAdministrationDescription" xml:space="preserve">
+    <value>The Role Administration section allows you to create and modify roles that your site may use.</value>
+  </data>
+  <data name="lblRoleName" xml:space="preserve">
+    <value>Role Name:</value>
+  </data>
+  <data name="lblRoot" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="lblNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="lblTitleASC" xml:space="preserve">
+    <value>Title: Ascending</value>
+  </data>
+  <data name="lblTitleDESC" xml:space="preserve">
+    <value>Title: Descending</value>
+  </data>
+  <data name="lblPriceASC" xml:space="preserve">
+    <value>Price: Lowest First</value>
+  </data>
+  <data name="lblPriceDESC" xml:space="preserve">
+    <value>Price: Highest First</value>
+  </data>
+  <data name="lblNewest" xml:space="preserve">
+    <value>Added: Newest First</value>
+  </data>
+  <data name="lblOldest" xml:space="preserve">
+    <value>Added: Oldest First</value>
+  </data>
+  <data name="lblLastUpdatedASC" xml:space="preserve">
+    <value>Updated: Newest First</value>
+  </data>
+  <data name="lblLastUpdatedDESC" xml:space="preserve">
+    <value>Updated: Oldest First</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblSearchBy" xml:space="preserve">
+    <value>Search By:</value>
+  </data>
+  <data name="lblSearchTerms" xml:space="preserve">
+    <value>Popular Search Terms:</value>
+  </data>
+  <data name="lblSecurity" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="lblSecurityDescription" xml:space="preserve">
+    <value>The Security section allows you to administer the accounts of registered users and the roles that your site may use.</value>
+  </data>
+  <data name="lblSecurityQuestion" xml:space="preserve">
+    <value>Security Question:</value>
+  </data>
+  <data name="lblSelect" xml:space="preserve">
+    <value>-- Select --</value>
+  </data>
+  <data name="lblService" xml:space="preserve">
+    <value>Service:</value>
+  </data>
+  <data name="lblServiceAdded" xml:space="preserve">
+    <value>The service has been added.</value>
+  </data>
+  <data name="lblServiceDeleted" xml:space="preserve">
+    <value>The service has been deleted.</value>
+  </data>
+  <data name="lblShipFromCountry" xml:space="preserve">
+    <value>Ship From Country:</value>
+  </data>
+  <data name="lblShipFromZip" xml:space="preserve">
+    <value>Ship From Postal Code:</value>
+  </data>
+  <data name="lblShipping" xml:space="preserve">
+    <value>Shipping &amp; Handling:</value>
+  </data>
+  <data name="lblShippingAddressTitle" xml:space="preserve">
+    <value>Shipping Address</value>
+  </data>
+  <data name="lblShippingBuffer" xml:space="preserve">
+    <value>Shipping Buffer:</value>
+  </data>
+  <data name="lblShippingConfiguration" xml:space="preserve">
+    <value>Shipping Configuration</value>
+  </data>
+  <data name="lblShippingConfigurationDescription" xml:space="preserve">
+    <value>The Shipping Configuration section allows you to administer shipping providers. You can manage and configure shipping providers as well as set general settings for the shipping service.</value>
+  </data>
+  <data name="lblShippingConfigurationNotSaved" xml:space="preserve">
+    <value>Shipping Configuration not saved.</value>
+  </data>
+  <data name="lblShippingConfigurationSaved" xml:space="preserve">
+    <value>Shipping Configuration saved.</value>
+  </data>
+  <data name="lblShippingEstimate" xml:space="preserve">
+    <value>Shipping Estimate:</value>
+  </data>
+  <data name="lblShippingInformation" xml:space="preserve">
+    <value>Shipping Information</value>
+  </data>
+  <data name="lblShippingMethod" xml:space="preserve">
+    <value>Shipping Method</value>
+  </data>
+  <data name="lblShippingMethodTitle" xml:space="preserve">
+    <value>Shipping Method</value>
+  </data>
+  <data name="lblShippingName" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="lblShippingProviderManagement" xml:space="preserve">
+    <value>Shipping Provider Management</value>
+  </data>
+  <data name="lblShippingSaved" xml:space="preserve">
+    <value>Shipping saved.</value>
+  </data>
+  <data name="lblShippingSettingsNotSaved" xml:space="preserve">
+    <value>The shipping settings have not been saved.</value>
+  </data>
+  <data name="lblShippingSettingsSaved" xml:space="preserve">
+    <value>The shipping settings have been saved.</value>
+  </data>
+  <data name="lblShippingTrackingNumber" xml:space="preserve">
+    <value>Shipping Tracking Number:</value>
+  </data>
+  <data name="lblShortCache" xml:space="preserve">
+    <value>Short Cache:</value>
+  </data>
+  <data name="lblShortDescription" xml:space="preserve">
+    <value>Short Description:</value>
+  </data>
+  <data name="lblShowAll" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="lblShowingTotals" xml:space="preserve">
+    <value>Showing {0} - {1} of {2} Results</value>
+  </data>
+  <data name="lblShowTitle" xml:space="preserve">
+    <value>Show Title:</value>
+  </data>
+  <data name="lblSignature" xml:space="preserve">
+    <value>API Signature:</value>
+  </data>
+  <data name="lblSimpleWeightShippingProviderTitle" xml:space="preserve">
+    <value>Simple Weight Shipping Provider</value>
+  </data>
+  <data name="lblSiteAdministration" xml:space="preserve">
+    <value>Site Administration</value>
+  </data>
+  <data name="lblSiteImages" xml:space="preserve">
+    <value>Site Images</value>
+  </data>
+  <data name="lblSiteInstall" xml:space="preserve">
+    <value>Site Installation</value>
+  </data>
+  <data name="lblLogo" xml:space="preserve">
+    <value>Logo:</value>
+  </data>
+  <data name="lblSiteSettings" xml:space="preserve">
+    <value>Site Settings</value>
+  </data>
+  <data name="lblSiteSettingsDescription" xml:space="preserve">
+    <value>The Site Settings section allows you to configure many site wide options, such as Site Name, Site Logo, Language, Currency, and many other options. Many of the options here drive the behavior of your site.</value>
+  </data>
+  <data name="lblSiteSettingsNotSaved" xml:space="preserve">
+    <value>Site Settings not saved.</value>
+  </data>
+  <data name="lblSiteSettingsSaved" xml:space="preserve">
+    <value>Site Settings saved.</value>
+  </data>
+  <data name="lblSkuDescription" xml:space="preserve">
+    <value>The following Sku's were created for this product based on the attribute's that are associated with this product. If you wish to save them, then then click the "Save" button.</value>
+  </data>
+  <data name="lblSkuSuffix" xml:space="preserve">
+    <value>Sku Suffix:</value>
+  </data>
+  <data name="lblSortOrder" xml:space="preserve">
+    <value>Sort Order:</value>
+  </data>
+  <data name="lblStateOrRegion" xml:space="preserve">
+    <value>State / Region:</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="lblSubject" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="lblSubTotal" xml:space="preserve">
+    <value>Subtotal:</value>
+  </data>
+  <data name="lblSubTotalTop" xml:space="preserve">
+    <value>Subtotal:</value>
+  </data>
+  <data name="lblTagLine" xml:space="preserve">
+    <value>Tag Line:</value>
+  </data>
+  <data name="lblTax" xml:space="preserve">
+    <value>Tax:</value>
+  </data>
+  <data name="lblTaxConfiguration" xml:space="preserve">
+    <value>Tax Configuration</value>
+  </data>
+  <data name="lblTaxConfigurationDescription" xml:space="preserve">
+    <value>The Tax Configuration section allows you to administer tax providers. You can manage and configure tax providers as well as set general settings for the tax service.</value>
+  </data>
+  <data name="lblTaxConfigurationNotSaved" xml:space="preserve">
+    <value>Tax Configuration not saved.</value>
+  </data>
+  <data name="lblTaxConfigurationSaved" xml:space="preserve">
+    <value>Tax Configuration saved.</value>
+  </data>
+  <data name="lblTaxName" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="lblTaxProviderManagement" xml:space="preserve">
+    <value>Tax Provider Management</value>
+  </data>
+  <data name="lblTaxType" xml:space="preserve">
+    <value>Tax Type:</value>
+  </data>
+  <data name="lblTemplateRegion" xml:space="preserve">
+    <value>Template Region:</value>
+  </data>
+  <data name="lblTheme" xml:space="preserve">
+    <value>Theme:</value>
+  </data>
+  <data name="lblTitle" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="lblToList" xml:space="preserve">
+    <value>To List:</value>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="lblTotalProducts" xml:space="preserve">
+    <value>Total Products:</value>
+  </data>
+  <data name="lblTotalSkuCountText" xml:space="preserve">
+    <value>Number of Sku's created for this product:</value>
+  </data>
+  <data name="lblTotalUsers" xml:space="preserve">
+    <value>Total Users:</value>
+  </data>
+  <data name="lblTrackingLogs" xml:space="preserve">
+    <value>Tracking Logs</value>
+  </data>
+  <data name="lblTrackingLogsDescription" xml:space="preserve">
+    <value>The Tracking Logs section is used for viewing different user behavior that may be enabled for the site. The logs created here are determined by some of the Site Settings. </value>
+  </data>
+  <data name="lblTransactionDate" xml:space="preserve">
+    <value>Transaction Date:</value>
+  </data>
+  <data name="lblTransactionId" xml:space="preserve">
+    <value>Transaction Id:</value>
+  </data>
+  <data name="lblTransactionType" xml:space="preserve">
+    <value>Transaction Type:</value>
+  </data>
+  <data name="lblUnableToDeleteManufacturers" xml:space="preserve">
+    <value>Unable to delete manufacturer. There are products associated with the selected manufacturer: {0}.</value>
+  </data>
+  <data name="lblUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="lblUpdating" xml:space="preserve">
+    <value>Updating . . .</value>
+  </data>
+  <data name="lblUpdatingOrder" xml:space="preserve">
+    <value>Updating Order . . .</value>
+  </data>
+  <data name="lblUrl" xml:space="preserve">
+    <value>Url:</value>
+  </data>
+  <data name="lblUserAdministration" xml:space="preserve">
+    <value>User Administration</value>
+  </data>
+  <data name="lblUserAdministrationDescription" xml:space="preserve">
+    <value>The User Administration section allows you to administer the users that have registered with your site. Here you can add and remove users from roles, and change other user settings.</value>
+  </data>
+  <data name="lblUserName" xml:space="preserve">
+    <value>UserName:</value>
+  </data>
+  <data name="lblUserNotFound" xml:space="preserve">
+    <value>Failed to retrieve user: {0}</value>
+  </data>
+  <data name="lblUserUpdated" xml:space="preserve">
+    <value>This user account has been updated.</value>
+  </data>
+  <data name="lblUseShipping" xml:space="preserve">
+    <value>Use Shipping:</value>
+  </data>
+  <data name="lblWeight" xml:space="preserve">
+    <value>Weight:</value>
+  </data>
+  <data name="lblWelcome" xml:space="preserve">
+    <value>Welcome Back</value>
+  </data>
+  <data name="lblWelcomeInstructions" xml:space="preserve">
+    <value>&lt;p&gt;This installation wizard will guide you through the installation of dashCommerce.&lt;/p&gt;&lt;p&gt;The Message Center is where you receive feedback about the actions taken by the installer.&lt;/p&gt;&lt;p&gt;So, let's not waste any time . . . &lt;/p&gt;</value>
+  </data>
+  <data name="lblWidth" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="lblYourRating" xml:space="preserve">
+    <value>Your rating:</value>
+  </data>
+  <data name="lblYouSave" xml:space="preserve">
+    <value>You Save:</value>
+  </data>
+  <data name="lloginCreateUserText" xml:space="preserve">
+    <value>Not Registered?</value>
+  </data>
+  <data name="lloginPasswordLabelText" xml:space="preserve">
+    <value>Password:&amp;nbsp;</value>
+  </data>
+  <data name="lloginPasswordRecoveryText" xml:space="preserve">
+    <value>Forgot Password?</value>
+  </data>
+  <data name="lloginTitleText" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="lloginUserNameLabelText" xml:space="preserve">
+    <value>User Name:&amp;nbsp;</value>
+  </data>
+  <data name="pnlAddEditBundle" xml:space="preserve">
+    <value>Add / Edit Bundle</value>
+  </data>
+  <data name="pnlAddManufacturer" xml:space="preserve">
+    <value>Add Manufacturer</value>
+  </data>
+  <data name="pnlAddNote" xml:space="preserve">
+    <value>Add Note</value>
+  </data>
+  <data name="pnlAddRegion" xml:space="preserve">
+    <value>Add / Edit Region</value>
+  </data>
+  <data name="pnlAddRegionCode" xml:space="preserve">
+    <value>Add Region Code</value>
+  </data>
+  <data name="pnlAddRole" xml:space="preserve">
+    <value>Add Role</value>
+  </data>
+  <data name="pnlAddService" xml:space="preserve">
+    <value>Add Service</value>
+  </data>
+  <data name="pnlAddToCart" xml:space="preserve">
+    <value>Add To Cart</value>
+  </data>
+  <data name="pnlAddUser" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="pnlAnalytics" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
+  <data name="pnlAssociatedAttributes" xml:space="preserve">
+    <value>Associated Attributes</value>
+  </data>
+  <data name="pnlAssociatedCategories" xml:space="preserve">
+    <value>Associated Categories</value>
+  </data>
+  <data name="pnlAttributeItems" xml:space="preserve">
+    <value>Attribute Items</value>
+  </data>
+  <data name="pnlAttributeTemplates" xml:space="preserve">
+    <value>Attribute Templates</value>
+  </data>
+  <data name="pnlAvailableAttributes" xml:space="preserve">
+    <value>Available Attributes</value>
+  </data>
+  <data name="pnlAvailableCoupons" xml:space="preserve">
+    <value>Available Coupons</value>
+  </data>
+  <data name="pnlAvailableRegionCodes" xml:space="preserve">
+    <value>Available Region Codes</value>
+  </data>
+  <data name="pnlAvailableServices" xml:space="preserve">
+    <value>Available Services</value>
+  </data>
+  <data name="pnlBillingAddresses" xml:space="preserve">
+    <value>Billing Addresses</value>
+  </data>
+  <data name="pnlBrowsingLog" xml:space="preserve">
+    <value>Browsing Log</value>
+  </data>
+  <data name="pnlCaching" xml:space="preserve">
+    <value>Caching</value>
+  </data>
+  <data name="pnlChildCategories" xml:space="preserve">
+    <value>Child Categories</value>
+  </data>
+  <data name="pnlChildPages" xml:space="preserve">
+    <value>Child Pages</value>
+  </data>
+  <data name="pnlComplete" xml:space="preserve">
+    <value>Installation Complete</value>
+  </data>
+  <data name="pnlConfiguration" xml:space="preserve">
+    <value>{0} Configuration</value>
+  </data>
+  <data name="pnlConfigurationOverview" xml:space="preserve">
+    <value>Configuration Overview</value>
+  </data>
+  <data name="pnlConfiguredPaymentProviders" xml:space="preserve">
+    <value>Configured Payment Providers</value>
+  </data>
+  <data name="pnlConfiguredShippingProviders" xml:space="preserve">
+    <value>Configured Shipping Providers</value>
+  </data>
+  <data name="pnlConfiguredTaxProviders" xml:space="preserve">
+    <value>Configured Tax Providers</value>
+  </data>
+  <data name="pnlConnectionStringSetup" xml:space="preserve">
+    <value>Connection String Setup</value>
+  </data>
+  <data name="pnlCouponConfiguration" xml:space="preserve">
+    <value>Coupon Configuration</value>
+  </data>
+  <data name="pnlCrossSells" xml:space="preserve">
+    <value>Cross-Sells</value>
+  </data>
+  <data name="pnlCurrentAttributes" xml:space="preserve">
+    <value>Current Attributes</value>
+  </data>
+  <data name="pnlCurrentBundles" xml:space="preserve">
+    <value>Current Bundles</value>
+  </data>
+  <data name="pnlCurrentCategories" xml:space="preserve">
+    <value>Current Categories</value>
+  </data>
+  <data name="pnlCurrentErrorLogs" xml:space="preserve">
+    <value>Current Error Logs</value>
+  </data>
+  <data name="pnlCurrentPages" xml:space="preserve">
+    <value>Current Pages</value>
+  </data>
+  <data name="pnlDatabaseSetup" xml:space="preserve">
+    <value>Database Setup</value>
+  </data>
+  <data name="pnlEditAttribute" xml:space="preserve">
+    <value>Add / Edit Attribute</value>
+  </data>
+  <data name="pnlEditCategory" xml:space="preserve">
+    <value>Add / Edit Product Category</value>
+  </data>
+  <data name="pnlEditPage" xml:space="preserve">
+    <value>Add / Edit Page</value>
+  </data>
+  <data name="pnlEditUser" xml:space="preserve">
+    <value>Edit User</value>
+  </data>
+  <data name="pnlFavoriteCategories" xml:space="preserve">
+    <value>Favorite Categories</value>
+  </data>
+  <data name="pnlFavoriteProducts" xml:space="preserve">
+    <value>Favorite Products</value>
+  </data>
+  <data name="pnlFooter" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+  <data name="pnlGeneralLayout" xml:space="preserve">
+    <value>General Layout</value>
+  </data>
+  <data name="pnlGeneralProductInformation" xml:space="preserve">
+    <value>General Product Information</value>
+  </data>
+  <data name="pnlGeneralSettings" xml:space="preserve">
+    <value>General Settings</value>
+  </data>
+  <data name="pnlGlobalization" xml:space="preserve">
+    <value>Globalization</value>
+  </data>
+  <data name="pnlHeader" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="pnlImageManagement" xml:space="preserve">
+    <value>Image Management</value>
+  </data>
+  <data name="pnlMailConfiguration" xml:space="preserve">
+    <value>Mail Configuration</value>
+  </data>
+  <data name="pnlMailSettings" xml:space="preserve">
+    <value>Mail Settings</value>
+  </data>
+  <data name="pnlManufacturerList" xml:space="preserve">
+    <value>Manufacturer List</value>
+  </data>
+  <data name="pnlMembershipSetup" xml:space="preserve">
+    <value>Administrator Account Setup</value>
+  </data>
+  <data name="pnlMessageCenter" xml:space="preserve">
+    <value>Message Center</value>
+  </data>
+  <data name="pnlNarrowByManufacturer" xml:space="preserve">
+    <value>Narrow By Manufacturer</value>
+  </data>
+  <data name="pnlNarrowByPrice" xml:space="preserve">
+    <value>Narrow By Price</value>
+  </data>
+  <data name="pnlSortBy" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="pnlNews" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="pnlNoteList" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="pnlNotes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="pnlNotificationDetails" xml:space="preserve">
+    <value>Notification Details</value>
+  </data>
+  <data name="pnlOrderList" xml:space="preserve">
+    <value>Order List</value>
+  </data>
+  <data name="pnlOrderSearch" xml:space="preserve">
+    <value>Order Search</value>
+  </data>
+  <data name="pnlPaymentConfiguration" xml:space="preserve">
+    <value>Payment Configuration</value>
+  </data>
+  <data name="pnlPaymentProviders" xml:space="preserve">
+    <value>Payment Provider Configuration</value>
+  </data>
+  <data name="pnlPayPalProConfiguration" xml:space="preserve">
+    <value>PayPal Pro Payment Provider Configuration</value>
+  </data>
+  <data name="pnlPayPalStandardConfiguration" xml:space="preserve">
+    <value>PayPal Standard Payment Provider Configuration</value>
+  </data>
+  <data name="pnlProductCoupons" xml:space="preserve">
+    <value>Product Coupons</value>
+  </data>
+  <data name="pnlProductDescriptors" xml:space="preserve">
+    <value>Product Descriptors</value>
+  </data>
+  <data name="pnlProductImages" xml:space="preserve">
+    <value>Product Images</value>
+  </data>
+  <data name="pnlProductList" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="pnlProductManagement" xml:space="preserve">
+    <value>Product Management</value>
+  </data>
+  <data name="pnlProductReviews" xml:space="preserve">
+    <value>Product Reviews</value>
+  </data>
+  <data name="pnlProductSearch" xml:space="preserve">
+    <value>Product Search</value>
+  </data>
+  <data name="pnlProviderDetails" xml:space="preserve">
+    <value>Provider Details</value>
+  </data>
+  <data name="pnlProviderList" xml:space="preserve">
+    <value>Available Providers</value>
+  </data>
+  <data name="pnlQuickStats" xml:space="preserve">
+    <value>QuickStats</value>
+  </data>
+  <data name="pnlRegionCodeConfiguration" xml:space="preserve">
+    <value>Region Code Tax Provider Configuration</value>
+  </data>
+  <data name="pnlRegions" xml:space="preserve">
+    <value>Regions</value>
+  </data>
+  <data name="pnlReview" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="pnlRoleList" xml:space="preserve">
+    <value>Role List</value>
+  </data>
+  <data name="pnlRoles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="pnlSales" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="pnlSecurity" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="pnlShipping" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="pnlShippingAddresses" xml:space="preserve">
+    <value>Shipping Addresses</value>
+  </data>
+  <data name="pnlShippingConfiguration" xml:space="preserve">
+    <value>Shipping Configuration</value>
+  </data>
+  <data name="pnlShippingProviders" xml:space="preserve">
+    <value>Shipping Provider Configuration</value>
+  </data>
+  <data name="pnlSimpleWeightConfiguration" xml:space="preserve">
+    <value>Simple Weight Shipping Provider Configruation</value>
+  </data>
+  <data name="pnlSimpleWeightData" xml:space="preserve">
+    <value>Simple Weight Service / AmountPerUnit Data</value>
+  </data>
+  <data name="pnlSiteOverview" xml:space="preserve">
+    <value>Site Overview</value>
+  </data>
+  <data name="pnlSkuListing" xml:space="preserve">
+    <value>Sku Listing</value>
+  </data>
+  <data name="pnlTaxConfiguration" xml:space="preserve">
+    <value>Tax Configuration</value>
+  </data>
+  <data name="pnlTaxProviders" xml:space="preserve">
+    <value>Tax Provider Configuration</value>
+  </data>
+  <data name="pnlToDo" xml:space="preserve">
+    <value>To Do</value>
+  </data>
+  <data name="pnlUserList" xml:space="preserve">
+    <value>User List</value>
+  </data>
+  <data name="pnlUserSearch" xml:space="preserve">
+    <value>User Search</value>
+  </data>
+  <data name="pnlWelcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="pnlWidgets" xml:space="preserve">
+    <value>Widgets</value>
+  </data>
+  <data name="prPasswordRecoverAnswerLabelText" xml:space="preserve">
+    <value>Answer:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverQuestionFailureText" xml:space="preserve">
+    <value>Your answer could not be verified. Please try again.</value>
+  </data>
+  <data name="prPasswordRecoverQuestionInstructionText" xml:space="preserve">
+    <value>Answer the following question to receive your password!</value>
+  </data>
+  <data name="prPasswordRecoverQuestionLabelText" xml:space="preserve">
+    <value>Question:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverQuestionTitleText" xml:space="preserve">
+    <value>Identity Confirmation</value>
+  </data>
+  <data name="prPasswordRecoverSubmitButtonText" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="prPasswordRecoverSuccessText" xml:space="preserve">
+    <value>Your password has been sent to you.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameFailureText" xml:space="preserve">
+    <value>We were unable to access your information. Please try again.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameInstructionText" xml:space="preserve">
+    <value>Enter your User Name to receive your password.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameLabelText" xml:space="preserve">
+    <value>User Name:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverUserNameTitleText" xml:space="preserve">
+    <value>Forgot your password?</value>
+  </data>
+  <data name="pwdBy" xml:space="preserve">
+    <value>Powered by dashCommerce</value>
+  </data>
+  <data name="rfvAmountPerUnit" xml:space="preserve">
+    <value>Please supply an Amount Per Unit.</value>
+  </data>
+  <data name="rfvApiPassword" xml:space="preserve">
+    <value>Please supply an API Password.</value>
+  </data>
+  <data name="rfvApiSignature" xml:space="preserve">
+    <value>Please supply and API Signature.</value>
+  </data>
+  <data name="rfvApiUserName" xml:space="preserve">
+    <value>Please supply an API User Name.</value>
+  </data>
+  <data name="rfvBaseSku" xml:space="preserve">
+    <value>Please supply a Base Sku.</value>
+  </data>
+  <data name="rfvBusinessEmail" xml:space="preserve">
+    <value>Please supply a Business Email.</value>
+  </data>
+  <data name="rfvDatabaseName" xml:space="preserve">
+    <value>Please provide a Database Name.</value>
+  </data>
+  <data name="rfvDatabasePassword" xml:space="preserve">
+    <value>Please provide a Database Password.</value>
+  </data>
+  <data name="rfvDatabaseServer" xml:space="preserve">
+    <value>Please provide a Database Server.</value>
+  </data>
+  <data name="rfvDatabaseUserName" xml:space="preserve">
+    <value>Please provide a Database User Name.</value>
+  </data>
+  <data name="rfvImageFile" xml:space="preserve">
+    <value>Please provide an Image File.</value>
+  </data>
+  <data name="rfvName" xml:space="preserve">
+    <value>Please supply a Name.</value>
+  </data>
+  <data name="rfvPdtId" xml:space="preserve">
+    <value>Please supply a PDT Id.</value>
+  </data>
+  <data name="rfvQuantity" xml:space="preserve">
+    <value>Please supply a quantity.</value>
+  </data>
+  <data name="rfvRate" xml:space="preserve">
+    <value>Please supply a Rate.</value>
+  </data>
+  <data name="rfvRegionCode" xml:space="preserve">
+    <value>Please supply a Region Code.</value>
+  </data>
+  <data name="rfvService" xml:space="preserve">
+    <value>Please supply a Service.</value>
+  </data>
+  <data name="rfvTitle" xml:space="preserve">
+    <value>Please supply a Title.</value>
+  </data>
+  <data name="titleAddUser" xml:space="preserve">
+    <value>dashCommerce :: Add User</value>
+  </data>
+  <data name="titleCart" xml:space="preserve">
+    <value>dashCommerce :: Cart</value>
+  </data>
+  <data name="titleCheckout" xml:space="preserve">
+    <value>dashCommerce :: Checkout</value>
+  </data>
+  <data name="titleContentManagement" xml:space="preserve">
+    <value>dashCommerce :: Content Management</value>
+  </data>
+  <data name="titleDashBoard" xml:space="preserve">
+    <value>dashCommerce :: dashBoard</value>
+  </data>
+  <data name="titleEditNotification" xml:space="preserve">
+    <value>dashCommerce :: Notifications :: Edit Notification</value>
+  </data>
+  <data name="titleEditUser" xml:space="preserve">
+    <value>dashCommerce :: Edit User</value>
+  </data>
+  <data name="titleErrorLogs" xml:space="preserve">
+    <value>dashCommerce :: Error Logs</value>
+  </data>
+  <data name="titleImageSelector" xml:space="preserve">
+    <value>dashCommerce :: Image Selector</value>
+  </data>
+  <data name="titleInstallAdministrator" xml:space="preserve">
+    <value>dashCommerce :: Install :: Administrator Account</value>
+  </data>
+  <data name="titleInstallComplete" xml:space="preserve">
+    <value>dashCommerce :: Install :: Complete</value>
+  </data>
+  <data name="titleInstallConnectionString" xml:space="preserve">
+    <value>dashCommerce :: Install :: Connection String</value>
+  </data>
+  <data name="titleInstallDatabase" xml:space="preserve">
+    <value>dashCommerce :: Install :: Database</value>
+  </data>
+  <data name="titleInstallWelcome" xml:space="preserve">
+    <value>dashCommerce :: Install :: Welcome</value>
+  </data>
+  <data name="titleLoading" xml:space="preserve">
+    <value>dashCommerce :: Loading . . .</value>
+  </data>
+  <data name="titleLogin" xml:space="preserve">
+    <value>dashCommerce :: Login</value>
+  </data>
+  <data name="titleMailSettings" xml:space="preserve">
+    <value>dashCommerce :: Mail Settings</value>
+  </data>
+  <data name="titleManageCouponProviders" xml:space="preserve">
+    <value>dashCommerce :: Manage Coupon Providers</value>
+  </data>
+  <data name="titleModalError" xml:space="preserve">
+    <value>dashCommerce :: Error</value>
+  </data>
+  <data name="titleNotifications" xml:space="preserve">
+    <value>dashCommerce :: Notifications</value>
+  </data>
+  <data name="titleOrderActions" xml:space="preserve">
+    <value>dashCommerce :: Order :: Actions</value>
+  </data>
+  <data name="titleOrderNotes" xml:space="preserve">
+    <value>dashCommerce :: Order :: Notes</value>
+  </data>
+  <data name="titleOrderReceipts" xml:space="preserve">
+    <value>dashCommerce :: Order :: Receipts</value>
+  </data>
+  <data name="titleOrderShipping" xml:space="preserve">
+    <value>dashCommerce :: Order :: Shipping</value>
+  </data>
+  <data name="titleOrderTransactions" xml:space="preserve">
+    <value>dashCommerce :: Order :: Transactions</value>
+  </data>
+  <data name="titleOverview" xml:space="preserve">
+    <value>dashCommerce :: Overview :: {0}</value>
+  </data>
+  <data name="titlePaymentConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Payment Provider Configuration</value>
+  </data>
+  <data name="titlePaymentProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Payment Provider Management</value>
+  </data>
+  <data name="titlePaymentSettings" xml:space="preserve">
+    <value>dashComemrce :: Payment Settings</value>
+  </data>
+  <data name="titleProductAttributes" xml:space="preserve">
+    <value>dashCommerce :: Product Attributes</value>
+  </data>
+  <data name="titleProductCategories" xml:space="preserve">
+    <value>dashCommerce :: Product Categories</value>
+  </data>
+  <data name="titleProductCoupons" xml:space="preserve">
+    <value>dashCommerce :: Product Coupons</value>
+  </data>
+  <data name="titleProductEditAttributes" xml:space="preserve">
+    <value>dashCommerce :: Product Edit :: Attributes</value>
+  </data>
+  <data name="titleProductEditCategories" xml:space="preserve">
+    <value>dashCommerce :: Product Edit :: Categories</value>
+  </data>
+  <data name="titleProductEditCrossSells" xml:space="preserve">
+    <value>dashCommerce :: Product Edit :: Cross Sells</value>
+  </data>
+  <data name="titleProductEditDescriptors" xml:space="preserve">
+    <value>dashCommerce :: Product Edit :: Descriptors</value>
+  </data>
+  <data name="titleProductEditGeneral" xml:space="preserve">
+    <value>dashCommerce :: Product Edit :: General</value>
+  </data>
+  <data name="titleProductEditImages" xml:space="preserve">
+    <value>dashCommerce :: Product Edit :: Images</value>
+  </data>
+  <data name="titleProductEditNotes" xml:space="preserve">
+    <value>dashCommerce :: Product Edit :: Notes</value>
+  </data>
+  <data name="titleProductEditReviews" xml:space="preserve">
+    <value>dashCommerce :: Product Edit :: Reviews</value>
+  </data>
+  <data name="titleProductEditSku" xml:space="preserve">
+    <value>dashCommerce :: Product Edit :: Sku</value>
+  </data>
+  <data name="titleProductListing" xml:space="preserve">
+    <value>dashCommerce :: Product Listing</value>
+  </data>
+  <data name="titleProductManufacturers" xml:space="preserve">
+    <value>dashCommerce :: Product Manufacturers</value>
+  </data>
+  <data name="titleRegister" xml:space="preserve">
+    <value>dashCommerce :: Register</value>
+  </data>
+  <data name="titleReview" xml:space="preserve">
+    <value>Review of {0}.</value>
+  </data>
+  <data name="titleRoleAdministration" xml:space="preserve">
+    <value>dashCommerce :: Security :: Role Administration</value>
+  </data>
+  <data name="titleSalesOrderSearch" xml:space="preserve">
+    <value>dashCommerce :: Sales :: Order Search</value>
+  </data>
+  <data name="titleShippingConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Shipping Provider Configuration</value>
+  </data>
+  <data name="titleShippingProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Shipping Provider Management</value>
+  </data>
+  <data name="titleShippingSettings" xml:space="preserve">
+    <value>dashCommerce :: Shipping Settings</value>
+  </data>
+  <data name="titleSiteSettingsAnalytics" xml:space="preserve">
+    <value>dashCommerce :: Site Settings :: Analytics</value>
+  </data>
+  <data name="titleSiteSettingsBrowsingLog" xml:space="preserve">
+    <value>dashCommerce :: Site Settings :: Browsing Log</value>
+  </data>
+  <data name="titleSiteSettingsCache" xml:space="preserve">
+    <value>dashCommerce :: Site Settings :: Caching</value>
+  </data>
+  <data name="titleSiteSettingsImages" xml:space="preserve">
+    <value>dashCommerce :: Site Settings :: Images</value>
+  </data>
+  <data name="titleSiteSettingsFooter" xml:space="preserve">
+    <value>dashCommerce :: Site Settings :: Footer</value>
+  </data>
+  <data name="titleSiteSettingsGeneralLayout" xml:space="preserve">
+    <value>dashCommerce :: Site Settings :: General Layout</value>
+  </data>
+  <data name="titleSiteSettingsGlobalization" xml:space="preserve">
+    <value>dashCommerce :: Site Settings :: Globalization</value>
+  </data>
+  <data name="titleSiteSettingsHeader" xml:space="preserve">
+    <value>dashCommerce :: Site Settings :: Header</value>
+  </data>
+  <data name="titleSiteSettingsWidgets" xml:space="preserve">
+    <value>dashCommerce :: SiteSettings :: Widgets</value>
+  </data>
+  <data name="titleTaxConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Tax Provider Configuration</value>
+  </data>
+  <data name="titleTaxProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Tax Provider Management</value>
+  </data>
+  <data name="titleTaxSettings" xml:space="preserve">
+    <value>dashComerce :: Tax Settings</value>
+  </data>
+  <data name="titleTrackingLogs" xml:space="preserve">
+    <value>dashCommerce :: Tracking Logs</value>
+  </data>
+  <data name="titleUserAdministration" xml:space="preserve">
+    <value>dashCommerce :: Security :: User Administration</value>
+  </data>
+  <data name="pnlImages" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="chkShowdCCopyright" xml:space="preserve">
+    <value>Insert dashCommerce into Meta Tags</value>
+  </data>
+  <data name="lblCopyrightText" xml:space="preserve">
+    <value>Copyright Text:</value>
+  </data>
+  <data name="lblSiteDescription" xml:space="preserve">
+    <value>Site Description:</value>
+  </data>
+  <data name="lblSiteKeywords" xml:space="preserve">
+    <value>Site Keywords:</value>
+  </data>
+  <data name="pnlSeo" xml:space="preserve">
+    <value>SeoSettings</value>
+  </data>
+  <data name="CopyrightTemplate" xml:space="preserve">
+    <value>Copyright (c) {0} by {1}</value>
+  </data>
+  <data name="titleSiteSettingsSeo" xml:space="preserve">
+    <value>dashCommerce :: Site Settings :: Seo</value>
+  </data>
+  <data name="btnAddCustomizedProductDisplayType" xml:space="preserve">
+    <value>Add Display Type</value>
+  </data>
+  <data name="lblSelectDisplayCategory" xml:space="preserve">
+    <value>Select a Display Category</value>
+  </data>
+  <data name="lblLicenseKey" xml:space="preserve">
+    <value>License Key:</value>
+  </data>
+  <data name="lblMaximumProductsToAddToCart" xml:space="preserve">
+    <value>"Add to Cart" Maximum:</value>
+  </data>
+  <data name="lblPaymentProviderError" xml:space="preserve">
+    <value>Payment Provider Error: {0}</value>
+  </data>
+  <data name="lblFilter" xml:space="preserve">
+    <value>Filter:</value>
+  </data>
+  <data name="btnSend" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="lblSent" xml:space="preserve">
+    <value>Message Sent!</value>
+  </data>
+  <data name="titleInstallPermissions" xml:space="preserve">
+    <value>dashCommerce :: Install :: Permissions</value>
+  </data>
+  <data name="lblPermissions" xml:space="preserve">
+    <value>&lt;p&gt;You need to give the NETWORK SERVICE account "READ" and "WRITE" permissions on the 'repository' directory (ASP.NET account for XP).&lt;/p&gt;</value>
+  </data>
+  <data name="pnlPermissions" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="lblCustomerInformation" xml:space="preserve">
+    <value>Customer Information</value>
+  </data>
+  <data name="titleSalesCustomerInformation" xml:space="preserve">
+    <value>dashCommerce :: Sales :: Customer Information</value>
+  </data>
+  <data name="lblCustomerId" xml:space="preserve">
+    <value>Customer Id:</value>
+  </data>
+  <data name="lblDatabaseUserName" xml:space="preserve">
+    <value>Database User Name:</value>
+  </data>
+  <data name="hlAdmin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="hlImageSelector" xml:space="preserve">
+    <value>. . .</value>
+  </data>
+  <data name="lbDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lnkLogout" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="pnlSite" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="pnlAttributesLocked" xml:space="preserve">
+    <value>Associated Attributes</value>
+  </data>
+  <data name="lblStoreSettings" xml:space="preserve">
+    <value>Store Settings</value>
+  </data>
+  <data name="pnlErrorLogSearch" xml:space="preserve">
+    <value>Error Log Search</value>
+  </data>
+  <data name="pnlPendingOrders" xml:space="preserve">
+    <value>Pending / New Orders</value>
+  </data>
+  <data name="lblLicenseAgreementInstructions" xml:space="preserve">
+    <value>Please review the dashCommerce License Agreement and select "I Agree" to accept the terms of the dashCommerce License. If you do not accept the terms, please discontinue the install and remove dashCommerce.</value>
+  </data>
+  <data name="pnlLicenseAgreement" xml:space="preserve">
+    <value>License Agreement</value>
+  </data>
+  <data name="titleInstallLicense" xml:space="preserve">
+    <value>dashCommerce :: Install :: License Agreement</value>
+  </data>
+  <data name="chkAgreeToLicense" xml:space="preserve">
+    <value>I Agree to the Terms and Conditions as set forth in the dashCommerce License, noted above.</value>
+  </data>
+  <data name="chkUseConnectionStringConfig" xml:space="preserve">
+    <value>Use settings in connectionString.config.</value>
+  </data>
+  <data name="lblVersionCheckInstructions" xml:space="preserve">
+    <value>A version check will now be performed against your database in order to determine which version of dashCommerce you have installed. Upgrades will be performed from version 3.0 RC to the current version. If the version we determine is not correct, then please proceed with caution and ensure you run the upgrade against a backup version of your database before proceeding.</value>
+  </data>
+  <data name="pnlVersionCheckSetup" xml:space="preserve">
+    <value>Version Check</value>
+  </data>
+  <data name="titleInstallVersionCheck" xml:space="preserve">
+    <value>dashCommerce :: Install :: Version Check</value>
+  </data>
+  <data name="btnTestVersion" xml:space="preserve">
+    <value>Version Test</value>
+  </data>
+  <data name="lblVersionCheck" xml:space="preserve">
+    <value>You are running dashCommerce Version:</value>
+  </data>
+  <data name="txtVersionNumber" xml:space="preserve">
+    <value>0.0.0.0</value>
+  </data>
+  <data name="chkForPurchaseOnly" xml:space="preserve">
+    <value>For Purchase Only</value>
+  </data>
+  <data name="hdrForPurchaseOnly" xml:space="preserve">
+    <value>For Purchase Only</value>
+  </data>
+  <data name="lblDownloadAdministration" xml:space="preserve">
+    <value>Download Administration</value>
+  </data>
+  <data name="lblDownloadSaved" xml:space="preserve">
+    <value>Download saved.</value>
+  </data>
+  <data name="pnlAddDownload" xml:space="preserve">
+    <value>Add Download</value>
+  </data>
+  <data name="pnlAssociatedDownloads" xml:space="preserve">
+    <value>Associated Downloads</value>
+  </data>
+  <data name="pnlCurrentDownloads" xml:space="preserve">
+    <value>Current Downloads</value>
+  </data>
+  <data name="pnlDownloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="titleProductDownloads" xml:space="preserve">
+    <value>dashCommerce :: Product Downloads</value>
+  </data>
+  <data name="tpFile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="lblAccessDenied" xml:space="preserve">
+    <value>Access denied.</value>
+  </data>
+  <data name="pnlProductDownloads" xml:space="preserve">
+    <value>Product Downloads</value>
+  </data>
+  <data name="btnAddToCart" xml:space="preserve">
+    <value>Add To Cart</value>
+  </data>
+  <data name="lblDownloadsTitle" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="lblAbout" xml:space="preserve">
+    <value>About dashCommerce</value>
+  </data>
+  <data name="lblAssembliesTitle" xml:space="preserve">
+    <value>You have the following assemblies in your application:</value>
+  </data>
+  <data name="lblCopyright" xml:space="preserve">
+    <value>dashCommerce&amp;reg; is Copyright &amp;copy; 2008-2011 Mettle Systems LLC. All Rights Reserved.</value>
+  </data>
+  <data name="lblLicenseAgreement" xml:space="preserve">
+    <value>dashCommerce is licensed under the following license. If you do not accept the terms, please discontinue the use of dashCommerce and uninstall dashCommerce.</value>
+  </data>
+  <data name="lblStoreNotice" xml:space="preserve">
+    <value>dashCommerce is highly customizable. You can select different providers for your store and you can customize the skins. If you don't find what you are looking for, please visit the &lt;a href="http://www.dashcommerce.com" target="_blank"&gt;dashCommerce Store&lt;/a&gt; for additional add-ons to your dashCommerce store. At the  &lt;a href="http://www.dashcommerce.com" target="_blank"&gt;dashCommerce Store&lt;/a&gt;, you will find the following:&lt;ul&gt;&lt;li&gt;Hosting Services&lt;/li&gt;&lt;li&gt;Payment Providers&lt;/li&gt;&lt;li&gt;Shipping Providers&lt;/li&gt;&lt;li&gt;Tax Providers&lt;/li&gt;&lt;li&gt;Commercial Licenses&lt;/li&gt;&lt;li&gt;Support Packages&lt;/li&gt;&lt;li&gt;dashCommerce Utilities&lt;/li&gt;&lt;li&gt;. . . and much more!&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="lblTrademark" xml:space="preserve">
+    <value>dashCommerce, and the dashCommerce logo are registered trademarks of Mettle Systems LLC. Mettle Systems LLC logos and trademarks may not be used without prior written consent.</value>
+  </data>
+  <data name="lblVersionNumber" xml:space="preserve">
+    <value> You are running dashCommerce {0}.</value>
+  </data>
+  <data name="titleAbout" xml:space="preserve">
+    <value>dashCommerce :: About</value>
+  </data>
+  <data name="lblAssemblies" xml:space="preserve">
+    <value>Assemblies</value>
+  </data>
+  <data name="titleAddEditRegion" xml:space="preserve">
+    <value>dashCommerce :: Content Management :: Add / Edit Region</value>
+  </data>
+  <data name="lblNullPaymentDescriptionTitle" xml:space="preserve">
+    <value>Null Payment Provider</value>
+  </data>
+  <data name="chkReInstall" xml:space="preserve">
+    <value>I would like to reinstall the database.</value>
+  </data>
+  <data name="lblCartChanged" xml:space="preserve">
+    <value>Your cart has been modified. This is normally due to inventory fluctuations in the normal course of business. Please review your cart to ensure the order will fulfill your needs.</value>
+  </data>
+  <data name="pnlDashCommerceTaxProviderConfiguration" xml:space="preserve">
+    <value>dashCommerce Tax Provider Configuration</value>
+  </data>
+  <data name="pnlNullPaymentConfiguration" xml:space="preserve">
+    <value>Null Payment Provider Configuration</value>
+  </data>
+  <data name="pnlPercentOffCouponConfiguration" xml:space="preserve">
+    <value>Percent Off Coupon Provider</value>
+  </data>
+  <data name="hlCustomerInformation" xml:space="preserve">
+    <value>Customer Information</value>
+  </data>
+  <data name="lblCustomerInformationDescription" xml:space="preserve">
+    <value>The Customer Information section allows you to perform some action on behalf of a user. These are primarily maintenance functions.</value>
+  </data>
+  <data name="pnlCustomerServiceConfiguration" xml:space="preserve">
+    <value>Customer Service Configuration</value>
+  </data>
+  <data name="pnlCustomerServiceOverview" xml:space="preserve">
+    <value>Customer Service Overview</value>
+  </data>
+  <data name="hlPayPalPro" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="hlPayPalWebsitePaymentsStandard" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="lblAdditionalPaymentMethods" xml:space="preserve">
+    <value>Note: You will be able to add additional payment options later in this set-up process.</value>
+  </data>
+  <data name="lblPayPalPro" xml:space="preserve">
+    <value>Advanced e-commerce solution for established businesses. &lt;a target="_blank"  href="https://www.paypal-marketing.com/html/partner/portal/paymentspro.html"&gt;See Quick Demo&lt;/a&gt;</value>
+  </data>
+  <data name="lblPayPalWebsitePaymentsStandard" xml:space="preserve">
+    <value>Easy to get started. No monthly fees. &lt;a target="_blank"  href="https://www.paypal-marketing.com/html/partner/portal/standard.html"&gt;See Quick Demo&lt;/a&gt;</value>
+  </data>
+  <data name="pnlPaymentSelection" xml:space="preserve">
+    <value>Payment Selection</value>
+  </data>
+  <data name="pnlPayPalPro" xml:space="preserve">
+    <value>PayPal Website Payments Pro</value>
+  </data>
+  <data name="pnlPayPalWebsitePaymentsStandard" xml:space="preserve">
+    <value>PayPal Website Payments Standard</value>
+  </data>
+  <data name="rbCreditCards" xml:space="preserve">
+    <value>Accept credit cards.</value>
+  </data>
+  <data name="rbCreditCardsWithPayPal" xml:space="preserve">
+    <value>Accept credit cards and PayPal.</value>
+  </data>
+  <data name="lblAddTaxToPrice" xml:space="preserve">
+    <value>Add Tax To Price:</value>
+  </data>
+  <data name="lblTaxRate" xml:space="preserve">
+    <value>Tax Rate:</value>
+  </data>
+  <data name="lblVatDescriptionTitle" xml:space="preserve">
+    <value>Vat Tax</value>
+  </data>
+  <data name="pnlVatTaxConfiguration" xml:space="preserve">
+    <value>Vat Tax Configuration:</value>
+  </data>
+  <data name="lblTaxApplied" xml:space="preserve">
+    <value>(Tax Applied)</value>
+  </data>
+  <data name="lblComeBackLater" xml:space="preserve">
+    <value>Our store has been closed for maintenance. Please visit us again soon as we appreciate you stopping by. We apologize for any inconvenience.</value>
+  </data>
+  <data name="lblStoreClosed" xml:space="preserve">
+    <value>Store Closed:</value>
+  </data>
+  <data name="lblStoreClosedAdminLink" xml:space="preserve">
+    <value>If you are the administrator and have failed to turn the store back on, please &lt;a href="{0}"&gt;login&lt;/a&gt; and open the store.</value>
+  </data>
+  <data name="rbAllInOne" xml:space="preserve">
+    <value>I want an all-in-one payment solution that includes a payment gateway and an internet merchant account. Choose your all-in-one solution:</value>
+  </data>
+  <data name="rbExisting" xml:space="preserve">
+    <value>I prefer a payment gateway that works with my existing internet merchant account. Choose your gateway:</value>
+  </data>
+  <data name="titlePaymentSelection" xml:space="preserve">
+    <value>dashCommerce :: Payment Selection</value>
+  </data>
+  <data name="chkPayPalAcceleratedBoarding" xml:space="preserve">
+    <value>Accept PayPal Express Checkout</value>
+  </data>
+  <data name="hlPayPalAcceleratedDemo" xml:space="preserve">
+    <value>See Demo</value>
+  </data>
+  <data name="hlPayPalAcceleratedSetup" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="lblPayPalAcceleratedInstructions" xml:space="preserve">
+    <value>PayPal: Proven to increase sales. According to Jupiter Research, 23% of online shoppers like to pay with PayPal.* If you offer your visitors the choice to pay with PayPal, they will be more likely to buy.</value>
+  </data>
+  <data name="lblPayPaAcceleratedNote" xml:space="preserve">
+    <value>* September 2007 Jupiter Research study of payment preferences online.</value>
+  </data>
+  <data name="rbAPICredentials" xml:space="preserve">
+    <value>API credentials for payments and post-checkout operations: (can be setup later)</value>
+  </data>
+  <data name="rbEmailAddress" xml:space="preserve">
+    <value>Email address to receive PayPal payment:</value>
+  </data>
+  <data name="rbProductionMode" xml:space="preserve">
+    <value>Production Mode</value>
+  </data>
+  <data name="rbSandboxMode" xml:space="preserve">
+    <value>Sandbox Mode (for testing)</value>
+  </data>
+  <data name="rfvEmailAddress" xml:space="preserve">
+    <value>Please supply an email address.</value>
+  </data>
+  <data name="pnlPayPalAcceleratedBoarding" xml:space="preserve">
+    <value>PayPal Express Checkout Accelerated Boarding</value>
+  </data>
+  <data name="pnlPayPalAcceleratedBoardingSetup" xml:space="preserve">
+    <value>PayPal Express Checkout Accelerated Boarding Setup</value>
+  </data>
+  <data name="pnlPayPalApiCredentials" xml:space="preserve">
+    <value>PayPal API Credentials</value>
+  </data>
+  <data name="pnlPayPalExpressConfiguration" xml:space="preserve">
+    <value>PayPal Express Checkout</value>
+  </data>
+  <data name="btnManualTransaction" xml:space="preserve">
+    <value>Process Manual Transaction</value>
+  </data>
+  <data name="lblManualTransaction" xml:space="preserve">
+    <value>If for some reason you should fail to receive transaction information from your payment processor, you can manually add the necessary information here to process the transaction as if your site had received the necessary information from the payment processor. Please use this functionality only as a backup to normal operating procedures.</value>
+  </data>
+  <data name="lblManualTransactionSucceeded" xml:space="preserve">
+    <value>The manual transaction has succeeded.</value>
+  </data>
+  <data name="pnlManualTransaction" xml:space="preserve">
+    <value>Manual Transaction</value>
+  </data>
+  <data name="pnlOrderStatus" xml:space="preserve">
+    <value>Order Status</value>
+  </data>
+  <data name="pnlRefund" xml:space="preserve">
+    <value>Refund</value>
+  </data>
+  <data name="hlAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="hlCommunityForums" xml:space="preserve">
+    <value>Community Forums</value>
+  </data>
+  <data name="hlDashCommerceCom" xml:space="preserve">
+    <value>dashCommerce.com</value>
+  </data>
+  <data name="hlDashCommerceOrg" xml:space="preserve">
+    <value>dashCommerce.org</value>
+  </data>
+  <data name="hlDocumentation" xml:space="preserve">
+    <value>Documentation</value>
+  </data>
+  <data name="lblAboutDescription" xml:space="preserve">
+    <value>You will find information about dashCommerce here.</value>
+  </data>
+  <data name="lblCommunityForumsDescription" xml:space="preserve">
+    <value>If you need some help with dashCommerce, please check out our forums! There is plenty of help there and some other resources for you to use!</value>
+  </data>
+  <data name="lblDashCommerceComDescription" xml:space="preserve">
+    <value>dashCommerce.com is where you will find a new, advanced version of dashCommerce for those that would like to have a fully managed and hosted version of dashCommerce.</value>
+  </data>
+  <data name="lblDashCommerceOrgDescription" xml:space="preserve">
+    <value>dashCommerce.org is the home of dashCommerce. Here you will find all sorts of resources for your dashCommerce site installation and help in the forums.</value>
+  </data>
+  <data name="lblDocumentationDescription" xml:space="preserve">
+    <value>Need some additional documentation? Here you will find some.</value>
+  </data>
+  <data name="pnlHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="lblConnectionStringDoesNotExist" xml:space="preserve">
+    <value>There is no connection string for dashCommerce in connectionString.config. Please add the necessary information.</value>
+  </data>
+  <data name="lblNewOrExistingDatabase" xml:space="preserve">
+    <value>Would you like to:</value>
+  </data>
+  <data name="rfvNewOrExistingDatabase" xml:space="preserve">
+    <value>Please select if you would like to CREATE a new database or if you would like to use an EXISTING database.</value>
+  </data>
+</root>

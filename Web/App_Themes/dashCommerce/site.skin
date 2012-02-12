@@ -1,0 +1,96 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+
+
+<dashCommerce:CheckBox runat="server" CssClass="checkbox" />
+<dashCommerce:Label runat="server" CssClass="label" />
+<dashCommerce:Button runat="server" CssClass="button" />
+<dashCommerce:Label runat="server" CssClass="adminHeader" SkinId="adminHeader" />
+<dashCommerce:Label runat="server" CssClass="smalllabel" SkinId="smalllabel" />
+<dashCommerce:HyperLink runat="server" CssClass="hyperlink" />
+<dashCommerce:LinkButton runat="server" CssClass="hyperlink" />
+<dashCommerce:HyperLink runat="server" ImageUrl="images/checkout.gif" NavigateUrl="~/checkout.aspx" SkinId="proceedToCheckout" />
+<dashCommerce:HyperLink runat="server" CssClass="submodal-640-500" SkinId="submodal-640-500" />
+<dashCommerce:HyperLink runat="server" CssClass="submodal-800-430" SkinId="submodal-800-430" />
+<dashCommerce:HyperLink runat="server" CssClass="biglink" SkinId="biglink" />
+<dashCommerce:HyperLink runat="server" ImageUrl="images/logo.gif" NavigateUrl="http://www.dashcommerce.org" SkinId="sitelogo" />
+<dashCommerce:HyperLink runat="server" ImageUrl="images/logo.gif" NavigateUrl="http://www.dashcommerce.org" SkinId="logo" />
+<dashCommerce:HyperLink runat="server" ImageUrl="images/smalllogo.gif" NavigateUrl="http://www.dashcommerce.org" SkinId="smalllogo" />
+<dashCommerce:HyperLink runat="server" ImageUrl="images/icons/addnew.gif" SkinId="addnew"/>
+<dashCommerce:HelpLink runat="server" ImageUrl="images/icons/addnew.gif" SkinId="addnew"/>
+<dashCommerce:HelpLink runat="server" ImageUrl="images/icons/back.png" SkinId="back" />
+<asp:Image runat="server" ImageUrl="images/close.gif" SkinId="close" />
+<asp:Image runat="server" ImageUrl="images/spinner.gif" SkinId="spinner"/>
+<asp:Image runat="server" ImageUrl="images/closed.jpg" SkinId="closed" />
+<asp:Image runat="server" ImageUrl="images/icons/cart.gif" SkinId="cart"/>
+<asp:Image runat="server" ImageUrl="images/icons/success.gif" SkinId="success" />
+<asp:Image runat="server" ImageUrl="images/icons/information.gif" SkinId="information" />
+<asp:Image runat="server" ImageUrl="images/icons/error.gif" SkinId="error"/>
+<asp:Image runat="server" ImageUrl="images/icons/critical.gif" SkinId="critical"/>
+<dashCommerce:HelpLink runat="server" ImageUrl="images/icons/help.gif" />
+<dashCommerce:HyperLink runat="server" ImageUrl="images/noDefaultImage.gif" SkinId="noDefaultImage" CssClass="productImage"/>
+<dashCommerce:HyperLink runat="server" ImageUrl="images/icons/right.gif" SkinId="next"/>
+<dashCommerce:HyperLink runat="server" ImageUrl="images/icons/left.gif" SkinId="previous"/>
+<dashCommerce:HyperLink runat="server" ImageUrl="images/1pix.gif" SkinId="noCategoryImage" />
+<asp:Image runat="server" ImageUrl="images/icons/amex.gif" SkinId="amex"/>
+<asp:Image runat="server" ImageUrl="images/icons/visa.gif" SkinId="visa"/>
+<asp:Image runat="server" ImageUrl="images/icons/mc.gif" SkinId="mc"/>
+<asp:Image runat="server" ImageUrl="images/icons/paypal.gif" SkinId="paypal"/>
+<asp:Image runat="server" ImageUrl="images/icons/discover.gif" SkinId="discover"/>
+<asp:Image runat="server" ImageUrl="images/icons/maestro.gif" SkinId="maestro"/>
+<asp:Image runat="server" ImageUrl="images/icons/solo.gif" SkinId="solo"/>
+<asp:Image runat="server" ImageUrl="images/noDefaultImage.gif" SkinId="noImage"/>
+<asp:Image runat="server" ImageUrl="images/rss_reflection.gif" SkinId="rssReflect"/>
+<asp:Image runat="server" ImageUrl="images/icons/SSL.png" SkinId="ssl"/>
+<asp:ImageButton runat="server" ImageUrl="images/icons/critical.gif" SkinId="delete"/>
+<dashCommerce:DataGrid runat="server" CssClass="adminTable" SkinId="adminDataGrid" AllowPaging="true" PageSize="30">
+  <HeaderStyle CssClass="adminTableHeader" />
+  <AlternatingItemStyle BackColor="#CADBFF" CssClass="row" />
+  <ItemStyle BackColor="#FFFFFF" CssClass="row"/>
+  <PagerStyle Mode="NumericPages" BackColor="#EBEBEB" />
+</dashCommerce:DataGrid>
+<dashCommerce:DataGrid runat="server" CssClass="adminTable" SkinId="adminDataGridNoPage">
+  <HeaderStyle CssClass="adminTableHeader" />
+  <AlternatingItemStyle BackColor="#CADBFF" CssClass="row" />
+  <ItemStyle BackColor="#FFFFFF" CssClass="row"/>
+  <PagerStyle Mode="NumericPages" BackColor="#EBEBEB" />
+</dashCommerce:DataGrid>
+<dashCommerce:DataGrid runat="server" CssClass="adminTable" SkinId="adminDataGridNoPageSmall" Font-Size=".7em">
+  <HeaderStyle CssClass="adminTableHeader" />
+  <AlternatingItemStyle BackColor="#CADBFF" CssClass="row" />
+  <ItemStyle BackColor="#FFFFFF" CssClass="row"/>
+</dashCommerce:DataGrid>
+<dashCommerce:HyperLink runat="server" CssClass="showAll" SkinId="showAll"/>
+<asp:ImageButton runat="server" ImageUrl="images/icons/up.gif" SkinId="up"/>
+<asp:ImageButton runat="server" ImageUrl="images/icons/down.gif" SkinId="down"/>
+<asp:Menu runat="server" DynamicPopOutImageUrl="images/icons/whitearrow.gif" StaticPopOutImageUrl="images/icons/whitearrow.gif" SkinId="menu"/>
+<asp:Menu runat="server" StaticBottomSeparatorImageUrl="images/icons/breadcrumb.gif" CssClass="breadcrumbs" SkinId="breadcrumbs" />
+<asp:DataList runat="server" RepeatColumns="3" RepeatDirection="Horizontal" RepeatLayout="Table" SkinId="catalogList" CssClass="catalogListing"/>
+<asp:Rating runat="server" StarCssClass="ratingStar" FilledStarCssClass="filledStar" WaitingStarCssClass="waitingStar" EmptyStarCssClass="emptyStar" SkinId="rating" CssClass="rating" />
+<asp:CollapsiblePanelExtender runat="server" CollapsedImage="images/icons/down.gif" ExpandedImage="images/icons/up.gif" SkinId="withImage"/>
+<asp:RadioButtonList runat="server" CssClass="smallradiobuttonlist" SkinId="smallradiobuttonlist" />
+<dashCommerce:Panel runat="server" CssClass="accordionHeader" SkinId="accordionHeader" />
+<dashCommerce:Panel runat="server" CssClass="checkoutRightPanel" SkinId="checkoutRightPanel" />
+
+<%-- for providers --%>
+<asp:Image runat="server" ImageUrl="images/icons/help.gif" SkinId="help"/>
+<asp:DataGrid runat="server" CssClass="adminTable" SkinId="adminDataGrid" AllowPaging="true" PageSize="30">
+  <HeaderStyle CssClass="adminTableHeader" />
+  <AlternatingItemStyle BackColor="#CADBFF" CssClass="row" />
+  <ItemStyle BackColor="#FFFFFF" CssClass="row"/>
+  <PagerStyle Mode="NumericPages" BackColor="#EBEBEB" />
+</asp:DataGrid>

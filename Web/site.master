@@ -1,0 +1,59 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.master.cs" Inherits="MettleSystems.dashCommerce.Web.site" %>
+<%@ Register TagPrefix="dashCommerce" TagName="AnonymousUser" Src="~/controls/authentication/anonymoususer.ascx" %>
+<%@ Register TagPrefix="dashCommerce" TagName="AuthenticatedUser" Src="~/controls/authentication/authenticateduser.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head1" runat="server">
+  <meta runat="Server" name="keywords" id="KeywordsTag"/>
+  <meta runat="Server" name="description" id="DescriptionTag"/>
+  <meta runat="Server" name="generator" id="GeneratorTag"/>
+  <meta runat="Server" name="copyright" id="CopyrightTag"/> 
+  <title></title>
+  <asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body id="body" runat="server">
+  <div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+  <div id="allContent" runat="server" class="allContent">
+    <form id="form1" runat="server">
+      <asp:scriptmanager ID="scriptManager" runat="server" EnablePartialRendering="true" />
+      <div id="headerRegion">
+        <div class="welcomePanel">
+          <asp:LoginView ID="loginView" runat="server">
+            <AnonymousTemplate>
+              <dashCommerce:AnonymousUser id="dcAnonymousUser" runat="server" />
+            </AnonymousTemplate>
+            <LoggedInTemplate>
+              <dashCommerce:AuthenticatedUser id="dcAuthenticatedUser" runat="server" />
+            </LoggedInTemplate>
+          </asp:LoginView>
+        </div>
+        <dashCommerce:HyperLink ID="hlLogo" runat="server" SkinID="sitelogo" EnableViewState="false" />
+          <div class="contentMenu">
+            <asp:Menu runat="server" ID="siteMenu" SkinID="menu" Orientation="Horizontal" StaticDisplayLevels="1" DataSourceID="xmlDataSource" EnableViewState="false" >
+              <DynamicMenuStyle CssClass="dynamicMenuStyle" />
+              <LevelMenuItemStyles>
+                <asp:MenuItemStyle CssClass="siteLevel1" />
+                <asp:MenuItemStyle CssClass="siteLevel2" />
+                <asp:MenuItemStyle CssClass="siteLevel2" />
+                <asp:MenuItemStyle CssClass="siteLevel2" />
+              </LevelMenuItemStyles>
+              <DataBindings>
+                <asp:MenuItemBinding DataMember="MenuItem" NavigateUrlField="NavigateUrl" TextField="Text" ValueField="Value" ToolTipField="ToolTip" />
+              </DataBindings>
+            </asp:Menu>
+            <asp:XmlDataSource ID="xmlDataSource" TransformFile="~/transforms/siteNavigation.xslt" XPath="MenuItems/MenuItem" runat="server" />
+          </div>
+      </div>
+      <div id="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
+      <div id="footer">
+        <hr />
+      </div>
+    </form>
+  </div>
+  <asp:Literal ID="litAnalytics" runat="server" EnableViewState="false" />
+</body>
+</html>

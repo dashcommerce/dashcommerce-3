@@ -1,0 +1,1902 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="adminNavSite" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="btnAddProduct" xml:space="preserve">
+    <value>Product toevoegen</value>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="btnDeleteAll" xml:space="preserve">
+    <value>Alles verwijderen</value>
+  </data>
+  <data name="btnGenerate" xml:space="preserve">
+    <value>Genereren</value>
+  </data>
+  <data name="btnManufacturerAdd" xml:space="preserve">
+    <value>Fabrikant toevoegen</value>
+  </data>
+  <data name="btnNext" xml:space="preserve">
+    <value>Volgende &gt;&gt;</value>
+  </data>
+  <data name="btnPrevious" xml:space="preserve">
+    <value>&lt;&lt; Vorige</value>
+  </data>
+  <data name="btnProcessOrder" xml:space="preserve">
+    <value>Bestelling verwerken</value>
+  </data>
+  <data name="btnProductTypeAdd" xml:space="preserve">
+    <value>Product type toevoegen</value>
+  </data>
+  <data name="btnRefreshProviders" xml:space="preserve">
+    <value>Vernieuw providers</value>
+  </data>
+  <data name="btnRefundTransaction" xml:space="preserve">
+    <value>Betaal transactie terug</value>
+  </data>
+  <data name="btnRemoveProvider" xml:space="preserve">
+    <value>Verwijder provider</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="btnTest" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="btnSaveInventory" xml:space="preserve">
+    <value>Voorraad opslaan</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="btnSetDefaultProvider" xml:space="preserve">
+    <value>Stel standaard provider in</value>
+  </data>
+  <data name="btnSetProvider" xml:space="preserve">
+    <value>Provider instellen</value>
+  </data>
+  <data name="btnUpload" xml:space="preserve">
+    <value>Uploaden</value>
+  </data>
+  <data name="chkActive" xml:space="preserve">
+    <value>Actief</value>
+  </data>
+  <data name="chkAllowNegativeInventories" xml:space="preserve">
+    <value>Sta een negatieve inventaris toe</value>
+  </data>
+  <data name="chkUseForShipping" xml:space="preserve">
+    <value>Gebruik voor verzending?</value>
+  </data>
+  <data name="cuwRegisterAnswerLabelText" xml:space="preserve">
+    <value>Geheim antwoord</value>
+  </data>
+  <data name="cuwRegisterCompleteStepTitle" xml:space="preserve">
+    <value>Compleet</value>
+  </data>
+  <data name="cuwRegisterCompleteSuccessText" xml:space="preserve">
+    <value>Uw account is met succes gecreëerd.</value>
+  </data>
+  <data name="cuwRegisterConfirmPasswordLabelText" xml:space="preserve">
+    <value>Bevestig wachtwoord</value>
+  </data>
+  <data name="cuwRegisterCreateUserButtonText" xml:space="preserve">
+    <value>Doorgaan</value>
+  </data>
+  <data name="cuwRegisterCreateUserStepTitle" xml:space="preserve">
+    <value>Aanmelden voor uw nieuwe account</value>
+  </data>
+  <data name="cuwRegisterEmailLabelText" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="cuwRegisterFinishCompleteButtonText" xml:space="preserve">
+    <value>Afronden</value>
+  </data>
+  <data name="cuwRegisterPasswordLabelText" xml:space="preserve">
+    <value>Wachtwoord</value>
+  </data>
+  <data name="cuwRegisterQuestionLabelText" xml:space="preserve">
+    <value>Geheime vraag</value>
+  </data>
+  <data name="cuwRegisterUserNameLabelText" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="exCannotRemoveDefaultProvider" xml:space="preserve">
+    <value>Deze provider is de standaardprovider. Selecteer alstublieft een andere standaard provider en probeer dan deze provider te verwijderen.</value>
+  </data>
+  <data name="hdrActive" xml:space="preserve">
+    <value>Actief</value>
+  </data>
+  <data name="hdrAdd" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="hdrAddRemove" xml:space="preserve">
+    <value>Toevoegen / Verwijderen</value>
+  </data>
+  <data name="hdrAdjustment" xml:space="preserve">
+    <value>Aanpassing</value>
+  </data>
+  <data name="hdrAmountPerUnit" xml:space="preserve">
+    <value>Bedrag per eenheid</value>
+  </data>
+  <data name="hdrApproved" xml:space="preserve">
+    <value>Goedgekeurd</value>
+  </data>
+  <data name="hdrAttributeType" xml:space="preserve">
+    <value>AttribuutType</value>
+  </data>
+  <data name="hdrConfigurationControlPath" xml:space="preserve">
+    <value>Configuratie Control Pad</value>
+  </data>
+  <data name="hdrCreatedBy" xml:space="preserve">
+    <value>Gecreëerd door</value>
+  </data>
+  <data name="hdrCreatedDate" xml:space="preserve">
+    <value>Datum gecreëerd</value>
+  </data>
+  <data name="hdrCreatedOn" xml:space="preserve">
+    <value>Gecreëerde op</value>
+  </data>
+  <data name="hdrDelete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="hdrDescriptor" xml:space="preserve">
+    <value>Beschrijver (HTML verwijderd voor eenvoud)</value>
+  </data>
+  <data name="hdrDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="hdrDiscount" xml:space="preserve">
+    <value>Korting</value>
+  </data>
+  <data name="hdrDisplayed" xml:space="preserve">
+    <value>Getoond</value>
+  </data>
+  <data name="hdrEdit" xml:space="preserve">
+    <value>Bewerken</value>
+  </data>
+  <data name="hdrEmailAddress" xml:space="preserve">
+    <value>Email adres</value>
+  </data>
+  <data name="hdrExpirationDate" xml:space="preserve">
+    <value>Verval datum</value>
+  </data>
+  <data name="hdrHits" xml:space="preserve">
+    <value>Hits</value>
+  </data>
+  <data name="hdrImage" xml:space="preserve">
+    <value>Afbeelding</value>
+  </data>
+  <data name="hdrImageCaption" xml:space="preserve">
+    <value>Afbeelding onderschrift</value>
+  </data>
+  <data name="hdrInventory" xml:space="preserve">
+    <value>Inventaris</value>
+  </data>
+  <data name="hdrIsEnabled" xml:space="preserve">
+    <value>Is ingeschakeld</value>
+  </data>
+  <data name="hdrIsRequired" xml:space="preserve">
+    <value>Is vereist</value>
+  </data>
+  <data name="hdrLastLogin" xml:space="preserve">
+    <value>Laatste login</value>
+  </data>
+  <data name="hdrLastModified" xml:space="preserve">
+    <value>Laatste wijziging</value>
+  </data>
+  <data name="hdrLogDate" xml:space="preserve">
+    <value>Log datum</value>
+  </data>
+  <data name="hdrLogLevel" xml:space="preserve">
+    <value>Log niveau</value>
+  </data>
+  <data name="hdrLogMessage" xml:space="preserve">
+    <value>Log bericht</value>
+  </data>
+  <data name="hdrMove" xml:space="preserve">
+    <value>Verplaatsen</value>
+  </data>
+  <data name="hdrName" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="hdrOrderNumber" xml:space="preserve">
+    <value>Bestelnummer</value>
+  </data>
+  <data name="hdrRate" xml:space="preserve">
+    <value>Tarief</value>
+  </data>
+  <data name="hdrRegionCode" xml:space="preserve">
+    <value>Regiocode</value>
+  </data>
+  <data name="hdrReviewSample" xml:space="preserve">
+    <value>Bekijk voorbeeld</value>
+  </data>
+  <data name="hdrRoleName" xml:space="preserve">
+    <value>Role Name</value>
+  </data>
+  <data name="hdrSearchTerm" xml:space="preserve">
+    <value>Zoekterm</value>
+  </data>
+  <data name="hdrService" xml:space="preserve">
+    <value>Dienst</value>
+  </data>
+  <data name="hdrSku" xml:space="preserve">
+    <value>Sku</value>
+  </data>
+  <data name="hdrSkuSuffix" xml:space="preserve">
+    <value>Sku achtervoegsel</value>
+  </data>
+  <data name="hdrSortOrder" xml:space="preserve">
+    <value>Sorteer volgorde</value>
+  </data>
+  <data name="hdrStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="hdrSystemNotification" xml:space="preserve">
+    <value>Systeembericht</value>
+  </data>
+  <data name="hdrTitle" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="hdrTotal" xml:space="preserve">
+    <value>Totaal</value>
+  </data>
+  <data name="hdrType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="hdrUserName" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="hlAddProduct" xml:space="preserve">
+    <value>[+] Product Toevoegen</value>
+  </data>
+  <data name="hlConfigureProviders" xml:space="preserve">
+    <value>Configureer {0} Providers</value>
+  </data>
+  <data name="hlEditLink" xml:space="preserve">
+    <value>Bewerken</value>
+  </data>
+  <data name="hlGeneralSettings" xml:space="preserve">
+    <value>Algemeen {0} instellingen</value>
+  </data>
+  <data name="hlLogin" xml:space="preserve">
+    <value>Inloggen</value>
+  </data>
+  <data name="hlMailConfiguration" xml:space="preserve">
+    <value>Mail configuratie</value>
+  </data>
+  <data name="hlMailSettings" xml:space="preserve">
+    <value>Mail instellingen</value>
+  </data>
+  <data name="hlManageProviders" xml:space="preserve">
+    <value>Beheer {0} providers</value>
+  </data>
+  <data name="hlMyAccount" xml:space="preserve">
+    <value>Mijn account</value>
+  </data>
+  <data name="hlNotifications" xml:space="preserve">
+    <value>Berichten</value>
+  </data>
+  <data name="hlPaymentConfiguration" xml:space="preserve">
+    <value>Betaling configuratie</value>
+  </data>
+  <data name="hlRegister" xml:space="preserve">
+    <value>Registreren</value>
+  </data>
+  <data name="hlReview" xml:space="preserve">
+    <value>Beoordeel het!</value>
+  </data>
+  <data name="hlShippingConfiguration" xml:space="preserve">
+    <value>Verzending configuratie</value>
+  </data>
+  <data name="hlTaxConfiguration" xml:space="preserve">
+    <value>Belasting configuratie</value>
+  </data>
+  <data name="lbAddNew" xml:space="preserve">
+    <value>Nieuwe toevoegen</value>
+  </data>
+  <data name="lbChangeEmail" xml:space="preserve">
+    <value>Wijzig email</value>
+  </data>
+  <data name="lbChangePassword" xml:space="preserve">
+    <value>Wijzig wachtwoord</value>
+  </data>
+  <data name="lbChangeSecurityQuestion" xml:space="preserve">
+    <value>Wijzig geheime vraag</value>
+  </data>
+  <data name="lblAdd" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="lblAddNote" xml:space="preserve">
+    <value>Een notitie toevoegen:</value>
+  </data>
+  <data name="lblAddress" xml:space="preserve">
+    <value>Adres:</value>
+  </data>
+  <data name="lblAddUser" xml:space="preserve">
+    <value>[+] Gebruiker toevoegen</value>
+  </data>
+  <data name="lblAdjustment" xml:space="preserve">
+    <value>Aanpassing:</value>
+  </data>
+  <data name="lblAmountPerUnit" xml:space="preserve">
+    <value>Bedrag per eenheid:</value>
+  </data>
+  <data name="lblAnalytics" xml:space="preserve">
+    <value>Analytics:</value>
+  </data>
+  <data name="lblApiPassword" xml:space="preserve">
+    <value>API Wachtwoord:</value>
+  </data>
+  <data name="lblApiUserName" xml:space="preserve">
+    <value>API Gebruikersnaam:</value>
+  </data>
+  <data name="lblAttributeAdministration" xml:space="preserve">
+    <value>Attribuut beheer</value>
+  </data>
+  <data name="lblAttributedAdded" xml:space="preserve">
+    <value>Attribuut toegevoegd.</value>
+  </data>
+  <data name="lblAttributedDeleted" xml:space="preserve">
+    <value>Attribuut verijderd.</value>
+  </data>
+  <data name="lblAttributeItemName" xml:space="preserve">
+    <value>Naam:</value>
+  </data>
+  <data name="lblAttributesNotSaved" xml:space="preserve">
+    <value>Attributen niet opgeslagen.</value>
+  </data>
+  <data name="lblAttributesSaved" xml:space="preserve">
+    <value>Attributen opgeslagen.</value>
+  </data>
+  <data name="lblAttributeType" xml:space="preserve">
+    <value>Attribuut type:</value>
+  </data>
+  <data name="lblAverageRating" xml:space="preserve">
+    <value>Gemiddelde beoordeling:</value>
+  </data>
+  <data name="lblAVSCode" xml:space="preserve">
+    <value>AVS code:</value>
+  </data>
+  <data name="lblBaseSku" xml:space="preserve">
+    <value>Sku / Basis Sku:</value>
+  </data>
+  <data name="lblBillingAddressTitle" xml:space="preserve">
+    <value>Facturatie adres</value>
+  </data>
+  <data name="lblBillingInformation" xml:space="preserve">
+    <value>Facturatie informatie</value>
+  </data>
+  <data name="lblBrowsingCategory" xml:space="preserve">
+    <value>Blader categorie:</value>
+  </data>
+  <data name="lblBrowsingProduct" xml:space="preserve">
+    <value>Blader product:</value>
+  </data>
+  <data name="lblBundleAdministration" xml:space="preserve">
+    <value>Bundel beheer</value>
+  </data>
+  <data name="lblBundleSaved" xml:space="preserve">
+    <value>Bundel opgeslagen.</value>
+  </data>
+  <data name="lblBusinessEmail" xml:space="preserve">
+    <value>Zakelijke email:</value>
+  </data>
+  <data name="lblCancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="lblCart" xml:space="preserve">
+    <value>Mijn winkelwagen</value>
+  </data>
+  <data name="lblCategory" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="lblCategoryItems" xml:space="preserve">
+    <value>Aantal weer te geven items op de catalogus pagina:</value>
+  </data>
+  <data name="lblCategoryListing" xml:space="preserve">
+    <value>Categorie bladeren log weergave:</value>
+  </data>
+  <data name="lblCcList" xml:space="preserve">
+    <value>Cc lijst:</value>
+  </data>
+  <data name="lblCity" xml:space="preserve">
+    <value>Stad:</value>
+  </data>
+  <data name="lblCollectBrowsingStatistics" xml:space="preserve">
+    <value>Verzamel bezoekers statistieken:</value>
+  </data>
+  <data name="lblCollectSearchTerms" xml:space="preserve">
+    <value>Verzamel zoek termen:</value>
+  </data>
+  <data name="lblCompleteInstructions" xml:space="preserve">
+    <value>De installatie van dashCommerce is voltooid! &lt;strong&gt;U wordt verzocht de installatie map te verwijderen zodat de installatie niet nogmaals gedraait kan worden.&lt;/strong&gt; U kunt nu inloggen met de administratie account die u zojuist heeft aangemaakt en starten met het inrichten van uw site!</value>
+  </data>
+  <data name="lblConfigurationControlPath" xml:space="preserve">
+    <value>Configuratie Control pad:</value>
+  </data>
+  <data name="lblConfigureProvidersDescription" xml:space="preserve">
+    <value>De Configureer {1} Providers sectie laat u de details van de {0} providers beheren welke u heeft toegevoegd via de Beheer {1} Provider pagina's. Hier kunt u installingen wijzigen zoals de gebruikersnamen en wachtwoorden van de {0} providers die u in dashCommerce heeft geladen.</value>
+  </data>
+  <data name="lblConfirmDelete" xml:space="preserve">
+    <value>Wilt u doorgaan met verwijderen?</value>
+  </data>
+  <data name="lblConnectionStringInstructions" xml:space="preserve">
+    <value>&lt;strong&gt;Before proceeding&lt;/strong&gt;, please copy and paste the connection string below into the connectionString.config file. Simply replace the line that has:&lt;br/&gt;&lt;br/&gt; &amp;lt;add name="dashCommerce" connectionString=""  providerName="System.Data.SqlClient" /&amp;gt;&lt;br/&gt;&lt;br/&gt; with the following:</value>
+  </data>
+  <data name="lblContent" xml:space="preserve">
+    <value>Inhoud:</value>
+  </data>
+  <data name="lblContentManagement" xml:space="preserve">
+    <value>Inhoud beheer</value>
+  </data>
+  <data name="lblContentManagementDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblContinue" xml:space="preserve">
+    <value>Doorgaan</value>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>Land:</value>
+  </data>
+  <data name="lblCoupon" xml:space="preserve">
+    <value>Coupon:</value>
+  </data>
+  <data name="lblCouponCode" xml:space="preserve">
+    <value>Coupon code:</value>
+  </data>
+  <data name="lblCouponInformation" xml:space="preserve">
+    <value>Coupon informatie</value>
+  </data>
+  <data name="lblCouponInformationTitle" xml:space="preserve">
+    <value>Coupon informatie</value>
+  </data>
+  <data name="lblCouponManagement" xml:space="preserve">
+    <value>Coupon beheer</value>
+  </data>
+  <data name="lblCouponNotSaved" xml:space="preserve">
+    <value>Coupon niet opgeslagen.</value>
+  </data>
+  <data name="lblCouponProviderManagement" xml:space="preserve">
+    <value>Coupon Provider beheer</value>
+  </data>
+  <data name="lblCouponSaved" xml:space="preserve">
+    <value>Coupon opgeslagen.</value>
+  </data>
+  <data name="lblCreatedOn" xml:space="preserve">
+    <value>Gecreëerd op</value>
+  </data>
+  <data name="lblCreditCardNumber" xml:space="preserve">
+    <value>Creditcard nummer:</value>
+  </data>
+  <data name="lblCreditCardSecurityNumber" xml:space="preserve">
+    <value>Creditcard Security nummer:</value>
+  </data>
+  <data name="lblCriticalError" xml:space="preserve">
+    <value>Er is een fatale fout opgetreden: {0}</value>
+  </data>
+  <data name="lblCrossSellDeleted" xml:space="preserve">
+    <value>Gerelateerde verkoop verwijderd.</value>
+  </data>
+  <data name="lblCrossSells" xml:space="preserve">
+    <value>Misschien bent u ook geïnteresseerd in:</value>
+  </data>
+  <data name="lblCrossSellSaved" xml:space="preserve">
+    <value>Gerelateerde verkoop opgeslagen</value>
+  </data>
+  <data name="lblCurrency" xml:space="preserve">
+    <value>Valuta:</value>
+  </data>
+  <data name="lblCVV2Code" xml:space="preserve">
+    <value>CVV2 Code:</value>
+  </data>
+  <data name="lblDatabaseInstructions" xml:space="preserve">
+    <value>&lt;p&gt;In order to use this installer, you need to have created a database on your database server. If you have not done so, please do so before proceeding.&lt;/p&gt;&lt;p&gt;Once you have completed creating the database, enter the information below. This information will be used to connect to your database in order to run the installer scripts.&lt;/p&gt;</value>
+  </data>
+  <data name="lblDatabaseName" xml:space="preserve">
+    <value>Database naam:</value>
+  </data>
+  <data name="lblDatabasePassword" xml:space="preserve">
+    <value>Database wachtwoord:</value>
+  </data>
+  <data name="lblDatabaseServer" xml:space="preserve">
+    <value>Database server:</value>
+  </data>
+  <data name="lblDatabaseUserName" xml:space="preserve">
+    <value>Database gebruikersnaam:</value>
+  </data>
+  <data name="lblDefaultPaymentProviderNotSaved" xml:space="preserve">
+    <value>De standaard betaal Provider is niet opgeslagen.</value>
+  </data>
+  <data name="lblDefaultPaymentProviderSaved" xml:space="preserve">
+    <value>De standaard betaal Provider is opgeslagen.</value>
+  </data>
+  <data name="lblDefaultProviderInstructions" xml:space="preserve">
+    <value>The standaard provider, indien aanwezig, is vet gedrukt.</value>
+  </data>
+  <data name="lblDefaultRate" xml:space="preserve">
+    <value>Standaard tarief:</value>
+  </data>
+  <data name="lblDefaultShippingProviderNotSaved" xml:space="preserve">
+    <value>De standaard verzend provider is niet opgeslagen.</value>
+  </data>
+  <data name="lblDefaultShippingProviderSaved" xml:space="preserve">
+    <value>De standaard verzend provider is opgeslagen.</value>
+  </data>
+  <data name="lblDefaultTaxProviderNotSaved" xml:space="preserve">
+    <value>De standaard belasting provider is niet opgeslagen.</value>
+  </data>
+  <data name="lblDefaultTaxProviderSaved" xml:space="preserve">
+    <value>De standaard belasting provider is opgeslagen.</value>
+  </data>
+  <data name="lblDelete" xml:space="preserve">
+    <value>Verwijder</value>
+  </data>
+  <data name="lblDeleteAllLogs" xml:space="preserve">
+    <value>Alle logs zijn verwijderd</value>
+  </data>
+  <data name="lblDescription" xml:space="preserve">
+    <value>Beschrijving:</value>
+  </data>
+  <data name="lblDescriptorSaved" xml:space="preserve">
+    <value>De product beshrijving is opgeslagen.</value>
+  </data>
+  <data name="lblDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="lblDimensions" xml:space="preserve">
+    <value>Afmetingen:</value>
+  </data>
+  <data name="lblDiscount" xml:space="preserve">
+    <value>Korting:</value>
+  </data>
+  <data name="lblDisplayNarrowByManufacturer" xml:space="preserve">
+    <value>Toon Sorteer Op Fabrikant</value>
+  </data>
+  <data name="lblDisplaySortBy" xml:space="preserve">
+    <value>Display Sort By Widget:</value>
+  </data>
+  <data name="lblDisplayNarrowByPrice" xml:space="preserve">
+    <value>Toon Sorteer Op Prijs:</value>
+  </data>
+  <data name="lblDisplayRetailPrice" xml:space="preserve">
+    <value>Toon retail prijs:</value>
+  </data>
+  <data name="lblEdit" xml:space="preserve">
+    <value>Bewerken</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="lblEmailAddress" xml:space="preserve">
+    <value>Email adres:</value>
+  </data>
+  <data name="lblEmailAddressesDoNotMatch" xml:space="preserve">
+    <value>De email adressen komen niet overeen.</value>
+  </data>
+  <data name="lblEmailConfirmation" xml:space="preserve">
+    <value>Bevestig email:</value>
+  </data>
+  <data name="lblErrorLogDetail" xml:space="preserve">
+    <value>Foutlog detail</value>
+  </data>
+  <data name="lblErrorLogListing" xml:space="preserve">
+    <value>Foutlog lijst</value>
+  </data>
+  <data name="lblErrorLogs" xml:space="preserve">
+    <value>Foutlog</value>
+  </data>
+  <data name="lblErrorLogsDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblErrorMessage" xml:space="preserve">
+    <value>Excuses. Er is een fout opgetreden, de melding is opgeslagen. Indien het probleem zich blijft voordoen, neemt u dan alstublieft contact met ons op!</value>
+  </data>
+  <data name="lblExpiration" xml:space="preserve">
+    <value>Verval:</value>
+  </data>
+  <data name="lblExpirationDate" xml:space="preserve">
+    <value>Verval datum:</value>
+  </data>
+  <data name="lblExtendedAmount" xml:space="preserve">
+    <value>Uitgebreid aantal</value>
+  </data>
+  <data name="lblFeeAmount" xml:space="preserve">
+    <value>Prijs aantal:</value>
+  </data>
+  <data name="lblFirstName" xml:space="preserve">
+    <value>Voornaam:</value>
+  </data>
+  <data name="lblFooterColor" xml:space="preserve">
+    <value>Voetnoot kleur:</value>
+  </data>
+  <data name="lblFrom" xml:space="preserve">
+    <value>Afzender:</value>
+  </data>
+  <data name="lblFromEmail" xml:space="preserve">
+    <value>Afzender email:</value>
+  </data>
+  <data name="lblFromName" xml:space="preserve">
+    <value>Afzender naam:</value>
+  </data>
+  <data name="lblGatewayErrors" xml:space="preserve">
+    <value>Gateway fouten:</value>
+  </data>
+  <data name="lblGatewayName" xml:space="preserve">
+    <value>Gateway naam:</value>
+  </data>
+  <data name="lblGatewayResponse" xml:space="preserve">
+    <value>Gateway reactie:</value>
+  </data>
+  <data name="lblGatewayTransactionId" xml:space="preserve">
+    <value>Gateway Transactie Id:</value>
+  </data>
+  <data name="lblGeneralPaymentSettings" xml:space="preserve">
+    <value>General betaal instellingen</value>
+  </data>
+  <data name="lblGeneralSettingsDescription" xml:space="preserve">
+    <value>Dit zijn algemene instellingen voor de {0} dienst. Deze instellingen zijn niet {0} provider specifiek en worden toegepast op de algehele winkel.</value>
+  </data>
+  <data name="lblGeneralShippingSettings" xml:space="preserve">
+    <value>Algemene verzend instellingen</value>
+  </data>
+  <data name="lblGeneralTaxSettings" xml:space="preserve">
+    <value>Algemene belasting instellingen</value>
+  </data>
+  <data name="lblGrossAmount" xml:space="preserve">
+    <value>Bruto aantal:</value>
+  </data>
+  <data name="lblHeaderHeight" xml:space="preserve">
+    <value>Hoogte:</value>
+  </data>
+  <data name="lblHeight" xml:space="preserve">
+    <value>Hoogte:</value>
+  </data>
+  <data name="lblHost" xml:space="preserve">
+    <value>Host:</value>
+  </data>
+  <data name="lblImageCaption" xml:space="preserve">
+    <value>Afbeelding onderschrift:</value>
+  </data>
+  <data name="lblImageFile" xml:space="preserve">
+    <value>Afbeelding bestand:</value>
+  </data>
+  <data name="lblImageSaved" xml:space="preserve">
+    <value>Afbeelding opgeslagen.</value>
+  </data>
+  <data name="lblInstalledPaymentProviders" xml:space="preserve">
+    <value>Geïnstalleerde betaling providers:</value>
+  </data>
+  <data name="lblInstalledShippingProviders" xml:space="preserve">
+    <value>Geïnstalleerde verzend Providers:</value>
+  </data>
+  <data name="lblInstalledTaxProviders" xml:space="preserve">
+    <value>Geïnstalleerde belasting Providers</value>
+  </data>
+  <data name="lblInventoriesSaved" xml:space="preserve">
+    <value>Inventarissen opgeslagen</value>
+  </data>
+  <data name="lblIsApproved" xml:space="preserve">
+    <value>Goedgekeurd:</value>
+  </data>
+  <data name="lblIsDisplayed" xml:space="preserve">
+    <value>Getoond:</value>
+  </data>
+  <data name="lblIsHtml" xml:space="preserve">
+    <value>Is HTML:</value>
+  </data>
+  <data name="lblIsLive" xml:space="preserve">
+    <value>Is Live:</value>
+  </data>
+  <data name="lblIsSingleUse" xml:space="preserve">
+    <value>Is eenmalig gebruik:</value>
+  </data>
+  <data name="lblIsSystemNotification" xml:space="preserve">
+    <value>Systeembericht:</value>
+  </data>
+  <data name="lblItem" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="lblItemSku" xml:space="preserve">
+    <value>Sku</value>
+  </data>
+  <data name="lblKeywords" xml:space="preserve">
+    <value>Trefwoorden:</value>
+  </data>
+  <data name="lblLabel" xml:space="preserve">
+    <value>Label:</value>
+  </data>
+  <data name="lblLanguage" xml:space="preserve">
+    <value>Taal:</value>
+  </data>
+  <data name="lblLastLogin" xml:space="preserve">
+    <value>Laatste login</value>
+  </data>
+  <data name="lblLastName" xml:space="preserve">
+    <value>Achternaam:</value>
+  </data>
+  <data name="lblLength" xml:space="preserve">
+    <value>Lengte:</value>
+  </data>
+  <data name="lblLoading" xml:space="preserve">
+    <value>Laden . . .ogenblik geduld.</value>
+  </data>
+  <data name="lblLogDate" xml:space="preserve">
+    <value>Datum loggen</value>
+  </data>
+  <data name="lblLogLevel" xml:space="preserve">
+    <value>Niveau loggen</value>
+  </data>
+  <data name="lblLogMessage" xml:space="preserve">
+    <value>Bericht loggen</value>
+  </data>
+  <data name="lblMailConfiguration" xml:space="preserve">
+    <value>Mail configuratie</value>
+  </data>
+  <data name="lblMailConfigurationDescription" xml:space="preserve">
+    <value>De mail configuratie sectie laat u de SMPT server configureren. U vindt ook hier de emails en berichten die tijdens het bestelproces naar klanten zijn gestuurd.</value>
+  </data>
+  <data name="lblMailSettingsDescription" xml:space="preserve">
+    <value>Mail instellingen zijn de verbindingsgegevens van uw SMTP server, in geval van onzekerheid kunt u uw provider raadplegen.</value>
+  </data>
+  <data name="lblMailSettingsNotSaved" xml:space="preserve">
+    <value>Mail instellingen niet opgeslagen.</value>
+  </data>
+  <data name="lblMailSettingsSaved" xml:space="preserve">
+    <value>Mail instellingen opgeslagen.</value>
+  </data>
+  <data name="lblMailSettingsTestSucessfull" xml:space="preserve">
+    <value>Sucessfully sent test email.</value>
+  </data>
+  <data name="lblMailSettingsTestFailed" xml:space="preserve">
+    <value>Failed to send test email.</value>
+  </data>
+  <data name="lblManageProvidersDescription" xml:space="preserve">
+    <value>De Beheer {1} Providers sectie laat kunt u {0} providers toevoegen, bewerken en verwijderen in dashCommerce welke door de winkel gebruikt kunnen worden.</value>
+  </data>
+  <data name="lblManufacturer" xml:space="preserve">
+    <value>Fabrikant:</value>
+  </data>
+  <data name="lblManufacturerAdministration" xml:space="preserve">
+    <value>Fabrikant beheer</value>
+  </data>
+  <data name="lblManufacturerDeleted" xml:space="preserve">
+    <value>Fabrikant verwijderd.</value>
+  </data>
+  <data name="lblManufacturerSaved" xml:space="preserve">
+    <value>Fabrikant opgeslagen.</value>
+  </data>
+  <data name="lblMembershipInstructions" xml:space="preserve">
+    <value>&lt;p&gt;U zult nu de administratie account aanmaken via welke u dashCommerce kunt beheren.&lt;/p&gt;&lt;p&gt;Geef deze informatie niet vrij aan derden en bewaar het op een veilige locatie.&lt;/p&gt;</value>
+  </data>
+  <data name="lblMenuTitle" xml:space="preserve">
+    <value>Menu titel:</value>
+  </data>
+  <data name="lblMyAccount" xml:space="preserve">
+    <value>Mijn account</value>
+  </data>
+  <data name="lblMyAccountDetails" xml:space="preserve">
+    <value>Mijn account details</value>
+  </data>
+  <data name="lblMyOrders" xml:space="preserve">
+    <value>Mijn bestellngen</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Naam:</value>
+  </data>
+  <data name="lblNetAmount" xml:space="preserve">
+    <value>Netto bedrag:</value>
+  </data>
+  <data name="lblNewsFeedUrl" xml:space="preserve">
+    <value>Nieuws feed URL:</value>
+  </data>
+  <data name="lblNoCart" xml:space="preserve">
+    <value>Er zit nog niks in uw winkelwagen, misschien bent u geïnteresseerd in een van de volgende artikelen:</value>
+  </data>
+  <data name="lblNoCouponProvidersInstalled" xml:space="preserve">
+    <value>Er zijn geen Coupon Providers geïnstalleerd.</value>
+  </data>
+  <data name="lblNoCouponsConfigured" xml:space="preserve">
+    <value>Er zijn geen coupons geconfigureerd.</value>
+  </data>
+  <data name="lblNoDescriptors" xml:space="preserve">
+    <value>Geen beschrijvingen gevonden voor dit product.</value>
+  </data>
+  <data name="lblNoErrorLogs" xml:space="preserve">
+    <value>Er zijn geen fout logs.</value>
+  </data>
+  <data name="lblNoPaymentProvidersConfigured" xml:space="preserve">
+    <value>Geen betaal providers gevonden, raadpleeg de 'Betaal Provider Instellingen' menu optie.</value>
+  </data>
+  <data name="lblNoPaymentProvidersInstalled" xml:space="preserve">
+    <value>Er zijn geen Betaal Providers geïnstalleerd.</value>
+  </data>
+  <data name="lblNoReviews" xml:space="preserve">
+    <value>Er zijn geen beoordelingen voor dit product.</value>
+  </data>
+  <data name="lblNoShippingProvidersConfigured" xml:space="preserve">
+    <value>Er zijn geen Verzend Providers geconfigureerd, raadpleeg de Verzend Provider Instellingen menu optie. U kunt de algemene instellingen hieronder invullen voordat u de verzend provider configureerd.</value>
+  </data>
+  <data name="lblNoShippingProvidersInstalled" xml:space="preserve">
+    <value>Er zijn geen Verzend Providers geïnstalleerd.</value>
+  </data>
+  <data name="lblNoTaxProvidersConfigured" xml:space="preserve">
+    <value>Er zijn geen Belasting Providers geconfigureerd, raadpleeg de Belasting Provider Instellingen menu optie.</value>
+  </data>
+  <data name="lblNoTaxProvidersInstalled" xml:space="preserve">
+    <value>Er zijn geen Belasting Providers geïnstalleerd.</value>
+  </data>
+  <data name="lblNotificationBody" xml:space="preserve">
+    <value>Bericht inhoud:</value>
+  </data>
+  <data name="lblNotificationEdit" xml:space="preserve">
+    <value>Bericht bewerken</value>
+  </data>
+  <data name="lblNotificationList" xml:space="preserve">
+    <value>Berichten lijst</value>
+  </data>
+  <data name="lblNotificationSaved" xml:space="preserve">
+    <value>Bericht opgeslagen</value>
+  </data>
+  <data name="lblNotificationsDescription" xml:space="preserve">
+    <value>Berichten zijn geautomatiseerde e-mails die worden gebruikt om u en uw klanten op de hoogte te stellen van diverse gebeurtenissen. Hieronder vallen onder andere; bestelling plaatsen, terug betalingen, verzenden van bestellingen enz.</value>
+  </data>
+  <data name="lblOrderEdit" xml:space="preserve">
+    <value>Bestelling bewerken</value>
+  </data>
+  <data name="lblOrderList" xml:space="preserve">
+    <value>Bestelling lijst</value>
+  </data>
+  <data name="lblOrderNoteSaved" xml:space="preserve">
+    <value>Bestelling notitie opgeslagen.</value>
+  </data>
+  <data name="lblOrderNumber" xml:space="preserve">
+    <value>Bestelnummer</value>
+  </data>
+  <data name="lblOrderRefunded" xml:space="preserve">
+    <value>Bestelling terugbetaald</value>
+  </data>
+  <data name="lblOrderReview" xml:space="preserve">
+    <value>Besteling beoordeling</value>
+  </data>
+  <data name="lblOrderSummary" xml:space="preserve">
+    <value>Bestelling samenvatting</value>
+  </data>
+  <data name="lblOurPrice" xml:space="preserve">
+    <value>Onze prijs:</value>
+  </data>
+  <data name="lblPageDeleted" xml:space="preserve">
+    <value>Pagina verwijderd.</value>
+  </data>
+  <data name="lblPageSaved" xml:space="preserve">
+    <value>Pagina opgeslagen</value>
+  </data>
+  <data name="lblParentCategory" xml:space="preserve">
+    <value>Hoofd categorie:</value>
+  </data>
+  <data name="lblParentPage" xml:space="preserve">
+    <value>Hoofd pagina:</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Wachtwoord:</value>
+  </data>
+  <data name="lblPaymentConfiguration" xml:space="preserve">
+    <value>Betaling configuratie</value>
+  </data>
+  <data name="lblPaymentConfigurationDescription" xml:space="preserve">
+    <value>De Betaling configuratie sectie laat u de betaal providers beheren. De algemene betaal instellingen zijn hier ook te vinden.</value>
+  </data>
+  <data name="lblPaymentConfigurationNotSaved" xml:space="preserve">
+    <value>Betaal configuratie niet opgeslagen.</value>
+  </data>
+  <data name="lblPaymentConfigurationSaved" xml:space="preserve">
+    <value>Betaal configuratie opgeslagen.</value>
+  </data>
+  <data name="lblPaymentInformation" xml:space="preserve">
+    <value>Betaal informatie</value>
+  </data>
+  <data name="lblPaymentInformationTitle" xml:space="preserve">
+    <value>Betaal informatie</value>
+  </data>
+  <data name="lblPaymentMethod" xml:space="preserve">
+    <value>Betaal Methode:</value>
+  </data>
+  <data name="lblPaymentName" xml:space="preserve">
+    <value>Betaling</value>
+  </data>
+  <data name="lblPaymentProviderManagement" xml:space="preserve">
+    <value>Betaal provider beheer</value>
+  </data>
+  <data name="lblPayPalProDescriptionTitle" xml:space="preserve">
+    <value> PayPal Pro met Express Checkout (niet verkrijgbaar in Nedeland, alleen VS en UK)</value>
+  </data>
+  <data name="lblPayPalStandardDescriptionTitle" xml:space="preserve">
+    <value>PayPal Standaard </value>
+  </data>
+  <data name="lblPdtId" xml:space="preserve">
+    <value>PDT ID:</value>
+  </data>
+  <data name="lblPhone" xml:space="preserve">
+    <value>Telefoon:</value>
+  </data>
+  <data name="lblPleaseSelect" xml:space="preserve">
+    <value>Selecteer {0}:</value>
+  </data>
+  <data name="lblPleaseSupply" xml:space="preserve">
+    <value>Vul in {0}:</value>
+  </data>
+  <data name="lblPleaseWait" xml:space="preserve">
+    <value>Een ogenblik geduld . . .</value>
+  </data>
+  <data name="lblPort" xml:space="preserve">
+    <value>Poort:</value>
+  </data>
+  <data name="lblPostalCode" xml:space="preserve">
+    <value>Postcode:</value>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>Prijs</value>
+  </data>
+  <data name="lblProductAdd" xml:space="preserve">
+    <value>Product toevoegen</value>
+  </data>
+  <data name="lblProductCategories" xml:space="preserve">
+    <value>Produkt categorieën</value>
+  </data>
+  <data name="lblProductCategoryDeleted" xml:space="preserve">
+    <value>Produkt categorie verwijderd.</value>
+  </data>
+  <data name="lblProductCategoryImages" xml:space="preserve">
+    <value>Produkt categorie afbeeldingen.</value>
+  </data>
+  <data name="lblProductCategorySaved" xml:space="preserve">
+    <value>Produkt categorie opgeslagen.</value>
+  </data>
+  <data name="lblProductEdit" xml:space="preserve">
+    <value>Produkt bewerken</value>
+  </data>
+  <data name="lblProductImageDeleted" xml:space="preserve">
+    <value>Produkt afbeelding verwijderd.</value>
+  </data>
+  <data name="lblProductImages" xml:space="preserve">
+    <value>Produkt afbeeldingen</value>
+  </data>
+  <data name="lblProductImageSaved" xml:space="preserve">
+    <value>Produkt afbeelding opgeslagen.</value>
+  </data>
+  <data name="lblProductList" xml:space="preserve">
+    <value>Produkt lijst</value>
+  </data>
+  <data name="lblProductListing" xml:space="preserve">
+    <value>Product bladeren log lijst:</value>
+  </data>
+  <data name="lblProductNotEnabled" xml:space="preserve">
+    <value>(Product Niet Ingeschakeld)</value>
+  </data>
+  <data name="lblProductNotSaved" xml:space="preserve">
+    <value>Product niet opgeslagen.</value>
+  </data>
+  <data name="lblProductSaved" xml:space="preserve">
+    <value>Product opgeslagen.</value>
+  </data>
+  <data name="lblProductType" xml:space="preserve">
+    <value>Product type:</value>
+  </data>
+  <data name="lblProviderSaved" xml:space="preserve">
+    <value>Provider opgeslagen.</value>
+  </data>
+  <data name="lblProviderType" xml:space="preserve">
+    <value>ProviderType</value>
+  </data>
+  <data name="lblQuantity" xml:space="preserve">
+    <value>Aantal</value>
+  </data>
+  <data name="lblRate" xml:space="preserve">
+    <value>Tarief:</value>
+  </data>
+  <data name="lblRateAdded" xml:space="preserve">
+    <value>Het tarief is toegevoegd.</value>
+  </data>
+  <data name="lblRateDeleted" xml:space="preserve">
+    <value>Het tarief is verwijderd.</value>
+  </data>
+  <data name="lblRating" xml:space="preserve">
+    <value>Waardering:</value>
+  </data>
+  <data name="lblRegionCode" xml:space="preserve">
+    <value>Regio code:</value>
+  </data>
+  <data name="lblRegionCodeDecriptionTitle" xml:space="preserve">
+    <value>Regio code Belasting Provider</value>
+  </data>
+  <data name="lblRemoveCoupon" xml:space="preserve">
+    <value>Coupon verwijderd.</value>
+  </data>
+  <data name="lblRemoveProvider" xml:space="preserve">
+    <value>De provider is verwijderd.</value>
+  </data>
+  <data name="lblRequireAuthentication" xml:space="preserve">
+    <value>Vereis authenticatie:</value>
+  </data>
+  <data name="lblRequireSsl" xml:space="preserve">
+    <value>Vereis SSL:</value>
+  </data>
+  <data name="lblRetailPrice" xml:space="preserve">
+    <value>Retail prijs:</value>
+  </data>
+  <data name="lblRetialPrice" xml:space="preserve">
+    <value>Retail prijs:</value>
+  </data>
+  <data name="lblReview" xml:space="preserve">
+    <value>Beoordeling:</value>
+  </data>
+  <data name="lblReviewSaved" xml:space="preserve">
+    <value>Beoordeling opgeslagen.</value>
+  </data>
+  <data name="lblReviewsTitle" xml:space="preserve">
+    <value>Beoordelingen</value>
+  </data>
+  <data name="lblRoleAdministration" xml:space="preserve">
+    <value>Role beheer</value>
+  </data>
+  <data name="lblRoleAdministrationDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblRoleName" xml:space="preserve">
+    <value>Role naam:</value>
+  </data>
+  <data name="lblRoot" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="lblNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="lblTitleASC" xml:space="preserve">
+    <value>Title: Ascending</value>
+  </data>
+  <data name="lblTitleDESC" xml:space="preserve">
+    <value>Title: Descending</value>
+  </data>
+  <data name="lblPriceASC" xml:space="preserve">
+    <value>Price: Lowest First</value>
+  </data>
+  <data name="lblPriceDESC" xml:space="preserve">
+    <value>Price: Highest First</value>
+  </data>
+  <data name="lblNewest" xml:space="preserve">
+    <value>Added: Newest First</value>
+  </data>
+  <data name="lblOldest" xml:space="preserve">
+    <value>Added: Oldest First</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="lblSearchBy" xml:space="preserve">
+    <value>Zoeken op:</value>
+  </data>
+  <data name="lblSearchTerms" xml:space="preserve">
+    <value>Populaire zoek termen:</value>
+  </data>
+  <data name="lblSecurity" xml:space="preserve">
+    <value>Beveiliging</value>
+  </data>
+  <data name="lblSecurityDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblSecurityQuestion" xml:space="preserve">
+    <value>Geheime vraag:</value>
+  </data>
+  <data name="lblSelect" xml:space="preserve">
+    <value>-- Selecteer --</value>
+  </data>
+  <data name="lblService" xml:space="preserve">
+    <value>Dienst:</value>
+  </data>
+  <data name="lblServiceAdded" xml:space="preserve">
+    <value>De dienst is toegevoegd.</value>
+  </data>
+  <data name="lblServiceDeleted" xml:space="preserve">
+    <value>De dienst is verwijderd</value>
+  </data>
+  <data name="lblShipFromCountry" xml:space="preserve">
+    <value>Land van waar het pakket wordt verzonden:</value>
+  </data>
+  <data name="lblShipFromZip" xml:space="preserve">
+    <value>Postcode van waar het pakket wordt verzonden:</value>
+  </data>
+  <data name="lblShipping" xml:space="preserve">
+    <value>Verzenden &amp; Afhandeling:</value>
+  </data>
+  <data name="lblShippingAddressTitle" xml:space="preserve">
+    <value>Verzend naar adres</value>
+  </data>
+  <data name="lblShippingBuffer" xml:space="preserve">
+    <value>Verzend buffer:</value>
+  </data>
+  <data name="lblShippingConfiguration" xml:space="preserve">
+    <value>Verzend configuratie</value>
+  </data>
+  <data name="lblShippingConfigurationDescription" xml:space="preserve">
+    <value>De Verzend Configuratie sectie laat u de betaal providers beheren, de algemene betaal instellingen zijn hier ook te vinden.</value>
+  </data>
+  <data name="lblShippingConfigurationNotSaved" xml:space="preserve">
+    <value>Verzend Configuratie niet opgeslagen.</value>
+  </data>
+  <data name="lblShippingConfigurationSaved" xml:space="preserve">
+    <value>Verzend Configuratie opgeslagen.</value>
+  </data>
+  <data name="lblShippingEstimate" xml:space="preserve">
+    <value>Verzend duur (schatting):</value>
+  </data>
+  <data name="lblShippingInformation" xml:space="preserve">
+    <value>Verzend informatie</value>
+  </data>
+  <data name="lblShippingMethod" xml:space="preserve">
+    <value>Verzend methode</value>
+  </data>
+  <data name="lblShippingMethodTitle" xml:space="preserve">
+    <value>Verzend methode</value>
+  </data>
+  <data name="lblShippingName" xml:space="preserve">
+    <value>Verzending</value>
+  </data>
+  <data name="lblShippingProviderManagement" xml:space="preserve">
+    <value>Verzend Provider beheer</value>
+  </data>
+  <data name="lblShippingSaved" xml:space="preserve">
+    <value>Verzending opgeslagen.</value>
+  </data>
+  <data name="lblShippingSettingsNotSaved" xml:space="preserve">
+    <value>De verzend instellingen zijn niet opgeslagen.</value>
+  </data>
+  <data name="lblShippingSettingsSaved" xml:space="preserve">
+    <value>De verzend instellingen zijn opgeslagen.</value>
+  </data>
+  <data name="lblShippingTrackingNumber" xml:space="preserve">
+    <value>TNT/DHL Track en Trace link:</value>
+  </data>
+  <data name="lblShortDescription" xml:space="preserve">
+    <value>Korte beschrijving:</value>
+  </data>
+  <data name="lblShowAll" xml:space="preserve">
+    <value>Toon alle</value>
+  </data>
+  <data name="lblShowingTotals" xml:space="preserve">
+    <value>Resultaat {0} - {1} van {2}</value>
+  </data>
+  <data name="lblSignature" xml:space="preserve">
+    <value>API Handtekening:</value>
+  </data>
+  <data name="lblSimpleWeightShippingProviderTitle" xml:space="preserve">
+    <value>Simple Weight Verzend Provider</value>
+  </data>
+  <data name="lblSiteAdministration" xml:space="preserve">
+    <value>Site administratie</value>
+  </data>
+  <data name="lblSiteImages" xml:space="preserve">
+    <value>Site afbeeldingen</value>
+  </data>
+  <data name="lblSiteInstall" xml:space="preserve">
+    <value>Site installatie</value>
+  </data>
+  <data name="lblSiteLogo" xml:space="preserve">
+    <value>Site logo:</value>
+  </data>
+  <data name="lblSiteName" xml:space="preserve">
+    <value>Site naam:</value>
+  </data>
+  <data name="lblSiteSettings" xml:space="preserve">
+    <value>Site instellingen</value>
+  </data>
+  <data name="lblSiteSettingsDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblSiteSettingsNotSaved" xml:space="preserve">
+    <value>Site instellingen niet opgeslagen.</value>
+  </data>
+  <data name="lblSiteSettingsSaved" xml:space="preserve">
+    <value>Site instellingen opgeslagen.</value>
+  </data>
+  <data name="lblSkuDescription" xml:space="preserve">
+    <value>De volgende SKU’S zijn op basis van de product attributen gecreëerd. Indien u de SKU’s wilt opslaan klikt u op de "Opslaan" knop.</value>
+  </data>
+  <data name="lblSkuSuffix" xml:space="preserve">
+    <value>Sku voorloop:</value>
+  </data>
+  <data name="lblStateOrRegion" xml:space="preserve">
+    <value>Stad / Regio:</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="lblSubject" xml:space="preserve">
+    <value>Onderwerp:</value>
+  </data>
+  <data name="lblSubTotal" xml:space="preserve">
+    <value>Subtotaal:</value>
+  </data>
+  <data name="lblSubTotalTop" xml:space="preserve">
+    <value>Subtotaal:</value>
+  </data>
+  <data name="lblTagLine" xml:space="preserve">
+    <value>Tag Line:</value>
+  </data>
+  <data name="lblTax" xml:space="preserve">
+    <value>Belasting:</value>
+  </data>
+  <data name="lblTaxConfiguration" xml:space="preserve">
+    <value>Belasting Configuratie</value>
+  </data>
+  <data name="lblTaxConfigurationDescription" xml:space="preserve">
+    <value>De Belasting configuratie laat u de Belasting Providers beheren. De algemene belasting instellingen zijn hier ook te vinden</value>
+  </data>
+  <data name="lblTaxConfigurationNotSaved" xml:space="preserve">
+    <value>Belasting configuratie niet opgeslagen</value>
+  </data>
+  <data name="lblTaxConfigurationSaved" xml:space="preserve">
+    <value>Belasting configuratie opgeslagen.</value>
+  </data>
+  <data name="lblTaxName" xml:space="preserve">
+    <value>Belasting</value>
+  </data>
+  <data name="lblTaxProviderManagement" xml:space="preserve">
+    <value>Belasting Provider beheer</value>
+  </data>
+  <data name="lblTaxType" xml:space="preserve">
+    <value>Belasting Type:</value>
+  </data>
+  <data name="lblTheme" xml:space="preserve">
+    <value>Theme:</value>
+  </data>
+  <data name="lblTitle" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="lblToList" xml:space="preserve">
+    <value>Naar Lijst:</value>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Totaal:</value>
+  </data>
+  <data name="lblTotalProducts" xml:space="preserve">
+    <value>Totaal producten:</value>
+  </data>
+  <data name="lblTotalSkuCountText" xml:space="preserve">
+    <value>Het aantal SKU’s die voor dit product gecreëerd zijn:</value>
+  </data>
+  <data name="lblTotalUsers" xml:space="preserve">
+    <value>Totaal gebruikers:</value>
+  </data>
+  <data name="lblTrackingLogs" xml:space="preserve">
+    <value>Tracering logs</value>
+  </data>
+  <data name="lblTrackingLogsDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblTransactionDate" xml:space="preserve">
+    <value>Transactie datum:</value>
+  </data>
+  <data name="lblTransactionId" xml:space="preserve">
+    <value>Transactie ID:</value>
+  </data>
+  <data name="lblTransactionType" xml:space="preserve">
+    <value>Transactie type:</value>
+  </data>
+  <data name="lblUnableToDeleteManufacturers" xml:space="preserve">
+    <value>Kon de fabrikant niet verwijderen. Er zijn producten gekoppeld aan de geselecteerde fabrikant: {0}.</value>
+  </data>
+  <data name="lblUpdate" xml:space="preserve">
+    <value>Bijwerken</value>
+  </data>
+  <data name="lblUpdating" xml:space="preserve">
+    <value>Bezig met bijwerken . . .</value>
+  </data>
+  <data name="lblUpdatingOrder" xml:space="preserve">
+    <value>Bestelling bijwerken . . .</value>
+  </data>
+  <data name="lblUserAdministration" xml:space="preserve">
+    <value>Gebruikers administratie</value>
+  </data>
+  <data name="lblUserAdministrationDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblUserName" xml:space="preserve">
+    <value>Gebruikersnaam:</value>
+  </data>
+  <data name="lblUserNotFound" xml:space="preserve">
+    <value>Kon de gebruiker niet terug vinden: {0}</value>
+  </data>
+  <data name="lblUserUpdated" xml:space="preserve">
+    <value>Deze gebruikers account is bijgewerkt.</value>
+  </data>
+  <data name="lblUseShipping" xml:space="preserve">
+    <value>Gebruik verzending:</value>
+  </data>
+  <data name="lblWeight" xml:space="preserve">
+    <value>Gewicht:</value>
+  </data>
+  <data name="lblWelcome" xml:space="preserve">
+    <value>Welkom terug</value>
+  </data>
+  <data name="lblWelcomeInstructions" xml:space="preserve">
+    <value>&lt;p&gt;Deze installatie wizard zal u door het installatie proces van dashCommerce leiden.&lt;/p&gt;&lt;p&gt;In het "Berichten center" zal informatie worden getoont over acties die uitgevoerd zijn door het installatie proces.&lt;/p&gt;&lt;p&gt;Laten we beginnen . . . &lt;/p&gt;</value>
+  </data>
+  <data name="lblWidth" xml:space="preserve">
+    <value>Breedte:</value>
+  </data>
+  <data name="lblYourRating" xml:space="preserve">
+    <value>Uw waardering:</value>
+  </data>
+  <data name="lblYouSave" xml:space="preserve">
+    <value>U bespaart:</value>
+  </data>
+  <data name="lloginCreateUserText" xml:space="preserve">
+    <value>Niet geregistreerd?</value>
+  </data>
+  <data name="lloginPasswordLabelText" xml:space="preserve">
+    <value>Wachtwoord:&amp;nbsp;</value>
+  </data>
+  <data name="lloginPasswordRecoveryText" xml:space="preserve">
+    <value>Wachtwoord verloren?</value>
+  </data>
+  <data name="lloginTitleText" xml:space="preserve">
+    <value>Inloggen</value>
+  </data>
+  <data name="lloginUserNameLabelText" xml:space="preserve">
+    <value>Gebruikersnaam:&amp;nbsp;</value>
+  </data>
+  <data name="pnlAddEditBundle" xml:space="preserve">
+    <value>Toevoegen / bewerken bundel</value>
+  </data>
+  <data name="pnlAddManufacturer" xml:space="preserve">
+    <value>Fabrikant toevoegen</value>
+  </data>
+  <data name="pnlAddNote" xml:space="preserve">
+    <value>Notitie toevoegen</value>
+  </data>
+  <data name="pnlAddRegionCode" xml:space="preserve">
+    <value>Regio code toevoegen</value>
+  </data>
+  <data name="pnlAddRole" xml:space="preserve">
+    <value>Role toevoegen</value>
+  </data>
+  <data name="pnlAddService" xml:space="preserve">
+    <value>Dienst toevoegen</value>
+  </data>
+  <data name="pnlAddToCart" xml:space="preserve">
+    <value>Voeg toe aan winkelwagen</value>
+  </data>
+  <data name="pnlAddUser" xml:space="preserve">
+    <value>Gebruiker toevoegen</value>
+  </data>
+  <data name="pnlAnalytics" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
+  <data name="pnlAssociatedAttributes" xml:space="preserve">
+    <value>Geassocieerde attributen</value>
+  </data>
+  <data name="pnlAssociatedCategories" xml:space="preserve">
+    <value>Geassocieerde categorieën</value>
+  </data>
+  <data name="pnlAttributeItems" xml:space="preserve">
+    <value>Attribuut items</value>
+  </data>
+  <data name="pnlAttributeTemplates" xml:space="preserve">
+    <value>Attribuut templates</value>
+  </data>
+  <data name="pnlAvailableAttributes" xml:space="preserve">
+    <value>Beschikbare attributen</value>
+  </data>
+  <data name="pnlAvailableCoupons" xml:space="preserve">
+    <value>Beschikbare coupons</value>
+  </data>
+  <data name="pnlAvailableRegionCodes" xml:space="preserve">
+    <value>Beschikbare regio codes</value>
+  </data>
+  <data name="pnlAvailableServices" xml:space="preserve">
+    <value>Beschikbare diensten</value>
+  </data>
+  <data name="pnlBillingAddresses" xml:space="preserve">
+    <value>Facturatie adressen</value>
+  </data>
+  <data name="pnlBrowsingLog" xml:space="preserve">
+    <value>Bladeren in log bestand</value>
+  </data>
+  <data name="pnlComplete" xml:space="preserve">
+    <value>Installatie voltooid</value>
+  </data>
+  <data name="pnlConfiguration" xml:space="preserve">
+    <value>{0} Configuratie</value>
+  </data>
+  <data name="pnlConfigurationOverview" xml:space="preserve">
+    <value>Configuratie overzicht</value>
+  </data>
+  <data name="pnlConfiguredPaymentProviders" xml:space="preserve">
+    <value>Geconfigureerde Betaal Providers</value>
+  </data>
+  <data name="pnlConfiguredShippingProviders" xml:space="preserve">
+    <value>Geconfigureerde Verzend Providers</value>
+  </data>
+  <data name="pnlConfiguredTaxProviders" xml:space="preserve">
+    <value>Geconfigureerde Belasting Providers</value>
+  </data>
+  <data name="pnlConnectionStringSetup" xml:space="preserve">
+    <value>Connectie string setup</value>
+  </data>
+  <data name="pnlCouponConfiguration" xml:space="preserve">
+    <value>Coupon configuratie</value>
+  </data>
+  <data name="pnlCrossSells" xml:space="preserve">
+    <value>Cross-Verkoop</value>
+  </data>
+  <data name="pnlCurrentAttributes" xml:space="preserve">
+    <value>Huidige attributen</value>
+  </data>
+  <data name="pnlCurrentBundles" xml:space="preserve">
+    <value>Houdige Bundles</value>
+  </data>
+  <data name="pnlCurrentCategories" xml:space="preserve">
+    <value>Houdige categorieën</value>
+  </data>
+  <data name="pnlCurrentErrorLogs" xml:space="preserve">
+    <value>Houdige fout logbestanden</value>
+  </data>
+  <data name="pnlCurrentPages" xml:space="preserve">
+    <value>Houdige pagina's</value>
+  </data>
+  <data name="pnlEditAttribute" xml:space="preserve">
+    <value>Attribuut toevoegen / bewerken</value>
+  </data>
+  <data name="pnlEditCategory" xml:space="preserve">
+    <value>Product categorie toevoegen / bewerken</value>
+  </data>
+  <data name="pnlEditPage" xml:space="preserve">
+    <value>Pagina toevoegen / bewerken</value>
+  </data>
+  <data name="pnlEditUser" xml:space="preserve">
+    <value>Gebruiker bewerken</value>
+  </data>
+  <data name="pnlFavoriteCategories" xml:space="preserve">
+    <value>Favoriete categorieën</value>
+  </data>
+  <data name="pnlFavoriteProducts" xml:space="preserve">
+    <value>Favoriete producten</value>
+  </data>
+  <data name="pnlFooter" xml:space="preserve">
+    <value>Voetnoot</value>
+  </data>
+  <data name="pnlGeneralLayout" xml:space="preserve">
+    <value>Algemene layout</value>
+  </data>
+  <data name="pnlGeneralProductInformation" xml:space="preserve">
+    <value>Algemene product informatie</value>
+  </data>
+  <data name="pnlGeneralSettings" xml:space="preserve">
+    <value>Algemene instellingen</value>
+  </data>
+  <data name="pnlGlobalization" xml:space="preserve">
+    <value>Globalisatie</value>
+  </data>
+  <data name="pnlHeader" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="pnlImageManagement" xml:space="preserve">
+    <value>Afbeelding beheer</value>
+  </data>
+  <data name="pnlMailConfiguration" xml:space="preserve">
+    <value>Mail configuratie</value>
+  </data>
+  <data name="pnlMailSettings" xml:space="preserve">
+    <value>Mail instellingen</value>
+  </data>
+  <data name="pnlManufacturerList" xml:space="preserve">
+    <value>Fabrikanten lijst</value>
+  </data>
+  <data name="pnlMessageCenter" xml:space="preserve">
+    <value>Berichten centrum</value>
+  </data>
+  <data name="pnlNarrowByManufacturer" xml:space="preserve">
+    <value>Sorteer op fabrikant</value>
+  </data>
+  <data name="pnlNarrowByPrice" xml:space="preserve">
+    <value>Sorteer op prijs</value>
+  </data>
+  <data name="pnlSortBy" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="pnlNews" xml:space="preserve">
+    <value>Nieuws</value>
+  </data>
+  <data name="pnlNoteList" xml:space="preserve">
+    <value>Notities</value>
+  </data>
+  <data name="pnlNotes" xml:space="preserve">
+    <value>Notities</value>
+  </data>
+  <data name="pnlNotificationDetails" xml:space="preserve">
+    <value>Bericht details</value>
+  </data>
+  <data name="pnlOrderList" xml:space="preserve">
+    <value>Bestelling lijst</value>
+  </data>
+  <data name="pnlOrderSearch" xml:space="preserve">
+    <value>Bestelling zoeken</value>
+  </data>
+  <data name="pnlPaymentProviders" xml:space="preserve">
+    <value>Betaal provider configuratie</value>
+  </data>
+  <data name="pnlPayPalProConfiguration" xml:space="preserve">
+    <value>PayPal Pro Betaal provider configuratie</value>
+  </data>
+  <data name="pnlPayPalStandardConfiguration" xml:space="preserve">
+    <value>PayPal Standaard Betaal provider configuratie</value>
+  </data>
+  <data name="pnlProductDescriptors" xml:space="preserve">
+    <value>Product beschrijver</value>
+  </data>
+  <data name="pnlProductImages" xml:space="preserve">
+    <value>Product afbeeldingen</value>
+  </data>
+  <data name="pnlProductList" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="pnlProductReviews" xml:space="preserve">
+    <value>Product beoordelingen</value>
+  </data>
+  <data name="pnlProductSearch" xml:space="preserve">
+    <value>Product zoeken</value>
+  </data>
+  <data name="pnlProviderDetails" xml:space="preserve">
+    <value>Provider details</value>
+  </data>
+  <data name="pnlProviderList" xml:space="preserve">
+    <value>Beschikbare Providers</value>
+  </data>
+  <data name="pnlQuickStats" xml:space="preserve">
+    <value>Snelle statistieken</value>
+  </data>
+  <data name="pnlRegionCodeConfiguration" xml:space="preserve">
+    <value>Regio Code Belasting Provider configuratie</value>
+  </data>
+  <data name="pnlReview" xml:space="preserve">
+    <value>Beoordeling</value>
+  </data>
+  <data name="pnlRoleList" xml:space="preserve">
+    <value>Role Lijst</value>
+  </data>
+  <data name="pnlRoles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="pnlShipping" xml:space="preserve">
+    <value>Verzending</value>
+  </data>
+  <data name="pnlShippingProviders" xml:space="preserve">
+    <value>Verzending Provider configuratie</value>
+  </data>
+  <data name="pnlSimpleWeightConfiguration" xml:space="preserve">
+    <value>Simple Weight verzending Provider Configruatie</value>
+  </data>
+  <data name="pnlSimpleWeightData" xml:space="preserve">
+    <value>Simple Weight dienst / BedragPerUnit gegevens</value>
+  </data>
+  <data name="pnlSiteOverview" xml:space="preserve">
+    <value>Site overzicht</value>
+  </data>
+  <data name="pnlSkuListing" xml:space="preserve">
+    <value>Sku lijst</value>
+  </data>
+  <data name="pnlTaxProviders" xml:space="preserve">
+    <value>Belasting Provider configuratie</value>
+  </data>
+  <data name="pnlToDo" xml:space="preserve">
+    <value>Takenlijst</value>
+  </data>
+  <data name="pnlUserList" xml:space="preserve">
+    <value>Gebruikers lijst</value>
+  </data>
+  <data name="pnlUserSearch" xml:space="preserve">
+    <value>Gebruiker zoeken</value>
+  </data>
+  <data name="pnlWidgets" xml:space="preserve">
+    <value>Widgets</value>
+  </data>
+  <data name="prPasswordRecoverAnswerLabelText" xml:space="preserve">
+    <value>Antwoord:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverQuestionFailureText" xml:space="preserve">
+    <value>Uw antwoord kan niet geverifieerd worden. Probeert u aub nogmaals.</value>
+  </data>
+  <data name="prPasswordRecoverQuestionInstructionText" xml:space="preserve">
+    <value>Beantwoord de volgende vraag om uw wachtwoord op te halen!</value>
+  </data>
+  <data name="prPasswordRecoverQuestionLabelText" xml:space="preserve">
+    <value>Vraag:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverQuestionTitleText" xml:space="preserve">
+    <value>Identiteit bevestiging</value>
+  </data>
+  <data name="prPasswordRecoverSubmitButtonText" xml:space="preserve">
+    <value>Doorvoeren</value>
+  </data>
+  <data name="prPasswordRecoverSuccessText" xml:space="preserve">
+    <value>Uw wachtwoord is naar u toe gestuurd.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameFailureText" xml:space="preserve">
+    <value>We kunnen uw informatie niet in ons systeem vinden. Probeert u het aub nogmaals.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameInstructionText" xml:space="preserve">
+    <value>Vul uw gebruikersnaam in om uw wachtwoord op te halen.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameLabelText" xml:space="preserve">
+    <value>Gebruikersnaam:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverUserNameTitleText" xml:space="preserve">
+    <value>Wachtwoord vergeten?</value>
+  </data>
+  <data name="rfvAmountPerUnit" xml:space="preserve">
+    <value>Vult u aub een Bedrag Per Unit in.</value>
+  </data>
+  <data name="rfvApiPassword" xml:space="preserve">
+    <value>Vult u aub een API wachtwoord in.</value>
+  </data>
+  <data name="rfvApiSignature" xml:space="preserve">
+    <value>Vult u aub een API handtekening in.</value>
+  </data>
+  <data name="rfvApiUserName" xml:space="preserve">
+    <value>Vult u aub een API gebruikersnaam in.</value>
+  </data>
+  <data name="rfvBusinessEmail" xml:space="preserve">
+    <value>Vult u aub een Zakelijke email in.</value>
+  </data>
+  <data name="rfvName" xml:space="preserve">
+    <value>Vult u aub een Naam in.</value>
+  </data>
+  <data name="rfvPdtId" xml:space="preserve">
+    <value>Vult u aub een PDT ID in.</value>
+  </data>
+  <data name="rfvRate" xml:space="preserve">
+    <value>Vult u aub een Tarief in.</value>
+  </data>
+  <data name="rfvRegionCode" xml:space="preserve">
+    <value>Vult u aub een Regio code in.</value>
+  </data>
+  <data name="rfvService" xml:space="preserve">
+    <value>Vult u aub een Dienst in.</value>
+  </data>
+  <data name="rfvTitle" xml:space="preserve">
+    <value>Vult u aub een Titel in.</value>
+  </data>
+  <data name="titleAddUser" xml:space="preserve">
+    <value>dashCommerce :: Gebruiker toevoegen</value>
+  </data>
+  <data name="titleCart" xml:space="preserve">
+    <value>Winkelwagen</value>
+  </data>
+  <data name="titleCheckout" xml:space="preserve">
+    <value>Checkout</value>
+  </data>
+  <data name="titleContentManagement" xml:space="preserve">
+    <value>dashCommerce :: Inhoud beheer</value>
+  </data>
+  <data name="titleDashBoard" xml:space="preserve">
+    <value>dashCommerce :: dashBoard</value>
+  </data>
+  <data name="titleEditNotification" xml:space="preserve">
+    <value>dashCommerce :: Berichten :: Berichten bewerken</value>
+  </data>
+  <data name="titleEditUser" xml:space="preserve">
+    <value>dashCommerce :: Gebruiker bewerken</value>
+  </data>
+  <data name="titleErrorLogs" xml:space="preserve">
+    <value>dashCommerce :: Fout logs</value>
+  </data>
+  <data name="titleImageSelector" xml:space="preserve">
+    <value>dashCommerce :: Afbeelding kiezer</value>
+  </data>
+  <data name="titleLoading" xml:space="preserve">
+    <value>dashCommerce :: Laden . . .</value>
+  </data>
+  <data name="titleMailSettings" xml:space="preserve">
+    <value>dashCommerce :: Mail instellingen</value>
+  </data>
+  <data name="titleModalError" xml:space="preserve">
+    <value>dashCommerce :: Fout</value>
+  </data>
+  <data name="titleNotifications" xml:space="preserve">
+    <value>dashCommerce :: Berichten</value>
+  </data>
+  <data name="titlePaymentConfiguration" xml:space="preserve">
+    <value>dashCommerce ::Betaal Provider configuratie</value>
+  </data>
+  <data name="titlePaymentProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Betaal Provider beheer</value>
+  </data>
+  <data name="titlePaymentSettings" xml:space="preserve">
+    <value>dashComemrce :: Betaal instellingen</value>
+  </data>
+  <data name="titleProductAttributes" xml:space="preserve">
+    <value>dashCommerce :: Product attributen</value>
+  </data>
+  <data name="titleProductCategories" xml:space="preserve">
+    <value>dashCommerce :: Product categorieen</value>
+  </data>
+  <data name="titleProductListing" xml:space="preserve">
+    <value>dashCommerce :: Product lijst</value>
+  </data>
+  <data name="titleProductManufacturers" xml:space="preserve">
+    <value>dashCommerce :: Product fabrikanten</value>
+  </data>
+  <data name="titleRoleAdministration" xml:space="preserve">
+    <value>dashCommerce :: Beveiliging :: Role beheer</value>
+  </data>
+  <data name="titleShippingConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Verzend Provider configuratie</value>
+  </data>
+  <data name="titleShippingProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Verzend Provider beheer</value>
+  </data>
+  <data name="titleShippingSettings" xml:space="preserve">
+    <value>dashCommerce :: Verzend instellingen</value>
+  </data>
+  <data name="titleSiteSettingsAnalytics" xml:space="preserve">
+    <value>dashCommerce :: Site instellingen :: Analytics</value>
+  </data>
+  <data name="titleSiteSettingsBrowsingLog" xml:space="preserve">
+    <value>dashCommerce :: Site instellingen :: Bezoekerslog</value>
+  </data>
+  <data name="titleSiteSettingsFooter" xml:space="preserve">
+    <value>dashCommerce :: Site instellingen :: Footer</value>
+  </data>
+  <data name="titleSiteSettingsGeneralLayout" xml:space="preserve">
+    <value>dashCommerce :: Site instellingen :: Algemene Layout</value>
+  </data>
+  <data name="titleSiteSettingsGlobalization" xml:space="preserve">
+    <value>dashCommerce :: Site instellingen :: Globalizatie</value>
+  </data>
+  <data name="titleSiteSettingsHeader" xml:space="preserve">
+    <value>dashCommerce :: Site instellingen :: Header</value>
+  </data>
+  <data name="titleSiteSettingsWidgets" xml:space="preserve">
+    <value>dashCommerce :: Site instellingen :: Widgets</value>
+  </data>
+  <data name="titleTaxConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Belasting Provider configuratie</value>
+  </data>
+  <data name="titleTaxProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Belasting Provider beheer</value>
+  </data>
+  <data name="titleTaxSettings" xml:space="preserve">
+    <value>dashComerce :: Belasting instellingen</value>
+  </data>
+  <data name="titleTrackingLogs" xml:space="preserve">
+    <value>dashCommerce :: Tracking logs</value>
+  </data>
+  <data name="titleUserAdministration" xml:space="preserve">
+    <value>dashCommerce :: Security :: Gebruiker beheer</value>
+  </data>
+</root>

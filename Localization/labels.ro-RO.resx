@@ -1,0 +1,3351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelAddNew" xml:space="preserve">
+    <value>Anulare adăugare nou</value>
+    <comment>Cancel Add New</comment>
+  </data>
+  <data name="btnClearCache" xml:space="preserve">
+    <value>Golire Cache</value>
+    <comment>Clear Cache</comment>
+  </data>
+  <data name="btnCreateNew" xml:space="preserve">
+    <value>Creare nou</value>
+    <comment>Create New</comment>
+  </data>
+  <data name="btnGenerate" xml:space="preserve">
+    <value>Generare</value>
+    <comment>Generate</comment>
+  </data>
+  <data name="btnNext" xml:space="preserve">
+    <value>Următor &gt;&gt;</value>
+    <comment>Next &gt;&gt;</comment>
+  </data>
+  <data name="btnTestConnection" xml:space="preserve">
+    <value>Testare conexiune</value>
+    <comment>Test Connection</comment>
+  </data>
+  <data name="btnOrderStatus" xml:space="preserve">
+    <value>Schimbare Stare Comandă</value>
+    <comment>Change Order Status</comment>
+  </data>
+  <data name="btnPrevious" xml:space="preserve">
+    <value>&lt;&lt; Anterior</value>
+    <comment>&lt;&lt; Previous</comment>
+  </data>
+  <data name="btnRefreshCache" xml:space="preserve">
+    <value>Împrospătare Cache</value>
+    <comment>Refresh Cache</comment>
+  </data>
+  <data name="btnCopy" xml:space="preserve">
+    <value>Copiere</value>
+    <comment>Copy</comment>
+  </data>
+  <data name="chkUseCache" xml:space="preserve">
+    <value>Folosire Cache</value>
+    <comment>Use Cache</comment>
+  </data>
+  <data name="chkGenerateThumbs" xml:space="preserve">
+    <value>Auto+generare icoane</value>
+    <comment>Auto-Generate Thumbnails</comment>
+  </data>
+  <data name="copy" xml:space="preserve">
+    <value>Copyright &amp;copy; 2007 - {0} Mettle Systems LLC, Computing Labs SRL</value>
+  </data>
+  <data name="hdrActive" xml:space="preserve">
+    <value>Activ</value>
+    <comment>Active</comment>
+  </data>
+  <data name="hdrCount" xml:space="preserve">
+    <value>Număr</value>
+    <comment>Count</comment>
+  </data>
+  <data name="hdrCouponCode" xml:space="preserve">
+    <value>Cod Cupon</value>
+    <comment>Coupon Code</comment>
+  </data>
+  <data name="hdrDescription" xml:space="preserve">
+    <value>Descriere</value>
+    <comment>Description</comment>
+  </data>
+  <data name="hdrDetails" xml:space="preserve">
+    <value>Detalii</value>
+    <comment>Details</comment>
+  </data>
+  <data name="hdrDiscountAmount" xml:space="preserve">
+    <value>Total reducere</value>
+    <comment>Discount Amount</comment>
+  </data>
+  <data name="hdrEditRegion" xml:space="preserve">
+    <value>Editare Regiune</value>
+    <comment>Edit Region</comment>
+  </data>
+  <data name="hdrExpirationDate" xml:space="preserve">
+    <value>Data expirării</value>
+    <comment>Expiration Date</comment>
+  </data>
+  <data name="hdrHits" xml:space="preserve">
+    <value>Hit-uri</value>
+    <comment>Hits</comment>
+  </data>
+  <data name="hdrIsDeleted" xml:space="preserve">
+    <value>E şters</value>
+    <comment>Is Deleted</comment>
+  </data>
+  <data name="hdrIsEnabled" xml:space="preserve">
+    <value>E permis</value>
+    <comment>Is Enabled</comment>
+  </data>
+  <data name="hdrItemTax" xml:space="preserve">
+    <value>TVA element</value>
+    <comment>Item Tax</comment>
+  </data>
+  <data name="hdrLogDate" xml:space="preserve">
+    <value>Data log</value>
+    <comment>Log Date</comment>
+  </data>
+  <data name="hdrLogLevel" xml:space="preserve">
+    <value>Nivel log</value>
+    <comment>Log Level</comment>
+  </data>
+  <data name="hdrScriptName" xml:space="preserve">
+    <value>Nume Script</value>
+    <comment>Script Name</comment>
+  </data>
+  <data name="hdrRemoteHost" xml:space="preserve">
+    <value>Host</value>
+    <comment>Remote Host</comment>
+  </data>
+  <data name="hdrExceptionType" xml:space="preserve">
+    <value>Tip Excepţie</value>
+    <comment>Exception Type</comment>
+  </data>
+  <data name="hdrExceptionMessage" xml:space="preserve">
+    <value>Mesaj Excepţie</value>
+    <comment>Exception Message</comment>
+  </data>
+  <data name="hdrQueryStringData" xml:space="preserve">
+    <value>Date string de interogare</value>
+    <comment>Query String Data</comment>
+  </data>
+  <data name="hdrAuthenticatedUser" xml:space="preserve">
+    <value>User autentificat</value>
+    <comment>Authenticated User</comment>
+  </data>
+  <data name="hdrUserAgent" xml:space="preserve">
+    <value>User Agent</value>
+  </data>
+  <data name="hdrReferrer" xml:space="preserve">
+    <value>Referend</value>
+    <comment>Referrer</comment>
+  </data>
+  <data name="hdrLogMessage" xml:space="preserve">
+    <value>Mesaj</value>
+    <comment>Message</comment>
+  </data>
+  <data name="hdrOrderDate" xml:space="preserve">
+    <value>Data comenzii</value>
+    <comment>Order Date</comment>
+  </data>
+  <data name="hdrPath" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="hdrPricePaid" xml:space="preserve">
+    <value>Preţ plătit</value>
+    <comment>Price Paid</comment>
+  </data>
+  <data name="hdrQuantityRemaining" xml:space="preserve">
+    <value>Cantitate rămasă</value>
+    <comment>Quantity Remaining</comment>
+  </data>
+  <data name="hdrRefund" xml:space="preserve">
+    <value>Rambursare</value>
+    <comment>Refund</comment>
+  </data>
+  <data name="hdrSearchTerm" xml:space="preserve">
+    <value>Termen Căutare</value>
+    <comment>Search Term</comment>
+  </data>
+  <data name="hdrTemplateRegion" xml:space="preserve">
+    <value>Regiune Şablon</value>
+    <comment>Template Region</comment>
+  </data>
+  <data name="hdrTodo" xml:space="preserve">
+    <value>De făcut</value>
+    <comment>To Do</comment>
+  </data>
+  <data name="hdrType" xml:space="preserve">
+    <value>Tip</value>
+    <comment>Type</comment>
+  </data>
+  <data name="hlAddRegion" xml:space="preserve">
+    <value>Adaugă Regiune</value>
+    <comment>Add Region</comment>
+  </data>
+  <data name="hlContentManagement" xml:space="preserve">
+    <value>Management Conţinut</value>
+    <comment>Content Management</comment>
+  </data>
+  <data name="hlCoupons" xml:space="preserve">
+    <value>Cupoane</value>
+    <comment>Coupons</comment>
+  </data>
+  <data name="hlErrorLogs" xml:space="preserve">
+    <value>Log-uri Erori</value>
+    <comment>Error Logs</comment>
+  </data>
+  <data name="hlManageCouponProviders" xml:space="preserve">
+    <value>Administrare Provideri Cupoane</value>
+    <comment>Manage Coupon Providers</comment>
+  </data>
+  <data name="hlOrderSearch" xml:space="preserve">
+    <value>Căutare Comenzi</value>
+    <comment>Order Search</comment>
+  </data>
+  <data name="hlProductAttributes" xml:space="preserve">
+    <value>Atribute Produs</value>
+    <comment>Product Attributes</comment>
+  </data>
+  <data name="hlProductCategories" xml:space="preserve">
+    <value>Categorii Produs</value>
+    <comment>Product Categories</comment>
+  </data>
+  <data name="hlProductCoupons" xml:space="preserve">
+    <value>Cupoane Produs</value>
+    <comment>Product Coupons</comment>
+  </data>
+  <data name="hlProductListing" xml:space="preserve">
+    <value>Listare Produs</value>
+    <comment>Product Listing</comment>
+  </data>
+  <data name="hlProductManufacturers" xml:space="preserve">
+    <value>Fabricanţi Produs</value>
+    <comment>Product Manufacturers</comment>
+  </data>
+  <data name="hlRoleAdministration" xml:space="preserve">
+    <value>Administrare Roluri</value>
+    <comment>Role Administration</comment>
+  </data>
+  <data name="hlSecurity" xml:space="preserve">
+    <value>Securitate</value>
+    <comment>Security</comment>
+  </data>
+  <data name="hlSiteSettings" xml:space="preserve">
+    <value>Setări Sit</value>
+    <comment>Site Settings</comment>
+  </data>
+  <data name="hlTrackingLogs" xml:space="preserve">
+    <value>Log-uri Urmărire</value>
+    <comment>Tracking Logs</comment>
+  </data>
+  <data name="hlUserAdministration" xml:space="preserve">
+    <value>Administrare Useri</value>
+    <comment>User Administration</comment>
+  </data>
+  <data name="lbChangeEmail" xml:space="preserve">
+    <value>Schimbare Email</value>
+    <comment>Change Email</comment>
+  </data>
+  <data name="lbChangePassword" xml:space="preserve">
+    <value>Schimbare Parolă</value>
+    <comment>Change Password</comment>
+  </data>
+  <data name="lbChangeSecurityQuestion" xml:space="preserve">
+    <value>Schimbare Întrebare de control</value>
+    <comment>Change Security Question</comment>
+  </data>
+  <data name="lbCheckout" xml:space="preserve">
+    <value>Către Plată »</value>
+    <comment>Proceed To Checkout »</comment>
+  </data>
+  <data name="lblAdditionalRefundAmount" xml:space="preserve">
+    <value>Sumă adiţională rambursată:</value>
+    <comment>Additional Refund Amount:</comment>
+  </data>
+  <data name="lblAlreadyReviewed" xml:space="preserve">
+    <value>Ai revizuit deja acest produs.</value>
+    <comment>You have already reviewed this product.</comment>
+  </data>
+  <data name="lblBrowsingLogListing" xml:space="preserve">
+    <value>Listare Log browsing</value>
+    <comment>Browsing Log Listing</comment>
+  </data>
+  <data name="lblCategoryItems" xml:space="preserve">
+    <value>Numărul de elemente de afişat în pagina catalog:</value>
+    <comment>Number of items to display on catalog page:</comment>
+  </data>
+  <data name="lblDefaultCategorySorting" xml:space="preserve">
+    <value>Metoda implicită de sortare a produselor în pagina catalog:</value>
+    <comment>Default sorting of products on catalog page:</comment>
+  </data>
+  <data name="lblCategoryListing" xml:space="preserve">
+    <value>Listare Log vizualizări categorii:</value>
+    <comment>Category Browsing Log Listing:</comment>
+  </data>
+  <data name="lblCollectSearchTerms" xml:space="preserve">
+    <value>Colectare Termeni de căutare:</value>
+    <comment>Collect Search Terms:</comment>
+  </data>
+  <data name="lblCompleteInstructions" xml:space="preserve">
+    <value>Instalarea dashCommerce a fost încheiată. &lt;strong&gt;Ar trebui eliminat acest folder de instalare de pe sit pt a nu fi rulat din nou.&lt;/strong&gt; Acum poţi să te loghezi cu contul de Administrator ce tocmai a fost creat şi să incepi încărcarea de produse!&lt;/p&gt;</value>
+    <comment>&lt;p&gt;The installation of dashCommerce has been completed! &lt;strong&gt;You should now remove this install folder from your site to ensure it is not run again.&lt;/strong&gt; You may now login with the Administrator account you just created and begin loading your site with products!&lt;/p&gt;</comment>
+  </data>
+  <data name="lblConnectionStringInstructions" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;Înainte de a începe&lt;/strong&gt;, copy şi paste şirul de conectare de mai jos în fişierul connectionString.config. Pur şi simplu înlocuieşte linia ce conţine: &lt;br/&gt;&lt;br/&gt;&lt;span style="font-family: Courier New"&gt; &amp;lt;add name="dashCommerce" connectionString="SOMETEXT"  providerName="System.Data.SqlClient" /&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; cu următoarea:&lt;/p&gt;</value>
+    <comment>&lt;p&gt;&lt;strong&gt;Before proceeding&lt;/strong&gt;, please copy and paste the connection string below into the connectionString.config file. Simply replace the line that has:&lt;br/&gt;&lt;br/&gt;&lt;span style="font-family: Courier New"&gt; &amp;lt;add name="dashCommerce" connectionString="SOMETEXT"  providerName="System.Data.SqlClient" /&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; with the following:&lt;/p&gt;</comment>
+  </data>
+  <data name="lblCoupon" xml:space="preserve">
+    <value>Cupon:</value>
+    <comment>Coupon:</comment>
+  </data>
+  <data name="lblCouponCode" xml:space="preserve">
+    <value>Cod Cupon:</value>
+    <comment>Coupon Code:</comment>
+  </data>
+  <data name="lblCouponDescription" xml:space="preserve">
+    <value>Secţiunea Cupoane permite adăugarea şi editarea cupoanelor utilizate în acest magazin.</value>
+    <comment>The Coupon section allows you to add and edit coupons for use by your store.</comment>
+  </data>
+  <data name="lblCouponInformation" xml:space="preserve">
+    <value>Informaţii Cupon</value>
+    <comment>Coupon Information</comment>
+  </data>
+  <data name="lblCouponInformationTitle" xml:space="preserve">
+    <value>Informaţii Cupon</value>
+    <comment>Coupon Information</comment>
+  </data>
+  <data name="lblCouponManagement" xml:space="preserve">
+    <value>Management Cupoane</value>
+    <comment>Coupon Management</comment>
+  </data>
+  <data name="lblCouponNotSaved" xml:space="preserve">
+    <value>Cuponul nu a fost salvat.</value>
+    <comment>Coupon not saved.</comment>
+  </data>
+  <data name="lblCouponProviderManagement" xml:space="preserve">
+    <value>Management Provideri Cupoane</value>
+    <comment>Coupon Provider Management</comment>
+  </data>
+  <data name="lblCouponSaved" xml:space="preserve">
+    <value>Cupon salvat.</value>
+    <comment>Coupon saved.</comment>
+  </data>
+  <data name="lblDashCommerceTaxProviderDescriptionTitle" xml:space="preserve">
+    <value>Provider TVA dashCommerce</value>
+    <comment>dashCommerce Tax Provider</comment>
+  </data>
+  <data name="lblDatabaseInstructions" xml:space="preserve">
+    <value>&lt;p&gt;Pt a folosi acest instalator, e nevoie să fie creată o bază de date pe serverul de baze de date. Nu continua până când nu există aceasta.&lt;/p&gt;&lt;p&gt;Odată creată baza de date introdu informaţiile de mai jos. Aceste informaţii vor fi folosite pt a conecta situl la baza de date şi a rula comenzile de setare a bazei de date.&lt;/p&gt;</value>
+    <comment>&lt;p&gt;In order to use this installer, you need to have created a database on your database server. If you have not done so, please do so before proceeding.&lt;/p&gt;&lt;p&gt;Once you have completed creating the database, enter the information below. This information will be used to connect to your database in order to run the installer scripts.&lt;/p&gt;</comment>
+  </data>
+  <data name="lblDatabaseName" xml:space="preserve">
+    <value>Nume baza de date:</value>
+    <comment>Database Name:</comment>
+  </data>
+  <data name="lblDatabasePassword" xml:space="preserve">
+    <value>Parola bazei de date:</value>
+    <comment>Database Password:</comment>
+  </data>
+  <data name="lblDatabaseServer" xml:space="preserve">
+    <value>Server baze de date:</value>
+    <comment>Database Server:</comment>
+  </data>
+  <data name="chkWindowsAuth" xml:space="preserve">
+    <value>Autentificare prin Windows</value>
+    <comment>Windows Authentication</comment>
+  </data>
+  <data name="lblTestDatabaseConnection" xml:space="preserve">
+    <value>Conectat la baza de date cu succes</value>
+    <comment>Sucessfully Connected to Database</comment>
+  </data>
+  <data name="lblDisplayNarrowCategory" xml:space="preserve">
+    <value>Afişare căsuţă "Filtrare după Categorie":</value>
+    <comment>Display Narrow By Sub-Category Widget:</comment>
+  </data>
+  <data name="lblDisplayRatings" xml:space="preserve">
+    <value>Permitere Opinii:</value>
+    <comment>Enable Reviews:</comment>
+  </data>
+  <data name="lblShowShippingOnCart" xml:space="preserve">
+    <value>Afişare expediere în Coş:</value>
+    <comment>Display Shipping on Cart:</comment>
+  </data>
+  <data name="lblEditRegion" xml:space="preserve">
+    <value>Editare Regiune</value>
+    <comment>Edit Region</comment>
+  </data>
+  <data name="lblEmailAddressesDoNotMatch" xml:space="preserve">
+    <value>Adresele de email nu se potrivesc.</value>
+    <comment>The email addresses do not match.</comment>
+  </data>
+  <data name="lblEmailConfirmation" xml:space="preserve">
+    <value>Confirmare Email:</value>
+    <comment>Confirm Email:</comment>
+  </data>
+  <data name="lblErrorLogDetail" xml:space="preserve">
+    <value>Detalii Log Eroare</value>
+    <comment>Error Log Detail</comment>
+  </data>
+  <data name="lblExpirationDate" xml:space="preserve">
+    <value>Data Expirării:</value>
+    <comment>Expiration Date:</comment>
+  </data>
+  <data name="lblStart" xml:space="preserve">
+    <value>Data start:</value>
+    <comment>Start Date:</comment>
+  </data>
+  <data name="lblIssueNumber" xml:space="preserve">
+    <value>Nr Problemă:</value>
+    <comment>Issue No:</comment>
+  </data>
+  <data name="lblIsSingleUse" xml:space="preserve">
+    <value>E de uz unic:</value>
+    <comment>Is Single Use:</comment>
+  </data>
+  <data name="lblLanguagePack" xml:space="preserve">
+    <value>dashCommerce e localizabil, aşa că dacă doreşti să instalezi o anumită limbă în baza de date (şi ea există) selecteaz-o mai jos.</value>
+    <comment>dashCommerce is localizable, so if you want to install a specific language pack to your database (and that language pack exists) then select the language below.</comment>
+  </data>
+  <data name="lblLogInfo" xml:space="preserve">
+    <value>Informaţii Log:</value>
+    <comment>Log Info:</comment>
+  </data>
+  <data name="lblLoginRequirement" xml:space="preserve">
+    <value>Cerinţe Login:</value>
+    <comment>Login Requirement:</comment>
+  </data>
+  <data name="lblLongCache" xml:space="preserve">
+    <value>Cache durată lungă:</value>
+    <comment>Long Cache:</comment>
+  </data>
+  <data name="lblManageCouponProviderDescription" xml:space="preserve">
+    <value>Secţiunea Administrare Provideri Cupoane permite adăugarea de Provideri de Cupoane aşa încât magazinul să îi poată folosi pt a oferi reduceri clienţilor.</value>
+    <comment>The Manage Coupon Providers section allows you to add additional coupon providers to your store, that your store can then use to offer discounts to your customers.</comment>
+  </data>
+  <data name="lblMembershipInstructions" xml:space="preserve">
+    <value>&lt;p&gt;Se va crea acum contul de Administrator ce va permite administrarea dashCommerce.&lt;/p&gt;&lt;p&gt;Păstreză informaţiile despre acest cont într-o locaţie sigură şi nu face publică.&lt;/p&gt;</value>
+    <comment>&lt;p&gt;You will now create the Administrator account which will allow you administer dashCommerce.&lt;/p&gt;&lt;p&gt;Please keep this account information in a safe location and do not give it out.&lt;/p&gt;</comment>
+  </data>
+  <data name="lblNewsFeedUrl" xml:space="preserve">
+    <value>News Feed Url:</value>
+  </data>
+  <data name="lblNoCouponProvidersInstalled" xml:space="preserve">
+    <value>Nu există Provideri de Cupoane instalaţi.</value>
+    <comment>There are no Coupon Providers installed.</comment>
+  </data>
+  <data name="lblNoCouponsConfigured" xml:space="preserve">
+    <value>Nu există Cupoane configurate.</value>
+    <comment>There are no Coupons configured.</comment>
+  </data>
+  <data name="lblNormalCache" xml:space="preserve">
+    <value>Cache durată medie:</value>
+    <comment>Normal Cache:</comment>
+  </data>
+  <data name="lblTinySize" xml:space="preserve">
+    <value>Dimensiuni icoane mici (Lxl pixeli):</value>
+    <comment>Tiny Thumb Pixel Size (WxH):</comment>
+  </data>
+  <data name="lblSmallSize" xml:space="preserve">
+    <value>Dimensiuni icoane (Lxl pixeli):</value>
+    <comment>Small Thumb Pixel Size (WxH):</comment>
+  </data>
+  <data name="lblNotAvailable" xml:space="preserve">
+    <value>Indisponibil</value>
+    <comment>Not Available</comment>
+  </data>
+  <data name="lblOrderSearchDescription" xml:space="preserve">
+    <value>Căutare Comenzi este metoda primară de administrare a comenzilor. Aici se pot vizualiza comenzile, totalurile şi stările comenzilor. De asemenea se pot face adnotări, rambursări, etc.</value>
+    <comment>The Order Search is your primary method of administering the orders you receive. Here you can see the order items, the order amount and the status of the order. You can also make order notes, refund orders, etc.</comment>
+  </data>
+  <data name="lblOrderStatus" xml:space="preserve">
+    <value>Stare Comandă:</value>
+    <comment>Order Status:</comment>
+  </data>
+  <data name="lblOrderStatusChanged" xml:space="preserve">
+    <value>Stare Comandă schimbată.</value>
+    <comment>Order Status Changed.</comment>
+  </data>
+  <data name="lblPageTemplate" xml:space="preserve">
+    <value>Şablon Pagină:</value>
+    <comment>Page Template:</comment>
+  </data>
+  <data name="lblPayPalStandardRefundInstructions" xml:space="preserve">
+    <value>Tranzacţiile PayPal Standard trebuie să fie rambursate în situl web PayPal. Totuşi, odată rambursată tranzacţia prin PayPal, va trebui efectuat un ramburs şi aici pt a avea comanda în sincron.</value>
+    <comment>PayPal Standard transactions need to be refunded via the PayPal website. However, once you refund the transaction through PayPal, you should perform a refund here as well to keep the order in sync.</comment>
+  </data>
+  <data name="lblPercentOff" xml:space="preserve">
+    <value>Procentaj Reducere:</value>
+    <comment>Percent Off:</comment>
+  </data>
+  <data name="lblPercentOffCouponDescriptionTitle" xml:space="preserve">
+    <value>Cupon Reducere Procentuală</value>
+    <comment>Percent Off Coupon</comment>
+  </data>
+  <data name="lblProductAttributesDescription" xml:space="preserve">
+    <value>Secţiunea Atribute Produs permite crearea de atribute ce pot fi asociate cu produsele şi utilizate în procesul de comandă. Acestea sunt atribute de produs ca de exemplu mărime, culoare, etc.</value>
+    <comment>The Product Attributes section allows you to create attributes that can be associated with your products and used in the ordering process. These are product attributes such as sizes, colors, etc.</comment>
+  </data>
+  <data name="lblProductCategoriesDescription" xml:space="preserve">
+    <value>Secţiunea Categorii Produs permite crearea de categorii ce determină navigarea în magazin şi permit asocierea produselor cu categorii.</value>
+    <comment>The Product Categories section allows you to create categories that drive your store navigation and allows you to associate products with categories.</comment>
+  </data>
+  <data name="lblProductCouponsDescription" xml:space="preserve">
+    <value>Secţiunea Cupoane Produs permite crearea de cupoane ce vor fi utilizate în magazin. Clienţii vor putea folosi aceste coduri de cupoane pt a beneficia de reduceri când cumpără din magazin.</value>
+    <comment>The Product Coupons sections allows you to create coupons for use by your store. Your clients can then use the coupon codes to receive discounts when shopping your store.</comment>
+  </data>
+  <data name="lblDeletedFromServer" xml:space="preserve">
+    <value>Şters de pe server.</value>
+    <comment>Deleted from server.</comment>
+  </data>
+  <data name="lblProductListing" xml:space="preserve">
+    <value>Listare Log viyualizare produse:</value>
+    <comment>Product Browsing Log Listing:</comment>
+  </data>
+  <data name="lblProductListingDescription" xml:space="preserve">
+    <value>Secţiunea Listare Produse afişează toate produsele din magazin. Aici se poate selecta un produs şi edita.</value>
+    <comment>The Product Listing section is where all of the products in your store are listed. From here you can select a product and edit it.</comment>
+  </data>
+  <data name="lblProductManufacturersDescription" xml:space="preserve">
+    <value>Secţiunea Fabricanţi Produse permite definirea de fabricanţi ale produselor oferite.</value>
+    <comment>The Product Manufacturers section allows you to specify the manufacturers of the products you are offering.</comment>
+  </data>
+  <data name="lblProductNotEnabled" xml:space="preserve">
+    <value>(Produs neactivat)</value>
+    <comment>(Product Not Enabled)</comment>
+  </data>
+  <data name="lblProvider" xml:space="preserve">
+    <value>Provider:</value>
+    <comment>Provider:</comment>
+  </data>
+  <data name="lblRangeIsInvalid" xml:space="preserve">
+    <value>Seria este invalidă pt elementul: {0}.</value>
+    <comment>The range is invalid for the item: {0}.</comment>
+  </data>
+  <data name="lblReceipt" xml:space="preserve">
+    <value>Chitanţă</value>
+    <comment>Receipt</comment>
+  </data>
+  <data name="lblRegionTitle" xml:space="preserve">
+    <value>Titlu Regiune:</value>
+    <comment>Region Title:</comment>
+  </data>
+  <data name="lblRemoveCoupon" xml:space="preserve">
+    <value>Cupon şters.</value>
+    <comment>Coupon deleted.</comment>
+  </data>
+  <data name="lblLastUpdatedASC" xml:space="preserve">
+    <value>Actualizat: Cel mai recent</value>
+    <comment>Updated: Newest First</comment>
+  </data>
+  <data name="lblLastUpdatedDESC" xml:space="preserve">
+    <value>Actualizat: Cel mai vechi</value>
+    <comment>Updated: Oldest First</comment>
+  </data>
+  <data name="lblSearchTerms" xml:space="preserve">
+    <value>Termeni de căutare populari:</value>
+    <comment>Popular Search Terms:</comment>
+  </data>
+  <data name="lblSecurityQuestion" xml:space="preserve">
+    <value>Întrebare de control:</value>
+    <comment>Security Question:</comment>
+  </data>
+  <data name="lblShortCache" xml:space="preserve">
+    <value>Cache durată scurtă:</value>
+    <comment>Short Cache:</comment>
+  </data>
+  <data name="lblShowTitle" xml:space="preserve">
+    <value>Afişare Titlu:</value>
+    <comment>Show Title:</comment>
+  </data>
+  <data name="lblSiteImages" xml:space="preserve">
+    <value>Imagini Sit</value>
+    <comment>Site Images</comment>
+  </data>
+  <data name="lblSiteInstall" xml:space="preserve">
+    <value>Instalare Sit</value>
+    <comment>Site Installation</comment>
+  </data>
+  <data name="lblLogo" xml:space="preserve">
+    <value>Logo:</value>
+  </data>
+  <data name="lblSortOrder" xml:space="preserve">
+    <value>Ordine sortare:</value>
+    <comment>Sort Order:</comment>
+  </data>
+  <data name="lblTemplateRegion" xml:space="preserve">
+    <value>Regiune Şablon:</value>
+    <comment>Template Region:</comment>
+  </data>
+  <data name="lblUrl" xml:space="preserve">
+    <value>Url:</value>
+  </data>
+  <data name="lblWelcomeInstructions" xml:space="preserve">
+    <value>&lt;p&gt;Acest asistent de instalare te va ajuta în instalarea Centrul de Mesaje este locul unde se afişează rezultatele acţiunilor de instalare.&lt;/p&gt;&lt;p&gt;Deci, la treabă  . . . &lt;/p&gt;</value>
+    <comment>&lt;p&gt;This installation wizard will guide you through the installation of dashCommerce.&lt;/p&gt;&lt;p&gt;The Message Center is where you receive feedback about the actions taken by the installer.&lt;/p&gt;&lt;p&gt;So, let's not waste any time . . . &lt;/p&gt;</comment>
+  </data>
+  <data name="pnlAddRegion" xml:space="preserve">
+    <value>Adăugare / editare Regiune</value>
+    <comment>Add / Edit Region</comment>
+  </data>
+  <data name="pnlAvailableCoupons" xml:space="preserve">
+    <value>Cupoane disponibile</value>
+    <comment>Available Coupons</comment>
+  </data>
+  <data name="pnlBillingAddresses" xml:space="preserve">
+    <value>Adrese de facturare</value>
+    <comment>Billing Addresses</comment>
+  </data>
+  <data name="pnlCaching" xml:space="preserve">
+    <value>Caching</value>
+  </data>
+  <data name="pnlChildCategories" xml:space="preserve">
+    <value>Subcategorii</value>
+    <comment>Child Categories</comment>
+  </data>
+  <data name="pnlChildPages" xml:space="preserve">
+    <value>Subpagini</value>
+    <comment>Child Pages</comment>
+  </data>
+  <data name="pnlComplete" xml:space="preserve">
+    <value>Instalare completă</value>
+    <comment>Installation Complete</comment>
+  </data>
+  <data name="pnlConnectionStringSetup" xml:space="preserve">
+    <value>Setare şir de conectare</value>
+    <comment>Connection String Setup</comment>
+  </data>
+  <data name="pnlCouponConfiguration" xml:space="preserve">
+    <value>Configurare Cupon</value>
+    <comment>Coupon Configuration</comment>
+  </data>
+  <data name="pnlMembershipSetup" xml:space="preserve">
+    <value>Setare cont Administrator</value>
+    <comment>Administrator Account Setup</comment>
+  </data>
+  <data name="pnlPaymentConfiguration" xml:space="preserve">
+    <value>Configurare Plăţi</value>
+    <comment>Payment Configuration</comment>
+  </data>
+  <data name="pnlProductCoupons" xml:space="preserve">
+    <value>Cupoane Produse</value>
+    <comment>Product Coupons</comment>
+  </data>
+  <data name="pnlProductManagement" xml:space="preserve">
+    <value>Management Produse</value>
+    <comment>Product Management</comment>
+  </data>
+  <data name="pnlRegions" xml:space="preserve">
+    <value>Regiuni</value>
+    <comment>Regions</comment>
+  </data>
+  <data name="pnlSales" xml:space="preserve">
+    <value>Vânzări</value>
+    <comment>Sales</comment>
+  </data>
+  <data name="pnlSecurity" xml:space="preserve">
+    <value>Securitate</value>
+    <comment>Security</comment>
+  </data>
+  <data name="pnlShippingAddresses" xml:space="preserve">
+    <value>Adrese expediere</value>
+    <comment>Shipping Addresses</comment>
+  </data>
+  <data name="pnlShippingConfiguration" xml:space="preserve">
+    <value>Configurare Expedieri</value>
+    <comment>Shipping Configuration</comment>
+  </data>
+  <data name="pnlTaxConfiguration" xml:space="preserve">
+    <value>Configurare TVA</value>
+    <comment>Tax Configuration</comment>
+  </data>
+  <data name="pnlWelcome" xml:space="preserve">
+    <value>Bun venit</value>
+    <comment>Welcome</comment>
+  </data>
+  <data name="pwdBy" xml:space="preserve">
+    <value>Powered by dashCommerce</value>
+    <comment>Powered by dashCommerce</comment>
+  </data>
+  <data name="rfvBaseSku" xml:space="preserve">
+    <value>Introdu un SKU de bază.</value>
+    <comment>Please supply a Base Sku.</comment>
+  </data>
+  <data name="rfvDatabaseName" xml:space="preserve">
+    <value>Introdu un nume de bază de date.</value>
+    <comment>Please provide a Database Name.</comment>
+  </data>
+  <data name="rfvDatabasePassword" xml:space="preserve">
+    <value>Introdu o parolă de acces la baza de date.</value>
+    <comment>Please provide a Database Password.</comment>
+  </data>
+  <data name="rfvDatabaseServer" xml:space="preserve">
+    <value>Introdu un nume de server de baze de date.</value>
+    <comment>Please provide a Database Server.</comment>
+  </data>
+  <data name="rfvDatabaseUserName" xml:space="preserve">
+    <value>Introdu un nume de user al bazei de date.</value>
+    <comment>Please provide a Database User Name.</comment>
+  </data>
+  <data name="rfvImageFile" xml:space="preserve">
+    <value>Trebuie un fişier imagine.</value>
+    <comment>Please provide an Image File.</comment>
+  </data>
+  <data name="rfvQuantity" xml:space="preserve">
+    <value>Introdu o cantitate.</value>
+    <comment>Please supply a quantity.</comment>
+  </data>
+  <data name="titleInstallAdministrator" xml:space="preserve">
+    <value>dashCommerce :: Instalare :: Cont Administrator</value>
+    <comment>dashCommerce :: Install :: Administrator Account</comment>
+  </data>
+  <data name="titleInstallComplete" xml:space="preserve">
+    <value>dashCommerce :: Instalare :: Terminat</value>
+    <comment>dashCommerce :: Install :: Complete</comment>
+  </data>
+  <data name="titleInstallConnectionString" xml:space="preserve">
+    <value>dashCommerce :: Instalare :: Şir Conectare</value>
+    <comment>dashCommerce :: Install :: Connection String</comment>
+  </data>
+  <data name="titleInstallDatabase" xml:space="preserve">
+    <value>dashCommerce :: Instalare :: Baza de date</value>
+    <comment>dashCommerce :: Install :: Database</comment>
+  </data>
+  <data name="titleInstallWelcome" xml:space="preserve">
+    <value>dashCommerce :: Instalare :: Bun venit</value>
+    <comment>dashCommerce :: Install :: Welcome</comment>
+  </data>
+  <data name="titleLogin" xml:space="preserve">
+    <value>dashCommerce :: Login</value>
+  </data>
+  <data name="titleManageCouponProviders" xml:space="preserve">
+    <value>dashCommerce :: Administrare Provideri Cupoane</value>
+    <comment>dashCommerce :: Manage Coupon Providers</comment>
+  </data>
+  <data name="titleOrderActions" xml:space="preserve">
+    <value>dashCommerce :: Comandă :: Acţiuni</value>
+    <comment>dashCommerce :: Order :: Actions</comment>
+  </data>
+  <data name="titleOrderNotes" xml:space="preserve">
+    <value>dashCommerce :: Comandă :: Note</value>
+    <comment>dashCommerce :: Order :: Notes</comment>
+  </data>
+  <data name="titleOrderReceipts" xml:space="preserve">
+    <value>dashCommerce :: Comandă :: Chitanţe</value>
+    <comment>dashCommerce :: Order :: Receipts</comment>
+  </data>
+  <data name="titleOrderShipping" xml:space="preserve">
+    <value>dashCommerce :: Comandă :: Expediere</value>
+    <comment>dashCommerce :: Order :: Shipping</comment>
+  </data>
+  <data name="titleOrderTransactions" xml:space="preserve">
+    <value>dashCommerce :: Comandă :: Tranzacţii</value>
+    <comment>dashCommerce :: Order :: Transactions</comment>
+  </data>
+  <data name="titleOverview" xml:space="preserve">
+    <value>dashCommerce :: Generalităţi :: {0}</value>
+    <comment>dashCommerce :: Overview :: {0}</comment>
+  </data>
+  <data name="titleProductCoupons" xml:space="preserve">
+    <value>dashCommerce :: Cupoane Produs</value>
+    <comment>dashCommerce :: Product Coupons</comment>
+  </data>
+  <data name="titleProductEditAttributes" xml:space="preserve">
+    <value>dashCommerce :: Editare Produs :: Atribute</value>
+    <comment>dashCommerce :: Product Edit :: Attributes</comment>
+  </data>
+  <data name="titleProductEditCategories" xml:space="preserve">
+    <value>dashCommerce :: Editare Produs :: Categorii</value>
+    <comment>dashCommerce :: Product Edit :: Categories</comment>
+  </data>
+  <data name="titleProductEditCrossSells" xml:space="preserve">
+    <value>dashCommerce :: Editare Produs :: Vânzări Încrucişate</value>
+    <comment>dashCommerce :: Product Edit :: Cross Sells</comment>
+  </data>
+  <data name="titleProductEditDescriptors" xml:space="preserve">
+    <value>dashCommerce :: Editare Produs :: Descriptori</value>
+    <comment>dashCommerce :: Product Edit :: Descriptors</comment>
+  </data>
+  <data name="titleProductEditGeneral" xml:space="preserve">
+    <value>dashCommerce :: Editare Produs :: Generale</value>
+    <comment>dashCommerce :: Product Edit :: General</comment>
+  </data>
+  <data name="titleProductEditImages" xml:space="preserve">
+    <value>dashCommerce :: Editare Produs :: Imagini</value>
+    <comment>dashCommerce :: Product Edit :: Images</comment>
+  </data>
+  <data name="titleProductEditNotes" xml:space="preserve">
+    <value>dashCommerce :: Editare Produs :: Note</value>
+    <comment>dashCommerce :: Product Edit :: Notes</comment>
+  </data>
+  <data name="titleProductEditReviews" xml:space="preserve">
+    <value>dashCommerce :: Editare Produs :: Opinii</value>
+    <comment>dashCommerce :: Product Edit :: Reviews</comment>
+  </data>
+  <data name="titleProductEditSku" xml:space="preserve">
+    <value>dashCommerce :: Editare Produs :: SKU</value>
+    <comment>dashCommerce :: Product Edit :: Sku</comment>
+  </data>
+  <data name="titleRegister" xml:space="preserve">
+    <value>dashCommerce :: Înregistrare</value>
+    <comment>dashCommerce :: Register</comment>
+  </data>
+  <data name="titleReview" xml:space="preserve">
+    <value>Opinii despre {0}.</value>
+    <comment>Review of {0}.</comment>
+  </data>
+  <data name="titleSalesOrderSearch" xml:space="preserve">
+    <value>dashCommerce :: Vânzări :: Căutare Comandă</value>
+    <comment>dashCommerce :: Sales :: Order Search</comment>
+  </data>
+  <data name="titleSiteSettingsCache" xml:space="preserve">
+    <value>dashCommerce :: Setări sit :: Caching</value>
+    <comment>dashCommerce :: Site Settings :: Caching</comment>
+  </data>
+  <data name="titleSiteSettingsImages" xml:space="preserve">
+    <value>dashCommerce :: Setări sit :: Imagini</value>
+    <comment>dashCommerce :: Site Settings :: Images</comment>
+  </data>
+  <data name="pnlImages" xml:space="preserve">
+    <value>Imagini</value>
+    <comment>Images</comment>
+  </data>
+  <data name="chkShowdCCopyright" xml:space="preserve">
+    <value>Inserează "dashCommerce" în meta tag-uri</value>
+    <comment>Insert dashCommerce into Meta Tags</comment>
+  </data>
+  <data name="lblCopyrightText" xml:space="preserve">
+    <value>Copyright Text:</value>
+  </data>
+  <data name="lblSiteDescription" xml:space="preserve">
+    <value>Decriere Sit:</value>
+    <comment>Site Description:</comment>
+  </data>
+  <data name="lblSiteKeywords" xml:space="preserve">
+    <value>Cuvinte cheie sit:</value>
+    <comment>Site Keywords:</comment>
+  </data>
+  <data name="pnlSeo" xml:space="preserve">
+    <value>Setări SEO</value>
+    <comment>SeoSettings</comment>
+  </data>
+  <data name="CopyrightTemplate" xml:space="preserve">
+    <value>Copyright (c) {0} by {1}</value>
+  </data>
+  <data name="titleSiteSettingsSeo" xml:space="preserve">
+    <value>dashCommerce :: Setări sit :: SEO</value>
+    <comment>dashCommerce :: Site Settings :: Seo</comment>
+  </data>
+  <data name="btnAddCustomizedProductDisplayType" xml:space="preserve">
+    <value>Adaugă tip afişare</value>
+    <comment>Add Display Type</comment>
+  </data>
+  <data name="lblSelectDisplayCategory" xml:space="preserve">
+    <value>Selectare Categorie de afişat</value>
+    <comment>Select a Display Category</comment>
+  </data>
+  <data name="lblLicenseKey" xml:space="preserve">
+    <value>Cheie Licenţă:</value>
+    <comment>License Key:</comment>
+  </data>
+  <data name="lblMaximumProductsToAddToCart" xml:space="preserve">
+    <value>Maxim "Adăugare în Coş":</value>
+    <comment>"Add to Cart" Maximum:</comment>
+  </data>
+  <data name="lblPaymentProviderError" xml:space="preserve">
+    <value>Eroare Provider Plăţi: {0}</value>
+    <comment>Payment Provider Error: {0}</comment>
+  </data>
+  <data name="lblFilter" xml:space="preserve">
+    <value>Filtru:</value>
+    <comment>Filter:</comment>
+  </data>
+  <data name="btnSend" xml:space="preserve">
+    <value>Trimite</value>
+    <comment>Send</comment>
+  </data>
+  <data name="lblSent" xml:space="preserve">
+    <value>Mesaj trimis!</value>
+    <comment>Message Sent!</comment>
+  </data>
+  <data name="titleInstallPermissions" xml:space="preserve">
+    <value>dashCommerce :: Instalare :: Permisiuni</value>
+    <comment>dashCommerce :: Install :: Permissions</comment>
+  </data>
+  <data name="lblPermissions" xml:space="preserve">
+    <value>&lt;p&gt;Trebuie atribuite contului NETWORK SERVICE permisiunile de "READ" şi "WRITE" pe folderul 'repository' (respectiv contului ASP.NET pt XP).&lt;/p&gt;</value>
+    <comment>&lt;p&gt;You need to give the NETWORK SERVICE account "READ" and "WRITE" permissions on the 'repository' directory (ASP.NET account for XP).&lt;/p&gt;</comment>
+  </data>
+  <data name="pnlPermissions" xml:space="preserve">
+    <value>Permisiuni</value>
+    <comment>Permissions</comment>
+  </data>
+  <data name="lblCustomerInformation" xml:space="preserve">
+    <value>Informaţii Client</value>
+    <comment>Customer Information</comment>
+  </data>
+  <data name="titleSalesCustomerInformation" xml:space="preserve">
+    <value>dashCommerce :: Vânzări :: Informaţii Client</value>
+    <comment>dashCommerce :: Sales :: Customer Information</comment>
+  </data>
+  <data name="lblCustomerId" xml:space="preserve">
+    <value>ID Client:</value>
+    <comment>Customer Id:</comment>
+  </data>
+  <data name="lblDatabaseUserName" xml:space="preserve">
+    <value>Nume user baza de date:</value>
+    <comment>Database User Name:</comment>
+  </data>
+  <data name="hlAdmin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="hlImageSelector" xml:space="preserve">
+    <value>. . .</value>
+  </data>
+  <data name="lbDelete" xml:space="preserve">
+    <value>Ştergere</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="lbEdit" xml:space="preserve">
+    <value>Editare</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="lnkLogout" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="pnlSite" xml:space="preserve">
+    <value>Sit</value>
+    <comment>Site</comment>
+  </data>
+  <data name="pnlAttributesLocked" xml:space="preserve">
+    <value>Atribute asociate</value>
+    <comment>Associated Attributes</comment>
+  </data>
+  <data name="lblStoreSettings" xml:space="preserve">
+    <value>Setări Magazin</value>
+    <comment>Store Settings</comment>
+  </data>
+  <data name="pnlErrorLogSearch" xml:space="preserve">
+    <value>Căutare Log Erori</value>
+    <comment>Error Log Search</comment>
+  </data>
+  <data name="pnlPendingOrders" xml:space="preserve">
+    <value>Comenzi noi / în aşteptare</value>
+    <comment>Pending / New Orders</comment>
+  </data>
+  <data name="lblLicenseAgreementInstructions" xml:space="preserve">
+    <value>Te rog vizualizează Acceptul Licenţei dashCommerce şi selectează "De acord" pt a acepta termenii Licenţei dashCommerce. Dacă nu acepţi aceşti termeni, te rog opreşte instalarea şi înlătură dashCommerce.</value>
+    <comment>Please review the dashCommerce License Agreement and select "I Agree" to accept the terms of the dashCommerce License. If you do not accept the terms, please discontinue the install and remove dashCommerce.</comment>
+  </data>
+  <data name="pnlLicenseAgreement" xml:space="preserve">
+    <value>Acord Licenţă</value>
+    <comment>License Agreement</comment>
+  </data>
+  <data name="titleInstallLicense" xml:space="preserve">
+    <value>dashCommerce :: Instalare :: Acord Licenţă</value>
+    <comment>dashCommerce :: Install :: License Agreement</comment>
+  </data>
+  <data name="chkAgreeToLicense" xml:space="preserve">
+    <value>Sunt de acord cu termenii şi condiţiile de mai sus aşa cum descrise şi în Licenţa dashCommerce Store şi Licenţa dashCommerce Core.</value>
+    <comment>I Agree to the Terms and Conditions as set forth in the dashCommerce Store License and the dashCommerce Core License, noted above.</comment>
+  </data>
+  <data name="chkUseConnectionStringConfig" xml:space="preserve">
+    <value>Folosire setări existente în connectionString.config</value>
+    <comment>Use settings in connectionString.config.</comment>
+  </data>
+  <data name="lblVersionCheckInstructions" xml:space="preserve">
+    <value>Acum se va face o verificare a versiunii cu baza de date pt a determina ce versiune de dashCommerce este instalată. Upgrade-urile vor fi executate începând cu versiunea 3.0 RC până la versiunea curentă. Dacă versiunea determinată nu este corectă, continuă cu mare atenţie şi asigură-te că ai o copie de rezervă a bazei de date.</value>
+    <comment>A version check will now be performed against your database in order to determine which version of dashCommerce you have installed. Upgrades will be performed from version 3.0 RC to the current version. If the version we determine is not correct, then please proceed with caution and ensure you run the upgrade against a backup version of your database before proceeding.</comment>
+  </data>
+  <data name="pnlVersionCheckSetup" xml:space="preserve">
+    <value>Verificare versiune</value>
+    <comment>Version Check</comment>
+  </data>
+  <data name="titleInstallVersionCheck" xml:space="preserve">
+    <value>dashCommerce :: Instalare :: Verificare Versiune</value>
+    <comment>dashCommerce :: Install :: Version Check</comment>
+  </data>
+  <data name="btnTestVersion" xml:space="preserve">
+    <value>Testare versiune</value>
+    <comment>Version Test</comment>
+  </data>
+  <data name="lblVersionCheck" xml:space="preserve">
+    <value>You are running dashCommerce Version:</value>
+  </data>
+  <data name="txtVersionNumber" xml:space="preserve">
+    <value>0.0.0.0</value>
+  </data>
+  <data name="chkForPurchaseOnly" xml:space="preserve">
+    <value>Numai la cumpărare</value>
+    <comment>For Purchase Only</comment>
+  </data>
+  <data name="hdrForPurchaseOnly" xml:space="preserve">
+    <value>Numai la cumpărare</value>
+    <comment>For Purchase Only</comment>
+  </data>
+  <data name="lblDownloadAdministration" xml:space="preserve">
+    <value>Administrare Download-uri</value>
+    <comment>Download Administration</comment>
+  </data>
+  <data name="lblDownloadSaved" xml:space="preserve">
+    <value>Download salvat.</value>
+    <comment>Download saved.</comment>
+  </data>
+  <data name="pnlAddDownload" xml:space="preserve">
+    <value>Adăugare Download</value>
+    <comment>Add Download</comment>
+  </data>
+  <data name="pnlAssociatedDownloads" xml:space="preserve">
+    <value>Download-uri asociate</value>
+    <comment>Associated Downloads</comment>
+  </data>
+  <data name="pnlCurrentDownloads" xml:space="preserve">
+    <value>Download-uri curente</value>
+    <comment>Current Downloads</comment>
+  </data>
+  <data name="pnlDownloads" xml:space="preserve">
+    <value>Download-uri</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="titleProductDownloads" xml:space="preserve">
+    <value>dashCommerce :: Download-uri Produs</value>
+    <comment>dashCommerce :: Product Downloads</comment>
+  </data>
+  <data name="tpFile" xml:space="preserve">
+    <value>Fişier</value>
+    <comment>File</comment>
+  </data>
+  <data name="lblAccessDenied" xml:space="preserve">
+    <value>Acces nepermis.</value>
+    <comment>Access denied.</comment>
+  </data>
+  <data name="pnlProductDownloads" xml:space="preserve">
+    <value>Download-uri Produse</value>
+    <comment>Product Downloads</comment>
+  </data>
+  <data name="btnAddToCart" xml:space="preserve">
+    <value>Adaugă în Coş</value>
+    <comment>Add To Cart</comment>
+  </data>
+  <data name="lblDownloadsTitle" xml:space="preserve">
+    <value>Download-uri</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="lblAbout" xml:space="preserve">
+    <value>Despre dashCommerce</value>
+    <comment>About dashCommerce</comment>
+  </data>
+  <data name="lblAssembliesTitle" xml:space="preserve">
+    <value>Există următoarele Assemblies în aplicaţie:</value>
+    <comment>You have the following assemblies in your application:</comment>
+  </data>
+  <data name="lblCopyright" xml:space="preserve">
+    <value>dashCommerce&amp;reg; is Copyright &amp;copy; 2008-2009 Mettle Systems LLC. All Rights Reserved.</value>
+  </data>
+  <data name="lblLicenseAgreement" xml:space="preserve">
+    <value>dashCommerce este licenţiat după cum e descris mai jos. Dacă nu acepţi termenii, te rog nu mai folosi dashCommerce şi deyinstalează-l.</value>
+    <comment>dashCommerce is licensed under the following license. If you do not accept the terms, please discontinue the use of dashCommerce and uninstall dashCommerce.</comment>
+  </data>
+  <data name="lblStoreNotice" xml:space="preserve">
+    <value>dashCommerce este puternic customizabil. Se pot selecta diferiţi provideri şi se pot adapta skin-urile. Dacă nu găseşti ceva, vizitează &lt;a href="http://www.computinglabs.ro" target="_blank"&gt;situl Computing Labs&lt;/a&gt; sau &lt;a href="http://www.dashcommerce.com" target="_blank"&gt;dashCommerce Store&lt;/a&gt; pt module adiţionale. At the  &lt;a href="http://www.dashcommerce.com" target="_blank"&gt;dashCommerce Store&lt;/a&gt;, you will find the following:&lt;ul&gt;&lt;li&gt;Hosting Services&lt;/li&gt;&lt;li&gt;Payment Providers&lt;/li&gt;&lt;li&gt;Shipping Providers&lt;/li&gt;&lt;li&gt;Tax Providers&lt;/li&gt;&lt;li&gt;Commercial Licenses&lt;/li&gt;&lt;li&gt;Support Packages&lt;/li&gt;&lt;li&gt;dashCommerce Utilities&lt;/li&gt;&lt;li&gt;. . . and much more!&lt;/li&gt;&lt;/ul&gt;</value>
+    <comment>dashCommerce is highly customizable. You can select different providers for your store and you can customize the skins. If you don't find what you are looking for, please visit the &lt;a href="http://www.dashcommerce.com" target="_blank"&gt;dashCommerce Store&lt;/a&gt; for additional add-ons to your dashCommerce store. At the  &lt;a href="http://www.dashcommerce.com" target="_blank"&gt;dashCommerce Store&lt;/a&gt;, you will find the following:&lt;ul&gt;&lt;li&gt;Hosting Services&lt;/li&gt;&lt;li&gt;Payment Providers&lt;/li&gt;&lt;li&gt;Shipping Providers&lt;/li&gt;&lt;li&gt;Tax Providers&lt;/li&gt;&lt;li&gt;Commercial Licenses&lt;/li&gt;&lt;li&gt;Support Packages&lt;/li&gt;&lt;li&gt;dashCommerce Utilities&lt;/li&gt;&lt;li&gt;. . . and much more!&lt;/li&gt;&lt;/ul&gt;</comment>
+  </data>
+  <data name="lblTrademark" xml:space="preserve">
+    <value>dashCommerce, and the dashCommerce logo are registered trademarks of Mettle Systems LLC. Mettle Systems LLC logos and trademarks may not be used without prior written consent.</value>
+  </data>
+  <data name="lblVersionNumber" xml:space="preserve">
+    <value>Acum rulează versiunea dashCommerce {0}.</value>
+    <comment>You are running dashCommerce {0}.</comment>
+  </data>
+  <data name="titleAbout" xml:space="preserve">
+    <value>dashCommerce :: Despre</value>
+    <comment>dashCommerce :: About</comment>
+  </data>
+  <data name="lblAssemblies" xml:space="preserve">
+    <value>Assemblies</value>
+  </data>
+  <data name="titleAddEditRegion" xml:space="preserve">
+    <value>dashCommerce :: Management Conţinut :: Adăugare / Editare Regiune</value>
+    <comment>dashCommerce :: Content Management :: Add / Edit Region</comment>
+  </data>
+  <data name="lblNullPaymentDescriptionTitle" xml:space="preserve">
+    <value>Provider Nul de Plăţi</value>
+    <comment>Null Payment Provider</comment>
+  </data>
+  <data name="chkReInstall" xml:space="preserve">
+    <value>Doresc să reinstalez baza de date.</value>
+    <comment>I would like to reinstall the database.</comment>
+  </data>
+  <data name="lblCartChanged" xml:space="preserve">
+    <value>Coşul de cumpărături a fost modificat. Aceasta se întâmplă în mod normal fluctuaţiilor din inventar. Te rog revizuieşte conţinutul coşului pt a te asigura că comanda corespunde cu nevoile tale.</value>
+    <comment>Your cart has been modified. This is normally due to inventory fluctuations in the normal course of business. Please review your cart to ensure the order will fulfill your needs.</comment>
+  </data>
+  <data name="pnlDashCommerceTaxProviderConfiguration" xml:space="preserve">
+    <value>Configurare Provider TVA dashCommerce</value>
+    <comment>dashCommerce Tax Provider Configuration</comment>
+  </data>
+  <data name="pnlNullPaymentConfiguration" xml:space="preserve">
+    <value>Configurare Provider Plăţi Nul</value>
+    <comment>Null Payment Provider Configuration</comment>
+  </data>
+  <data name="pnlPercentOffCouponConfiguration" xml:space="preserve">
+    <value>Provider Cupoane Reducere Procentuală</value>
+    <comment>Percent Off Coupon Provider</comment>
+  </data>
+  <data name="hlCustomerInformation" xml:space="preserve">
+    <value>Informaţii Client</value>
+    <comment>Customer Information</comment>
+  </data>
+  <data name="lblCustomerInformationDescription" xml:space="preserve">
+    <value>Secţiunea Informaţii Client permite executarea de acţiuni în numele clientului. Acestea sunt funcţii de mentenanţă.</value>
+    <comment>The Customer Information section allows you to perform some action on behalf of a user. These are primarily maintenance functions.</comment>
+  </data>
+  <data name="pnlCustomerServiceConfiguration" xml:space="preserve">
+    <value>Configurare Serviciu Clienţi</value>
+    <comment>Customer Service Configuration</comment>
+  </data>
+  <data name="pnlCustomerServiceOverview" xml:space="preserve">
+    <value>Generalităţi Serviciu Clienţi</value>
+    <comment>Customer Service Overview</comment>
+  </data>
+  <data name="adminNavSite" xml:space="preserve">
+    <value>Sit</value>
+    <comment>Site</comment>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>Adaugă</value>
+    <comment>Add</comment>
+  </data>
+  <data name="btnAddProduct" xml:space="preserve">
+    <value>Adaugă Produs</value>
+    <comment>Add Product</comment>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>Ştergere</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="btnDeleteAll" xml:space="preserve">
+    <value>Ştergere Tot</value>
+    <comment>Delete All</comment>
+  </data>
+  <data name="btnManufacturerAdd" xml:space="preserve">
+    <value>Adaugă Fabricant</value>
+    <comment>Add Manufacturer</comment>
+  </data>
+  <data name="btnProcessOrder" xml:space="preserve">
+    <value>Procesează Comanda</value>
+    <comment>Process Order</comment>
+  </data>
+  <data name="btnProductTypeAdd" xml:space="preserve">
+    <value>Adaugă Tip Produs</value>
+    <comment>Add Product Type</comment>
+  </data>
+  <data name="btnRefreshProviders" xml:space="preserve">
+    <value>Împrospătare Furnizori</value>
+    <comment>Refresh Providers</comment>
+  </data>
+  <data name="btnRefundTransaction" xml:space="preserve">
+    <value>Returnare Bani</value>
+    <comment>Refund Transaction</comment>
+  </data>
+  <data name="btnRemoveProvider" xml:space="preserve">
+    <value>Înlătură Furnizor</value>
+    <comment>Remove Provider</comment>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Resetare</value>
+    <comment>Reset</comment>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Salvează</value>
+    <comment>Save</comment>
+  </data>
+  <data name="btnTest" xml:space="preserve">
+    <value>Test</value>
+    <comment>Test</comment>
+  </data>
+  <data name="btnSaveInventory" xml:space="preserve">
+    <value>Salvează Inventar</value>
+    <comment>Save Inventory</comment>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Caută</value>
+    <comment>Search</comment>
+  </data>
+  <data name="btnSetDefaultProvider" xml:space="preserve">
+    <value>Setare Furnizor Implicit</value>
+    <comment>Set Default Provider</comment>
+  </data>
+  <data name="btnSetProvider" xml:space="preserve">
+    <value>Setare Furnizor</value>
+    <comment>Set Provider</comment>
+  </data>
+  <data name="btnUpload" xml:space="preserve">
+    <value>Încărcare</value>
+    <comment>Upload</comment>
+  </data>
+  <data name="chkActive" xml:space="preserve">
+    <value>Activ</value>
+    <comment>Active</comment>
+  </data>
+  <data name="chkAllowNegativeInventories" xml:space="preserve">
+    <value>Permitere Inventar Negativ</value>
+    <comment>Allow Negative Inventories</comment>
+  </data>
+  <data name="chkUseForShipping" xml:space="preserve">
+    <value>Folosit la Expediere?</value>
+    <comment>Use for Shipping?</comment>
+  </data>
+  <data name="cuwRegisterAnswerLabelText" xml:space="preserve">
+    <value>Răspuns de verificare</value>
+    <comment>Security Answer</comment>
+  </data>
+  <data name="cuwRegisterCompleteStepTitle" xml:space="preserve">
+    <value>Terminat</value>
+    <comment>Complete</comment>
+  </data>
+  <data name="cuwRegisterCompleteSuccessText" xml:space="preserve">
+    <value>Contul tău a fost creat cu succes.</value>
+    <comment>Your account has been successfully created.</comment>
+  </data>
+  <data name="cuwRegisterConfirmPasswordLabelText" xml:space="preserve">
+    <value>Confirmare parolă</value>
+    <comment>Confirm Password</comment>
+  </data>
+  <data name="cuwRegisterCreateUserButtonText" xml:space="preserve">
+    <value>Continuare</value>
+    <comment>Continue</comment>
+  </data>
+  <data name="cuwRegisterCreateUserStepTitle" xml:space="preserve">
+    <value>Înregistrează-te pentru noul tau cont</value>
+    <comment>Sign Up for your New Account</comment>
+  </data>
+  <data name="cuwRegisterEmailLabelText" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="cuwRegisterFinishCompleteButtonText" xml:space="preserve">
+    <value>Terminare</value>
+    <comment>Finish</comment>
+  </data>
+  <data name="cuwRegisterPasswordLabelText" xml:space="preserve">
+    <value>Parolă</value>
+    <comment>Password</comment>
+  </data>
+  <data name="cuwRegisterQuestionLabelText" xml:space="preserve">
+    <value>Întrebare de verificare</value>
+    <comment>Security Question</comment>
+  </data>
+  <data name="cuwRegisterUserNameLabelText" xml:space="preserve">
+    <value>Nume utilizator</value>
+    <comment>User Name</comment>
+  </data>
+  <data name="exCannotRemoveDefaultProvider" xml:space="preserve">
+    <value>Acesta este providerul implicit. Selecteză un alt provider şi după aceea înlătură-l pe acesta.</value>
+    <comment>This provider is the default provider. Please select a different default provider and then try removing this provider.</comment>
+  </data>
+  <data name="hdrAdd" xml:space="preserve">
+    <value>Adaugă</value>
+    <comment>Add</comment>
+  </data>
+  <data name="hdrAddRemove" xml:space="preserve">
+    <value>Adaugă / Înlătură</value>
+    <comment>Add / Remove</comment>
+  </data>
+  <data name="hdrAdjustment" xml:space="preserve">
+    <value>Ajustare</value>
+    <comment>Adjustment</comment>
+  </data>
+  <data name="hdrAmountPerUnit" xml:space="preserve">
+    <value>Preţ Unitar</value>
+    <comment>Amount Per Unit</comment>
+  </data>
+  <data name="hdrApproved" xml:space="preserve">
+    <value>Aprobat</value>
+    <comment>Approved</comment>
+  </data>
+  <data name="hdrAttributeType" xml:space="preserve">
+    <value>Tip Atribut</value>
+    <comment>AttributeType</comment>
+  </data>
+  <data name="hdrConfigurationControlPath" xml:space="preserve">
+    <value>Cale Control de Configurare</value>
+    <comment>Configuration Control Path</comment>
+  </data>
+  <data name="hdrCreatedBy" xml:space="preserve">
+    <value>Creat de</value>
+    <comment>Created By</comment>
+  </data>
+  <data name="hdrCreatedDate" xml:space="preserve">
+    <value>Data creării</value>
+    <comment>Created Date</comment>
+  </data>
+  <data name="hdrCreatedOn" xml:space="preserve">
+    <value>Creat la</value>
+    <comment>Created On</comment>
+  </data>
+  <data name="hdrDelete" xml:space="preserve">
+    <value>Ştergere</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="hdrDescriptor" xml:space="preserve">
+    <value>Descriptor (fără HTML pt scurtare)</value>
+    <comment>Descriptor (HTML stripped for brevity)</comment>
+  </data>
+  <data name="hdrDiscount" xml:space="preserve">
+    <value>Reducere</value>
+    <comment>Discount</comment>
+  </data>
+  <data name="hdrDisplayed" xml:space="preserve">
+    <value>Afişat</value>
+    <comment>Displayed</comment>
+  </data>
+  <data name="hdrEdit" xml:space="preserve">
+    <value>Editare</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="hdrEmailAddress" xml:space="preserve">
+    <value>Adresa email</value>
+    <comment>Email Address</comment>
+  </data>
+  <data name="hdrImage" xml:space="preserve">
+    <value>Imagine</value>
+    <comment>Image</comment>
+  </data>
+  <data name="hdrImageCaption" xml:space="preserve">
+    <value>Text imagine</value>
+    <comment>Image Caption</comment>
+  </data>
+  <data name="hdrInventory" xml:space="preserve">
+    <value>Inventar</value>
+    <comment>Inventory</comment>
+  </data>
+  <data name="hdrIsRequired" xml:space="preserve">
+    <value>E necesar</value>
+    <comment>Is Required</comment>
+  </data>
+  <data name="hdrLastLogin" xml:space="preserve">
+    <value>Ultima logare</value>
+    <comment>Last Login</comment>
+  </data>
+  <data name="hdrLastModified" xml:space="preserve">
+    <value>Ultima modificare</value>
+    <comment>Last Modified</comment>
+  </data>
+  <data name="hdrMove" xml:space="preserve">
+    <value>Mută</value>
+    <comment>Move</comment>
+  </data>
+  <data name="hdrName" xml:space="preserve">
+    <value>Nume</value>
+    <comment>Name</comment>
+  </data>
+  <data name="hdrOrderNumber" xml:space="preserve">
+    <value>Număr comandă</value>
+    <comment>Order Number</comment>
+  </data>
+  <data name="hdrRate" xml:space="preserve">
+    <value>Curs</value>
+    <comment>Rate</comment>
+  </data>
+  <data name="hdrRegionCode" xml:space="preserve">
+    <value>Cod regiune</value>
+    <comment>Region Code</comment>
+  </data>
+  <data name="hdrReviewSample" xml:space="preserve">
+    <value>Exemplu Opinii</value>
+    <comment>Review Sample</comment>
+  </data>
+  <data name="hdrRoleName" xml:space="preserve">
+    <value>Nume Rol</value>
+    <comment>Role Name</comment>
+  </data>
+  <data name="hdrService" xml:space="preserve">
+    <value>Serviciu</value>
+    <comment>Service</comment>
+  </data>
+  <data name="hdrSku" xml:space="preserve">
+    <value>SKU</value>
+  </data>
+  <data name="hdrSkuSuffix" xml:space="preserve">
+    <value>Sufix SKU</value>
+    <comment>Sku Suffix</comment>
+  </data>
+  <data name="hdrSortOrder" xml:space="preserve">
+    <value>Ordine Sortare</value>
+    <comment>Sort Order</comment>
+  </data>
+  <data name="hdrStatus" xml:space="preserve">
+    <value>Status</value>
+    <comment>Status</comment>
+  </data>
+  <data name="hdrSystemNotification" xml:space="preserve">
+    <value>Notificare de Sistem</value>
+    <comment>System Notification</comment>
+  </data>
+  <data name="hdrTitle" xml:space="preserve">
+    <value>Titlu</value>
+    <comment>Title</comment>
+  </data>
+  <data name="hdrTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="hdrUserName" xml:space="preserve">
+    <value>Nume User</value>
+    <comment>User Name</comment>
+  </data>
+  <data name="hlAddProduct" xml:space="preserve">
+    <value>[+] Adaugă Produs</value>
+    <comment>[+] Add Product</comment>
+  </data>
+  <data name="hlConfigureProviders" xml:space="preserve">
+    <value>Configurare {0} Furnizori</value>
+    <comment>Configure {0} Providers</comment>
+  </data>
+  <data name="hlEditLink" xml:space="preserve">
+    <value>Editare</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="hlGeneralSettings" xml:space="preserve">
+    <value>Setări Generale {0} </value>
+    <comment>General {0} Settings</comment>
+  </data>
+  <data name="hlLogin" xml:space="preserve">
+    <value>Logare</value>
+    <comment>Log In</comment>
+  </data>
+  <data name="hlMailConfiguration" xml:space="preserve">
+    <value>Configurare Mail</value>
+    <comment>Mail Configuration</comment>
+  </data>
+  <data name="hlMailSettings" xml:space="preserve">
+    <value>Setări Mail</value>
+    <comment>Mail Settings</comment>
+  </data>
+  <data name="hlManageProviders" xml:space="preserve">
+    <value>Administrare Furnizori {0}</value>
+    <comment>Manage {0} Providers</comment>
+  </data>
+  <data name="hlMyAccount" xml:space="preserve">
+    <value>Contul meu</value>
+    <comment>My Account</comment>
+  </data>
+  <data name="hlNotifications" xml:space="preserve">
+    <value>Notificări</value>
+    <comment>Notifications</comment>
+  </data>
+  <data name="hlPaymentConfiguration" xml:space="preserve">
+    <value>Configurare Plăţi</value>
+    <comment>Payment Configuration</comment>
+  </data>
+  <data name="hlRegister" xml:space="preserve">
+    <value>Înregistrare</value>
+    <comment>Register</comment>
+  </data>
+  <data name="hlReview" xml:space="preserve">
+    <value>Spune-ţi opinia!</value>
+    <comment>Review It!</comment>
+  </data>
+  <data name="hlShippingConfiguration" xml:space="preserve">
+    <value>Configurare expediţii</value>
+    <comment>Shipping Configuration</comment>
+  </data>
+  <data name="hlTaxConfiguration" xml:space="preserve">
+    <value>Configurare taxe</value>
+    <comment>Tax Configuration</comment>
+  </data>
+  <data name="lbAddNew" xml:space="preserve">
+    <value>Adaugă nou</value>
+    <comment>Add New</comment>
+  </data>
+  <data name="lblAdd" xml:space="preserve">
+    <value>Adaugă</value>
+    <comment>Add</comment>
+  </data>
+  <data name="lblAddNote" xml:space="preserve">
+    <value>Adaugă notă:</value>
+    <comment>Add Note:</comment>
+  </data>
+  <data name="lblAddress" xml:space="preserve">
+    <value>Adresa:</value>
+    <comment>Address:</comment>
+  </data>
+  <data name="lblAddUser" xml:space="preserve">
+    <value>[+] Adaugă utilizator</value>
+    <comment>[+] Add User</comment>
+  </data>
+  <data name="lblAdjustment" xml:space="preserve">
+    <value>Ajustare:</value>
+    <comment>Adjustment:</comment>
+  </data>
+  <data name="lblAmountPerUnit" xml:space="preserve">
+    <value>Preţ Unitar:</value>
+    <comment>Amount Per Unit:</comment>
+  </data>
+  <data name="lblAnalytics" xml:space="preserve">
+    <value>Analitice:</value>
+    <comment>Analytics:</comment>
+  </data>
+  <data name="lblApiPassword" xml:space="preserve">
+    <value>Parola API:</value>
+    <comment>API Password:</comment>
+  </data>
+  <data name="lblApiUserName" xml:space="preserve">
+    <value>Nume Utilizator API:</value>
+    <comment>API User Name:</comment>
+  </data>
+  <data name="lblAttributeAdministration" xml:space="preserve">
+    <value>Administrare Atribute</value>
+    <comment>Attribute Administration</comment>
+  </data>
+  <data name="lblAttributedAdded" xml:space="preserve">
+    <value>Atribut adăugat.</value>
+    <comment>Attribute added.</comment>
+  </data>
+  <data name="lblAttributedDeleted" xml:space="preserve">
+    <value>Atribut şters.</value>
+    <comment>Attributed deleted.</comment>
+  </data>
+  <data name="lblAttributeItemName" xml:space="preserve">
+    <value>Nume:</value>
+    <comment>Name:</comment>
+  </data>
+  <data name="lblAttributesNotSaved" xml:space="preserve">
+    <value>Atribute nesalvate.</value>
+    <comment>Attributes not saved.</comment>
+  </data>
+  <data name="lblAttributesSaved" xml:space="preserve">
+    <value>Atribute salvate.</value>
+    <comment>Attributes saved.</comment>
+  </data>
+  <data name="lblAttributeType" xml:space="preserve">
+    <value>Tip atribut:</value>
+    <comment>Attribute Type:</comment>
+  </data>
+  <data name="lblAverageRating" xml:space="preserve">
+    <value>Rating mediu:</value>
+    <comment>Average Rating:</comment>
+  </data>
+  <data name="lblAVSCode" xml:space="preserve">
+    <value>Cod AVS:</value>
+    <comment>AVS Code:</comment>
+  </data>
+  <data name="lblBaseSku" xml:space="preserve">
+    <value>Sku bază:</value>
+    <comment>Sku / Base Sku:</comment>
+  </data>
+  <data name="lblBillingAddressTitle" xml:space="preserve">
+    <value>Adresa facturare</value>
+    <comment>Billing Address</comment>
+  </data>
+  <data name="lblBillingInformation" xml:space="preserve">
+    <value>Informaţii facturare</value>
+    <comment>Billing Information</comment>
+  </data>
+  <data name="lblBrowsingCategory" xml:space="preserve">
+    <value>Vizualizare Categorie:</value>
+    <comment>Browse Category:</comment>
+  </data>
+  <data name="lblBrowsingProduct" xml:space="preserve">
+    <value>Vizualizare Produs:</value>
+    <comment>Browse Product:</comment>
+  </data>
+  <data name="lblBundleAdministration" xml:space="preserve">
+    <value>Administrare pachete</value>
+    <comment>Bundle Administration</comment>
+  </data>
+  <data name="lblBundleSaved" xml:space="preserve">
+    <value>Pachet salvat.</value>
+    <comment>Bundle saved.</comment>
+  </data>
+  <data name="lblBusinessEmail" xml:space="preserve">
+    <value>Adresa email de business:</value>
+    <comment>Business Email:</comment>
+  </data>
+  <data name="lblCancel" xml:space="preserve">
+    <value>Anulează</value>
+    <comment>Cancel</comment>
+  </data>
+  <data name="lblCart" xml:space="preserve">
+    <value>Coşul meu</value>
+    <comment>My Cart</comment>
+  </data>
+  <data name="lblCategory" xml:space="preserve">
+    <value>Categorie</value>
+    <comment>Category</comment>
+  </data>
+  <data name="lblCcList" xml:space="preserve">
+    <value>Lista Cc:</value>
+    <comment>Cc List:</comment>
+  </data>
+  <data name="lblCity" xml:space="preserve">
+    <value>Localitate:</value>
+    <comment>City:</comment>
+  </data>
+  <data name="lblCollectBrowsingStatistics" xml:space="preserve">
+    <value>Colectare Statistici Vizitatori:</value>
+    <comment>Collect Browsing Statistics:</comment>
+  </data>
+  <data name="lblConfigurationControlPath" xml:space="preserve">
+    <value>Cale control de configurare:</value>
+    <comment>Configuration Control Path:</comment>
+  </data>
+  <data name="lblConfigureProvidersDescription" xml:space="preserve">
+    <value>Secţiunea Configurare Furnizori {1} permite să administrezi detaliile furnizorilor specifici {0} ce au fost adăugaţi în ecranele Administrare Furnizori {1}. Aici se setează elemente cum ar fi nume şi parole pentru furnizorii respectivi {0} ce au fost încărcaţi în dashCommerce.</value>
+    <comment>The Configure {1} Providers section allows you to administer the details of the specific {0} providers you have added through the Manage {1} Provider screens. Here you will set things such as usernames and passwords for the respective {0} providers you have loaded into dashCommerce.</comment>
+  </data>
+  <data name="lblConfirmDelete" xml:space="preserve">
+    <value>Sigur vrei să ştergi?</value>
+    <comment>Are you sure you wish to delete?</comment>
+  </data>
+  <data name="lblContent" xml:space="preserve">
+    <value>Conţinut:</value>
+    <comment>Content:</comment>
+  </data>
+  <data name="lblContentManagement" xml:space="preserve">
+    <value>Administrare Conţinut</value>
+    <comment>Content Management</comment>
+  </data>
+  <data name="lblContentManagementDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblContinue" xml:space="preserve">
+    <value>Continuă</value>
+    <comment>Continue</comment>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>Ţara:</value>
+    <comment>Country:</comment>
+  </data>
+  <data name="lblCreatedOn" xml:space="preserve">
+    <value>Creat pe</value>
+    <comment>Created On</comment>
+  </data>
+  <data name="lblCreditCardNumber" xml:space="preserve">
+    <value>Număr card credit:</value>
+    <comment>Credit Card Number:</comment>
+  </data>
+  <data name="lblCreditCardSecurityNumber" xml:space="preserve">
+    <value>Cod securitate card credit:</value>
+    <comment>Credit Card Security Number:</comment>
+  </data>
+  <data name="lblCrossSellDeleted" xml:space="preserve">
+    <value>Vânzare încrucişată stearsă.</value>
+    <comment>Cross sell deleted.</comment>
+  </data>
+  <data name="lblCrossSells" xml:space="preserve">
+    <value>Poate te interesează şi:</value>
+    <comment>You may also be interested in:</comment>
+  </data>
+  <data name="lblCrossSellSaved" xml:space="preserve">
+    <value>Vânzare încrucişată salvată.</value>
+    <comment>Cross sell saved.</comment>
+  </data>
+  <data name="lblCurrency" xml:space="preserve">
+    <value>Moneda:</value>
+    <comment>Currency:</comment>
+  </data>
+  <data name="lblCVV2Code" xml:space="preserve">
+    <value>Codul CVV2:</value>
+    <comment>CVV2 Code:</comment>
+  </data>
+  <data name="lblDefaultPaymentProviderNotSaved" xml:space="preserve">
+    <value>Provider-ul de plăţi implicit nu a fost salvat.</value>
+    <comment>The default payment provider has not been saved.</comment>
+  </data>
+  <data name="lblDefaultPaymentProviderSaved" xml:space="preserve">
+    <value>Provider-ul de plăţi implicit a fost salvat.</value>
+    <comment>The default payment provider has been saved.</comment>
+  </data>
+  <data name="lblDefaultProviderInstructions" xml:space="preserve">
+    <value>Provider-ul implicit, dacă există, este afişat îngroşat.</value>
+    <comment>The default provider, if any, is identified in bold.</comment>
+  </data>
+  <data name="lblDefaultRate" xml:space="preserve">
+    <value>Rata implicită:</value>
+    <comment>Default Rate:</comment>
+  </data>
+  <data name="lblDefaultShippingProviderNotSaved" xml:space="preserve">
+    <value>Provider-ul implicit de expediţii nu a fost salvat.</value>
+    <comment>The default shipping provider has not been saved.</comment>
+  </data>
+  <data name="lblDefaultShippingProviderSaved" xml:space="preserve">
+    <value>Provider-ul implicit de expediţii a fost salvat.</value>
+    <comment>The default shipping provider has been saved.</comment>
+  </data>
+  <data name="lblDefaultTaxProviderNotSaved" xml:space="preserve">
+    <value>Provider-ul implicit de taxe nu a fost salvat.</value>
+    <comment>The default tax provider has not been saved.</comment>
+  </data>
+  <data name="lblDefaultTaxProviderSaved" xml:space="preserve">
+    <value>Provider-ul implicit de taxe a fost salvat.</value>
+    <comment>The default tax provider has been saved.</comment>
+  </data>
+  <data name="lblDelete" xml:space="preserve">
+    <value>Şterge</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="lblDeleteAllLogs" xml:space="preserve">
+    <value>Toate jurnalele au fost şterse.</value>
+    <comment>All logs deleted.</comment>
+  </data>
+  <data name="lblDescription" xml:space="preserve">
+    <value>Descriere:</value>
+    <comment>Description:</comment>
+  </data>
+  <data name="lblDescriptorSaved" xml:space="preserve">
+    <value>Descriptorul de produs a fost salvat.</value>
+    <comment>The product descriptor has been saved.</comment>
+  </data>
+  <data name="lblDetails" xml:space="preserve">
+    <value>Detalii</value>
+    <comment>Details</comment>
+  </data>
+  <data name="lblDimensions" xml:space="preserve">
+    <value>Dimensiuni:</value>
+    <comment>Dimensions:</comment>
+  </data>
+  <data name="lblDiscount" xml:space="preserve">
+    <value>Reducere:</value>
+    <comment>Discount:</comment>
+  </data>
+  <data name="lblDisplayNarrowByManufacturer" xml:space="preserve">
+    <value>Afişare căsuţă "Filtrare după Fabricant":</value>
+    <comment>Display Narrow By Manufacturer Widget:</comment>
+  </data>
+  <data name="lblDisplaySortBy" xml:space="preserve">
+    <value>Display Sort By Widget:</value>
+    <comment>Display Sort By Widget:</comment>
+  </data>
+  <data name="lblDisplayNarrowByPrice" xml:space="preserve">
+    <value>Afişare căsuţă "Filtrare după Preţ":</value>
+    <comment>Display Narrow By Price Widget:</comment>
+  </data>
+  <data name="lblDisplayRetailPrice" xml:space="preserve">
+    <value>Afişare preţ de catalog:</value>
+    <comment>Display Retail Price:</comment>
+  </data>
+  <data name="lblEdit" xml:space="preserve">
+    <value>Editare</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="lblEmailAddress" xml:space="preserve">
+    <value>Adresa email:</value>
+    <comment>Email Address:</comment>
+  </data>
+  <data name="lblErrorLogListing" xml:space="preserve">
+    <value>Listare jurnal erori</value>
+    <comment>Error Log Listing</comment>
+  </data>
+  <data name="lblErrorLogs" xml:space="preserve">
+    <value>Jurnal erori</value>
+    <comment>Error Logs</comment>
+  </data>
+  <data name="lblErrorLogsDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblErrorMessage" xml:space="preserve">
+    <value>Hopaa! A apărut o eroare. Eroarea a fost înregistrată. Dacă problema reapare, vă rugăm contactaţi-ne.</value>
+    <comment>Oops! An error has occurred. This error has been logged. If the problem persists, please contact us!</comment>
+  </data>
+  <data name="lblExpiration" xml:space="preserve">
+    <value>Expirare:</value>
+    <comment>Expiration:</comment>
+  </data>
+  <data name="lblExtendedAmount" xml:space="preserve">
+    <value>Preţ extins</value>
+    <comment>Extended Amount</comment>
+  </data>
+  <data name="lblFeeAmount" xml:space="preserve">
+    <value>Fee Amount:</value>
+    <comment>Fee Amount:</comment>
+  </data>
+  <data name="lblFirstName" xml:space="preserve">
+    <value>Prenume:</value>
+    <comment>First Name:</comment>
+  </data>
+  <data name="lblFooterColor" xml:space="preserve">
+    <value>Culoare subsol:</value>
+    <comment>Footer Color:</comment>
+  </data>
+  <data name="lblFrom" xml:space="preserve">
+    <value>De la:</value>
+    <comment>From:</comment>
+  </data>
+  <data name="lblFromEmail" xml:space="preserve">
+    <value>Email sursă:</value>
+    <comment>From Email:</comment>
+  </data>
+  <data name="lblFromName" xml:space="preserve">
+    <value>Nume sursăŞ</value>
+    <comment>From Name:</comment>
+  </data>
+  <data name="lblGatewayErrors" xml:space="preserve">
+    <value>Erori procesator plăţi:</value>
+    <comment>Gateway Errors:</comment>
+  </data>
+  <data name="lblGatewayName" xml:space="preserve">
+    <value>Nume procesator plăţi:</value>
+    <comment>Gateway Name:</comment>
+  </data>
+  <data name="lblGatewayResponse" xml:space="preserve">
+    <value>Răspuns procesator plăţi:</value>
+    <comment>Gateway Response:</comment>
+  </data>
+  <data name="lblGatewayTransactionId" xml:space="preserve">
+    <value>ID tranzacţie procesator:</value>
+    <comment>Gateway Transaction Id:</comment>
+  </data>
+  <data name="lblGeneralPaymentSettings" xml:space="preserve">
+    <value>Setări generale plăţi</value>
+    <comment>General Payment Settings</comment>
+  </data>
+  <data name="lblGeneralSettingsDescription" xml:space="preserve">
+    <value>Acestea sunt setări generale pentru serviciul {0}. Ele nu sunt specifice provider-ului {0} şi se aplică la nivelul întregului magazin.</value>
+    <comment>These are the general settings for the {0} service. These settings are not {0} provider specific and apply at the store level.</comment>
+  </data>
+  <data name="lblGeneralShippingSettings" xml:space="preserve">
+    <value>Setări generale expediere</value>
+    <comment>General Shipping Settings</comment>
+  </data>
+  <data name="lblGeneralTaxSettings" xml:space="preserve">
+    <value>Setări generale taxe</value>
+    <comment>General Tax Settings</comment>
+  </data>
+  <data name="lblGrossAmount" xml:space="preserve">
+    <value>Preţ total:</value>
+    <comment>Gross Amount:</comment>
+  </data>
+  <data name="lblHeaderHeight" xml:space="preserve">
+    <value>Înălţime:</value>
+    <comment>Height:</comment>
+  </data>
+  <data name="lblHeight" xml:space="preserve">
+    <value>Înălţime:</value>
+    <comment>Height:</comment>
+  </data>
+  <data name="lblHost" xml:space="preserve">
+    <value>Host:</value>
+  </data>
+  <data name="lblImageCaption" xml:space="preserve">
+    <value>Text imagine:</value>
+    <comment>Image Caption:</comment>
+  </data>
+  <data name="lblImageFile" xml:space="preserve">
+    <value>Fişier imagine:</value>
+    <comment>Image File:</comment>
+  </data>
+  <data name="lblImageSaved" xml:space="preserve">
+    <value>Imagine salvată.</value>
+    <comment>Image saved.</comment>
+  </data>
+  <data name="lblInstalledPaymentProviders" xml:space="preserve">
+    <value>Provider-i plăţi instalaţi:</value>
+    <comment>Installed Payment Providers:</comment>
+  </data>
+  <data name="lblInstalledShippingProviders" xml:space="preserve">
+    <value>Provider-i expediere instalaţi:</value>
+    <comment>Installed Shipping Providers:</comment>
+  </data>
+  <data name="lblInstalledTaxProviders" xml:space="preserve">
+    <value>Provider-i taxe instalaţi:</value>
+    <comment>Installed Tax Providers</comment>
+  </data>
+  <data name="lblInventoriesSaved" xml:space="preserve">
+    <value>Inventar salvat.</value>
+    <comment>Inventories saved.</comment>
+  </data>
+  <data name="lblIsApproved" xml:space="preserve">
+    <value>Aprobat:</value>
+    <comment>Approved:</comment>
+  </data>
+  <data name="lblIsDisplayed" xml:space="preserve">
+    <value>Afişat:</value>
+    <comment>Displayed:</comment>
+  </data>
+  <data name="lblIsHtml" xml:space="preserve">
+    <value>E Html:</value>
+    <comment>Is Html:</comment>
+  </data>
+  <data name="lblIsLive" xml:space="preserve">
+    <value>E Live:</value>
+    <comment>Is Live:</comment>
+  </data>
+  <data name="lblIsSystemNotification" xml:space="preserve">
+    <value>E notificare sistem:</value>
+    <comment>System Notification:</comment>
+  </data>
+  <data name="lblItem" xml:space="preserve">
+    <value>Obiect:</value>
+    <comment>Item</comment>
+  </data>
+  <data name="lblItemSku" xml:space="preserve">
+    <value>SKU</value>
+  </data>
+  <data name="lblKeywords" xml:space="preserve">
+    <value>Cuvinte cheie:</value>
+    <comment>Keywords:</comment>
+  </data>
+  <data name="lblLabel" xml:space="preserve">
+    <value>Etichetă:</value>
+    <comment>Label:</comment>
+  </data>
+  <data name="lblLanguage" xml:space="preserve">
+    <value>Limbă:</value>
+    <comment>Language:</comment>
+  </data>
+  <data name="lblLastLogin" xml:space="preserve">
+    <value>Ultimul login</value>
+    <comment>Last Login</comment>
+  </data>
+  <data name="lblLastName" xml:space="preserve">
+    <value>Nume:</value>
+    <comment>Last Name:</comment>
+  </data>
+  <data name="lblLength" xml:space="preserve">
+    <value>Lungime:</value>
+    <comment>Length:</comment>
+  </data>
+  <data name="lblLoading" xml:space="preserve">
+    <value>Se încarcă . . . aşteptaţi vă rog.</value>
+    <comment>Loading . . . please wait.</comment>
+  </data>
+  <data name="lblLogDate" xml:space="preserve">
+    <value>Data jurnal</value>
+    <comment>Log Date</comment>
+  </data>
+  <data name="lblLogLevel" xml:space="preserve">
+    <value>Nivel jurnal</value>
+    <comment>Log Level</comment>
+  </data>
+  <data name="lblLogMessage" xml:space="preserve">
+    <value>Mesaj jurnal</value>
+    <comment>Log Message</comment>
+  </data>
+  <data name="lblMailConfiguration" xml:space="preserve">
+    <value>Configurare poştă electronică</value>
+    <comment>Mail Configuration</comment>
+  </data>
+  <data name="lblMailConfigurationDescription" xml:space="preserve">
+    <value>Secţiunea de Configurare poştă electronică permite configurarea serverului SMTP şi a mesajelor de notificare ce sunt trimise ca parte a procesului de comenzi.</value>
+    <comment>The Mail Configuration section allow you to configure your SMTP server and allows you to administer notifications - emails that are send out as part of the ordering process.</comment>
+  </data>
+  <data name="lblMailSettingsDescription" xml:space="preserve">
+    <value>Setările de Mail sunt referitoare la serverul de SMTP ce va fi folosit pentru a trimite Notificări. Daca nu eşti sigur despre aceste setări, contactează furnizorul de servicii de găzduire.</value>
+    <comment>Mail Settings are the settings for your SMTP server, which will be used to send the Notifications. If you are unsure about these settings, please contact your hosting provider.</comment>
+  </data>
+  <data name="lblMailSettingsNotSaved" xml:space="preserve">
+    <value>Setările de Mail nu au fost salvate.</value>
+    <comment>Mail Settings not saved.</comment>
+  </data>
+  <data name="lblMailSettingsSaved" xml:space="preserve">
+    <value>Setările de Mail au fost salvate.</value>
+    <comment>Mail Settings saved.</comment>
+  </data>
+  <data name="lblMailSettingsTestSucessfull" xml:space="preserve">
+    <value>Sucessfully sent test email.</value>
+    <comment>Sucessfully sent test email.</comment>
+  </data>
+  <data name="lblMailSettingsTestFailed" xml:space="preserve">
+    <value>Failed to send test email.</value>
+    <comment>Failed to send test email.</comment>
+  </data>
+  <data name="lblManageProvidersDescription" xml:space="preserve">
+    <value>Secţiunea de administrare a provider-ilor de {1} permte adăugarea, editarea şi eliminarea provider-ilor {0} ce pot fi după aceea folosiţi de acest magazin.</value>
+    <comment>The Manage {1} Providers section allows you to add, edit, and remove {0} providers into dashCommerce that can then be used by this store.</comment>
+  </data>
+  <data name="lblManufacturer" xml:space="preserve">
+    <value>Fabricant:</value>
+    <comment>Manufacturer:</comment>
+  </data>
+  <data name="lblManufacturerAdministration" xml:space="preserve">
+    <value>Administrare fabricant</value>
+    <comment>Manufacturer Administration</comment>
+  </data>
+  <data name="lblManufacturerDeleted" xml:space="preserve">
+    <value>Fabricant sterş.</value>
+    <comment>Manufacturer deleted.</comment>
+  </data>
+  <data name="lblManufacturerSaved" xml:space="preserve">
+    <value>Fabricant salvat.</value>
+    <comment>Manufacturer saved.</comment>
+  </data>
+  <data name="lblMenuTitle" xml:space="preserve">
+    <value>Titlu meniu:</value>
+    <comment>Menu Title:</comment>
+  </data>
+  <data name="lblMyAccount" xml:space="preserve">
+    <value>Contul meu</value>
+    <comment>My Account</comment>
+  </data>
+  <data name="lblMyAccountDetails" xml:space="preserve">
+    <value>Detalii contul meu</value>
+    <comment>My Account Details</comment>
+  </data>
+  <data name="lblMyOrders" xml:space="preserve">
+    <value>Comenzile mele</value>
+    <comment>My Orders</comment>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Nume:</value>
+    <comment>Name:</comment>
+  </data>
+  <data name="lblNetAmount" xml:space="preserve">
+    <value>Preţ net:</value>
+    <comment>Net Amount:</comment>
+  </data>
+  <data name="lblNoCart" xml:space="preserve">
+    <value>Nu este nimic în cărucior. S-ar putea să te intereseze următoarele produse:</value>
+    <comment>There is nothing in your cart. You may be interested in the following items:</comment>
+  </data>
+  <data name="lblNoDescriptors" xml:space="preserve">
+    <value>Nu există descriptori pentru acest produs.</value>
+    <comment>There are no descriptors for this product.</comment>
+  </data>
+  <data name="lblNoErrorLogs" xml:space="preserve">
+    <value>Nu există erori înregistrate.</value>
+    <comment>There are no error logs.</comment>
+  </data>
+  <data name="lblNoPaymentProvidersConfigured" xml:space="preserve">
+    <value>Nu există provideri de plăţi configuraţi. Vezi opţiunea din meniu 'Configurare provideri plăţi'.</value>
+    <comment>There are no payment providers configured. Please see the 'Configure Payment Providers' menu option.</comment>
+  </data>
+  <data name="lblNoPaymentProvidersInstalled" xml:space="preserve">
+    <value>Nu există provideri de plăţi instalaţi.</value>
+    <comment>There are no Payment Providers installed.</comment>
+  </data>
+  <data name="lblNoReviews" xml:space="preserve">
+    <value>Nu există comentarii pentru acest produs.</value>
+    <comment>There are no reviews for this product.</comment>
+  </data>
+  <data name="lblNoShippingProvidersConfigured" xml:space="preserve">
+    <value>Nu există provideri de expediere configuraţi. Vezi opţiunea din meniu  'Configurare provideri expediere'. Poţi să setezi opţiunile din Setări Generale de mai jos, înainte de a configura providerii expediere.</value>
+    <comment>There are no shipping providers configured. Please see the 'Configure Shipping Providers' menu option. You may set the General Settings options below before configuring the shipping providers.</comment>
+  </data>
+  <data name="lblNoShippingProvidersInstalled" xml:space="preserve">
+    <value>Nu există provideri expediere instalaţi.</value>
+    <comment>There are no Shipping Providers installed.</comment>
+  </data>
+  <data name="lblNoTaxProvidersConfigured" xml:space="preserve">
+    <value>Nu există provideri de taxe configuraţi. Vezi opţiunea din meniu 'Configurare provideri taxe'.</value>
+    <comment>There are no tax providers configured. Please see the 'Configure Tax Providers' menu option.</comment>
+  </data>
+  <data name="lblNoTaxProvidersInstalled" xml:space="preserve">
+    <value>Nu au fost instalaţi provideri de taxe.</value>
+    <comment>There are no Tax Providers installed.</comment>
+  </data>
+  <data name="lblNotificationBody" xml:space="preserve">
+    <value>Corp notificare:</value>
+    <comment>Notification Body:</comment>
+  </data>
+  <data name="lblNotificationEdit" xml:space="preserve">
+    <value>Editare notificare</value>
+    <comment>Edit Notification</comment>
+  </data>
+  <data name="lblNotificationList" xml:space="preserve">
+    <value>Listă notificare</value>
+    <comment>Notification List</comment>
+  </data>
+  <data name="lblNotificationSaved" xml:space="preserve">
+    <value>Notificare salvată.</value>
+    <comment>Notification saved.</comment>
+  </data>
+  <data name="lblNotificationsDescription" xml:space="preserve">
+    <value>Notificările sunt emailuri generate de sistem ce se folosesc pentru a informa şi pe tine şi pe client de anumite evenimente cum ar fi emitere comandă, returnare comandă şi expediere comandă.</value>
+    <comment>Notifications are system generated emails that are used to inform both you and your customers to certain system events, such as order placement, order refund, and order shipment.</comment>
+  </data>
+  <data name="lblOrderEdit" xml:space="preserve">
+    <value>Editare comandă</value>
+    <comment>Order Edit</comment>
+  </data>
+  <data name="lblOrderList" xml:space="preserve">
+    <value>Lstare comandă</value>
+    <comment>Order List</comment>
+  </data>
+  <data name="lblOrderNoteSaved" xml:space="preserve">
+    <value>Notă comandă salvată.</value>
+    <comment>Order Note saved.</comment>
+  </data>
+  <data name="lblOrderNumber" xml:space="preserve">
+    <value>Număr comandă</value>
+    <comment>Order Number</comment>
+  </data>
+  <data name="lblOrderRefunded" xml:space="preserve">
+    <value>Comandă rambursată</value>
+    <comment>Order Refunded</comment>
+  </data>
+  <data name="lblOrderReview" xml:space="preserve">
+    <value>Revizuire comandă</value>
+    <comment>Order Review</comment>
+  </data>
+  <data name="lblOrderSummary" xml:space="preserve">
+    <value>Sumar comandă</value>
+    <comment>Order Summary</comment>
+  </data>
+  <data name="lblOurPrice" xml:space="preserve">
+    <value>Preţul nostru:</value>
+    <comment>Our Price:</comment>
+  </data>
+  <data name="lblPageDeleted" xml:space="preserve">
+    <value>Pagină ştearsă.</value>
+    <comment>Page deleted.</comment>
+  </data>
+  <data name="lblPageSaved" xml:space="preserve">
+    <value>Pagină salvată.</value>
+    <comment>Page saved.</comment>
+  </data>
+  <data name="lblParentCategory" xml:space="preserve">
+    <value>Categoria părinte:</value>
+    <comment>Parent Category:</comment>
+  </data>
+  <data name="lblParentPage" xml:space="preserve">
+    <value>Pagina părinte:</value>
+    <comment>Parent Page:</comment>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Parola:</value>
+    <comment>Password:</comment>
+  </data>
+  <data name="lblPaymentConfiguration" xml:space="preserve">
+    <value>Configurare plată</value>
+    <comment>Payment Configuration</comment>
+  </data>
+  <data name="lblPaymentConfigurationDescription" xml:space="preserve">
+    <value>Secţiunea de Configurare plată permite administrarea providerilor de plăţi. Set pot administra şi configura providerii de plăţi dar şi setări generale legate de serviciul de plată.</value>
+    <comment>The Payment Configuration section allows you to administer payment providers. You can manage and configure payment providers as well as set general settings for the payment service.</comment>
+  </data>
+  <data name="lblPaymentConfigurationNotSaved" xml:space="preserve">
+    <value>Configurare plată nu a fost salvată.</value>
+    <comment>Payment Configuration not saved.</comment>
+  </data>
+  <data name="lblPaymentConfigurationSaved" xml:space="preserve">
+    <value>Configurare plată nu a fost salvată.</value>
+    <comment>Payment Configuration saved.</comment>
+  </data>
+  <data name="lblPaymentInformation" xml:space="preserve">
+    <value>Informaţii plată</value>
+    <comment>Payment Information</comment>
+  </data>
+  <data name="lblPaymentInformationTitle" xml:space="preserve">
+    <value>Informaţii plată</value>
+    <comment>Payment Information</comment>
+  </data>
+  <data name="lblPaymentMethod" xml:space="preserve">
+    <value>Metoda de plată:</value>
+    <comment>Payment Method:</comment>
+  </data>
+  <data name="lblPaymentName" xml:space="preserve">
+    <value>Plată</value>
+    <comment>Payment</comment>
+  </data>
+  <data name="lblPaymentProviderManagement" xml:space="preserve">
+    <value>Administrare provider plăţi</value>
+    <comment>Payment Provider Management</comment>
+  </data>
+  <data name="lblPayPalProDescriptionTitle" xml:space="preserve">
+    <value>PayPal Pro cu Express Checkout</value>
+    <comment>PayPal Pro with Express Checkout</comment>
+  </data>
+  <data name="lblPayPalStandardDescriptionTitle" xml:space="preserve">
+    <value>PayPal Standard</value>
+  </data>
+  <data name="lblPdtId" xml:space="preserve">
+    <value>PDT ID:</value>
+  </data>
+  <data name="lblPhone" xml:space="preserve">
+    <value>Telefon:</value>
+    <comment>Phone:</comment>
+  </data>
+  <data name="lblPleaseSelect" xml:space="preserve">
+    <value>Te rog selectează {0}:</value>
+    <comment>Please select {0}:</comment>
+  </data>
+  <data name="lblPleaseSupply" xml:space="preserve">
+    <value>Te rog completează {0}:</value>
+    <comment>Please supply {0}:</comment>
+  </data>
+  <data name="lblPleaseWait" xml:space="preserve">
+    <value>Te rog aşteaptă . . .</value>
+    <comment>Please Wait . . .</comment>
+  </data>
+  <data name="lblPort" xml:space="preserve">
+    <value>Portul:</value>
+    <comment>Port:</comment>
+  </data>
+  <data name="lblPostalCode" xml:space="preserve">
+    <value>Cod poştal:</value>
+    <comment>Postal Code:</comment>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>Preţ</value>
+    <comment>Price</comment>
+  </data>
+  <data name="lblProductAdd" xml:space="preserve">
+    <value>Adăugare produs</value>
+    <comment>Add Product</comment>
+  </data>
+  <data name="lblProductCategories" xml:space="preserve">
+    <value>Categorii produs</value>
+    <comment>Product Categories</comment>
+  </data>
+  <data name="lblProductCategoryDeleted" xml:space="preserve">
+    <value>Categorie produs ştearsă.</value>
+    <comment>Product category deleted.</comment>
+  </data>
+  <data name="lblProductCategoryImages" xml:space="preserve">
+    <value>Imagini categorie produs</value>
+    <comment>Product Category Images</comment>
+  </data>
+  <data name="lblProductCategorySaved" xml:space="preserve">
+    <value>Categorie produs salvată.</value>
+    <comment>Product category saved.</comment>
+  </data>
+  <data name="lblProductEdit" xml:space="preserve">
+    <value>Editare produs</value>
+    <comment>Edit Product</comment>
+  </data>
+  <data name="lblProductImageDeleted" xml:space="preserve">
+    <value>Imagine produs ştearsă.</value>
+    <comment>Product image deleted.</comment>
+  </data>
+  <data name="lblProductImages" xml:space="preserve">
+    <value>Imagini produs</value>
+    <comment>Product Images</comment>
+  </data>
+  <data name="lblProductImageSaved" xml:space="preserve">
+    <value>Imagine produs salvată.</value>
+    <comment>Product image saved.</comment>
+  </data>
+  <data name="lblProductList" xml:space="preserve">
+    <value>Listă produse</value>
+    <comment>Product List</comment>
+  </data>
+  <data name="lblProductNotSaved" xml:space="preserve">
+    <value>Produsul nu a fost salvat.</value>
+    <comment>Product not saved.</comment>
+  </data>
+  <data name="lblProductSaved" xml:space="preserve">
+    <value>Produs salvat.</value>
+    <comment>Product saved.</comment>
+  </data>
+  <data name="lblProductType" xml:space="preserve">
+    <value>Tip produs:</value>
+    <comment>Product Type:</comment>
+  </data>
+  <data name="lblProviderSaved" xml:space="preserve">
+    <value>Provider salvat.</value>
+    <comment>Provider saved.</comment>
+  </data>
+  <data name="lblProviderType" xml:space="preserve">
+    <value>Tip Provider</value>
+    <comment>ProviderType</comment>
+  </data>
+  <data name="lblQuantity" xml:space="preserve">
+    <value>Cantitate</value>
+    <comment>Quantity</comment>
+  </data>
+  <data name="lblRate" xml:space="preserve">
+    <value>Evaluare:</value>
+    <comment>Rate:</comment>
+  </data>
+  <data name="lblRateAdded" xml:space="preserve">
+    <value>Evaluarea a fost adăugată.</value>
+    <comment>The rate has been added.</comment>
+  </data>
+  <data name="lblRateDeleted" xml:space="preserve">
+    <value>Evaluarea a fost ştearsă.</value>
+    <comment>The rate has been deleted.</comment>
+  </data>
+  <data name="lblRating" xml:space="preserve">
+    <value>Rating:</value>
+  </data>
+  <data name="lblRegionCode" xml:space="preserve">
+    <value>Cod regiune:</value>
+    <comment>Region Code:</comment>
+  </data>
+  <data name="lblRegionCodeDecriptionTitle" xml:space="preserve">
+    <value>Provider taxe pe cod regiune</value>
+    <comment>Region Code Tax Provider</comment>
+  </data>
+  <data name="lblRemoveProvider" xml:space="preserve">
+    <value>Providerul a fost eliminat.</value>
+    <comment>The provider has been removed.</comment>
+  </data>
+  <data name="lblRequireAuthentication" xml:space="preserve">
+    <value>Necesită autentificare:</value>
+    <comment>Require Authentication:</comment>
+  </data>
+  <data name="lblRequireSsl" xml:space="preserve">
+    <value>Necesită SSL:</value>
+    <comment>Require SSL:</comment>
+  </data>
+  <data name="lblRetailPrice" xml:space="preserve">
+    <value>Preţ retail:</value>
+    <comment>Retail Price:</comment>
+  </data>
+  <data name="lblRetialPrice" xml:space="preserve">
+    <value>Preţ retail:</value>
+    <comment>Retail Price:</comment>
+  </data>
+  <data name="lblReview" xml:space="preserve">
+    <value>Opinie:</value>
+    <comment>Review:</comment>
+  </data>
+  <data name="lblReviewSaved" xml:space="preserve">
+    <value>Opinie salvată.</value>
+    <comment>Review saved.</comment>
+  </data>
+  <data name="lblReviewsTitle" xml:space="preserve">
+    <value>Opinii</value>
+    <comment>Reviews</comment>
+  </data>
+  <data name="lblRoleAdministration" xml:space="preserve">
+    <value>Administrare roluri</value>
+    <comment>Role Administration</comment>
+  </data>
+  <data name="lblRoleAdministrationDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblRoleName" xml:space="preserve">
+    <value>Nume rol:</value>
+    <comment>Role Name:</comment>
+  </data>
+  <data name="lblRoot" xml:space="preserve">
+    <value>Punct iniţial</value>
+    <comment>Root</comment>
+  </data>
+  <data name="lblNone" xml:space="preserve">
+    <value>Nimic</value>
+    <comment>None</comment>
+  </data>
+  <data name="lblTitleASC" xml:space="preserve">
+    <value>Title: Ascending</value>
+    <comment>Title: Ascending</comment>
+  </data>
+  <data name="lblTitleDESC" xml:space="preserve">
+    <value>Title: Descending</value>
+    <comment>Title: Descending</comment>
+  </data>
+  <data name="lblPriceASC" xml:space="preserve">
+    <value>Price: Lowest First</value>
+    <comment>Price: Lowest First</comment>
+  </data>
+  <data name="lblPriceDESC" xml:space="preserve">
+    <value>Price: Highest First</value>
+    <comment>Price: Highest First</comment>
+  </data>
+  <data name="lblNewest" xml:space="preserve">
+    <value>Added: Newest First</value>
+    <comment>Added: Newest First</comment>
+  </data>
+  <data name="lblOldest" xml:space="preserve">
+    <value>Added: Oldest First</value>
+    <comment>Added: Oldest First</comment>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Caută</value>
+    <comment>Search</comment>
+  </data>
+  <data name="lblSearchBy" xml:space="preserve">
+    <value>Căutare după:</value>
+    <comment>Search By:</comment>
+  </data>
+  <data name="lblSecurity" xml:space="preserve">
+    <value>Securitate</value>
+    <comment>Security</comment>
+  </data>
+  <data name="lblSecurityDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblSelect" xml:space="preserve">
+    <value>-- Selectare --</value>
+    <comment>-- Select --</comment>
+  </data>
+  <data name="lblService" xml:space="preserve">
+    <value>Serviciu:</value>
+    <comment>Service:</comment>
+  </data>
+  <data name="lblServiceAdded" xml:space="preserve">
+    <value>Serviciul a fost adăugat.</value>
+    <comment>The service has been added.</comment>
+  </data>
+  <data name="lblServiceDeleted" xml:space="preserve">
+    <value>Serviciul a fost şters.</value>
+    <comment>The service has been deleted.</comment>
+  </data>
+  <data name="lblShipFromCountry" xml:space="preserve">
+    <value>Expediere din ţara:</value>
+    <comment>Ship From Country:</comment>
+  </data>
+  <data name="lblShipFromZip" xml:space="preserve">
+    <value>Expediere de la codul poştal:</value>
+    <comment>Ship From Postal Code:</comment>
+  </data>
+  <data name="lblShipping" xml:space="preserve">
+    <value>Expediere &amp; Livrare:</value>
+    <comment>Shipping &amp; Handling:</comment>
+  </data>
+  <data name="lblShippingAddressTitle" xml:space="preserve">
+    <value>Adresa de livrare</value>
+    <comment>Shipping Address</comment>
+  </data>
+  <data name="lblShippingBuffer" xml:space="preserve">
+    <value>Buffer expediere:</value>
+    <comment>Shipping Buffer:</comment>
+  </data>
+  <data name="lblShippingConfiguration" xml:space="preserve">
+    <value>Configurare expedieri</value>
+    <comment>Shipping Configuration</comment>
+  </data>
+  <data name="lblShippingConfigurationDescription" xml:space="preserve">
+    <value>Secţiunea Configurare expedieri permite administrarea providerilor de expedieri. Se pot configura providerii de expedieri şi de asemenea setările generale ale serviciului de expedieri.</value>
+    <comment>The Shipping Configuration section allows you to administer shipping providers. You can manage and configure shipping providers as well as set general settings for the shipping service.</comment>
+  </data>
+  <data name="lblShippingConfigurationNotSaved" xml:space="preserve">
+    <value>Configuraţie expedieri nu a fost salvată.</value>
+    <comment>Shipping Configuration not saved.</comment>
+  </data>
+  <data name="lblShippingConfigurationSaved" xml:space="preserve">
+    <value>Configuraţie expedieri a fost salvată.</value>
+    <comment>Shipping Configuration saved.</comment>
+  </data>
+  <data name="lblShippingEstimate" xml:space="preserve">
+    <value>Expediere estimată:</value>
+    <comment>Shipping Estimate:</comment>
+  </data>
+  <data name="lblShippingInformation" xml:space="preserve">
+    <value>Informaţii expediere</value>
+    <comment>Shipping Information</comment>
+  </data>
+  <data name="lblShippingMethod" xml:space="preserve">
+    <value>Modul de expediere</value>
+    <comment>Shipping Method</comment>
+  </data>
+  <data name="lblShippingMethodTitle" xml:space="preserve">
+    <value>Modul de expediere</value>
+    <comment>Shipping Method</comment>
+  </data>
+  <data name="lblShippingName" xml:space="preserve">
+    <value>Expediere</value>
+    <comment>Shipping</comment>
+  </data>
+  <data name="lblShippingProviderManagement" xml:space="preserve">
+    <value>Administrare provider expedieri</value>
+    <comment>Shipping Provider Management</comment>
+  </data>
+  <data name="lblShippingSaved" xml:space="preserve">
+    <value>Expediere salvată.</value>
+    <comment>Shipping saved.</comment>
+  </data>
+  <data name="lblShippingSettingsNotSaved" xml:space="preserve">
+    <value>Setările de expediere nu au fost salvate.</value>
+    <comment>The shipping settings have not been saved.</comment>
+  </data>
+  <data name="lblShippingSettingsSaved" xml:space="preserve">
+    <value>Setările de expediere au fost salvate.</value>
+    <comment>The shipping settings have been saved.</comment>
+  </data>
+  <data name="lblShippingTrackingNumber" xml:space="preserve">
+    <value>Număr nota de transport:</value>
+    <comment>Shipping Tracking Number:</comment>
+  </data>
+  <data name="lblShortDescription" xml:space="preserve">
+    <value>Scurtă descriere:</value>
+    <comment>Short Description:</comment>
+  </data>
+  <data name="lblShowAll" xml:space="preserve">
+    <value>Arată tot</value>
+    <comment>Show All</comment>
+  </data>
+  <data name="lblShowingTotals" xml:space="preserve">
+    <value>Se arată {0} - {1} din {2} rezultate</value>
+    <comment>Showing {0} - {1} of {2} Results</comment>
+  </data>
+  <data name="lblSignature" xml:space="preserve">
+    <value>Semnătura API:</value>
+    <comment>API Signature:</comment>
+  </data>
+  <data name="lblSimpleWeightShippingProviderTitle" xml:space="preserve">
+    <value>Provider expedieri simplu după greutate</value>
+    <comment>Simple Weight Shipping Provider</comment>
+  </data>
+  <data name="lblSiteAdministration" xml:space="preserve">
+    <value>Administrare sit</value>
+    <comment>Site Administration</comment>
+  </data>
+  <data name="lblSiteSettings" xml:space="preserve">
+    <value>Setări sit</value>
+    <comment>Site Settings</comment>
+  </data>
+  <data name="lblSiteSettingsDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblSiteSettingsNotSaved" xml:space="preserve">
+    <value>Setări sit nu au fost salvate.</value>
+    <comment>Site Settings not saved.</comment>
+  </data>
+  <data name="lblSiteSettingsSaved" xml:space="preserve">
+    <value>Setări sit au fost salvate.</value>
+    <comment>Site Settings saved.</comment>
+  </data>
+  <data name="lblSkuDescription" xml:space="preserve">
+    <value>Următoarele SKU-uri au fost create pentru acest produs pe baza atributelor asociate produsului. Pentru a le salva, clic pe butonul 'Salvează'.</value>
+    <comment>The following Sku's were created for this product based on the attribute's that are associated with this product. If you wish to save them, then then click the "Save" button.</comment>
+  </data>
+  <data name="lblSkuSuffix" xml:space="preserve">
+    <value>Sufix SKU:</value>
+    <comment>Sku Suffix:</comment>
+  </data>
+  <data name="lblStateOrRegion" xml:space="preserve">
+    <value>Stat / Regiune:</value>
+    <comment>State / Region:</comment>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Stare:</value>
+    <comment>Status:</comment>
+  </data>
+  <data name="lblSubject" xml:space="preserve">
+    <value>Subiect:</value>
+    <comment>Subject:</comment>
+  </data>
+  <data name="lblSubTotal" xml:space="preserve">
+    <value>Subtotal:</value>
+  </data>
+  <data name="lblSubTotalTop" xml:space="preserve">
+    <value>Subtotal:</value>
+  </data>
+  <data name="lblTagLine" xml:space="preserve">
+    <value>Linie etichetă:</value>
+    <comment>Tag Line:</comment>
+  </data>
+  <data name="lblTax" xml:space="preserve">
+    <value>Taxe:</value>
+    <comment>Tax:</comment>
+  </data>
+  <data name="lblTaxConfiguration" xml:space="preserve">
+    <value>Configurare taxe</value>
+    <comment>Tax Configuration</comment>
+  </data>
+  <data name="lblTaxConfigurationDescription" xml:space="preserve">
+    <value>Secţiunea Configurare taxe permite administrarea providerilor de taxe. Se pot configura aceşti provideri şi de asemenea setările generale asociate serviciului de taxe.</value>
+    <comment>The Tax Configuration section allows you to administer tax providers. You can manage and configure tax providers as well as set general settings for the tax service.</comment>
+  </data>
+  <data name="lblTaxConfigurationNotSaved" xml:space="preserve">
+    <value>Configuraţie taxe nu a fost salvată.</value>
+    <comment>Tax Configuration not saved.</comment>
+  </data>
+  <data name="lblTaxConfigurationSaved" xml:space="preserve">
+    <value>Configuraţie taxe a fost salvată.</value>
+    <comment>Tax Configuration saved.</comment>
+  </data>
+  <data name="lblTaxName" xml:space="preserve">
+    <value>Taxă</value>
+    <comment>Tax</comment>
+  </data>
+  <data name="lblTaxProviderManagement" xml:space="preserve">
+    <value>Administrare provider taxe</value>
+    <comment>Tax Provider Management</comment>
+  </data>
+  <data name="lblTaxType" xml:space="preserve">
+    <value>Tip taxă:</value>
+    <comment>Tax Type:</comment>
+  </data>
+  <data name="lblTheme" xml:space="preserve">
+    <value>Tema:</value>
+    <comment>Theme:</comment>
+  </data>
+  <data name="lblTitle" xml:space="preserve">
+    <value>Titlu:</value>
+    <comment>Title:</comment>
+  </data>
+  <data name="lblToList" xml:space="preserve">
+    <value>Lista destinatari:</value>
+    <comment>To List:</comment>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="lblTotalProducts" xml:space="preserve">
+    <value>Total produse:</value>
+    <comment>Total Products:</comment>
+  </data>
+  <data name="lblTotalSkuCountText" xml:space="preserve">
+    <value>Numărul de SKU-uri create pt. acest produs:</value>
+    <comment>Number of Sku's created for this product:</comment>
+  </data>
+  <data name="lblTotalUsers" xml:space="preserve">
+    <value>Total useri:</value>
+    <comment>Total Users:</comment>
+  </data>
+  <data name="lblTrackingLogs" xml:space="preserve">
+    <value>Jurnale urmărire</value>
+    <comment>Tracking Logs</comment>
+  </data>
+  <data name="lblTrackingLogsDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblTransactionDate" xml:space="preserve">
+    <value>Data tranzacţiei:</value>
+    <comment>Transaction Date:</comment>
+  </data>
+  <data name="lblTransactionId" xml:space="preserve">
+    <value>Id tranzacţie:</value>
+    <comment>Transaction Id:</comment>
+  </data>
+  <data name="lblTransactionType" xml:space="preserve">
+    <value>Tip tranzacţie:</value>
+    <comment>Transaction Type:</comment>
+  </data>
+  <data name="lblUnableToDeleteManufacturers" xml:space="preserve">
+    <value>Fabricantul nu a putut fi şters. Există produse asociate cu fabricantul selectat: {0}.</value>
+    <comment>Unable to delete manufacturer. There are products associated with the selected manufacturer: {0}.</comment>
+  </data>
+  <data name="lblUpdate" xml:space="preserve">
+    <value>Actualizare</value>
+    <comment>Update</comment>
+  </data>
+  <data name="lblUpdating" xml:space="preserve">
+    <value>În curs de actualizare . . .</value>
+    <comment>Updating . . .</comment>
+  </data>
+  <data name="lblUpdatingOrder" xml:space="preserve">
+    <value>Actualizare comandă . . .</value>
+    <comment>Updating Order . . .</comment>
+  </data>
+  <data name="lblUserAdministration" xml:space="preserve">
+    <value>Administrare useri</value>
+    <comment>User Administration</comment>
+  </data>
+  <data name="lblUserAdministrationDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblUserName" xml:space="preserve">
+    <value>Nume user:</value>
+    <comment>UserName:</comment>
+  </data>
+  <data name="lblUserNotFound" xml:space="preserve">
+    <value>Eroare regăsire user: {0}</value>
+    <comment>Failed to retrieve user: {0}</comment>
+  </data>
+  <data name="lblUserUpdated" xml:space="preserve">
+    <value>Acest cont de user a fost actualizat.</value>
+    <comment>This user account has been updated.</comment>
+  </data>
+  <data name="lblUseShipping" xml:space="preserve">
+    <value>Se folosesc expedieri:</value>
+    <comment>Use Shipping:</comment>
+  </data>
+  <data name="lblWeight" xml:space="preserve">
+    <value>Greutate:</value>
+    <comment>Weight:</comment>
+  </data>
+  <data name="lblWelcome" xml:space="preserve">
+    <value>Bun venit</value>
+    <comment>Welcome Back</comment>
+  </data>
+  <data name="lblWidth" xml:space="preserve">
+    <value>Lăţime:</value>
+    <comment>Width:</comment>
+  </data>
+  <data name="lblYourRating" xml:space="preserve">
+    <value>Opinia ta:</value>
+    <comment>Your rating:</comment>
+  </data>
+  <data name="lblYouSave" xml:space="preserve">
+    <value>Economiseşti:</value>
+    <comment>You Save:</comment>
+  </data>
+  <data name="lloginCreateUserText" xml:space="preserve">
+    <value>Nu eşti înregistrat?</value>
+    <comment>Not Registered?</comment>
+  </data>
+  <data name="lloginPasswordLabelText" xml:space="preserve">
+    <value>Parola:&amp;nbsp;</value>
+    <comment>Password:&amp;nbsp;</comment>
+  </data>
+  <data name="lloginPasswordRecoveryText" xml:space="preserve">
+    <value>Ai uitat parola?</value>
+    <comment>Forgot Password?</comment>
+  </data>
+  <data name="lloginTitleText" xml:space="preserve">
+    <value>Intrare</value>
+    <comment>Login</comment>
+  </data>
+  <data name="lloginUserNameLabelText" xml:space="preserve">
+    <value>Nume user:&amp;nbsp;</value>
+    <comment>User Name:&amp;nbsp;</comment>
+  </data>
+  <data name="pnlAddEditBundle" xml:space="preserve">
+    <value>Adăugare / editare pachet</value>
+    <comment>Add / Edit Bundle</comment>
+  </data>
+  <data name="pnlAddManufacturer" xml:space="preserve">
+    <value>Adăugare fabricant</value>
+    <comment>Add Manufacturer</comment>
+  </data>
+  <data name="pnlAddNote" xml:space="preserve">
+    <value>Adăugare notă</value>
+    <comment>Add Note</comment>
+  </data>
+  <data name="pnlAddRegionCode" xml:space="preserve">
+    <value>Adăugare Cod Regiune</value>
+    <comment>Add Region Code</comment>
+  </data>
+  <data name="pnlAddRole" xml:space="preserve">
+    <value>Adăugare rol</value>
+    <comment>Add Role</comment>
+  </data>
+  <data name="pnlAddService" xml:space="preserve">
+    <value>Adăugare serviciu</value>
+    <comment>Add Service</comment>
+  </data>
+  <data name="pnlAddToCart" xml:space="preserve">
+    <value>Adăugare la coş</value>
+    <comment>Add To Cart</comment>
+  </data>
+  <data name="pnlAddUser" xml:space="preserve">
+    <value>Adăugare user</value>
+    <comment>Add User</comment>
+  </data>
+  <data name="pnlAnalytics" xml:space="preserve">
+    <value>Analitice</value>
+    <comment>Analytics</comment>
+  </data>
+  <data name="pnlAssociatedAttributes" xml:space="preserve">
+    <value>Atribute asociate</value>
+    <comment>Associated Attributes</comment>
+  </data>
+  <data name="pnlAssociatedCategories" xml:space="preserve">
+    <value>Categorii asociate</value>
+    <comment>Associated Categories</comment>
+  </data>
+  <data name="pnlAttributeItems" xml:space="preserve">
+    <value>Obiecte atribut</value>
+    <comment>Attribute Items</comment>
+  </data>
+  <data name="pnlAttributeTemplates" xml:space="preserve">
+    <value>Şabloane atribut</value>
+    <comment>Attribute Templates</comment>
+  </data>
+  <data name="pnlAvailableAttributes" xml:space="preserve">
+    <value>Atribute disponibile</value>
+    <comment>Available Attributes</comment>
+  </data>
+  <data name="pnlAvailableRegionCodes" xml:space="preserve">
+    <value>Coduri regiune disponibile</value>
+    <comment>Available Region Codes</comment>
+  </data>
+  <data name="pnlAvailableServices" xml:space="preserve">
+    <value>Servicii disponibile</value>
+    <comment>Available Services</comment>
+  </data>
+  <data name="pnlBrowsingLog" xml:space="preserve">
+    <value>Jurnal vizualizări</value>
+    <comment>Browsing Log</comment>
+  </data>
+  <data name="pnlConfiguration" xml:space="preserve">
+    <value>Configurare {0}</value>
+    <comment>{0} Configuration</comment>
+  </data>
+  <data name="pnlConfigurationOverview" xml:space="preserve">
+    <value>Sumar configurare</value>
+    <comment>Configuration Overview</comment>
+  </data>
+  <data name="pnlConfiguredPaymentProviders" xml:space="preserve">
+    <value>Provideri de plăţi configuraţi</value>
+    <comment>Configured Payment Providers</comment>
+  </data>
+  <data name="pnlConfiguredShippingProviders" xml:space="preserve">
+    <value>Provideri expedieri configuraţi</value>
+    <comment>Configured Shipping Providers</comment>
+  </data>
+  <data name="pnlConfiguredTaxProviders" xml:space="preserve">
+    <value>Provideri taxe configuraţi</value>
+    <comment>Configured Tax Providers</comment>
+  </data>
+  <data name="pnlCrossSells" xml:space="preserve">
+    <value>Vânzări încrucişate</value>
+    <comment>Cross-Sells</comment>
+  </data>
+  <data name="pnlCurrentAttributes" xml:space="preserve">
+    <value>Atribute curente</value>
+    <comment>Current Attributes</comment>
+  </data>
+  <data name="pnlCurrentBundles" xml:space="preserve">
+    <value>Pachete curente</value>
+    <comment>Current Bundles</comment>
+  </data>
+  <data name="pnlCurrentCategories" xml:space="preserve">
+    <value>Categorii curente</value>
+    <comment>Current Categories</comment>
+  </data>
+  <data name="pnlCurrentErrorLogs" xml:space="preserve">
+    <value>Jurnal erori curente</value>
+    <comment>Current Error Logs</comment>
+  </data>
+  <data name="pnlCurrentPages" xml:space="preserve">
+    <value>Pagini curente</value>
+    <comment>Current Pages</comment>
+  </data>
+  <data name="pnlEditAttribute" xml:space="preserve">
+    <value>Adăugare / editare atribut</value>
+    <comment>Add / Edit Attribute</comment>
+  </data>
+  <data name="pnlEditCategory" xml:space="preserve">
+    <value>Adăugare / editare categorie produs</value>
+    <comment>Add / Edit Product Category</comment>
+  </data>
+  <data name="pnlEditPage" xml:space="preserve">
+    <value>Adăugare / editare pagină</value>
+    <comment>Add / Edit Page</comment>
+  </data>
+  <data name="pnlEditUser" xml:space="preserve">
+    <value>Editare user</value>
+    <comment>Edit User</comment>
+  </data>
+  <data name="pnlFavoriteCategories" xml:space="preserve">
+    <value>Categorii favorite</value>
+    <comment>Favorite Categories</comment>
+  </data>
+  <data name="pnlFavoriteProducts" xml:space="preserve">
+    <value>Produse favorite</value>
+    <comment>Favorite Products</comment>
+  </data>
+  <data name="pnlFooter" xml:space="preserve">
+    <value>Subsol</value>
+    <comment>Footer</comment>
+  </data>
+  <data name="pnlGeneralLayout" xml:space="preserve">
+    <value>Aşezare în pagină generală</value>
+    <comment>General Layout</comment>
+  </data>
+  <data name="pnlGeneralProductInformation" xml:space="preserve">
+    <value>Informaţii generale produs</value>
+    <comment>General Product Information</comment>
+  </data>
+  <data name="pnlGeneralSettings" xml:space="preserve">
+    <value>Setări generale</value>
+    <comment>General Settings</comment>
+  </data>
+  <data name="pnlGlobalization" xml:space="preserve">
+    <value>Globalizare</value>
+    <comment>Globalization</comment>
+  </data>
+  <data name="pnlHeader" xml:space="preserve">
+    <value>Antet</value>
+    <comment>Header</comment>
+  </data>
+  <data name="pnlImageManagement" xml:space="preserve">
+    <value>Administrare imagini</value>
+    <comment>Image Mangement</comment>
+  </data>
+  <data name="pnlMailConfiguration" xml:space="preserve">
+    <value>Configurare poştă</value>
+    <comment>Mail Configuration</comment>
+  </data>
+  <data name="pnlMailSettings" xml:space="preserve">
+    <value>Setări poştă</value>
+    <comment>Mail Settings</comment>
+  </data>
+  <data name="pnlManufacturerList" xml:space="preserve">
+    <value>Lista fabricanţi</value>
+    <comment>Manufacturer List</comment>
+  </data>
+  <data name="pnlMessageCenter" xml:space="preserve">
+    <value>Centrul de mesaje</value>
+    <comment>Message Center</comment>
+  </data>
+  <data name="pnlNarrowByManufacturer" xml:space="preserve">
+    <value>Filtrare după fabricant</value>
+    <comment>Narrow By Manufacturer</comment>
+  </data>
+  <data name="pnlNarrowByPrice" xml:space="preserve">
+    <value>Filtrare după preţ</value>
+    <comment>Narrow By Price</comment>
+  </data>
+  <data name="pnlSortBy" xml:space="preserve">
+    <value>Sort By</value>
+    <comment>Sort By</comment>
+  </data>
+  <data name="pnlNews" xml:space="preserve">
+    <value>Ştiri</value>
+    <comment>News</comment>
+  </data>
+  <data name="pnlNoteList" xml:space="preserve">
+    <value>Note</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="pnlNotes" xml:space="preserve">
+    <value>Note</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="pnlNotificationDetails" xml:space="preserve">
+    <value>Detalii notificare</value>
+    <comment>Notification Details</comment>
+  </data>
+  <data name="pnlOrderList" xml:space="preserve">
+    <value>Lista comenzi</value>
+    <comment>Order List</comment>
+  </data>
+  <data name="pnlOrderSearch" xml:space="preserve">
+    <value>Căutare comenzi</value>
+    <comment>Order Search</comment>
+  </data>
+  <data name="pnlPaymentProviders" xml:space="preserve">
+    <value>Configurare Provider Plăţi</value>
+    <comment>Payment Provider Configuration</comment>
+  </data>
+  <data name="pnlPayPalProConfiguration" xml:space="preserve">
+    <value>Configurare Provider Plăţi PayPal Pro</value>
+    <comment>PayPal Pro Payment Provider Configuration</comment>
+  </data>
+  <data name="pnlPayPalStandardConfiguration" xml:space="preserve">
+    <value>Configurare Provider Plăţi PayPal Standard</value>
+    <comment>PayPal Standard Payment Provider Configuration</comment>
+  </data>
+  <data name="pnlProductDescriptors" xml:space="preserve">
+    <value>Descriptori produs</value>
+    <comment>Product Descriptors</comment>
+  </data>
+  <data name="pnlProductImages" xml:space="preserve">
+    <value>Imagini produs</value>
+    <comment>Product Images</comment>
+  </data>
+  <data name="pnlProductList" xml:space="preserve">
+    <value>Produse</value>
+    <comment>Products</comment>
+  </data>
+  <data name="pnlProductReviews" xml:space="preserve">
+    <value>Opinii produs</value>
+    <comment>Product Reviews</comment>
+  </data>
+  <data name="pnlProductSearch" xml:space="preserve">
+    <value>Căutare produs</value>
+    <comment>Product Search</comment>
+  </data>
+  <data name="pnlProviderDetails" xml:space="preserve">
+    <value>Detalii furnizor</value>
+    <comment>Provider Details</comment>
+  </data>
+  <data name="pnlProviderList" xml:space="preserve">
+    <value>Furnizori disponibili</value>
+    <comment>Available Providers</comment>
+  </data>
+  <data name="pnlQuickStats" xml:space="preserve">
+    <value>Mici statistici</value>
+    <comment>QuickStats</comment>
+  </data>
+  <data name="pnlRegionCodeConfiguration" xml:space="preserve">
+    <value>Configurare provider taxe după cod regiune</value>
+    <comment>Region Code Tax Provider Configuration</comment>
+  </data>
+  <data name="pnlReview" xml:space="preserve">
+    <value>Opinie</value>
+    <comment>Review</comment>
+  </data>
+  <data name="pnlRoleList" xml:space="preserve">
+    <value>Lista roluri</value>
+    <comment>Role List</comment>
+  </data>
+  <data name="pnlRoles" xml:space="preserve">
+    <value>Roluri</value>
+    <comment>Roles</comment>
+  </data>
+  <data name="pnlShipping" xml:space="preserve">
+    <value>Expediere</value>
+    <comment>Shipping</comment>
+  </data>
+  <data name="pnlShippingProviders" xml:space="preserve">
+    <value>Configurare provider expedieri</value>
+    <comment>Shipping Provider Configuration</comment>
+  </data>
+  <data name="pnlSimpleWeightConfiguration" xml:space="preserve">
+    <value>Configurare provider expedieri simplu după greutate</value>
+    <comment>Simple Weight Shipping Provider Configruation</comment>
+  </data>
+  <data name="pnlSimpleWeightData" xml:space="preserve">
+    <value>Serviciu simplu după greutate / greutate per unitate</value>
+    <comment>Simple Weight Service / AmountPerUnit Data</comment>
+  </data>
+  <data name="pnlSiteOverview" xml:space="preserve">
+    <value>Sumar sit</value>
+    <comment>Site Overview</comment>
+  </data>
+  <data name="pnlSkuListing" xml:space="preserve">
+    <value>Listare SKU</value>
+    <comment>Sku Listing</comment>
+  </data>
+  <data name="pnlTaxProviders" xml:space="preserve">
+    <value>Configurare Provider TVA</value>
+    <comment>Tax Provider Configuration</comment>
+  </data>
+  <data name="pnlToDo" xml:space="preserve">
+    <value>De Făcut</value>
+    <comment>To Do</comment>
+  </data>
+  <data name="pnlUserList" xml:space="preserve">
+    <value>Lista useri</value>
+    <comment>User List</comment>
+  </data>
+  <data name="pnlUserSearch" xml:space="preserve">
+    <value>Căutare user</value>
+    <comment>User Search</comment>
+  </data>
+  <data name="pnlWidgets" xml:space="preserve">
+    <value>Căsuţe</value>
+    <comment>Widgets</comment>
+  </data>
+  <data name="prPasswordRecoverAnswerLabelText" xml:space="preserve">
+    <value>Răspuns verificare:&amp;nbsp;</value>
+    <comment>Answer:&amp;nbsp;</comment>
+  </data>
+  <data name="prPasswordRecoverQuestionFailureText" xml:space="preserve">
+    <value>Răspunsul nu a putut fi verificat. Mai încearcă.</value>
+    <comment>Your answer could not be verified. Please try again.</comment>
+  </data>
+  <data name="prPasswordRecoverQuestionInstructionText" xml:space="preserve">
+    <value>Răspunde la următoarea întrebare pt. a primi parola!</value>
+    <comment>Answer the following question to receive your password!</comment>
+  </data>
+  <data name="prPasswordRecoverQuestionLabelText" xml:space="preserve">
+    <value>Întrebare verificare:&amp;nbsp;</value>
+    <comment>Question:&amp;nbsp;</comment>
+  </data>
+  <data name="prPasswordRecoverQuestionTitleText" xml:space="preserve">
+    <value>Confirmare identitate</value>
+    <comment>Identity Confirmation</comment>
+  </data>
+  <data name="prPasswordRecoverSubmitButtonText" xml:space="preserve">
+    <value>Trimite</value>
+    <comment>Submit</comment>
+  </data>
+  <data name="prPasswordRecoverSuccessText" xml:space="preserve">
+    <value>Parola a fost trimisă.</value>
+    <comment>Your password has been sent to you.</comment>
+  </data>
+  <data name="prPasswordRecoverUserNameFailureText" xml:space="preserve">
+    <value>Nu a fost posibilă regărirea informaţiilor. Mai încercaţi.</value>
+    <comment>We were unable to access your information. Please try again.</comment>
+  </data>
+  <data name="prPasswordRecoverUserNameInstructionText" xml:space="preserve">
+    <value>Introdu Nume user pt. a primi parola.</value>
+    <comment>Enter your User Name to receive your password.</comment>
+  </data>
+  <data name="prPasswordRecoverUserNameLabelText" xml:space="preserve">
+    <value>Nume User:&amp;nbsp;</value>
+    <comment>User Name:&amp;nbsp;</comment>
+  </data>
+  <data name="prPasswordRecoverUserNameTitleText" xml:space="preserve">
+    <value>Ai uitat parola?</value>
+    <comment>Forgot your password?</comment>
+  </data>
+  <data name="rfvAmountPerUnit" xml:space="preserve">
+    <value>Introdu o Cantitate per unitate</value>
+    <comment>Please supply an Amount Per Unit.</comment>
+  </data>
+  <data name="rfvApiPassword" xml:space="preserve">
+    <value>Introdu o parola pt API.</value>
+    <comment>Please supply an API Password.</comment>
+  </data>
+  <data name="rfvApiSignature" xml:space="preserve">
+    <value>Introdu o semnătură pt API.</value>
+    <comment>Please supply and API Signature.</comment>
+  </data>
+  <data name="rfvApiUserName" xml:space="preserve">
+    <value>Introdu un User Name pt API.</value>
+    <comment>Please supply an API User Name.</comment>
+  </data>
+  <data name="rfvBusinessEmail" xml:space="preserve">
+    <value>Te rog introdu un email de business.</value>
+    <comment>Please supply a Business Email.</comment>
+  </data>
+  <data name="rfvName" xml:space="preserve">
+    <value>Te rog introdu un nume.</value>
+    <comment>Please supply a Name.</comment>
+  </data>
+  <data name="rfvPdtId" xml:space="preserve">
+    <value>Te rog introdu un Id PDT.</value>
+    <comment>Please supply a PDT Id.</comment>
+  </data>
+  <data name="rfvRate" xml:space="preserve">
+    <value>Te rog introdu o rată.</value>
+    <comment>Please supply a Rate.</comment>
+  </data>
+  <data name="rfvRegionCode" xml:space="preserve">
+    <value>Te rog introdu un cod de regiune.</value>
+    <comment>Please supply a Region Code.</comment>
+  </data>
+  <data name="rfvService" xml:space="preserve">
+    <value>Te rog introdu un serviciu.</value>
+    <comment>Please supply a Service.</comment>
+  </data>
+  <data name="rfvTitle" xml:space="preserve">
+    <value>Te rog introdu un titlu.</value>
+    <comment>Please supply a Title.</comment>
+  </data>
+  <data name="titleAddUser" xml:space="preserve">
+    <value>dashCommerce :: Adăugare User</value>
+    <comment>dashCommerce :: Add User</comment>
+  </data>
+  <data name="titleCart" xml:space="preserve">
+    <value>Coş</value>
+    <comment>Cart</comment>
+  </data>
+  <data name="titleCheckout" xml:space="preserve">
+    <value>Comandă</value>
+    <comment>Cart</comment>
+  </data>
+  <data name="titleContentManagement" xml:space="preserve">
+    <value>dashCommerce :: Administrare conţinut</value>
+    <comment>dashCommerce :: Content Management</comment>
+  </data>
+  <data name="titleDashBoard" xml:space="preserve">
+    <value>dashCommerce :: Panou control</value>
+    <comment>dashCommerce :: dashBoard</comment>
+  </data>
+  <data name="titleEditNotification" xml:space="preserve">
+    <value>dashCommerce :: Notificări :: Editare Notificare</value>
+    <comment>dashCommerce :: Notifications :: Edit Notification</comment>
+  </data>
+  <data name="titleEditUser" xml:space="preserve">
+    <value>dashCommerce :: Editare User</value>
+    <comment>dashCommerce :: Edit User</comment>
+  </data>
+  <data name="titleErrorLogs" xml:space="preserve">
+    <value>dashCommerce :: Jurnal erori</value>
+    <comment>dashCommerce :: Error Logs</comment>
+  </data>
+  <data name="titleImageSelector" xml:space="preserve">
+    <value>dashCommerce :: Selector imagine</value>
+    <comment>dashCommerce :: Image Selector</comment>
+  </data>
+  <data name="titleLoading" xml:space="preserve">
+    <value>dashCommerce :: Se încarcă . . .</value>
+    <comment>dashCommerce :: Loading . . .</comment>
+  </data>
+  <data name="titleMailSettings" xml:space="preserve">
+    <value>dashCommerce :: Setări poştă</value>
+    <comment>dashCommerce :: Mail Settings</comment>
+  </data>
+  <data name="titleModalError" xml:space="preserve">
+    <value>dashCommerce :: Eroare</value>
+    <comment>dashCommerce :: Error</comment>
+  </data>
+  <data name="titleNotifications" xml:space="preserve">
+    <value>dashCommerce :: Notificări</value>
+    <comment>dashCommerce :: Notifications</comment>
+  </data>
+  <data name="titlePaymentConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Configurare Provider plăţi</value>
+    <comment>dashCommerce :: Payment Provider Configuration</comment>
+  </data>
+  <data name="titlePaymentProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Administrare Provider plăţi</value>
+    <comment>dashCommerce :: Payment Provider Management</comment>
+  </data>
+  <data name="titlePaymentSettings" xml:space="preserve">
+    <value>dashComemrce :: Setări plăţi</value>
+    <comment>dashComemrce :: Payment Settings</comment>
+  </data>
+  <data name="titleProductAttributes" xml:space="preserve">
+    <value>dashCommerce :: Atribute produs</value>
+    <comment>dashCommerce :: Product Attributes</comment>
+  </data>
+  <data name="titleProductCategories" xml:space="preserve">
+    <value>dashCommerce :: Categorii produs</value>
+    <comment>dashCommerce :: Product Categories</comment>
+  </data>
+  <data name="titleProductListing" xml:space="preserve">
+    <value>dashCommerce :: Listare produse</value>
+    <comment>dashCommerce :: Product Listing</comment>
+  </data>
+  <data name="titleProductManufacturers" xml:space="preserve">
+    <value>dashCommerce :: Fabricanţi produse</value>
+    <comment>dashCommerce :: Product Manufacturers</comment>
+  </data>
+  <data name="titleRoleAdministration" xml:space="preserve">
+    <value>dashCommerce :: Securitate :: Administrare roluri</value>
+    <comment>dashCommerce :: Security :: Role Administration</comment>
+  </data>
+  <data name="titleShippingConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Configurare provider expedieri</value>
+    <comment>dashCommerce :: Shipping Provider Configuration</comment>
+  </data>
+  <data name="titleShippingProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Administrare provider expedieri</value>
+    <comment>dashCommerce :: Shipping Provider Management</comment>
+  </data>
+  <data name="titleShippingSettings" xml:space="preserve">
+    <value>dashCommerce :: Setări expedieri</value>
+    <comment>dashCommerce :: Shipping Settings</comment>
+  </data>
+  <data name="titleSiteSettingsAnalytics" xml:space="preserve">
+    <value>dashCommerce :: Setări sit :: Analitice</value>
+    <comment>dashCommerce :: Site Settings :: Analytics</comment>
+  </data>
+  <data name="titleSiteSettingsBrowsingLog" xml:space="preserve">
+    <value>dashCommerce :: Setări sit :: Jurnal vizualizări</value>
+    <comment>dashCommerce :: Site Settings :: Browsing Log</comment>
+  </data>
+  <data name="titleSiteSettingsFooter" xml:space="preserve">
+    <value>dashCommerce :: Setări sit :: Subsol pagini</value>
+    <comment>dashCommerce :: Setări sit :: Footer</comment>
+  </data>
+  <data name="titleSiteSettingsGeneralLayout" xml:space="preserve">
+    <value>dashCommerce :: Setări sit :: Aşezare generală în pagină</value>
+    <comment>dashCommerce :: Site Settings :: General Layout</comment>
+  </data>
+  <data name="titleSiteSettingsGlobalization" xml:space="preserve">
+    <value>dashCommerce :: Setări sit :: Globalizare</value>
+    <comment>dashCommerce :: Site Settings :: Globalization</comment>
+  </data>
+  <data name="titleSiteSettingsHeader" xml:space="preserve">
+    <value>dashCommerce :: Setări sit :: Antet pagini</value>
+    <comment>dashCommerce :: Site Settings :: Header</comment>
+  </data>
+  <data name="titleSiteSettingsWidgets" xml:space="preserve">
+    <value>dashCommerce :: Setări sit :: Widgets</value>
+    <comment>dashCommerce :: SiteSettings :: Widgets</comment>
+  </data>
+  <data name="titleTaxConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Configurare provider taxe</value>
+    <comment>dashCommerce :: Tax Provider Configuration</comment>
+  </data>
+  <data name="titleTaxProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Administrare provider taxe</value>
+    <comment>dashCommerce :: Tax Provider Management</comment>
+  </data>
+  <data name="titleTaxSettings" xml:space="preserve">
+    <value>dashCommerce :: Setări taxe</value>
+    <comment>dashComerce :: Tax Settings</comment>
+  </data>
+  <data name="titleTrackingLogs" xml:space="preserve">
+    <value>dashCommerce :: Jurnal urmărire</value>
+    <comment>dashCommerce :: Tracking Logs</comment>
+  </data>
+  <data name="titleUserAdministration" xml:space="preserve">
+    <value>dashCommerce :: Securitate :: Administrare useri</value>
+    <comment>dashCommerce :: Security :: User Administration</comment>
+  </data>
+  <data name="pnlDatabaseSetup" xml:space="preserve">
+    <value>Setare baza de date</value>
+    <comment>Database Setup</comment>
+  </data>
+</root>

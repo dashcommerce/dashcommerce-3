@@ -1,0 +1,32 @@
+<%@ Master Language="C#" AutoEventWireup="true" Codebehind="install.master.cs" Inherits="MettleSystems.dashCommerce.Web.install.install1" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title></title>
+  <script type="text/javascript" src="../resources/overlib/overlib.js"><!-- overLIB (c) Erik Bosrup --></script>  
+</head>
+<body id="body" runat="server">
+  <div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+  <form id="installForm" runat="server">
+    <div id="allContent" runat="server" class="allContent">
+      <div id="headerRegion">
+        <dashCommerce:HyperLink ID="hlLogo" runat="server" SkinID="logo" />
+        <dashCommerce:Label ID="lblSiteInstall" runat="server" SkinId="adminHeader" />
+        <hr />
+      </div>
+      <div id="divMessageCenter" runat="server">
+      </div>
+      <br />
+      <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
+      <div id="footer">
+        <hr />
+      </div>
+    </div>
+  </form>
+</body>
+</html>

@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Coupons" xml:space="preserve">
+    <value>Cupoane</value>
+    <comment>Coupons</comment>
+  </data>
+  <data name="ManageCouponProviders" xml:space="preserve">
+    <value>Administrare Provideri Cupoane</value>
+    <comment>Manage Coupon Providers</comment>
+  </data>
+  <data name="CacheConfiguration" xml:space="preserve">
+    <value>Configurare Cache</value>
+    <comment>Cache Configuration</comment>
+  </data>
+  <data name="ConfigureCacheProviders" xml:space="preserve">
+    <value>Configurare Provideri Cache</value>
+    <comment>Configure Cache Providers</comment>
+  </data>
+  <data name="GeneralCacheProviderSettings" xml:space="preserve">
+    <value>Setări Cache Generale</value>
+    <comment>General Cache Settings</comment>
+  </data>
+  <data name="ManageCacheProviders" xml:space="preserve">
+    <value>Administrare Provideri Cache</value>
+    <comment>Manage Cache Providers</comment>
+  </data>
+  <data name="CustomerInformation" xml:space="preserve">
+    <value>Informaţii Client</value>
+    <comment>Customer Information</comment>
+  </data>
+  <data name="CustomerService" xml:space="preserve">
+    <value>Serviciu Clienţi</value>
+    <comment>Customer Service</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Despre</value>
+    <comment>About</comment>
+  </data>
+  <data name="SiteConfiguration" xml:space="preserve">
+    <value>Configurare Sit</value>
+    <comment>Site Configuration</comment>
+  </data>
+  <data name="StoreSettings" xml:space="preserve">
+    <value>Setări Magazin</value>
+    <comment>Store Settings</comment>
+  </data>
+  <data name="ProductDownloads" xml:space="preserve">
+    <value>Download-uri Produse</value>
+    <comment>Product Downloads</comment>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configurare</value>
+    <comment>Configuration</comment>
+  </data>
+  <data name="ConfigurePaymentProviders" xml:space="preserve">
+    <value>Configurare Furnizor Plăţi</value>
+  </data>
+  <data name="ConfigureShippingProviders" xml:space="preserve">
+    <value>Configurare Furnizor Livrări</value>
+  </data>
+  <data name="ConfigureTaxProviders" xml:space="preserve">
+    <value>Configurare Furnizor Taxe</value>
+  </data>
+  <data name="ContentManagement" xml:space="preserve">
+    <value>Management Conţinut</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Panou Central</value>
+  </data>
+  <data name="ErrorLogs" xml:space="preserve">
+    <value>Jurnal Erori</value>
+    <comment>Error Logs</comment>
+  </data>
+  <data name="GeneralPaymentProviderSettings" xml:space="preserve">
+    <value>Setări Generale Plăţi</value>
+    <comment>General Payment Settings</comment>
+  </data>
+  <data name="GeneralShippingProviderSettings" xml:space="preserve">
+    <value>Setări Generale Livrări</value>
+    <comment>General Shipping Settings</comment>
+  </data>
+  <data name="GeneralTaxProviderSettings" xml:space="preserve">
+    <value>Setări Generale Taxe</value>
+    <comment>General Tax Settings</comment>
+  </data>
+  <data name="MailConfiguration" xml:space="preserve">
+    <value>Configurare e-mail</value>
+    <comment>Mail Configuration</comment>
+  </data>
+  <data name="MailSettings" xml:space="preserve">
+    <value>Setări e-mail</value>
+    <comment>Mail Settings</comment>
+  </data>
+  <data name="ManagePaymentProviders" xml:space="preserve">
+    <value>Administrare Furnizori Plăţi</value>
+    <comment>Manage Payment Providers</comment>
+  </data>
+  <data name="ManageShippingProviders" xml:space="preserve">
+    <value>Administrare Furnizori Livrări</value>
+    <comment>Manage Shipping Providers</comment>
+  </data>
+  <data name="ManageTaxProviders" xml:space="preserve">
+    <value>Administrare Furnizori Taxe</value>
+    <comment>Manage Tax Providers</comment>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Notificări</value>
+    <comment>Notifications</comment>
+  </data>
+  <data name="OrderSearch" xml:space="preserve">
+    <value>Căutare Comenzi</value>
+    <comment>Order Search</comment>
+  </data>
+  <data name="PaymentConfiguration" xml:space="preserve">
+    <value>Configurare Plăţi</value>
+    <comment>Payment Configuration</comment>
+  </data>
+  <data name="PayPalPaymentConfiguration" xml:space="preserve">
+    <value>Configurare Plată PayPal</value>
+    <comment>PayPal Payment Configuration</comment>
+  </data>
+  <data name="ProductAttributes" xml:space="preserve">
+    <value>Atribute Produs</value>
+    <comment>Product Attributes</comment>
+  </data>
+  <data name="ProductBundles" xml:space="preserve">
+    <value>Pachete Produse</value>
+    <comment>Product Bundles</comment>
+  </data>
+  <data name="ProductCampaigns" xml:space="preserve">
+    <value>Campanii Produse ?</value>
+    <comment>Product Campaigns ?</comment>
+  </data>
+  <data name="ProductCategories" xml:space="preserve">
+    <value>Categorii Produse</value>
+    <comment>Product Categories</comment>
+  </data>
+  <data name="ProductCoupons" xml:space="preserve">
+    <value>Cupoane Produse</value>
+    <comment>Product Coupons</comment>
+  </data>
+  <data name="ProductListing" xml:space="preserve">
+    <value>Listare Produse</value>
+    <comment>Product Listing</comment>
+  </data>
+  <data name="ProductManagement" xml:space="preserve">
+    <value>Administrare Produse</value>
+    <comment>Product Management</comment>
+  </data>
+  <data name="ProductManufacturers" xml:space="preserve">
+    <value>Fabricanţi Produse</value>
+    <comment>Product Manufacturers</comment>
+  </data>
+  <data name="ProductPromotions" xml:space="preserve">
+    <value>Promoţii Produse ?</value>
+    <comment>Product Promotions ?</comment>
+  </data>
+  <data name="ProductReviews" xml:space="preserve">
+    <value>Comentarii Produs</value>
+    <comment>Product Reviews ?</comment>
+  </data>
+  <data name="ReturnToSite" xml:space="preserve">
+    <value>Înapoi în Sit</value>
+    <comment>Return To Site</comment>
+  </data>
+  <data name="RoleAdministration" xml:space="preserve">
+    <value>Administrare Roluri</value>
+    <comment>Role Administration</comment>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Vânzări</value>
+    <comment>Sales</comment>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>Securitate</value>
+    <comment>Security</comment>
+  </data>
+  <data name="ShippingConfiguration" xml:space="preserve">
+    <value>Configurare Livrări</value>
+    <comment>Shipping Configuration</comment>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Sit</value>
+    <comment>Site</comment>
+  </data>
+  <data name="SiteSettings" xml:space="preserve">
+    <value>Setări Sit</value>
+    <comment>Site Settings</comment>
+  </data>
+  <data name="TaxConfiguration" xml:space="preserve">
+    <value>Configurare Taxe</value>
+    <comment>Tax Configuration</comment>
+  </data>
+  <data name="TrackingLogs" xml:space="preserve">
+    <value>Jurnal Urmărire</value>
+    <comment>Tracking Logs</comment>
+  </data>
+  <data name="UserAdministration" xml:space="preserve">
+    <value>Administrare Utilizatori</value>
+    <comment>User Administration</comment>
+  </data>
+</root>

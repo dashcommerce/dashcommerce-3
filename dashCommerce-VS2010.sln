@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{CB88158F-6CF7-4BF0-ADDF-5C253C95B749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content", "Content\Content.csproj", "{A08C6BFB-CE55-4432-8560-7B3341365A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization", "Localization\Localization.csproj", "{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj", "{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{78B0F950-2D9C-414F-8241-4C70DD898C46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB88158F-6CF7-4BF0-ADDF-5C253C95B749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB88158F-6CF7-4BF0-ADDF-5C253C95B749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB88158F-6CF7-4BF0-ADDF-5C253C95B749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB88158F-6CF7-4BF0-ADDF-5C253C95B749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB88158F-6CF7-4BF0-ADDF-5C253C95B749}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{CB88158F-6CF7-4BF0-ADDF-5C253C95B749}.Test|Any CPU.Build.0 = Test|Any CPU
+		{A08C6BFB-CE55-4432-8560-7B3341365A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08C6BFB-CE55-4432-8560-7B3341365A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08C6BFB-CE55-4432-8560-7B3341365A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08C6BFB-CE55-4432-8560-7B3341365A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08C6BFB-CE55-4432-8560-7B3341365A6A}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{A08C6BFB-CE55-4432-8560-7B3341365A6A}.Test|Any CPU.Build.0 = Test|Any CPU
+		{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}.Test|Any CPU.Build.0 = Test|Any CPU
+		{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}.Test|Any CPU.Build.0 = Test|Any CPU
+		{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}.Test|Any CPU.Build.0 = Test|Any CPU
+		{78B0F950-2D9C-414F-8241-4C70DD898C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B0F950-2D9C-414F-8241-4C70DD898C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B0F950-2D9C-414F-8241-4C70DD898C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B0F950-2D9C-414F-8241-4C70DD898C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B0F950-2D9C-414F-8241-4C70DD898C46}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{78B0F950-2D9C-414F-8241-4C70DD898C46}.Test|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

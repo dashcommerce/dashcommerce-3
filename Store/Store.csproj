@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MettleSystems.dashCommerce.Store</RootNamespace>
+    <AssemblyName>MettleSystems.dashCommerce.Store</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\global\MettleSystemsPublicPrivate.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/MettleSystems.dashCommerce.Store/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\MettleSystems.dashCommerce.Store.XML</DocumentationFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Test|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SubSonic, Version=2.0.3.22971, Culture=neutral, PublicKeyToken=eadb47849839a332, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\SubSonic.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AssemblyVersionInfo.cs">
+      <Link>Properties\AssemblyVersionInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\SolutionInfo.cs">
+      <Link>Properties\SolutionInfo.cs</Link>
+    </Compile>
+    <Compile Include="Caching\CategoryCache.cs" />
+    <Compile Include="Caching\MessagingCache.cs" />
+    <Compile Include="Caching\ProductCache.cs" />
+    <Compile Include="Controllers\AttributeItemController.cs" />
+    <Compile Include="Controllers\BrowsingLogController.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\DownloadController.cs" />
+    <Compile Include="Controllers\Generated\AttributeController.cs" />
+    <Compile Include="Controllers\Generated\AttributeItemController.cs" />
+    <Compile Include="Controllers\Generated\AttributeTypeController.cs" />
+    <Compile Include="Controllers\Generated\BrowsingLogController.cs" />
+    <Compile Include="Controllers\Generated\CategoryController.cs" />
+    <Compile Include="Controllers\Generated\CouponController.cs" />
+    <Compile Include="Controllers\Generated\CrossSellController.cs" />
+    <Compile Include="Controllers\Generated\CurrencyController.cs" />
+    <Compile Include="Controllers\Generated\CustomizedProductDisplayTypeController.cs" />
+    <Compile Include="Controllers\Generated\CustomizedProductDisplayTypeProductMapController.cs" />
+    <Compile Include="Controllers\Generated\DescriptorController.cs" />
+    <Compile Include="Controllers\Generated\DownloadAccessControlController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\Generated\DownloadController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\Generated\ImageController.cs" />
+    <Compile Include="Controllers\Generated\ManufacturerController.cs" />
+    <Compile Include="Controllers\Generated\NotificationController.cs" />
+    <Compile Include="Controllers\Generated\OrderController.cs" />
+    <Compile Include="Controllers\Generated\OrderItemController.cs" />
+    <Compile Include="Controllers\Generated\OrderNoteController.cs" />
+    <Compile Include="Controllers\Generated\OrderStatusDescriptorController.cs" />
+    <Compile Include="Controllers\Generated\ProductAttributeMapController.cs" />
+    <Compile Include="Controllers\Generated\ProductCategoryMapController.cs" />
+    <Compile Include="Controllers\Generated\ProductController.cs" />
+    <Compile Include="Controllers\Generated\ProductDownloadMapController.cs" />
+    <Compile Include="Controllers\Generated\ProductRatingController.cs" />
+    <Compile Include="Controllers\Generated\ProductStatusDescriptorController.cs" />
+    <Compile Include="Controllers\Generated\ProductTypeController.cs" />
+    <Compile Include="Controllers\Generated\ProviderController.cs" />
+    <Compile Include="Controllers\Generated\RegionCodeTaxRateController.cs" />
+    <Compile Include="Controllers\Generated\ReviewController.cs" />
+    <Compile Include="Controllers\Generated\ShippingEstimateController.cs" />
+    <Compile Include="Controllers\Generated\SimpleWeightShippingRateController.cs" />
+    <Compile Include="Controllers\Generated\SkuController.cs" />
+    <Compile Include="Controllers\Generated\ToDoController.cs" />
+    <Compile Include="Controllers\Generated\TransactionController.cs" />
+    <Compile Include="Controllers\Generated\TransactionTypeDescriptorController.cs" />
+    <Compile Include="Controllers\Generated\VatTaxRateController.cs" />
+    <Compile Include="Controllers\Generated\VersionController.cs" />
+    <Compile Include="Controllers\OrderController.cs" />
+    <Compile Include="Controllers\OrderNoteController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\ProviderController.cs" />
+    <Compile Include="Controllers\ReviewController.cs" />
+    <Compile Include="Controllers\TransactionController.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="ExtendedProperties.cs" />
+    <Compile Include="MailSettings.cs" />
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\AssociatedAttribute.cs" />
+    <Compile Include="Models\Attribute.cs" />
+    <Compile Include="Models\AttributeItem.cs" />
+    <Compile Include="Models\Currency.cs" />
+    <Compile Include="Models\Generated\Attribute.cs" />
+    <Compile Include="Models\Generated\AttributeItem.cs" />
+    <Compile Include="Models\Generated\AttributeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Generated\BrowsingLog.cs" />
+    <Compile Include="Models\Generated\Category.cs" />
+    <Compile Include="Models\Generated\Coupon.cs" />
+    <Compile Include="Models\Generated\CrossSell.cs" />
+    <Compile Include="Models\Generated\Currency.cs" />
+    <Compile Include="Models\Generated\CustomizedProductDisplayType.cs" />
+    <Compile Include="Models\Generated\CustomizedProductDisplayTypeProductMap.cs" />
+    <Compile Include="Models\Generated\Descriptor.cs" />
+    <Compile Include="Models\Generated\Download.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Generated\DownloadAccessControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Generated\Image.cs" />
+    <Compile Include="Models\Generated\Manufacturer.cs" />
+    <Compile Include="Models\Generated\Notification.cs" />
+    <Compile Include="Models\Generated\Order.cs" />
+    <Compile Include="Models\Generated\OrderItem.cs" />
+    <Compile Include="Models\Generated\OrderNote.cs" />
+    <Compile Include="Models\Generated\OrderStatusDescriptor.cs" />
+    <Compile Include="Models\Generated\Product.cs" />
+    <Compile Include="Models\Generated\ProductAttributeMap.cs" />
+    <Compile Include="Models\Generated\ProductCategoryMap.cs" />
+    <Compile Include="Models\Generated\ProductDownloadMap.cs" />
+    <Compile Include="Models\Generated\ProductRating.cs" />
+    <Compile Include="Models\Generated\ProductStatusDescriptor.cs" />
+    <Compile Include="Models\Generated\ProductType.cs" />
+    <Compile Include="Models\Generated\Provider.cs" />
+    <Compile Include="Models\Generated\RegionCodeTaxRate.cs" />
+    <Compile Include="Models\Generated\Review.cs" />
+    <Compile Include="Models\Generated\ShippingEstimate.cs" />
+    <Compile Include="Models\Generated\SimpleWeightShippingRate.cs" />
+    <Compile Include="Models\Generated\Sku.cs" />
+    <Compile Include="Models\Generated\StoredProcedures.cs" />
+    <Compile Include="Models\Generated\ToDo.cs" />
+    <Compile Include="Models\Generated\Transaction.cs" />
+    <Compile Include="Models\Generated\TransactionTypeDescriptor.cs" />
+    <Compile Include="Models\Generated\VatTaxRate.cs" />
+    <Compile Include="Models\Generated\Version.cs" />
+    <Compile Include="Models\Order.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\OrderItem.cs" />
+    <Compile Include="Models\PayPalPayer.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Services\CouponService\CouponService.cs" />
+    <Compile Include="Services\CouponService\ICouponProvider.cs" />
+    <Compile Include="Services\CouponService\PercentOffCouponProvider.cs" />
+    <Compile Include="Services\MessageService\Email.cs" />
+    <Compile Include="Services\MessageService\MessageService.cs" />
+    <Compile Include="Services\PaymentService\IPaymentProvider.cs" />
+    <Compile Include="Services\PaymentService\IPayPalPaymentProvider.cs" />
+    <Compile Include="Services\PaymentService\NullPaymentProvider.cs" />
+    <Compile Include="Services\PaymentService\PaymentProviderCollection.cs" />
+    <Compile Include="Services\PaymentService\PaymentService.cs" />
+    <Compile Include="Services\PaymentService\PaymentServiceException.cs" />
+    <Compile Include="Services\PaymentService\PaymentServiceSettings.cs" />
+    <Compile Include="Services\PaymentService\PayPalProPaymentProvider.cs" />
+    <Compile Include="Services\PaymentService\PayPalStandardPaymentProvider.cs" />
+    <Compile Include="Services\PaymentService\PayPal\PayPalService.cs" />
+    <Compile Include="Services\PaymentService\PayPal\PayPalServiceException.cs" />
+    <Compile Include="Services\PaymentService\PayPal\PayPalServiceUtility.cs" />
+    <Compile Include="Services\PaymentService\PayPal\PayPalStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayPalStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\ProviderSettings.cs" />
+    <Compile Include="Services\ProviderSettingsCollection.cs" />
+    <Compile Include="Services\ShippingService\IShippingProvider.cs" />
+    <Compile Include="Services\ShippingService\ShippingOption.cs" />
+    <Compile Include="Services\ShippingService\ShippingOptionCollection.cs" />
+    <Compile Include="Services\ShippingService\ShippingProviderCollection.cs" />
+    <Compile Include="Services\ShippingService\ShippingService.cs" />
+    <Compile Include="Services\ShippingService\ShippingServiceSettings.cs" />
+    <Compile Include="Services\ShippingService\SimpleWeightShippingProvider.cs" />
+    <Compile Include="Services\TaxService\ITaxProvider.cs" />
+    <Compile Include="Services\TaxService\RegionCodeTaxProvider.cs" />
+    <Compile Include="Services\TaxService\TaxProviderCollection.cs" />
+    <Compile Include="Services\TaxService\TaxService.cs" />
+    <Compile Include="Services\TaxService\TaxServiceSettings.cs" />
+    <Compile Include="Services\TaxService\VatTaxProvider.cs" />
+    <Compile Include="StoreUtility.cs" />
+    <Compile Include="Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\dashCommerceTaxSvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PayPalSvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web\AdminMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\AdminPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\AdminControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\CouponConfigurationControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\dashCommerceUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\dashCommerceWebControl.cs" />
+    <Compile Include="Web\Controls\MessageCenter.cs" />
+    <Compile Include="Web\Controls\PaymentConfigurationControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\ShippingConfigurationControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\SiteControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Controls\TaxConfigurationControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\dashCommerceMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\dashCommercePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SiteMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\SitePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\dashCommerceTaxSvc\taxbasic.wsdl" />
+    <None Include="Web References\PayPalSvc\AddressVerifyResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BAUpdateResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BillOutstandingAmountResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BillUserResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\CoreComponentTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\PayPalSvc\CreateBillingAgreementResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\CreateMobilePaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\CreateRecurringPaymentsProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoAuthorizationResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoCaptureResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoDirectPaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoExpressCheckoutPaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoMobileCheckoutPaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoNonReferencedCreditResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoReauthorizationResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoReferenceTransactionResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoUATPAuthorizationResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoUATPExpressCheckoutPaymentResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoVoidResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\eBLBaseComponents.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\PayPalSvc\EnhancedDataTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\PayPalSvc\EnterBoardingResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetAccessPermissionDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetAuthDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetBalanceResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetBillingAgreementCustomerDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetBoardingDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetExpressCheckoutDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetIncentiveEvaluationResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetMobileStatusResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetPalDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetRecurringPaymentsProfileDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\GetTransactionDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\ManagePendingTransactionStatusResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\ManageRecurringPaymentsProfileStatusResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\MassPayResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\PayPalSvc.wsdl" />
+    <None Include="Web References\PayPalSvc\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PayPalSvc\RefundTransactionResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\ReverseTransactionResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\SetAccessPermissionsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\SetAuthFlowParamResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\SetCustomerBillingAgreementResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\SetExpressCheckoutResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\SetMobileCheckoutResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\TransactionSearchResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\UpdateAccessPermissionsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\UpdateRecurringPaymentsProfileResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{78B0F950-2D9C-414F-8241-4C70DD898C46}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{CB88158F-6CF7-4BF0-ADDF-5C253C95B749}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Services\PaymentService\PayPal\PayPalStrings.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PayPalStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.da-DK.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.it-IT.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.pt-PT.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.ro-RO.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://webservices.dashcommerce.com/tax/taxbasic.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\dashCommerceTaxSvc\</RelPath>
+      <UpdateFromURL>https://webservices.dashcommerce.com/tax/taxbasic.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>MettleSystems_dashCommerce_Store_dashCommerceTaxSvc_TaxBasic</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://www.paypal.com/wsdl/PayPalSvc.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\PayPalSvc\</RelPath>
+      <UpdateFromURL>https://www.paypal.com/wsdl/PayPalSvc.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>MettleSystems_dashCommerce_Store_PayPalSvc_PayPalAPIInterfaceService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\dashCommerceTaxSvc\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\dashCommerceTaxSvc\taxbasic.disco" />
+    <None Include="Web References\dashCommerceTaxSvc\TaxResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BMButtonSearchResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BMCreateButtonResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BMGetButtonDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BMGetInventoryResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BMManageButtonStatusResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BMSetInventoryResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\BMUpdateButtonResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Target Name="Clean">
+    <RemoveDir Directories="bin;obj" />
+  </Target>
+</Project>

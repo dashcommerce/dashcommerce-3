@@ -1,0 +1,266 @@
+.adminHeader {
+  position: relative;
+  color: #024A76;
+  font-size: 1.1em; 
+  left: -150px;
+  top: 5px;
+  text-transform: uppercase;
+}
+
+#admin_centercontent {
+  position: relative;
+  border: 1px solid rgb(225,225,225);
+  padding: 5px;
+}
+
+.mainMenu {
+  margin-top: 10px;
+  width: 960px;
+  background: url(images/dcAdminNav.jpg) repeat-x;
+}
+
+.adminMenu {
+  width: 80%;
+}
+
+.level1 {
+  margin-left: 5px;
+  font-size: .9em;
+  font-weight: bold;
+  height: 31px;
+}
+
+.level1 td {
+}
+
+.level1 td a:link {
+  color: #FFF;  
+}
+
+.level1 td a:visited {
+  color: #FFF;
+}
+
+.level1 td a:hover {
+  color: #EFEFEF;
+}
+
+.level2 {
+  margin-left: 5px;
+  font-size: .9em;
+  font-weight: bold;
+  height: 31px;
+}
+
+.level2 td {
+}
+
+.level2 td a:link {
+  color: #FFF;
+}
+
+.level2 td a:visited {
+  color: #FFF;
+}
+
+.level2 td a:hover {
+   color: #CCC; 
+}
+
+.level2 td img {
+  color: #FFF;
+  /*background: transparent url(images/icons/whitearrow.gif) right center no-repeat;*/
+}
+
+.level3 {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: .9em;
+  background-color: #0066A6;
+  height: 28px;
+}
+
+.level3 td {
+  border-top: 2px solid #4287BE;
+}
+
+.level3 td a:link {
+  color: #FFF;
+}
+
+.level3 td a:visited {
+  color: #FFF;
+}
+
+.level3 td a:hover {
+   color: #CCC; 
+}
+
+.level3 td img {
+  background: transparent;
+}
+
+.level4 {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: .9em;
+  background-color: #007ECD;
+  height: 25px;
+}
+
+.level4 td {
+  border-top: 2px solid #3CA2E0;
+}
+
+.level4 td a:link {
+  color: #FFF;
+}
+
+.level4 td a:visited {
+  color: #FFF;
+}
+
+.level4 td a:hover {
+   color: #CCC; 
+}
+
+.adminTable {
+  width: 100%;  
+  font-size: .9em;
+}
+
+.adminTable th {
+  background-color: #024A76;
+  color: #FFF;
+}
+
+.adminTable th a {
+  color: #FFF;  
+}
+
+.adminTable td {
+  border: 1px solid #CCC;  
+}
+
+.adminTableHeader {
+  background-color: #0066A6; /*#024A76;*/
+  color: #FFF; 
+  font-weight: bold;
+}
+
+.defaultProvider {
+  font-weight: bold;
+}
+
+tr.row:hover, tr.over td {
+  background-color: #FFFFB2;
+}
+
+.messagecenterInformation {
+  padding:5px;
+  min-height:23px;
+  background-color:#CAE4FF;
+  border:1px solid #003366;  
+}
+
+.messagecenterSuccess {
+  padding:5px;
+  min-height:23px;
+  background-color:#CCFFCC;
+  border:1px solid #006600;  
+}
+
+.messagecenterFailure {
+  padding:5px;
+  min-height:23px;
+  background-color:#FFCCCC;
+  border:2px solid #CC0000;  
+}
+
+.messagecenterCritical {
+  padding:5px;
+  min-height:23px;
+  background-color:#FFCCCC;
+  border:2px solid #CC0000;  
+}
+
+
+
+.validationSummary {
+  font-size: .8em;
+  display: inline-block;
+}
+
+#categoryTable {
+  width: 100%;
+}
+
+#categoryTable td {
+  vertical-align: top;  
+}
+
+.imageContainer {
+  text-align: center;
+  padding: 3px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 96px;
+  width: 96px;
+  border: 1px solid #CCC;
+}
+
+.imageContainer:hover {
+  border: 1px solid #024A76;
+  cursor: pointer;
+}
+
+#pageTable {
+  width: 100%;  
+}
+
+#news {
+  height: 200px; 
+  overflow: auto;
+  border: 1px solid #C0C0C0;
+  padding: 5px;
+  width: 300px;
+}
+
+.smalllabel {
+  font-size: .7em;
+}
+
+.feedTable {
+}
+
+.rssFeedLink {
+  padding: 3px;
+  background-color: #CCC;
+  font-size: .7em;
+}
+
+.rssFeedDescription {
+  padding: 3px;
+  padding-bottom: 20px;
+  font-size: .7em;
+}
+
+#paymentselection {
+  font-size: .8em;   
+}
+.hilite {
+  height: 35px;
+  background-color: #CCC;
+  padding: 5px 5px 5px 5px;
+  
+}
+
+.biglink {
+  font-size: 1.5em;  
+}
+
+.smallradiobuttonlist {
+  font-size: .8em;
+  font-weight: bold;
+  margin-left: 20px;  
+}

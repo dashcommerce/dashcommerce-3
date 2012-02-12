@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true" >
+    <siteMapNode url="~/admin/shippingconfiguration.aspx?view=c" title="$Resources:simpleweight, Configuration">
+        <siteMapNode url="~/admin/shippingconfiguration.aspx?view=d" title="$Resources:simpleWeight, Data" />
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="helpActive" xml:space="preserve">
+    <value>Indikerer om brugeren er aktiv</value>
+  </data>
+  <data name="helpAddProduct" xml:space="preserve">
+    <value>[+] Tilføj Produkt</value>
+  </data>
+  <data name="helpAddUser" xml:space="preserve">
+    <value>[+] Tilføj Bruger</value>
+  </data>
+  <data name="helpAllowNegativeInventories" xml:space="preserve">
+    <value>Vælg denne hvis du ikke ønsker at følge op på lagerbeholdningen for dette produkt.</value>
+  </data>
+  <data name="helpAnalytics" xml:space="preserve">
+    <value>Kopier og indsæt din analytics kode her (som f.eks. Google Analytics). Denne kode vil så blive inkluderet på hver side, for at hjælpe dig med at indsamle data.</value>
+  </data>
+  <data name="helpApiPassword" xml:space="preserve">
+    <value>Dette er PayPal API kodeordet, der er nødvendigt for at benytte PayPal API'en.</value>
+  </data>
+  <data name="helpApiSignature" xml:space="preserve">
+    <value>PayPal API Signatur er en krypteret streng der er nødvendig for at benytte PayPal API'en.</value>
+  </data>
+  <data name="helpApiUserName" xml:space="preserve">
+    <value>Dette er PayPal API Brugernavnet der er nødvendig for at benytte PayPal API'en.</value>
+  </data>
+  <data name="helpBaseSku" xml:space="preserve">
+    <value>Dette er dit grund-Sku. Hvis produktet har attributter, vil det endelige Sku benytte dette i starten.</value>
+  </data>
+  <data name="helpBrowsingCategory" xml:space="preserve">
+    <value>Vælg denne, hvis du vil følge op på, når en kategori bliver vist.</value>
+  </data>
+  <data name="helpBrowsingProduct" xml:space="preserve">
+    <value>Vælg denne, hvis du vil følge op på, når et produkt bliver vist.</value>
+  </data>
+  <data name="helpBusinessEmail" xml:space="preserve">
+    <value>Dette er email adressen der hører til din PayPal konto.</value>
+  </data>
+  <data name="helpCategoryDescription" xml:space="preserve">
+    <value>Denne beskrivelse vil fremstå på kategori siden. Dette vil give dine gæster en idé om, hvilken type produkter der er i kategorien.</value>
+  </data>
+  <data name="helpCategoryImageFile" xml:space="preserve">
+    <value>Dette billede vil blive vist i toppen af kategori siden.</value>
+  </data>
+  <data name="helpCategoryItems" xml:space="preserve">
+    <value>Dette sætter antallet af poster der vises på katalog siden. Vi anbefaler at dette nummer er mellem 6-12, alt efter hvilket skin og layout du benytter.</value>
+  </data>
+  <data name="helpCategoryName" xml:space="preserve">
+    <value>Dette er det navn på kategorien, som vil blive vist i navigationen.</value>
+  </data>
+  <data name="helpCollectBrowsingStatistics" xml:space="preserve">
+    <value>Vælg denne, hvis du vil indsamle browsing statestikker. Men, vær venligst opmærksom på, at hvis din side ofte bliver crawled eller hvis den er meget populær, vil dette resultere i at en masse database oplysninger bliver oprettet.</value>
+  </data>
+  <data name="helpCollectSearchTerms" xml:space="preserve">
+    <value>Vælg denne, hvis du vil følge op på, hvilke søgeord der bliver søgt på, på din side.</value>
+  </data>
+  <data name="helpContent" xml:space="preserve">
+    <value>Dette er indholdet på siden. Skriv det du vil have stående på siden.</value>
+  </data>
+  <data name="helpCurrency" xml:space="preserve">
+    <value>Vælg hvilken valuta der skal benyttes på siden.</value>
+  </data>
+  <data name="helpDatabaseName" xml:space="preserve">
+    <value>Dette er navnet på den database, der er blevet oprettet på databaseserveren.</value>
+  </data>
+  <data name="helpDatabasePassword" xml:space="preserve">
+    <value>Dette er kodeordet for brugerkontoen.</value>
+  </data>
+  <data name="helpDatabaseServer" xml:space="preserve">
+    <value>Database server navnet skulle være oplyst af din webhotel udbyder. Hvis du er usikker, så kontakt din webhotel udbyder.</value>
+  </data>
+  <data name="helpDatabaseUserName" xml:space="preserve">
+    <value>Dette er navnet på den brugerkonto, der har adgang til databasen. Denne konto bliver normalt oprettet sammen med databasen.</value>
+  </data>
+  <data name="helpDefaultRate" xml:space="preserve">
+    <value>Dette er den standard værdi der vil blive brugt, i tilfælde af at der ikke kan findes en tilsvarende region kode.</value>
+  </data>
+  <data name="helpDescription" xml:space="preserve">
+    <value>Ordene der indtastes her, vil blive inkluderet i META tagsne for denne side.</value>
+  </data>
+  <data name="helpDescriptorDescription" xml:space="preserve">
+    <value>Dette er en beskrivende tekst der bør uddybe og differentiere produktet. Dette kan være tekniske specifikationer, funktioner osv. Du kan tilføje flere deskriptorer, så du kan dele dem op som du vil.</value>
+  </data>
+  <data name="helpDescriptorTitle" xml:space="preserve">
+    <value>Dette er titlen på den beskrivende tekst. Dette vil blive vist ovenfor beskrivelsen.</value>
+  </data>
+  <data name="helpDisplayNarrowByManufacturer" xml:space="preserve">
+    <value>Denne indstilling bestemmer om Begræns Efter Fabrikant widget'en bliver vist på katalog siden.</value>
+  </data>
+  <data name="helpDisplaySortBy" xml:space="preserve">
+    <value>Denne indstilling bestemmer om Sorter Efter widget'en bliver vist på kataloget siden.</value>
+  </data>
+  <data name="helpDisplayNarrowByPrice" xml:space="preserve">
+    <value>Denne indstilling bestemmer om Begræns Efter Pris widget'en bliver vist på katalog siden.</value>
+  </data>
+  <data name="helpDisplayRetailPrice" xml:space="preserve">
+    <value>Denne indstilling bestemmer om produktets Detail Pris vises.</value>
+  </data>
+  <data name="helpEmail" xml:space="preserve">
+    <value>Email adressen på den registreret bruger.</value>
+  </data>
+  <data name="helpFooter" xml:space="preserve">
+    <value>Juster farven på footeren.</value>
+  </data>
+  <data name="helpHeight" xml:space="preserve">
+    <value>Højden på header området. Juster denne for et større eller mindre indholds område.</value>
+  </data>
+  <data name="helpImageCaption" xml:space="preserve">
+    <value>Denne billedtekst vil fremstå under hvert billede på produkt siden.</value>
+  </data>
+  <data name="helpImageFile" xml:space="preserve">
+    <value>Dette er billed filen der bliver benyttet.</value>
+  </data>
+  <data name="helpIsLive" xml:space="preserve">
+    <value>Vælg denne når du er færdig med at teste, og ønsker at benytte PayPal produktionsmiljø.</value>
+  </data>
+  <data name="helpKeywords" xml:space="preserve">
+    <value>De nøgleord der indtastes her, vil blive inkluderet i META tagsne for denne side.</value>
+  </data>
+  <data name="helpLanguage" xml:space="preserve">
+    <value>Vælg sprog for siden.</value>
+  </data>
+  <data name="helpLoginRequirement" xml:space="preserve">
+    <value>Vælg hvis og hvornår du vil kræve at folk skal logge ind på siden.</value>
+  </data>
+  <data name="helpLongCache" xml:space="preserve">
+    <value>Lægnden, i sekunder, af en lang caches varighed.</value>
+  </data>
+  <data name="helpMailRequireSsl" xml:space="preserve">
+    <value>Sørg for at denne er valgt, hvis din mail server kræver SSL.</value>
+  </data>
+  <data name="helpMailSettingsFrom" xml:space="preserve">
+    <value>Dette er email adressen, der vil blive brugt til at sende mail.</value>
+  </data>
+  <data name="helpMailSettingsHost" xml:space="preserve">
+    <value>Dette er den email server du vil benytte. Oftest er det noget lingende "smtp.ditdomæne.dk", men kontakt din email udbyder, hvis du er i tvivl.</value>
+  </data>
+  <data name="helpMailSettingsPassword" xml:space="preserve">
+    <value>Dette er kodeordet til den konto, du vil bruge til at loge ind på din email server, når der sendes system emails.</value>
+  </data>
+  <data name="helpMailSettingsPort" xml:space="preserve">
+    <value>Dette er den port som SMTP servicen benytter til at sende emails. Denne er oftest 25, men kontakt din email udbyder, hvis du er i tvivl. Efterlader du feltet tomt, vil det som standard være port 25.</value>
+  </data>
+  <data name="helpMailSettingsUserName" xml:space="preserve">
+    <value>Dette er brugernavnet til den konto, du vil bruge til at loge ind på din email server, når der sendes system emails.</value>
+  </data>
+  <data name="helpManufacturerName" xml:space="preserve">
+    <value>Navnet på den fabrikant du tilføjer.</value>
+  </data>
+  <data name="helpMenuTitle" xml:space="preserve">
+    <value>Dette er den titel der vil fremstå i side navigationen. Denne bør være kort og let genkendelig.</value>
+  </data>
+  <data name="helpName" xml:space="preserve">
+    <value>Navnet på produktet.</value>
+  </data>
+  <data name="helpNewsFeedUrl" xml:space="preserve">
+    <value>Du kan indtaste et URL, for et RSS feed her, og det feed vil blive vist i "Nyheder" sektionen i dashBoarded.</value>
+  </data>
+  <data name="helpNormalCache" xml:space="preserve">
+    <value>Lægnden, i sekunder, af en normal caches varighed.</value>
+  </data>
+  <data name="helpPageTemplate" xml:space="preserve">
+    <value>Dette er en skabelon, som siden du opretter vil benytte.</value>
+  </data>
+  <data name="helpParentCategory" xml:space="preserve">
+    <value>Denne bestemmer kategorien, der skal være parent til kategorien du opretter. Ønsker du at kategorien skal være på øverste niveau, vælg da "Root".</value>
+  </data>
+  <data name="helpParentPage" xml:space="preserve">
+    <value>Denne bestemmer hvilken side eller navigations node, der skal være parent, for den side du opretter. Ønsker du at siden skal være på øverse niveau, vælg da "Top".</value>
+  </data>
+  <data name="helpPdtId" xml:space="preserve">
+    <value>Dette er dit PayPal PDT Id, som er en nødvendig del af PayPal Standard processen.</value>
+  </data>
+  <data name="helppPayPalApiUserName" xml:space="preserve">
+    <value>Dette er dit PayPal API brugernavn.</value>
+  </data>
+  <data name="helpProductEnabled" xml:space="preserve">
+    <value>Et produkt er først aktiveret når alle, hvis nogen, af attributerne er blevet tildelt produktet, og varens Sku er blevet gemt. Hvis produktet ikke har nogen attributer, så vil varen få et grund-Sku. Hvis du vil aktivere et produkt, check da venligst Sku fanen, og sørg for at denne er blevet gemt.</value>
+  </data>
+  <data name="helpProvider" xml:space="preserve">
+    <value>Vælg den type indholds udbyder du vil benytte.</value>
+  </data>
+  <data name="helpRate" xml:space="preserve">
+    <value>Dette er den moms rate, der vil blive tildelt et køb, ud fra den indtastede region kode.</value>
+  </data>
+  <data name="helpRegionCode" xml:space="preserve">
+    <value>Dette er den region kode der er knyttet til den indtastede rate. Dette vil fungere som det primære opslags kriterie.</value>
+  </data>
+  <data name="helpRegionTitle" xml:space="preserve">
+    <value>Dette er titlen på indholds regionen.</value>
+  </data>
+  <data name="helpRequireAuthentication" xml:space="preserve">
+    <value>Sørg for at denne er valgt, hvis din email server kræver godkendelse for at sende emails. I de fleste tilfælde, bør denne være valgt, for at undgå SPAM.</value>
+  </data>
+  <data name="helpRequireSsl" xml:space="preserve">
+    <value>Vælg denne, hvis dit websted skal bruge SSL. For websteder, der omdirigerer til et andet websted for at behandle betaling (som f.eks. når du bruger PayPal Standard), så kan du undlade denne. Hvis du er usikker, skal du sikre, at denne er valgt, indtil du er sikker på at du ikke har brug for det.</value>
+  </data>
+  <data name="helpShipFromCountry" xml:space="preserve">
+    <value>Dette er det land, hvor pakkerne vil blive sendt fra.</value>
+  </data>
+  <data name="helpShipFromZip" xml:space="preserve">
+    <value>Dette er postnummeret, hvor pakkerne vil blive sendt fra.</value>
+  </data>
+  <data name="helpShippingBuffer" xml:space="preserve">
+    <value>Dette er en buffer, der bliver lagt oven i det udregnede forsendelses beløb.</value>
+  </data>
+  <data name="helpShortCache" xml:space="preserve">
+    <value>Lægnden, i sekunder, af en kort caches varighed.</value>
+  </data>
+  <data name="helpShortDescription" xml:space="preserve">
+    <value>En kort beskrivelse af dit produkt.</value>
+  </data>
+  <data name="helpShowTitle" xml:space="preserve">
+    <value>Vælg denne, hvis du ønsker at titlen, fra din indholds region, skal blive vist.</value>
+  </data>
+  <data name="helpSimpleWeightAmountPerUnit" xml:space="preserve">
+    <value>Det beløb der skal opkræves, per enhed, i forsendelse.</value>
+  </data>
+  <data name="helpSimpleWeightService" xml:space="preserve">
+    <value>Navnet på den service du vil benytte.</value>
+  </data>
+  <data name="helpSiteLogo" xml:space="preserve">
+    <value>Dette gør at du vil kunne vælge et logo, der kan blive brugt på siden.</value>
+  </data>
+  <data name="helpSiteName" xml:space="preserve">
+    <value>Dette er navnet på siden, og vil ofte figurerer i titel baren.</value>
+  </data>
+  <data name="helpSortOrder" xml:space="preserve">
+    <value>Bestemmer sorterings ordnen for elementet.</value>
+  </data>
+  <data name="helpTagLine" xml:space="preserve">
+    <value>Dit slogan vil fremstå i dine emails. Lav det catchy!!</value>
+  </data>
+  <data name="helpTemplateRegion" xml:space="preserve">
+    <value>Baseret på din side skabelon, kan du nu vælge hvilken skabelons region, du ønsker at dette indholds område skal fremstå.</value>
+  </data>
+  <data name="helpTheme" xml:space="preserve">
+    <value>Vælg et tema til siden.</value>
+  </data>
+  <data name="helpTitle" xml:space="preserve">
+    <value>Dette er titlen på siden, som vil stå i browser vinduet. Denne kan være forholdsvis lang og beskrivende.</value>
+  </data>
+  <data name="helpUseCache" xml:space="preserve">
+    <value>Caching kan øge hastigheden på din webside, ved at gemme nogle informationer i hukommelsen. Du bør benytte caching , hvis du har store produkt kataloger, eller hvis du vil have din side til at svare hurtigerer. Mens du udvikler, bør caching være slået fra, da ændringer på den adminstrative side, ellers ikke vil træde i gennem med det samme.</value>
+  </data>
+  <data name="helpGenerateThumbs" xml:space="preserve">
+    <value>Vil automatisk oprette miniaturer for produkt og katalog siden.</value>
+  </data>
+  <data name="helpUserName" xml:space="preserve">
+    <value>Dette er brugernavnet på den registrede bruger.</value>
+  </data>
+  <data name="helpUseShipping" xml:space="preserve">
+    <value>Dette vil påvirke hele systemet. Hvis din butik kræver levering af produkter, vælg da Brug Levering.</value>
+  </data>
+  <data name="helpWidth" xml:space="preserve">
+    <value>Sætter bredden på siden (i pixel).</value>
+  </data>
+  <data name="noHelp" xml:space="preserve">
+    <value>Ingen hjælp tilgængelig.</value>
+  </data>
+</root>

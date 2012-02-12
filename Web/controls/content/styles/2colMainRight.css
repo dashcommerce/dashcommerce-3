@@ -1,0 +1,12 @@
+#LeftContent {
+  width: 230px;
+  float: left;
+  padding-top: 10px;
+  /*border: 1px solid red;*/
+}
+
+#MainContent{
+  margin-left: 235px;
+  padding-top: 10px;
+  /*border: 1px solid green;*/
+}

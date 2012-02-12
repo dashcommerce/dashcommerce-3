@@ -1,0 +1,257 @@
+body {
+  font-family: Arial, Verdana;
+  color: #5C5C5C;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.label {
+  font-size: .8em;
+}
+
+.textbox {
+	font-size: .75em;
+}
+
+.hyperlink {
+  font-size: .8em;
+}
+
+.smalltextbox {
+	font-size: .75em;
+  width: 20px;  
+}
+
+.multilinetextbox {
+  width: 188px;
+  height: 80px;  
+}
+
+.largemultilinetextbox {
+  width: 350px;
+  height: 150px;  
+}
+
+.longmultilinetextbox {
+  width: 350px;
+  height: 75px;  
+}
+
+.longtextbox {
+  font-size: .75em;
+  width: 325px;
+}
+
+.dropdownlist {
+  font-size: .7em;
+  color: #5C5C5C;
+}
+
+.checkbox {
+  font-size: .8em;
+  color: #5C5C5C;
+}
+
+.fwdropdownlist {
+  font-size: .7em;
+  font-family: Courier New;
+}
+
+.button {
+	font-size: .7em;
+	height: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.rightbutton {
+	font-size: .7em;
+	height: 20px;
+	font-weight: bold;
+  float: right;
+}
+
+.menuItem {
+  color: #fff;
+}
+
+.menuItem a {
+  cursor: pointer;  
+}
+
+.menuItem #left{
+  width: 5px;
+  display: inline;
+  background: url(images/blue_tab_left.gif) no-repeat;
+  height: 30px;
+  position: relative;
+  float: left;
+}
+
+.menuItem #mid {
+  display: inline;
+  background: url(images/blue_tab_middle.gif) repeat-x;
+  height: 30px;
+  position: relative;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.menuItem #mid #text {
+  position: relative;
+  top: 5px;
+  color: #FFF;
+}
+
+.menuItem #right {
+  width: 5px;
+  display: inline;
+  background: url(images/blue_tab_right.gif) no-repeat;
+  height: 30px;
+  position: relative;
+  float: left;
+}
+
+.menuItemSelected {
+  color: #fff;
+}
+
+.menuItemSelected a {
+  cursor: pointer;  
+}
+
+.menuItemSelected #left {
+  width: 5px;
+  display: inline;
+  background: url(images/lightblue_tab_left.gif) no-repeat;
+  height: 30px;
+  position: relative;
+  float: left;
+}
+
+.menuItemSelected #mid {
+  display: inline;
+  background: url(images/lightblue_tab_middle.gif) repeat-x;
+  height: 30px;
+  position: relative;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.menuItemSelected #right {
+  width: 5px;
+  display: inline;
+  background: url(images/lightblue_tab_right.gif) no-repeat;
+  height: 30px;
+  position: relative;
+  float: left;
+}
+
+.allContent {
+	width: 961px;
+	margin: 0px auto;
+}
+
+#headerRegion {
+  margin-bottom: 15px;  
+}
+
+#mainContentRegion {
+  display: block; 
+  clear: both;
+}
+
+.sectionHeader {
+  border-bottom: 1px solid rgb(235, 235, 235);
+  color: #024A76;
+  font-size: .9em;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.navigationRule {
+  border: 2px solid #024A76;
+  position: relative;
+  top: -8px; 
+}
+
+.defaultTable {
+  width: 99%;  
+}
+
+.verticalalign img {
+  vertical-align: middle;
+}
+
+.verticalalign span {
+  vertical-align: middle;
+}
+
+.verticalalign input {
+  vertical-align: middle;
+}
+
+.showAll {
+  float: right;
+}
+
+
+.modalbutton {
+	font-size: .7em;
+	height: 20px;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+	float: right;
+}
+
+hr {
+  border-bottom: 1px solid #CCC;
+  color: #FFF;  
+}
+
+a:link {
+  color: #0066A6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0066A6;
+  text-decoration: none;
+}
+
+.smallleft {
+  float: left;
+}
+
+.smallright {
+  float: right;  
+}
+
+.dynamicMenuStyle {
+  z-index: 100;  
+}
+
+/*
+#footer {
+  text-decoration: none;
+  font-size: .7em;
+  color: #C0C0C0;
+}
+
+#footer a {
+}
+
+#footer a:visited {
+  color: #C0C0C0;
+}
+
+#footer a:hover {
+  color: #0066A6;
+}
+*/

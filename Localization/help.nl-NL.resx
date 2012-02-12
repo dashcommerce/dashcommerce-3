@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="helpActive" xml:space="preserve">
+    <value>Duid aan of de gebruiker actief is.</value>
+  </data>
+  <data name="helpAddProduct" xml:space="preserve">
+    <value>[+] Product toevoegen</value>
+  </data>
+  <data name="helpAddUser" xml:space="preserve">
+    <value>[+] Gebruiker toevoegen</value>
+  </data>
+  <data name="helpAllowNegativeInventories" xml:space="preserve">
+    <value>Selecteer deze optie als u de voorraad van dit product niet wilt controleren.</value>
+  </data>
+  <data name="helpAnalytics" xml:space="preserve">
+    <value>Knip en plak uw analytics code hier (zoals Google Analystics). Deze code zal vervolgens in elke pagina gebruikt worden om u te helpen met het verzamelen van data.</value>
+  </data>
+  <data name="helpApiPassword" xml:space="preserve">
+    <value>Mocht u de PayPal API willen gebruiken, dan dient u het API wachtwoord in te vullen.</value>
+  </data>
+  <data name="helpApiSignature" xml:space="preserve">
+    <value>De Paypal API Signature is een code die nodig is voor het gebruik van de API.</value>
+  </data>
+  <data name="helpApiUserName" xml:space="preserve">
+    <value>De Paypal API gebruikersnaam.</value>
+  </data>
+  <data name="helpBaseSku" xml:space="preserve">
+    <value>Dit is de basis Sku voor het product. Indien het product attributen heeft, dan zal de eind sku dit gebruiken als basis.</value>
+  </data>
+  <data name="helpBrowsingCategory" xml:space="preserve">
+    <value>Indien u bij wilt houden wanneer een categorie bekeken wordt, selecteer dan deze optie.</value>
+  </data>
+  <data name="helpBrowsingProduct" xml:space="preserve">
+    <value>Indien u bij wilt houden wanneer een product bekeken wordt, selecteer dan deze optie.</value>
+  </data>
+  <data name="helpBusinessEmail" xml:space="preserve">
+    <value>Dit is het emailadres welke wordt gebruikt voor uw Paypal rekening.</value>
+  </data>
+  <data name="helpCategoryDescription" xml:space="preserve">
+    <value>De beschrijving zal op de categoriepagina verschijnen. Dit zal bezoekers van uw site een idee geven van de producten die zij in de categorie zullen vinden.</value>
+  </data>
+  <data name="helpCategoryImageFile" xml:space="preserve">
+    <value>Deze afbeelding zal aan het hoofd van de categoriepagina worden getoond.</value>
+  </data>
+  <data name="helpCategoryName" xml:space="preserve">
+    <value>Dit is de naam van de categorie die in de navigatie zal worden getoond.</value>
+  </data>
+  <data name="helpCollectBrowsingStatistics" xml:space="preserve">
+    <value>Selecteer deze optie indien het gewenst is om statistieken te verzamelen. Houdt u er alstublieft rekening mee dat een druk bezochte site veel statistieken zal genereren wat kan leiden tot grote hoeveelheden data in de database.</value>
+  </data>
+  <data name="helpContent" xml:space="preserve">
+    <value>Dit is de inhoud van de pagina. Schrijft u hier wat u op de pagina wenst.</value>
+  </data>
+  <data name="helpCurrency" xml:space="preserve">
+    <value>Selecteer de valuta voor de site.</value>
+  </data>
+  <data name="helpDefaultRate" xml:space="preserve">
+    <value>Dit is het standaardtarief dat gebruikt zal worden indien een onbekende regiocode is geselecteerd.</value>
+  </data>
+  <data name="helpDescription" xml:space="preserve">
+    <value>De hier ingevoerde woorden zullen gebruikt worden in de META-tag van de webpagina.</value>
+  </data>
+  <data name="helpDescriptorDescription" xml:space="preserve">
+    <value>Dit is de beschrijving die wordt getoond om de specificaties van het product weer te geven. Dit kunnen technische specificaties, kenmerken, enz. omvatten. U kunt meerdere beschrijvingen voor een product toevoegen.</value>
+  </data>
+  <data name="helpDescriptorTitle" xml:space="preserve">
+    <value>Dit is de titel die wordt getoont boven de beschrijvng.</value>
+  </data>
+  <data name="helpDisplayNarrowByManufacturer" xml:space="preserve">
+    <value>Deze optie stelt vast of de Filteren Op Fabrikant widget op de cataloguspagina wordt getoond.</value>
+  </data>
+  <data name="helpDisplaySortBy" xml:space="preserve">
+    <value>This option determines whether the Sort By widget is displayed on the catalog page.</value>
+  </data>
+  <data name="helpDisplayNarrowByPrice" xml:space="preserve">
+    <value>Deze optie stelt vast of de Filteren Op Prijs op de cataloguspagina wordt getoond.</value>
+  </data>
+  <data name="helpDisplayRetailPrice" xml:space="preserve">
+    <value>Deze optie stelt vast of de Retail Prijs getoond wordt.</value>
+  </data>
+  <data name="helpEmail" xml:space="preserve">
+    <value>Het email adres van de geregistreerde gebruiker.</value>
+  </data>
+  <data name="helpFooter" xml:space="preserve">
+    <value>Wijzigt de voetnoot kleur.</value>
+  </data>
+  <data name="helpHeight" xml:space="preserve">
+    <value>De hoogte van het kopgebied. Wijzig dit voor een groter of kleiner inhoudsgebied.</value>
+  </data>
+  <data name="helpImageCaption" xml:space="preserve">
+    <value>Het onderschrift welke onder de afbeelding op de productpagina zal verschijnen.</value>
+  </data>
+  <data name="helpImageFile" xml:space="preserve">
+    <value>Dit is de afbeelding welke gebruikt wordt.</value>
+  </data>
+  <data name="helpIsLive" xml:space="preserve">
+    <value>Selecteer dit wanneer klaar bent met het testen en de Paypal productieomgeving wenst te gebruiken.</value>
+  </data>
+  <data name="helpKeywords" xml:space="preserve">
+    <value>De trefwoorden die u hier invult zullen gebruikt worden in de metatag van deze pagina.</value>
+  </data>
+  <data name="helpLanguage" xml:space="preserve">
+    <value>Selecteer de taal voor de site.</value>
+  </data>
+  <data name="helpMailRequireSsl" xml:space="preserve">
+    <value>Indien uw mailserver SSL vereist, schakelt u dan deze optie in.</value>
+  </data>
+  <data name="helpMailSettingsFrom" xml:space="preserve">
+    <value>Dit is het email adres welke gebruikt wordt om emails vanaf te verzenden.</value>
+  </data>
+  <data name="helpMailSettingsHost" xml:space="preserve">
+    <value>Dit is de emailserver die u zult gebruiken. Het zal er vaak zo uitzien "mail.yourdomain.com", raadpleeg uw provider in het geval van onzekerheid.</value>
+  </data>
+  <data name="helpMailSettingsPassword" xml:space="preserve">
+    <value>Dit is het wachtwoord welke gebruikt zal worden om in te loggen op uw mailserver bij het verzenden van systeem emails.</value>
+  </data>
+  <data name="helpMailSettingsPort" xml:space="preserve">
+    <value>Dit is de poort waarop uw SMTP dienst draait. In de meeste gevallen is dit poort 25, in het geval van onzekerheid raadpleeg uw provider. Indien leeg gelaten, wordt standaard poort 25 gebruikt.</value>
+  </data>
+  <data name="helpMailSettingsUserName" xml:space="preserve">
+    <value>Dit is de gebruikersnaam welke gebruikt zal worden om in te loggen op uw mailserver bij het verzenden van systeem emails.</value>
+  </data>
+  <data name="helpManufacturerName" xml:space="preserve">
+    <value>De naam van de fabrikant die u toevoegt.</value>
+  </data>
+  <data name="helpMenuTitle" xml:space="preserve">
+    <value>Dit is de titel die in de site navigatie zal verschijnen. Het beste is om dit kort en gemakkelijk te houden.</value>
+  </data>
+  <data name="helpName" xml:space="preserve">
+    <value>De naam van het product.</value>
+  </data>
+  <data name="helpNewsFeedUrl" xml:space="preserve">
+    <value>U kunt hier een URL invoeren van de RSS feed welke getoont zal worden in de "Niews" sectie van de dashBoard pagina.</value>
+  </data>
+  <data name="helpParentCategory" xml:space="preserve">
+    <value>Dit stelt u in staat om de hoofdcategorie aan te geven van de categorie die u op het moment aanmaakt. Indien u de categorie op het hoogste niveau wilt, selecteer dan "Root".</value>
+  </data>
+  <data name="helpParentPage" xml:space="preserve">
+    <value>Dit stelt u in staat om aan te geven welke pagina of node de hoofdpagina is van de pagina die u op het moment aanmaakt. Indien u de pagina op het hoogste niveau wilt, selecteer dan "Root".</value>
+  </data>
+  <data name="helpPdtId" xml:space="preserve">
+    <value>Dit is de Paypal PDT identificatie welke wordt vereist als onderdeel van het Paypal Standard proces.</value>
+  </data>
+  <data name="helppPayPalApiUserName" xml:space="preserve">
+    <value>Dit is de Paypal API gebruikersnaam.</value>
+  </data>
+  <data name="helpRate" xml:space="preserve">
+    <value>Dit is het belastingtarief dat zal worden toegepast gebaseerd op de aangegeven regiocode</value>
+  </data>
+  <data name="helpRegionCode" xml:space="preserve">
+    <value>Dit is de regiocode die gekoppeld is aan het tarief. Dit wordt gebruikt als het primaire zoek criteria</value>
+  </data>
+  <data name="helpRequireAuthentication" xml:space="preserve">
+    <value>Indien uw mailserver authenticatie vereist om email te verzenden, selecteer dan deze optie. In de meeste gevallen zult u dit geselecteerd moeten laten gezien het email SPAM voorkomt.</value>
+  </data>
+  <data name="helpRequireSsl" xml:space="preserve">
+    <value>Selecteer dit indien uw site SSL zal benutten. Voor sites die naar nog een site omleiden om betalingen te verwerken (bijvoorbeeld bij het gebruik van IDeal) dient u deze optie uit te vinken. In het geval van onzekerheid laat u deze optie ingeschakeld tenzij u er zeker van bent dat u het niet nodig heeft.</value>
+  </data>
+  <data name="helpShipFromCountry" xml:space="preserve">
+    <value>Dit is het land van waar de pakketten zullen worden verzonden.</value>
+  </data>
+  <data name="helpShipFromZip" xml:space="preserve">
+    <value>Dit is de postcode van waar de pakketen verzonden zullen worden.</value>
+  </data>
+  <data name="helpShippingBuffer" xml:space="preserve">
+    <value>Dit is een buffer die aan de berekende verzendkosten wordt toegevoegd.</value>
+  </data>
+  <data name="helpShortDescription" xml:space="preserve">
+    <value>Een korte beschrijving van het product.</value>
+  </data>
+  <data name="helpSimpleWeightAmountPerUnit" xml:space="preserve">
+    <value>Het bedrag welke per eenheid voor het verzenden wordt berekend.</value>
+  </data>
+  <data name="helpSimpleWeightService" xml:space="preserve">
+    <value>De naam van de dienst welke gebruikt wordt.</value>
+  </data>
+  <data name="helpSiteName" xml:space="preserve">
+    <value>Dit is de naam van de site welke herhaaldelijk in de titelbar zal verschijnen.</value>
+  </data>
+  <data name="helpTagLine" xml:space="preserve">
+    <value>Uw handtekening zal in uw emails verschijnen. Zorg ervoor dat dit een pakkend bericht is.</value>
+  </data>
+  <data name="helpTheme" xml:space="preserve">
+    <value>Selecteer het thema voor de site.</value>
+  </data>
+  <data name="helpTitle" xml:space="preserve">
+    <value>Dit is de titel van de pagina die in uw browser zal verschijnen. Dit kan een vrij lange omschrijving zijn.</value>
+  </data>
+  <data name="helpUserName" xml:space="preserve">
+    <value>Dit is de gebruikersnaam van de geregistreerde gebruiker.</value>
+  </data>
+  <data name="helpUseShipping" xml:space="preserve">
+    <value>Dit is een systeem wijde instelling. Indien uw winkel de verzending van producten vereist, selecteer dan Gebruik Verzending.</value>
+  </data>
+  <data name="helpWidth" xml:space="preserve">
+    <value>Stelt de breedte van de site in pixels in.</value>
+  </data>
+  <data name="noHelp" xml:space="preserve">
+    <value>Geen hulp beschikbaar.</value>
+  </data>
+</root>

@@ -1,0 +1,11 @@
+PayPal Standard:
+
+Business Email: chrisc_1183819815_biz@yahoo.com
+PDT ID: I9n8LHa04---Sd8mf5PrSTqTH0cfuDaP8sENjTuYHMg-akRG1nklbPSKxZ4
+
+PayPal Pro
+
+API UserName: chrisc_1183819815_biz_api1.yahoo.com
+API Password: 1183819821
+API Signature: AMOkqEmVSK9-K8-UdXbZkJqpuq-nAZevwFmjBlUXi06dqreQzWhAD3P4
+

@@ -1,0 +1,7 @@
+<browsers>
+  <browser refID="safari1plus">
+    <controlAdapters>
+      <adapter controlType="System.Web.UI.WebControls.Menu" adapterType="" />
+    </controlAdapters>
+  </browser>
+</browsers>

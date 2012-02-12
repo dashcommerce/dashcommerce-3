@@ -1,0 +1,1731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="adminNavSite" xml:space="preserve">
+    <value>Ιστότοπος</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="btnAddProduct" xml:space="preserve">
+    <value>Προσθήκη Προϊόντος</value>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="btnDeleteAll" xml:space="preserve">
+    <value>Διαγραφή Όλων</value>
+  </data>
+  <data name="btnManufacturerAdd" xml:space="preserve">
+    <value>Προσθήκη Κατασκευαστή</value>
+  </data>
+  <data name="btnProcessOrder" xml:space="preserve">
+    <value>Διαχείριση Παραγγελίας</value>
+  </data>
+  <data name="btnProductTypeAdd" xml:space="preserve">
+    <value>Προσθήκη Τύπου Προϊόντος</value>
+  </data>
+  <data name="btnRefreshProviders" xml:space="preserve">
+    <value>Ανανέωση Providers</value>
+  </data>
+  <data name="btnRefundTransaction" xml:space="preserve">
+    <value>Επιστροφή Χρημάτων Συναλλαγής</value>
+  </data>
+  <data name="btnRemoveProvider" xml:space="preserve">
+    <value>Διαγραφή Provider</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Επαναφορά</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="btnTest" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="btnSaveInventory" xml:space="preserve">
+    <value>Αποθήκευση Κατάστασης</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Εύρεση</value>
+  </data>
+  <data name="btnSetDefaultProvider" xml:space="preserve">
+    <value>Επιλογή Προεπιλεγμένου Provider</value>
+  </data>
+  <data name="btnSetProvider" xml:space="preserve">
+    <value>Επιλογή Provider</value>
+  </data>
+  <data name="btnUpload" xml:space="preserve">
+    <value>Ανέβασμα</value>
+  </data>
+  <data name="chkActive" xml:space="preserve">
+    <value>Ενεργό</value>
+  </data>
+  <data name="chkAllowNegativeInventories" xml:space="preserve">
+    <value>Επέτρεψε Αρνητικούς Καταλόγους</value>
+  </data>
+  <data name="chkUseForShipping" xml:space="preserve">
+    <value>Χρήση για μεταφορικά?</value>
+  </data>
+  <data name="cuwRegisterAnswerLabelText" xml:space="preserve">
+    <value>Απάντηση Ασφαλείας</value>
+  </data>
+  <data name="cuwRegisterCompleteStepTitle" xml:space="preserve">
+    <value>Ολοκλήρωση</value>
+  </data>
+  <data name="cuwRegisterCompleteSuccessText" xml:space="preserve">
+    <value>Ο λογαριασμός σας ενεργοποιήθηκε</value>
+  </data>
+  <data name="cuwRegisterConfirmPasswordLabelText" xml:space="preserve">
+    <value>Επιβεβαίωση κωδικού</value>
+  </data>
+  <data name="cuwRegisterCreateUserButtonText" xml:space="preserve">
+    <value>Συνέχεια</value>
+  </data>
+  <data name="cuwRegisterCreateUserStepTitle" xml:space="preserve">
+    <value>Δημιουργία νέου λογαριασμού</value>
+  </data>
+  <data name="cuwRegisterEmailLabelText" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="cuwRegisterFinishCompleteButtonText" xml:space="preserve">
+    <value>Τέλος</value>
+  </data>
+  <data name="cuwRegisterPasswordLabelText" xml:space="preserve">
+    <value>Κωδικός</value>
+  </data>
+  <data name="cuwRegisterQuestionLabelText" xml:space="preserve">
+    <value>Ερώτηση Ασφαλείας</value>
+  </data>
+  <data name="cuwRegisterUserNameLabelText" xml:space="preserve">
+    <value>Όνομα Χρήστη</value>
+  </data>
+  <data name="exCannotRemoveDefaultProvider" xml:space="preserve">
+    <value>Αυτός είναι ο προεπιλεγμένος provider. Παρακαλώ επιλέξτε κάποιον άλλο και προσπαθήστε να διαγράψετε αυτόν</value>
+  </data>
+  <data name="hdrAdd" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="hdrAddRemove" xml:space="preserve">
+    <value>Προσθήκη / Διαγραφή</value>
+  </data>
+  <data name="hdrAdjustment" xml:space="preserve">
+    <value>Ρύθμιση</value>
+  </data>
+  <data name="hdrAmountPerUnit" xml:space="preserve">
+    <value>Τιμή ανά προϊόν</value>
+  </data>
+  <data name="hdrApproved" xml:space="preserve">
+    <value>Εγκεκριμένο</value>
+  </data>
+  <data name="hdrAttributeType" xml:space="preserve">
+    <value>Τύπος Ιδιότητας</value>
+  </data>
+  <data name="hdrConfigurationControlPath" xml:space="preserve">
+    <value>Διαδρομή Διαμόρφωσης Ρυθμίσεων</value>
+  </data>
+  <data name="hdrCreatedBy" xml:space="preserve">
+    <value>Δημιουργήθηκε από</value>
+  </data>
+  <data name="hdrCreatedDate" xml:space="preserve">
+    <value>Ημερομηνία Δημιουργίας</value>
+  </data>
+  <data name="hdrCreatedOn" xml:space="preserve">
+    <value>Δημιουργήθηκε</value>
+  </data>
+  <data name="hdrDelete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="hdrDescriptor" xml:space="preserve">
+    <value>Απεικόνηση (Χωρίς HTML για συντομία)</value>
+  </data>
+  <data name="hdrDiscount" xml:space="preserve">
+    <value>Έκπτωση</value>
+  </data>
+  <data name="hdrDisplayed" xml:space="preserve">
+    <value>Εκτιθέμενα</value>
+  </data>
+  <data name="hdrEdit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="hdrEmailAddress" xml:space="preserve">
+    <value>Ηλεκτρονική Διεύθυνση</value>
+  </data>
+  <data name="hdrImage" xml:space="preserve">
+    <value>Εικόνα</value>
+  </data>
+  <data name="hdrImageCaption" xml:space="preserve">
+    <value>Λεζάντα</value>
+  </data>
+  <data name="hdrInventory" xml:space="preserve">
+    <value>Κατάσταση</value>
+  </data>
+  <data name="hdrIsRequired" xml:space="preserve">
+    <value>Υποχρεωτικό</value>
+  </data>
+  <data name="hdrLastLogin" xml:space="preserve">
+    <value>Τελευταία σύνδεση</value>
+  </data>
+  <data name="hdrLastModified" xml:space="preserve">
+    <value>Τελευταία Τροποποίηση</value>
+  </data>
+  <data name="hdrMove" xml:space="preserve">
+    <value>Μετακίνηση</value>
+  </data>
+  <data name="hdrName" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="hdrOrderNumber" xml:space="preserve">
+    <value>Νούμερο Παραγγελίας</value>
+  </data>
+  <data name="hdrRate" xml:space="preserve">
+    <value>Βαθμολόγηση</value>
+  </data>
+  <data name="hdrRegionCode" xml:space="preserve">
+    <value>Κωδικός Περιοχής</value>
+  </data>
+  <data name="hdrReviewSample" xml:space="preserve">
+    <value>Ανασκόπηση Δείγματος</value>
+  </data>
+  <data name="hdrRoleName" xml:space="preserve">
+    <value>Όνομα Ρόλου</value>
+  </data>
+  <data name="hdrService" xml:space="preserve">
+    <value>Υπηρεσία</value>
+  </data>
+  <data name="hdrSku" xml:space="preserve">
+    <value>Sku</value>
+  </data>
+  <data name="hdrSkuSuffix" xml:space="preserve">
+    <value>Κατάληξη Sku</value>
+  </data>
+  <data name="hdrSortOrder" xml:space="preserve">
+    <value>Ταξινόμηση Παραγγελιών</value>
+  </data>
+  <data name="hdrStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="hdrSystemNotification" xml:space="preserve">
+    <value>Ειδοποίηση Συστήματος</value>
+  </data>
+  <data name="hdrTitle" xml:space="preserve">
+    <value>Τίτλος</value>
+  </data>
+  <data name="hdrTotal" xml:space="preserve">
+    <value>Σύνολο</value>
+  </data>
+  <data name="hdrUserName" xml:space="preserve">
+    <value>Όνομα Χρήστη</value>
+  </data>
+  <data name="hlAddProduct" xml:space="preserve">
+    <value>[+] Προσθήκη Προϊόντος</value>
+  </data>
+  <data name="hlConfigureProviders" xml:space="preserve">
+    <value>Διαμόρφωση {0} Providers</value>
+  </data>
+  <data name="hlEditLink" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="hlGeneralSettings" xml:space="preserve">
+    <value>Γενικές {0} Ρυθμίσεις</value>
+  </data>
+  <data name="hlLogin" xml:space="preserve">
+    <value>Σύνδεση</value>
+  </data>
+  <data name="hlMailConfiguration" xml:space="preserve">
+    <value>Διαμόρφωση Mail </value>
+  </data>
+  <data name="hlMailSettings" xml:space="preserve">
+    <value>Ρυθμίσεις Mail</value>
+  </data>
+  <data name="hlManageProviders" xml:space="preserve">
+    <value>Διαχείριση {0} Providers</value>
+  </data>
+  <data name="hlMyAccount" xml:space="preserve">
+    <value>Ο Λογαριασμός μου</value>
+  </data>
+  <data name="hlNotifications" xml:space="preserve">
+    <value>Ειδοποιήσεις</value>
+  </data>
+  <data name="hlPaymentConfiguration" xml:space="preserve">
+    <value>Ρυθμίσεις Πληρωμών</value>
+  </data>
+  <data name="hlRegister" xml:space="preserve">
+    <value>Εγγραφή</value>
+  </data>
+  <data name="hlReview" xml:space="preserve">
+    <value>Επισκόπηση!</value>
+  </data>
+  <data name="hlShippingConfiguration" xml:space="preserve">
+    <value>Ρυθμίσεις Μεταφορικών</value>
+  </data>
+  <data name="hlTaxConfiguration" xml:space="preserve">
+    <value>Ρυθμίσεις Φόρων</value>
+  </data>
+  <data name="lbAddNew" xml:space="preserve">
+    <value>Νέα Προσθήκη </value>
+  </data>
+  <data name="lblAdd" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="lblAddNote" xml:space="preserve">
+    <value>Προσθήκη Σημείωσης:</value>
+  </data>
+  <data name="lblAddress" xml:space="preserve">
+    <value>Διεύθυνση:</value>
+  </data>
+  <data name="lblAddUser" xml:space="preserve">
+    <value>[+] Προσθήκη Χρήστη</value>
+  </data>
+  <data name="lblAdjustment" xml:space="preserve">
+    <value>Adjustment:</value>
+  </data>
+  <data name="lblAmountPerUnit" xml:space="preserve">
+    <value>Τιμή Μονάδος:</value>
+  </data>
+  <data name="lblAnalytics" xml:space="preserve">
+    <value>Αναλυτικές:</value>
+  </data>
+  <data name="lblApiPassword" xml:space="preserve">
+    <value>Κωδικός API:</value>
+  </data>
+  <data name="lblApiUserName" xml:space="preserve">
+    <value>Χρήστης API :</value>
+  </data>
+  <data name="lblAttributeAdministration" xml:space="preserve">
+    <value>Διαχείριση Ιδιοτήτων</value>
+  </data>
+  <data name="lblAttributedAdded" xml:space="preserve">
+    <value>Η Ιδιότητα προστέθηκε</value>
+  </data>
+  <data name="lblAttributedDeleted" xml:space="preserve">
+    <value>Η Ιδιότητα διαγράφτηκε</value>
+  </data>
+  <data name="lblAttributeItemName" xml:space="preserve">
+    <value>Όνομα:</value>
+  </data>
+  <data name="lblAttributesNotSaved" xml:space="preserve">
+    <value>Οι Ιδιότητες δεν αποθηκεύτηκαν.</value>
+  </data>
+  <data name="lblAttributesSaved" xml:space="preserve">
+    <value>Οι Ιδιότητες αποθηκεύτηκαν.</value>
+  </data>
+  <data name="lblAttributeType" xml:space="preserve">
+    <value>Attribute Type:</value>
+  </data>
+  <data name="lblAverageRating" xml:space="preserve">
+    <value>Μέση Βαθμολόγηση:</value>
+  </data>
+  <data name="lblAVSCode" xml:space="preserve">
+    <value>Κώδικας AVS:</value>
+  </data>
+  <data name="lblBaseSku" xml:space="preserve">
+    <value>Sku / Βασικός Sku:</value>
+  </data>
+  <data name="lblBillingAddressTitle" xml:space="preserve">
+    <value>Διεύθυνση Λογαριασμού Χρέωσης</value>
+  </data>
+  <data name="lblBillingInformation" xml:space="preserve">
+    <value>Πληροφορία Λογαριασμού Χρέωσης</value>
+  </data>
+  <data name="lblBrowsingCategory" xml:space="preserve">
+    <value>Περιήγηση κατηγορίας:</value>
+  </data>
+  <data name="lblBrowsingProduct" xml:space="preserve">
+    <value>Περιήγηση Προϊόντων:</value>
+  </data>
+  <data name="lblBundleAdministration" xml:space="preserve">
+    <value>Διαχείριση Δεσμών</value>
+  </data>
+  <data name="lblBundleSaved" xml:space="preserve">
+    <value>Η Δέσμη Αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblBusinessEmail" xml:space="preserve">
+    <value>Επαγγελματικό Email:</value>
+  </data>
+  <data name="lblCancel" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="lblCart" xml:space="preserve">
+    <value>Το καλάθι μου</value>
+  </data>
+  <data name="lblCategory" xml:space="preserve">
+    <value>Κατηγορία</value>
+  </data>
+  <data name="lblCcList" xml:space="preserve">
+    <value>Cc List:</value>
+  </data>
+  <data name="lblCity" xml:space="preserve">
+    <value>Πόλη:</value>
+  </data>
+  <data name="lblCollectBrowsingStatistics" xml:space="preserve">
+    <value>Λήψη Στατιστικών Κίνησης:</value>
+  </data>
+  <data name="lblConfigurationControlPath" xml:space="preserve">
+    <value>Διαδρομή Διάταξης Ρυθμίσεων:</value>
+  </data>
+  <data name="lblConfigureProvidersDescription" xml:space="preserve">
+    <value>Το Τμήμα Διαμόρφωσης {1} Providers σας επιτρέπει να διαχειρίζεστε τα χαρακτηριστικά των συγκεκριμένων {0} provider που έχετε προσθέσει μέσω των διαδικασιών Διαχείρισης {1} Provider. Εδώ μπορείτε να κανετε ρυθμίσεις σε θέματα όπως Ονόματα Χρηστών και Συνθυματικά για τους αντίστοιχους {0} providers που έχετε φορτώσει στο dashCommerce.</value>
+  </data>
+  <data name="lblConfirmDelete" xml:space="preserve">
+    <value>Να πραγματοποιηθεί η Διαγραφή;</value>
+  </data>
+  <data name="lblContent" xml:space="preserve">
+    <value>Περιεχόμενο:</value>
+  </data>
+  <data name="lblContentManagement" xml:space="preserve">
+    <value>Διαχείριση Περιεχομένου</value>
+  </data>
+  <data name="lblContentManagementDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblContinue" xml:space="preserve">
+    <value>Συνέχεια</value>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>Χώρα:</value>
+  </data>
+  <data name="lblCreatedOn" xml:space="preserve">
+    <value>Δημιουργήθηκε στις</value>
+  </data>
+  <data name="lblCreditCardNumber" xml:space="preserve">
+    <value>Αριθμός Πιστωτικής Κάρτας:</value>
+  </data>
+  <data name="lblCreditCardSecurityNumber" xml:space="preserve">
+    <value>Τριψήφιος Αριθμός Ασφαλείας:</value>
+  </data>
+  <data name="lblCriticalError" xml:space="preserve">
+    <value>Υπάρχει σοβαρό πρόβλημα: {0}</value>
+  </data>
+  <data name="lblCrossSellDeleted" xml:space="preserve">
+    <value>Ο Σύνδεσμος Διαγράφηκε.</value>
+  </data>
+  <data name="lblCrossSells" xml:space="preserve">
+    <value>Ίσως να ενδιαφέρεστε για αυτά:</value>
+  </data>
+  <data name="lblCrossSellSaved" xml:space="preserve">
+    <value>Ο Σύνδεσμος Αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblCurrency" xml:space="preserve">
+    <value>Νόμισμα:</value>
+  </data>
+  <data name="lblCVV2Code" xml:space="preserve">
+    <value>CVV2 Code:</value>
+  </data>
+  <data name="lblDefaultPaymentProviderNotSaved" xml:space="preserve">
+    <value>Ο προεπιλεγμένος provider πληρωμών δεν έχει αποθηκευτεί.</value>
+  </data>
+  <data name="lblDefaultPaymentProviderSaved" xml:space="preserve">
+    <value>Ο προεπιλεγμένος provider πληρωμών αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblDefaultProviderInstructions" xml:space="preserve">
+    <value>Ο προεπιλεγμένος provider, αν υπάρχει, είναι μέ έντονα γράμματα.</value>
+  </data>
+  <data name="lblDefaultRate" xml:space="preserve">
+    <value>Προεπιλεγμένη Βαθμολογία:</value>
+  </data>
+  <data name="lblDefaultShippingProviderNotSaved" xml:space="preserve">
+    <value>The default shipping provider has not been saved.</value>
+  </data>
+  <data name="lblDefaultShippingProviderSaved" xml:space="preserve">
+    <value>Ο προεπιλεγμένος provider φόρων αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblDefaultTaxProviderNotSaved" xml:space="preserve">
+    <value>Ο προεπιλεγμένος provider μεταφορικών αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblDefaultTaxProviderSaved" xml:space="preserve">
+    <value>Ο προεπιλεγμένος provider φόρων αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblDelete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="lblDeleteAllLogs" xml:space="preserve">
+    <value>Ολα τα logs διαγραφτήκαν.</value>
+  </data>
+  <data name="lblDescription" xml:space="preserve">
+    <value>Περιγραφή:</value>
+  </data>
+  <data name="lblDescriptorSaved" xml:space="preserve">
+    <value>Η περιγραφή προϊόντος αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblDetails" xml:space="preserve">
+    <value>Λεπτομέρειες</value>
+  </data>
+  <data name="lblDimensions" xml:space="preserve">
+    <value>Διαστάσεις:</value>
+  </data>
+  <data name="lblDiscount" xml:space="preserve">
+    <value>Έκπτωση:</value>
+  </data>
+  <data name="lblDisplayNarrowByManufacturer" xml:space="preserve">
+    <value>Φιλτράρισμα με Βαση τον Κατασκευαστή:</value>
+  </data>
+  <data name="lblDisplaySortBy" xml:space="preserve">
+    <value>Display Sort By Widget:</value>
+  </data>
+  <data name="lblDisplayNarrowByPrice" xml:space="preserve">
+    <value>Φιλτράρισμα με Βαση την Τιμή:</value>
+  </data>
+  <data name="lblDisplayRetailPrice" xml:space="preserve">
+    <value>Δείξε Τιμή Λιανικής:</value>
+  </data>
+  <data name="lblEdit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="lblEmailAddress" xml:space="preserve">
+    <value>Διεύθυνση Email:</value>
+  </data>
+  <data name="lblErrorLogListing" xml:space="preserve">
+    <value>Λάθος στην Λίστα Log</value>
+  </data>
+  <data name="lblErrorLogs" xml:space="preserve">
+    <value>Λάθος στα Logs</value>
+  </data>
+  <data name="lblErrorLogsDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblErrorMessage" xml:space="preserve">
+    <value>Προσοχή υπάρχει λάθος. Αν αυτό επιμένει να εμφανίζεται παρακαλώ επικοινωνήστε μαζί μας  </value>
+  </data>
+  <data name="lblExpiration" xml:space="preserve">
+    <value>Λήξη:</value>
+  </data>
+  <data name="lblExtendedAmount" xml:space="preserve">
+    <value>Εκτεταμένο Σύνολο</value>
+  </data>
+  <data name="lblFeeAmount" xml:space="preserve">
+    <value>Σύνολο Εισφοράς:</value>
+  </data>
+  <data name="lblFirstName" xml:space="preserve">
+    <value>Όνομα:</value>
+  </data>
+  <data name="lblFooterColor" xml:space="preserve">
+    <value>Χρώμα Footer:</value>
+  </data>
+  <data name="lblFrom" xml:space="preserve">
+    <value>Από:</value>
+  </data>
+  <data name="lblFromEmail" xml:space="preserve">
+    <value>Από Email:</value>
+  </data>
+  <data name="lblFromName" xml:space="preserve">
+    <value>Από Name:</value>
+  </data>
+  <data name="lblGatewayErrors" xml:space="preserve">
+    <value>Λάθη στο Gateway :</value>
+  </data>
+  <data name="lblGatewayName" xml:space="preserve">
+    <value>Όνομα Gateway:</value>
+  </data>
+  <data name="lblGatewayResponse" xml:space="preserve">
+    <value>Απάντηση Gateway:</value>
+  </data>
+  <data name="lblGatewayTransactionId" xml:space="preserve">
+    <value>Id του Gateway Συναλλαγών:</value>
+  </data>
+  <data name="lblGeneralPaymentSettings" xml:space="preserve">
+    <value>Γενικές Ρυθμίσεις Πληρωμών</value>
+  </data>
+  <data name="lblGeneralSettingsDescription" xml:space="preserve">
+    <value>Εδώ είναι οι γενικές ρυθμίσεις για την υπηρεσία {0}. Αυτές οι ρυθμίσεις δεν είναι αποκλειστικές για την συγκεκριμένη υπηρεσία αλλα ισχύουν για όλες του ίδιου επιπέδου.</value>
+  </data>
+  <data name="lblGeneralShippingSettings" xml:space="preserve">
+    <value>Γενικές Ρυθμίσεις Μεταφορικών</value>
+  </data>
+  <data name="lblGeneralTaxSettings" xml:space="preserve">
+    <value>Γενικές Ρυθμίσεις Φόρων</value>
+  </data>
+  <data name="lblGrossAmount" xml:space="preserve">
+    <value>Σύνολο Κέρδους:</value>
+  </data>
+  <data name="lblHeaderHeight" xml:space="preserve">
+    <value>Ύψος:</value>
+  </data>
+  <data name="lblHeight" xml:space="preserve">
+    <value>Ύψος:</value>
+  </data>
+  <data name="lblHost" xml:space="preserve">
+    <value>Host:</value>
+  </data>
+  <data name="lblImageCaption" xml:space="preserve">
+    <value>Λεζάντα:</value>
+  </data>
+  <data name="lblImageFile" xml:space="preserve">
+    <value>Αρχείο Εικόνας :</value>
+  </data>
+  <data name="lblImageSaved" xml:space="preserve">
+    <value>Η Εικόνα αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblInstalledPaymentProviders" xml:space="preserve">
+    <value>Εγκατεστημένοι  Providers Πληρωμών:</value>
+  </data>
+  <data name="lblInstalledShippingProviders" xml:space="preserve">
+    <value>Εγκατεστημένοι  Providers Μεταφορικών:</value>
+  </data>
+  <data name="lblInstalledTaxProviders" xml:space="preserve">
+    <value>Εγκατεστημένοι  Providers Φόρων:</value>
+  </data>
+  <data name="lblInventoriesSaved" xml:space="preserve">
+    <value>Ο Καταλογος Απογραφής αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblIsApproved" xml:space="preserve">
+    <value>Εγκεκριμένο:</value>
+  </data>
+  <data name="lblIsDisplayed" xml:space="preserve">
+    <value>Εκτιθέμενο:</value>
+  </data>
+  <data name="lblIsHtml" xml:space="preserve">
+    <value>Είναι Html:</value>
+  </data>
+  <data name="lblIsLive" xml:space="preserve">
+    <value>Είναι Live:</value>
+  </data>
+  <data name="lblIsSystemNotification" xml:space="preserve">
+    <value>Ειδοποίηση Συστήματος:</value>
+  </data>
+  <data name="lblItem" xml:space="preserve">
+    <value>Αντκείμενο</value>
+  </data>
+  <data name="lblItemSku" xml:space="preserve">
+    <value>Sku</value>
+  </data>
+  <data name="lblKeywords" xml:space="preserve">
+    <value>Λέξεις Κλειδιά:</value>
+  </data>
+  <data name="lblLabel" xml:space="preserve">
+    <value>Ετικέτα:</value>
+  </data>
+  <data name="lblLanguage" xml:space="preserve">
+    <value>Γλώσσα:</value>
+  </data>
+  <data name="lblLastLogin" xml:space="preserve">
+    <value>Τελευταία Σύνδεση</value>
+  </data>
+  <data name="lblLastName" xml:space="preserve">
+    <value>Επώνυμο:</value>
+  </data>
+  <data name="lblLength" xml:space="preserve">
+    <value>Μήκος:</value>
+  </data>
+  <data name="lblLoading" xml:space="preserve">
+    <value>Φόρτωση . . . παρακαλώ περιμένετε.</value>
+  </data>
+  <data name="lblLogDate" xml:space="preserve">
+    <value>Ημερομηνία καταγραφής</value>
+  </data>
+  <data name="lblLogLevel" xml:space="preserve">
+    <value>Επίπεδο καταγραφής</value>
+  </data>
+  <data name="lblLogMessage" xml:space="preserve">
+    <value>Μήνυμα καταγραφής</value>
+  </data>
+  <data name="lblMailConfiguration" xml:space="preserve">
+    <value>Διαμόρφωση Mail</value>
+  </data>
+  <data name="lblMailConfigurationDescription" xml:space="preserve">
+    <value>Η περιοχή διαμόρφωσης MAil σας επιτρέπει να διαμορφώσετε τον SMTP Διακομιστή και σας επιτρέπει να διαχειρίζεστε ειδοποιητικά email που στέλνονται ώς μέρος της διαδικασίας παραγγελίας</value>
+  </data>
+  <data name="lblMailSettingsDescription" xml:space="preserve">
+    <value>Οι ρυθμίσεις Mail είναι ρυθμίσεις για τον διακομιστή SMTP, ο οποίος χρησιμοποιείται για να στέλει ειδοποιήσεις. Αν δεν είστε γνώστης των ρυθμίσεων, τότε επικοινωνήστε με τον hosting provider σας.</value>
+  </data>
+  <data name="lblMailSettingsNotSaved" xml:space="preserve">
+    <value>Οι ρυθμίσεις Mail δεν έχουν αποθηκευτεί.</value>
+  </data>
+  <data name="lblMailSettingsSaved" xml:space="preserve">
+    <value>Οι ρυθμίσεις Mail έχουν αποθηκευτεί.</value>
+  </data>
+  <data name="lblMailSettingsTestSucessfull" xml:space="preserve">
+    <value>Sucessfully sent test email.</value>
+  </data>
+  <data name="lblMailSettingsTestFailed" xml:space="preserve">
+    <value>Failed to send test email.</value>
+  </data>
+  <data name="lblManageProvidersDescription" xml:space="preserve">
+    <value>Η περιοχή διαχείρισης Providers {1} σας επιτρέπει να προσθέσετε, διορθώσετε και διαγράψετε {0} providers που μπορείτε να χρησιμοποιήσετε στο ηλεκτρονικο κατάστημά σας.</value>
+  </data>
+  <data name="lblManufacturer" xml:space="preserve">
+    <value>Κατασκευαστής:</value>
+  </data>
+  <data name="lblManufacturerAdministration" xml:space="preserve">
+    <value>Διαχείρηση Κατασκευαστών</value>
+  </data>
+  <data name="lblManufacturerDeleted" xml:space="preserve">
+    <value>Ο Κατασκευαστής διαγράφτηκε. </value>
+  </data>
+  <data name="lblManufacturerSaved" xml:space="preserve">
+    <value>Ο Κατασκευαστής αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblMenuTitle" xml:space="preserve">
+    <value>Τίτλος Μενού:</value>
+  </data>
+  <data name="lblMyAccount" xml:space="preserve">
+    <value>Ο Λογαριασμός μου</value>
+  </data>
+  <data name="lblMyAccountDetails" xml:space="preserve">
+    <value>Λεπτομέρειες του Λογαριασμού μου.</value>
+  </data>
+  <data name="lblMyOrders" xml:space="preserve">
+    <value>Οι Παραγγελίες μου</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Όνομα:</value>
+  </data>
+  <data name="lblNetAmount" xml:space="preserve">
+    <value>Σύνολο Net :</value>
+  </data>
+  <data name="lblNoCart" xml:space="preserve">
+    <value>Το καλάθι σας είναι άδειο. Ίσως σας ενδιαφέρουν τα παρακάτων προϊόντα:</value>
+  </data>
+  <data name="lblNoDescriptors" xml:space="preserve">
+    <value>Δέν υπάρχουν περιγραφές για αυτό το προϊόν.</value>
+  </data>
+  <data name="lblNoErrorLogs" xml:space="preserve">
+    <value>Δεν υπάρχουν καταγραφές λάθους.</value>
+  </data>
+  <data name="lblNoPaymentProvidersConfigured" xml:space="preserve">
+    <value>Δεν έχουν ρυθμιστεί providers πληρωμών. Δείτε το μενού επιλογών "Ρύθμιση Provider Πληρωμών" για πληροφορίες.</value>
+  </data>
+  <data name="lblNoPaymentProvidersInstalled" xml:space="preserve">
+    <value>There are no Payment Providers installed.</value>
+  </data>
+  <data name="lblNoReviews" xml:space="preserve">
+    <value>Δεν υπάρχουν κριτικές γι' αυτό το προϊόν</value>
+  </data>
+  <data name="lblNoShippingProvidersConfigured" xml:space="preserve">
+    <value>Δεν έχουν ρυθμιστεί providers Μεταφορικών. Δείτε το μενού επιλογών "Ρύθμιση Provider Μεταφορικώνγια πληροφορίες. Μπορείτε να αλλάξετε τις Γενικές Ρυθμίσεις πριν τους providers Μεταφορικών.</value>
+  </data>
+  <data name="lblNoShippingProvidersInstalled" xml:space="preserve">
+    <value>Δεν έχουν εγκατασταθεί Providers Μεταφορικών.</value>
+  </data>
+  <data name="lblNoTaxProvidersConfigured" xml:space="preserve">
+    <value>Δεν έχουν ρυθμιστεί providers Φόρων. Δείτε το μενού επιλογών "Ρύθμιση Provider Φόρων" για πληροφορίες.</value>
+  </data>
+  <data name="lblNoTaxProvidersInstalled" xml:space="preserve">
+    <value>Δεν έχουν εγκατασταθεί Providers Φόρων.</value>
+  </data>
+  <data name="lblNotificationBody" xml:space="preserve">
+    <value>Κείμενο Ειδοποίησης:</value>
+  </data>
+  <data name="lblNotificationEdit" xml:space="preserve">
+    <value>Διόρθωση Ειδοποίησης</value>
+  </data>
+  <data name="lblNotificationList" xml:space="preserve">
+    <value>Λίστα Ειδοποιήσεων</value>
+  </data>
+  <data name="lblNotificationSaved" xml:space="preserve">
+    <value>Ειδοποίηση Αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblNotificationsDescription" xml:space="preserve">
+    <value>Οι Ειδοποίησεις είναι emails δημιουργημένα από το σύστημα τα οποία χρησιμοποιούνται για να πληροφορούν εσάς και τους πελάτες σας σχετικά με συγκεκριμένα συμβάντα του συστήματος, όπως νέες παραγγελίες, επιστροφή χρημάτων, και μεταφορικά.</value>
+  </data>
+  <data name="lblOrderEdit" xml:space="preserve">
+    <value>Διόρθωση Παραγγελίας</value>
+  </data>
+  <data name="lblOrderList" xml:space="preserve">
+    <value>Λίστα Παραγγελιών</value>
+  </data>
+  <data name="lblOrderNoteSaved" xml:space="preserve">
+    <value>Η Παρατήρηση Παραγγελίας δεν αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblOrderNumber" xml:space="preserve">
+    <value>Νούμερο Παραγγελίας</value>
+  </data>
+  <data name="lblOrderRefunded" xml:space="preserve">
+    <value>Τα Χρήματα της Παραγγελίας επεστράφησαν.</value>
+  </data>
+  <data name="lblOrderReview" xml:space="preserve">
+    <value>Ανασκόπηση Παραγγελίας</value>
+  </data>
+  <data name="lblOrderSummary" xml:space="preserve">
+    <value>Ανασκόπηση Παραγγελίας</value>
+  </data>
+  <data name="lblOurPrice" xml:space="preserve">
+    <value>Τιμή μας:</value>
+  </data>
+  <data name="lblPageDeleted" xml:space="preserve">
+    <value>Η Σελίδα Διαγράφτηκε.</value>
+  </data>
+  <data name="lblPageSaved" xml:space="preserve">
+    <value>Η Σελίδα Αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblParentCategory" xml:space="preserve">
+    <value>Κατηγορία Γόνος:</value>
+  </data>
+  <data name="lblParentPage" xml:space="preserve">
+    <value>Σελίδα Γόνος:</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Συνθηματικό:</value>
+  </data>
+  <data name="lblPaymentConfiguration" xml:space="preserve">
+    <value>Ρυθμίσεις Πληρωμών</value>
+  </data>
+  <data name="lblPaymentConfigurationDescription" xml:space="preserve">
+    <value>Η περιοχή διαμόρφωσης Πληρωμών σας επιτρέπει να διαχειριστείτε τους Providers Πληρωμών. Επίσης μπορείτε να κάνετε Γενικές Ρυθμίσεις για την υπηρεσία πληρωμών.</value>
+  </data>
+  <data name="lblPaymentConfigurationNotSaved" xml:space="preserve">
+    <value>Οι ρυθμίσεις Πληρωμών δεν έχουν αποθηκευτεί.</value>
+  </data>
+  <data name="lblPaymentConfigurationSaved" xml:space="preserve">
+    <value>Οι ρυθμίσεις Πληρωμών δεν αποθηκεύτηκαν.</value>
+  </data>
+  <data name="lblPaymentInformation" xml:space="preserve">
+    <value>Πληροφορίες Πληρωμών</value>
+  </data>
+  <data name="lblPaymentInformationTitle" xml:space="preserve">
+    <value>Πληροφορίες Πληρωμών</value>
+  </data>
+  <data name="lblPaymentMethod" xml:space="preserve">
+    <value>Μέθοδος Πληρωμής:</value>
+  </data>
+  <data name="lblPaymentName" xml:space="preserve">
+    <value>Πληρωμή</value>
+  </data>
+  <data name="lblPaymentProviderManagement" xml:space="preserve">
+    <value>Διαχείρηση Provider Πληρωμών</value>
+  </data>
+  <data name="lblPayPalProDescriptionTitle" xml:space="preserve">
+    <value> PayPal Pro με Express Έξοδο</value>
+  </data>
+  <data name="lblPayPalStandardDescriptionTitle" xml:space="preserve">
+    <value>PayPal Standard </value>
+  </data>
+  <data name="lblPdtId" xml:space="preserve">
+    <value>PDT ID:</value>
+  </data>
+  <data name="lblPhone" xml:space="preserve">
+    <value>Τηλέφωνο:</value>
+  </data>
+  <data name="lblPleaseSelect" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε {0}:</value>
+  </data>
+  <data name="lblPleaseSupply" xml:space="preserve">
+    <value>Παρακαλώ παρέχετε {0}:</value>
+  </data>
+  <data name="lblPleaseWait" xml:space="preserve">
+    <value>Παρακαλώ Περιμένετε . . .</value>
+  </data>
+  <data name="lblPort" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="lblPostalCode" xml:space="preserve">
+    <value>Ταχυδρομικός Κώδικας:</value>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>Τιμή</value>
+  </data>
+  <data name="lblProductAdd" xml:space="preserve">
+    <value>Προσθήκη Προϊόντος</value>
+  </data>
+  <data name="lblProductCategories" xml:space="preserve">
+    <value>Κατηγορίες Προϊόντων</value>
+  </data>
+  <data name="lblProductCategoryDeleted" xml:space="preserve">
+    <value>Η Κατηγορία Διαγράφτηκε.</value>
+  </data>
+  <data name="lblProductCategoryImages" xml:space="preserve">
+    <value>Εικόνες Κατηγοριών</value>
+  </data>
+  <data name="lblProductCategorySaved" xml:space="preserve">
+    <value>Η Κατηγορία Αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblProductEdit" xml:space="preserve">
+    <value>Διόρθωση Προϊόντος</value>
+  </data>
+  <data name="lblProductImageDeleted" xml:space="preserve">
+    <value>Η Εικόνα Προϊόντος Διαγράφτηκε.</value>
+  </data>
+  <data name="lblProductImages" xml:space="preserve">
+    <value>Εικόνες Προϊόντων</value>
+  </data>
+  <data name="lblProductImageSaved" xml:space="preserve">
+    <value>Η Εικόνα Προϊόντος Αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblProductList" xml:space="preserve">
+    <value>Λίστα Προϊόντων </value>
+  </data>
+  <data name="lblProductNotSaved" xml:space="preserve">
+    <value>Το Προϊόν δεν Αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblProductSaved" xml:space="preserve">
+    <value>Το Προϊόν Αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblProductType" xml:space="preserve">
+    <value>Τύπος Προϊόντος:</value>
+  </data>
+  <data name="lblProviderSaved" xml:space="preserve">
+    <value>Ο Provider Αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblProviderType" xml:space="preserve">
+    <value>Τύπος Provider</value>
+  </data>
+  <data name="lblQuantity" xml:space="preserve">
+    <value>Ποσότητα</value>
+  </data>
+  <data name="lblRate" xml:space="preserve">
+    <value>Βαθμολογία:</value>
+  </data>
+  <data name="lblRateAdded" xml:space="preserve">
+    <value>Η Βαθμολόγια Προστέθηκε.</value>
+  </data>
+  <data name="lblRateDeleted" xml:space="preserve">
+    <value>Η Βαθμολόγια Διαγράφτηκε.</value>
+  </data>
+  <data name="lblRating" xml:space="preserve">
+    <value>Βαθμολογία:</value>
+  </data>
+  <data name="lblRegionCode" xml:space="preserve">
+    <value>Κώδικας Περιοχής:</value>
+  </data>
+  <data name="lblRegionCodeDecriptionTitle" xml:space="preserve">
+    <value>Κώδικας Περιοχής Provider Φόρου</value>
+  </data>
+  <data name="lblRemoveProvider" xml:space="preserve">
+    <value>Ο provider έχει διαγραφτεί.</value>
+  </data>
+  <data name="lblRequireAuthentication" xml:space="preserve">
+    <value>Απαιτείται Authentication:</value>
+  </data>
+  <data name="lblRequireSsl" xml:space="preserve">
+    <value>Απαιτείται SSL:</value>
+  </data>
+  <data name="lblRetailPrice" xml:space="preserve">
+    <value>Τιμή Λιανικής:</value>
+  </data>
+  <data name="lblRetialPrice" xml:space="preserve">
+    <value>Τιμή Λιανικής:</value>
+  </data>
+  <data name="lblReview" xml:space="preserve">
+    <value>Ανασκόπηση:</value>
+  </data>
+  <data name="lblReviewSaved" xml:space="preserve">
+    <value>Η Ανασκόπηση αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblReviewsTitle" xml:space="preserve">
+    <value>Ανασκοπήσεις</value>
+  </data>
+  <data name="lblRoleAdministration" xml:space="preserve">
+    <value>Διαχείρηση Ρόλων</value>
+  </data>
+  <data name="lblRoleAdministrationDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblRoleName" xml:space="preserve">
+    <value>Όνομα Ρόλου:</value>
+  </data>
+  <data name="lblRoot" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="lblNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="lblTitleASC" xml:space="preserve">
+    <value>Title: Ascending</value>
+  </data>
+  <data name="lblTitleDESC" xml:space="preserve">
+    <value>Title: Descending</value>
+  </data>
+  <data name="lblPriceASC" xml:space="preserve">
+    <value>Price: Lowest First</value>
+  </data>
+  <data name="lblPriceDESC" xml:space="preserve">
+    <value>Price: Highest First</value>
+  </data>
+  <data name="lblNewest" xml:space="preserve">
+    <value>Added: Newest First</value>
+  </data>
+  <data name="lblOldest" xml:space="preserve">
+    <value>Added: Oldest First</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Εύρεση</value>
+  </data>
+  <data name="lblSearchBy" xml:space="preserve">
+    <value>Εύρεση με Βάση:</value>
+  </data>
+  <data name="lblSecurity" xml:space="preserve">
+    <value>Ασφάλεια</value>
+  </data>
+  <data name="lblSecurityDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblSelect" xml:space="preserve">
+    <value>-- Επιλέξτε --</value>
+  </data>
+  <data name="lblService" xml:space="preserve">
+    <value>Υπηρεσία:</value>
+  </data>
+  <data name="lblServiceAdded" xml:space="preserve">
+    <value>Η Υπηρεσία Προστέθηκε.</value>
+  </data>
+  <data name="lblServiceDeleted" xml:space="preserve">
+    <value>Η Υπηρεσία Διαγράφτηκε.</value>
+  </data>
+  <data name="lblShipFromCountry" xml:space="preserve">
+    <value>Μεταφορά από Χώρα:</value>
+  </data>
+  <data name="lblShipFromZip" xml:space="preserve">
+    <value>Μεταφορά από Ταχυδρομικό Κώδικα:</value>
+  </data>
+  <data name="lblShipping" xml:space="preserve">
+    <value>Μεταφορά &amp; Τρόπος Εκτέλεσης:</value>
+  </data>
+  <data name="lblShippingAddressTitle" xml:space="preserve">
+    <value>Διεύθυνση Αποστολής</value>
+  </data>
+  <data name="lblShippingBuffer" xml:space="preserve">
+    <value>Προσωρινή Αποστολή:</value>
+  </data>
+  <data name="lblShippingConfiguration" xml:space="preserve">
+    <value>Διαμόρφωση Μεταφορικών </value>
+  </data>
+  <data name="lblShippingConfigurationDescription" xml:space="preserve">
+    <value>Η περιοχή διαμόρφωσης Μεταφορικών σας επιτρέπει να διαχειριστείτε τους Providers Μεταφορικών. Επίσης μπορείτε να κάνετε Γενικές Ρυθμίσεις για την υπηρεσία Μεταφορικών.</value>
+  </data>
+  <data name="lblShippingConfigurationNotSaved" xml:space="preserve">
+    <value>Η Διαμόρφωσης Μεταφορικών δεν αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblShippingConfigurationSaved" xml:space="preserve">
+    <value>Η Διαμόρφωσης Μεταφορικών αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblShippingEstimate" xml:space="preserve">
+    <value>Εκτίμηση Παράδοσης:</value>
+  </data>
+  <data name="lblShippingInformation" xml:space="preserve">
+    <value>Λεπτομέρειες Μεταφοράς</value>
+  </data>
+  <data name="lblShippingMethod" xml:space="preserve">
+    <value>Μέθοδος Μεταφοράς</value>
+  </data>
+  <data name="lblShippingMethodTitle" xml:space="preserve">
+    <value>Μέθοδος Μεταφοράς</value>
+  </data>
+  <data name="lblShippingName" xml:space="preserve">
+    <value>Μεταφορά</value>
+  </data>
+  <data name="lblShippingProviderManagement" xml:space="preserve">
+    <value>Διαχείρηση Provider Μεταφορικών</value>
+  </data>
+  <data name="lblShippingSaved" xml:space="preserve">
+    <value>Η Μεταφορά Αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblShippingSettingsNotSaved" xml:space="preserve">
+    <value>Οι Ρυθμίσεις Μεταφορικών Δεν αποθηκεύτηκαν.</value>
+  </data>
+  <data name="lblShippingSettingsSaved" xml:space="preserve">
+    <value>Οι Ρυθμίσεις Μεταφορικών αποθηκεύτηκαν.</value>
+  </data>
+  <data name="lblShippingTrackingNumber" xml:space="preserve">
+    <value>Αριθμός Μεταφορικών:</value>
+  </data>
+  <data name="lblShortDescription" xml:space="preserve">
+    <value>Μικρή Περιγραφή:</value>
+  </data>
+  <data name="lblShowAll" xml:space="preserve">
+    <value>Δείξε Όλα</value>
+  </data>
+  <data name="lblShowingTotals" xml:space="preserve">
+    <value>Παρουσίαση {0} - {1} από {2} αποτελέσματα</value>
+  </data>
+  <data name="lblSignature" xml:space="preserve">
+    <value>API Signature:</value>
+  </data>
+  <data name="lblSimpleWeightShippingProviderTitle" xml:space="preserve">
+    <value>Provider Μεταφορικών Απλού Βάρους</value>
+  </data>
+  <data name="lblSiteAdministration" xml:space="preserve">
+    <value>Διαχείρηση Site</value>
+  </data>
+  <data name="lblSiteName" xml:space="preserve">
+    <value>Όναμα Site:</value>
+  </data>
+  <data name="lblSiteSettings" xml:space="preserve">
+    <value>Ρυθμίσεις Site</value>
+  </data>
+  <data name="lblSiteSettingsDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblSiteSettingsNotSaved" xml:space="preserve">
+    <value>Οι Ρυθμίσεις Site Δεν αποθηκεύτηκαν.</value>
+  </data>
+  <data name="lblSiteSettingsSaved" xml:space="preserve">
+    <value>Οι Ρυθμίσεις Site Aποθηκεύτηκαν.</value>
+  </data>
+  <data name="lblSkuDescription" xml:space="preserve">
+    <value>Τα παρακάτω Sku δημιουργήθηκαν για αυτό το πρϊόν με βαση τα χαρακτηριστικά τα οποία είναι συνδεδεμένα με αυτό το προϊόν. Αν θέλετε να τα αποθηκεύσετε, πατήστε "Αποθήκευση".</value>
+  </data>
+  <data name="lblSkuSuffix" xml:space="preserve">
+    <value>Κατάληξη Sku:</value>
+  </data>
+  <data name="lblStateOrRegion" xml:space="preserve">
+    <value>Περιοχή:</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="lblSubject" xml:space="preserve">
+    <value>Θέμα:</value>
+  </data>
+  <data name="lblSubTotal" xml:space="preserve">
+    <value>Υποσύνολο:</value>
+  </data>
+  <data name="lblSubTotalTop" xml:space="preserve">
+    <value>Υποσύνολο:</value>
+  </data>
+  <data name="lblTagLine" xml:space="preserve">
+    <value>Γραμμή Tag:</value>
+  </data>
+  <data name="lblTax" xml:space="preserve">
+    <value>Φόρος:</value>
+  </data>
+  <data name="lblTaxConfiguration" xml:space="preserve">
+    <value>Ρυθμίσεις Φόρων</value>
+  </data>
+  <data name="lblTaxConfigurationDescription" xml:space="preserve">
+    <value>Η περιοχή διαμόρφωσης Φόρων σας επιτρέπει να να διαχειριστείτε τους Providers Φόρων. Επίσης μπορείτε να κάνετε Γενικές Ρυθμίσεις για την υπηρεσία Φόρων.</value>
+  </data>
+  <data name="lblTaxConfigurationNotSaved" xml:space="preserve">
+    <value>Η Διαμόρφωση Φόρων δεν αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblTaxConfigurationSaved" xml:space="preserve">
+    <value>Η Διαμόρφωση Φόρων δεν αποθηκεύτηκε.</value>
+  </data>
+  <data name="lblTaxName" xml:space="preserve">
+    <value>Φόρος</value>
+  </data>
+  <data name="lblTaxProviderManagement" xml:space="preserve">
+    <value>Διαχείρηση Provider Φόρων</value>
+  </data>
+  <data name="lblTaxType" xml:space="preserve">
+    <value>Type Φόρου:</value>
+  </data>
+  <data name="lblTheme" xml:space="preserve">
+    <value>Θέμα:</value>
+  </data>
+  <data name="lblTitle" xml:space="preserve">
+    <value>Τίτλος:</value>
+  </data>
+  <data name="lblToList" xml:space="preserve">
+    <value>To List:</value>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Σύνολο:</value>
+  </data>
+  <data name="lblTotalProducts" xml:space="preserve">
+    <value>Σύνολο Προϊόντων:</value>
+  </data>
+  <data name="lblTotalSkuCountText" xml:space="preserve">
+    <value>Αριθμός Sku's που δημιουργήθηκαν για το προϊόν:</value>
+  </data>
+  <data name="lblTotalUsers" xml:space="preserve">
+    <value>Σύνολο Χρηστών:</value>
+  </data>
+  <data name="lblTrackingLogs" xml:space="preserve">
+    <value>Παρακολούθηση Καταγραφών</value>
+  </data>
+  <data name="lblTrackingLogsDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblTransactionDate" xml:space="preserve">
+    <value>Ημερομηνία Συναλλαγής:</value>
+  </data>
+  <data name="lblTransactionId" xml:space="preserve">
+    <value>Id Συναλλαγής:</value>
+  </data>
+  <data name="lblTransactionType" xml:space="preserve">
+    <value>Τύπος Συναλλαγής:</value>
+  </data>
+  <data name="lblUnableToDeleteManufacturers" xml:space="preserve">
+    <value>Δεν είναι δυνατόν να διαγραφεί ο Κατασκευαστής. Υπάρχουν άλλα προϊόντα που είναι συνδεδεμένα με αυτόν: {0}.</value>
+  </data>
+  <data name="lblUpdate" xml:space="preserve">
+    <value>Ενημέρωση</value>
+  </data>
+  <data name="lblUpdating" xml:space="preserve">
+    <value>Ενημέρωση . . .</value>
+  </data>
+  <data name="lblUpdatingOrder" xml:space="preserve">
+    <value>Ενημέρωση Παραγγελίας . . .</value>
+  </data>
+  <data name="lblUserAdministration" xml:space="preserve">
+    <value>Διαχείρηση Χρηστών</value>
+  </data>
+  <data name="lblUserAdministrationDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
+  </data>
+  <data name="lblUserName" xml:space="preserve">
+    <value>Όνομα Χρήστη:</value>
+  </data>
+  <data name="lblUserNotFound" xml:space="preserve">
+    <value>Δεν ήτνα δυνατόν να ανακτηθεί ο Χρήστης: {0}</value>
+  </data>
+  <data name="lblUserUpdated" xml:space="preserve">
+    <value>Ο Λογαριασμός Χρήστη έχει Ενημερωθεί.</value>
+  </data>
+  <data name="lblUseShipping" xml:space="preserve">
+    <value>Χρησιμοποίηση Μεταφορικών:</value>
+  </data>
+  <data name="lblWeight" xml:space="preserve">
+    <value>Βάρος:</value>
+  </data>
+  <data name="lblWelcome" xml:space="preserve">
+    <value>Καλώς Ήρθατε</value>
+  </data>
+  <data name="lblWidth" xml:space="preserve">
+    <value>Πλάτος:</value>
+  </data>
+  <data name="lblYourRating" xml:space="preserve">
+    <value>Η Βαθμολόγησή σας:</value>
+  </data>
+  <data name="lblYouSave" xml:space="preserve">
+    <value>Κερδίζετε:</value>
+  </data>
+  <data name="lloginCreateUserText" xml:space="preserve">
+    <value>Δεν έχετε εγγραφεί; </value>
+  </data>
+  <data name="lloginPasswordLabelText" xml:space="preserve">
+    <value>Κωδικός:&amp;nbsp;</value>
+  </data>
+  <data name="lloginPasswordRecoveryText" xml:space="preserve">
+    <value>Ξεχάσατε τον Κωδικό σας;</value>
+  </data>
+  <data name="lloginTitleText" xml:space="preserve">
+    <value>Είσοδος</value>
+  </data>
+  <data name="lloginUserNameLabelText" xml:space="preserve">
+    <value>Όνομα Χρήστη:&amp;nbsp;</value>
+  </data>
+  <data name="pnlAddEditBundle" xml:space="preserve">
+    <value>Προσθήκη / Διόρθωση Δεσμού</value>
+  </data>
+  <data name="pnlAddManufacturer" xml:space="preserve">
+    <value>Προσθήκη Κατασκευαστή</value>
+  </data>
+  <data name="pnlAddNote" xml:space="preserve">
+    <value>Προσθήκη Σημείωσης</value>
+  </data>
+  <data name="pnlAddRegionCode" xml:space="preserve">
+    <value>Προσθήκη Κωδικού Περιοχής</value>
+  </data>
+  <data name="pnlAddRole" xml:space="preserve">
+    <value>Προσθήκη Ρόλου</value>
+  </data>
+  <data name="pnlAddService" xml:space="preserve">
+    <value>Προσθήκη Υπηρεσίας</value>
+  </data>
+  <data name="pnlAddToCart" xml:space="preserve">
+    <value>Βάλε στο καλάθι</value>
+  </data>
+  <data name="pnlAddUser" xml:space="preserve">
+    <value>Πρόσθεσε Χρήστη</value>
+  </data>
+  <data name="pnlAnalytics" xml:space="preserve">
+    <value>Αναλυτικές</value>
+  </data>
+  <data name="pnlAssociatedAttributes" xml:space="preserve">
+    <value>Συνδεόμενα Χαρακτηριστικά</value>
+  </data>
+  <data name="pnlAssociatedCategories" xml:space="preserve">
+    <value>Συνδεόμενες Κατηγορίες</value>
+  </data>
+  <data name="pnlAttributeItems" xml:space="preserve">
+    <value>Στοιχεία Χαρακτηριστικών</value>
+  </data>
+  <data name="pnlAttributeTemplates" xml:space="preserve">
+    <value>"Οδηγοί" Χαρακτηριστικών</value>
+  </data>
+  <data name="pnlAvailableAttributes" xml:space="preserve">
+    <value>Διαθέσιμα Χαρακτηριστικά</value>
+  </data>
+  <data name="pnlAvailableRegionCodes" xml:space="preserve">
+    <value>Διαθέσιμοι Κωδικοί Περιοχών</value>
+  </data>
+  <data name="pnlAvailableServices" xml:space="preserve">
+    <value>Διαθέσιμες Υπηρεσίες</value>
+  </data>
+  <data name="pnlBrowsingLog" xml:space="preserve">
+    <value>Καταγραφές Περιηγήσεων</value>
+  </data>
+  <data name="pnlConfiguration" xml:space="preserve">
+    <value>Διαμόρφωση {0} </value>
+  </data>
+  <data name="pnlConfigurationOverview" xml:space="preserve">
+    <value>Επισκόπηση Διαμόρφωσης</value>
+  </data>
+  <data name="pnlConfiguredPaymentProviders" xml:space="preserve">
+    <value>Διαμορφωμένοι Providers Πληρωμών</value>
+  </data>
+  <data name="pnlConfiguredShippingProviders" xml:space="preserve">
+    <value>Διαμορφωμένοι Providers Μεταφορικών</value>
+  </data>
+  <data name="pnlConfiguredTaxProviders" xml:space="preserve">
+    <value>Διαμορφωμένοι Providers Φόρων</value>
+  </data>
+  <data name="pnlCrossSells" xml:space="preserve">
+    <value>Σχετικές Πωλήσεις</value>
+  </data>
+  <data name="pnlCurrentAttributes" xml:space="preserve">
+    <value>Τρέχοντα Χαρακτηριστικά</value>
+  </data>
+  <data name="pnlCurrentBundles" xml:space="preserve">
+    <value>Τρέχουσες Δέσμες</value>
+  </data>
+  <data name="pnlCurrentCategories" xml:space="preserve">
+    <value>Τρέχουσες Κατηγορίες</value>
+  </data>
+  <data name="pnlCurrentErrorLogs" xml:space="preserve">
+    <value>Τρέχουσες Καταγραφές Λαθών</value>
+  </data>
+  <data name="pnlCurrentPages" xml:space="preserve">
+    <value>Τρέχουσες Σελίδες</value>
+  </data>
+  <data name="pnlEditAttribute" xml:space="preserve">
+    <value>Προσθήκη / Διόρθωση Χαρακτηριστικών</value>
+  </data>
+  <data name="pnlEditCategory" xml:space="preserve">
+    <value>Προσθήκη / Διόρθωση Κατηγορίας Προϊόντων</value>
+  </data>
+  <data name="pnlEditPage" xml:space="preserve">
+    <value>Προσθήκη / Διόρθωση Σελίδας</value>
+  </data>
+  <data name="pnlEditUser" xml:space="preserve">
+    <value>Διόρθωση Χρήστη</value>
+  </data>
+  <data name="pnlFavoriteCategories" xml:space="preserve">
+    <value>Αγαπημένες Κατηγορίες</value>
+  </data>
+  <data name="pnlFavoriteProducts" xml:space="preserve">
+    <value>Αγαπημένα Προϊόντα</value>
+  </data>
+  <data name="pnlFooter" xml:space="preserve">
+    <value>Υποσέλδιο</value>
+  </data>
+  <data name="pnlGeneralLayout" xml:space="preserve">
+    <value>Γενικό Layout</value>
+  </data>
+  <data name="pnlGeneralProductInformation" xml:space="preserve">
+    <value>Γενικές Πληροφορίες Προϊόντος</value>
+  </data>
+  <data name="pnlGeneralSettings" xml:space="preserve">
+    <value>Γενικές Ρυθμίσεις</value>
+  </data>
+  <data name="pnlGlobalization" xml:space="preserve">
+    <value>Globalization</value>
+  </data>
+  <data name="pnlHeader" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="pnlImageManagement" xml:space="preserve">
+    <value>Διαχείριση Εικόνων</value>
+  </data>
+  <data name="pnlMailConfiguration" xml:space="preserve">
+    <value>Διαμόρφωση Mail</value>
+  </data>
+  <data name="pnlMailSettings" xml:space="preserve">
+    <value>Ρυθμίσεις Mail</value>
+  </data>
+  <data name="pnlManufacturerList" xml:space="preserve">
+    <value>Λίστα Κατασκευαστών</value>
+  </data>
+  <data name="pnlMessageCenter" xml:space="preserve">
+    <value>Κέντρο Μυνημάτων</value>
+  </data>
+  <data name="pnlNarrowByManufacturer" xml:space="preserve">
+    <value>Επιλογή Βάση Κατασκευαστή</value>
+  </data>
+  <data name="pnlNarrowByPrice" xml:space="preserve">
+    <value>Επιλογή Βάση Τιμής</value>
+  </data>
+  <data name="pnlSortBy" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="pnlNews" xml:space="preserve">
+    <value>Νέα</value>
+  </data>
+  <data name="pnlNoteList" xml:space="preserve">
+    <value>Παρατηρήσεις</value>
+  </data>
+  <data name="pnlNotes" xml:space="preserve">
+    <value>Παρατηρήσεις</value>
+  </data>
+  <data name="pnlNotificationDetails" xml:space="preserve">
+    <value>Λεπτομέρεις Ειδοποίησης</value>
+  </data>
+  <data name="pnlOrderList" xml:space="preserve">
+    <value>Λίστα Παραγγελιών</value>
+  </data>
+  <data name="pnlOrderSearch" xml:space="preserve">
+    <value>Εύρεση Παραγγελίας</value>
+  </data>
+  <data name="pnlPaymentProviders" xml:space="preserve">
+    <value>Διαμόρφωση Provider Πληρωμών </value>
+  </data>
+  <data name="pnlPayPalProConfiguration" xml:space="preserve">
+    <value>Διαμόρφωση Provider Πληρωμών PayPal Pro</value>
+  </data>
+  <data name="pnlPayPalStandardConfiguration" xml:space="preserve">
+    <value>Διαμόρφωση Provider Πληρωμών  PayPal Standard</value>
+  </data>
+  <data name="pnlProductDescriptors" xml:space="preserve">
+    <value>Περιγρφές Προϊόντος</value>
+  </data>
+  <data name="pnlProductImages" xml:space="preserve">
+    <value>Εικόνες Προϊόντων</value>
+  </data>
+  <data name="pnlProductList" xml:space="preserve">
+    <value>Προϊόντα</value>
+  </data>
+  <data name="pnlProductReviews" xml:space="preserve">
+    <value>Κριτικές Προϊόντων</value>
+  </data>
+  <data name="pnlProductSearch" xml:space="preserve">
+    <value>Εύρεση Προϊόντος</value>
+  </data>
+  <data name="pnlProviderDetails" xml:space="preserve">
+    <value>Λεπτομέρειες Provider</value>
+  </data>
+  <data name="pnlProviderList" xml:space="preserve">
+    <value>Διαθέσιμοι Providers</value>
+  </data>
+  <data name="pnlQuickStats" xml:space="preserve">
+    <value>Στατιστικά</value>
+  </data>
+  <data name="pnlRegionCodeConfiguration" xml:space="preserve">
+    <value>Περιοχή Διαμόρφωσης Provider Κωδικών Φόρων </value>
+  </data>
+  <data name="pnlReview" xml:space="preserve">
+    <value>Κριτική</value>
+  </data>
+  <data name="pnlRoleList" xml:space="preserve">
+    <value>Λίστα Ρόλων</value>
+  </data>
+  <data name="pnlRoles" xml:space="preserve">
+    <value>Ρόλοι</value>
+  </data>
+  <data name="pnlShipping" xml:space="preserve">
+    <value>Μεταφορικά</value>
+  </data>
+  <data name="pnlShippingProviders" xml:space="preserve">
+    <value>Διαμόρφωση Provider Μεταφορικών</value>
+  </data>
+  <data name="pnlSimpleWeightConfiguration" xml:space="preserve">
+    <value>Διαμόρφωση Provider Μεταφορικών Απλού Βάρους</value>
+  </data>
+  <data name="pnlSimpleWeightData" xml:space="preserve">
+    <value>Υπηρεσία Απλού Βάρους / AmountPerUnit Data</value>
+  </data>
+  <data name="pnlSiteOverview" xml:space="preserve">
+    <value>Επισκόπηση Site</value>
+  </data>
+  <data name="pnlSkuListing" xml:space="preserve">
+    <value>Λίστα Sku</value>
+  </data>
+  <data name="pnlTaxProviders" xml:space="preserve">
+    <value>Διαμόρφωση Provider Φόρων</value>
+  </data>
+  <data name="pnlToDo" xml:space="preserve">
+    <value>Έχω Να Κάνω</value>
+  </data>
+  <data name="pnlUserList" xml:space="preserve">
+    <value>Λίστα Χρηστών</value>
+  </data>
+  <data name="pnlUserSearch" xml:space="preserve">
+    <value>Εύρεση Χρήστη</value>
+  </data>
+  <data name="pnlWidgets" xml:space="preserve">
+    <value>Αντικείμενα</value>
+  </data>
+  <data name="prPasswordRecoverAnswerLabelText" xml:space="preserve">
+    <value>Απάντηση:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverQuestionFailureText" xml:space="preserve">
+    <value>Η Απάντησή σας δεν είναι σωστή. Παρακαλώ Δοκιμάστε ξανά.</value>
+  </data>
+  <data name="prPasswordRecoverQuestionInstructionText" xml:space="preserve">
+    <value>Απαντήστε στις παρακάτω ερωτήσεις για να λάβετε τον κωδικό σας!</value>
+  </data>
+  <data name="prPasswordRecoverQuestionLabelText" xml:space="preserve">
+    <value>Ερώτηση:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverQuestionTitleText" xml:space="preserve">
+    <value>Επιβεβαίωση Ταυτότητας</value>
+  </data>
+  <data name="prPasswordRecoverSubmitButtonText" xml:space="preserve">
+    <value>Υποβολή</value>
+  </data>
+  <data name="prPasswordRecoverSuccessText" xml:space="preserve">
+    <value>Ο Κωδικός σας έχει σταλεί.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameFailureText" xml:space="preserve">
+    <value>Δεν μπορέσαμε να ανακτήσουμε τις πληροφορίες σας. Παρακαλώ Δοκιμάστε ξανά.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameInstructionText" xml:space="preserve">
+    <value>Βάλτε το Όνομα Χρήστη για να παραλάβετε τον κωδικό σας.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameLabelText" xml:space="preserve">
+    <value>Όνομα Χρήστη:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverUserNameTitleText" xml:space="preserve">
+    <value>Ξεχάσατε τον κωδικό σας?</value>
+  </data>
+  <data name="rfvAmountPerUnit" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε Τιμή ανα Προϊόν.</value>
+  </data>
+  <data name="rfvApiPassword" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε Κωδικό API.</value>
+  </data>
+  <data name="rfvApiSignature" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε Υπογραφή API.</value>
+  </data>
+  <data name="rfvApiUserName" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε  API Όνομα Χρήστη.</value>
+  </data>
+  <data name="rfvBusinessEmail" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε Business Email.</value>
+  </data>
+  <data name="rfvName" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε Όνομα.</value>
+  </data>
+  <data name="rfvPdtId" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε  PDT Id.</value>
+  </data>
+  <data name="rfvRate" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε Τιμή.</value>
+  </data>
+  <data name="rfvRegionCode" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε Κωδικό Περιοχής.</value>
+  </data>
+  <data name="rfvService" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε Υπηρεσία.</value>
+  </data>
+  <data name="rfvTitle" xml:space="preserve">
+    <value>Παρακαλώ προσθέστε Τίτλο.</value>
+  </data>
+  <data name="titleAddUser" xml:space="preserve">
+    <value>dashCommerce :: Προσθήκη Χρήστη</value>
+  </data>
+  <data name="titleCart" xml:space="preserve">
+    <value>Καλάθι</value>
+  </data>
+  <data name="titleCheckout" xml:space="preserve">
+    <value>Checkout</value>
+  </data>
+  <data name="titleContentManagement" xml:space="preserve">
+    <value>dashCommerce :: Διαχείριση Κειμένων</value>
+  </data>
+  <data name="titleDashBoard" xml:space="preserve">
+    <value>dashCommerce :: dashBoard</value>
+  </data>
+  <data name="titleEditNotification" xml:space="preserve">
+    <value>dashCommerce :: Ειδοποιήσεις :: Διόρθωση Ειδοποίησης</value>
+  </data>
+  <data name="titleEditUser" xml:space="preserve">
+    <value>dashCommerce :: Διόρθωση Χρήστη</value>
+  </data>
+  <data name="titleErrorLogs" xml:space="preserve">
+    <value>dashCommerce :: Καταγραφή Λαθών</value>
+  </data>
+  <data name="titleImageSelector" xml:space="preserve">
+    <value>dashCommerce :: Επιλογέας Εικόνας</value>
+  </data>
+  <data name="titleLoading" xml:space="preserve">
+    <value>dashCommerce ::Φόρτωση . . .</value>
+  </data>
+  <data name="titleMailSettings" xml:space="preserve">
+    <value>dashCommerce :: Ρυθμίσεις Mail</value>
+  </data>
+  <data name="titleModalError" xml:space="preserve">
+    <value>dashCommerce :: Λάθος</value>
+  </data>
+  <data name="titleNotifications" xml:space="preserve">
+    <value>dashCommerce :: Ειδοποιήσεις</value>
+  </data>
+  <data name="titlePaymentConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Διαμόρφωση Provider Πληρωμών</value>
+  </data>
+  <data name="titlePaymentProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Διαχείριση Provider Πληρωμών</value>
+  </data>
+  <data name="titlePaymentSettings" xml:space="preserve">
+    <value>dashComemrce :: Ρυθμίσεις Πληρωμών</value>
+  </data>
+  <data name="titleProductAttributes" xml:space="preserve">
+    <value>dashCommerce :: Χαρακτηριστικά Προϊόντων</value>
+  </data>
+  <data name="titleProductCategories" xml:space="preserve">
+    <value>dashCommerce :: Κατηγορίες Προϊόντων</value>
+  </data>
+  <data name="titleProductListing" xml:space="preserve">
+    <value>dashCommerce :: Λίστες Προϊόντων</value>
+  </data>
+  <data name="titleProductManufacturers" xml:space="preserve">
+    <value>dashCommerce :: Κατασκευαστές Προϊόντων</value>
+  </data>
+  <data name="titleRoleAdministration" xml:space="preserve">
+    <value>dashCommerce :: Ασφάλεια :: Διαχείριση Ρόλων</value>
+  </data>
+  <data name="titleShippingConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Διαμόρφωση Provider Μεταφορικών</value>
+  </data>
+  <data name="titleShippingProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Διαχείριση Provider Μεταφορικών</value>
+  </data>
+  <data name="titleShippingSettings" xml:space="preserve">
+    <value>dashCommerce :: Ρυθμίσεις Μεταφορικών</value>
+  </data>
+  <data name="titleSiteSettingsAnalytics" xml:space="preserve">
+    <value>dashCommerce :: Ρυθμίσεις Site :: Αναλυτική</value>
+  </data>
+  <data name="titleSiteSettingsBrowsingLog" xml:space="preserve">
+    <value>dashCommerce :: Ρυθμίσεις Site :: Περιήγηση Καταγραφών</value>
+  </data>
+  <data name="titleSiteSettingsFooter" xml:space="preserve">
+    <value>dashCommerce :: Ρυθμίσεις Site :: Υποσέλιδο</value>
+  </data>
+  <data name="titleSiteSettingsGeneralLayout" xml:space="preserve">
+    <value>dashCommerce :: Ρυθμίσεις Site :: Γενικό Layout</value>
+  </data>
+  <data name="titleSiteSettingsGlobalization" xml:space="preserve">
+    <value>dashCommerce :: Ρυθμίσεις Site :: Globalization</value>
+  </data>
+  <data name="titleSiteSettingsHeader" xml:space="preserve">
+    <value>dashCommerce :: Ρυθμίσεις Site :: Επικεφαλίδα</value>
+  </data>
+  <data name="titleSiteSettingsWidgets" xml:space="preserve">
+    <value>dashCommerce :: Ρυθμίσεις Site :: Αντικείμενο</value>
+  </data>
+  <data name="titleTaxConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Διαμόρφωση Provider Φόρων</value>
+  </data>
+  <data name="titleTaxProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Διαχείρηση Provider Φόρων</value>
+  </data>
+  <data name="titleTaxSettings" xml:space="preserve">
+    <value>dashComerce :: Ρυθμίσεις Φόρων</value>
+  </data>
+  <data name="titleTrackingLogs" xml:space="preserve">
+    <value>dashCommerce :: Παρακολούθηση Καταγραφών</value>
+  </data>
+  <data name="titleUserAdministration" xml:space="preserve">
+    <value>dashCommerce :: Ασφάλεια :: Διαχείριση Χρηστών</value>
+  </data>
+</root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true" >
+    <siteMapNode url="~/admin/productedit.aspx?view=g" title="$Resources:product, General">
+        <siteMapNode url="~/admin/productedit.aspx?view=d" title="$Resources:product, Descriptors" />
+        <siteMapNode url="~/admin/productedit.aspx?view=c" title="$Resources:product, Categories" />
+        <siteMapNode url="~/admin/productedit.aspx?view=a" title="$Resources:product, Attributes" />
+        <siteMapNode url="~/admin/productedit.aspx?view=i" title="$Resources:product, Images" />
+        <siteMapNode url="~/admin/productedit.aspx?view=s" title="$Resources:product, Skus" />
+        <siteMapNode url="~/admin/productedit.aspx?view=dl" title="$Resources:product, Downloads" />
+        <siteMapNode url="~/admin/productedit.aspx?view=cs" title="$Resources:product, CrossSells" />
+        <siteMapNode url="~/admin/productedit.aspx?view=r" title="$Resources:product, Reviews" />
+        <!--<siteMapNode url="~/admin/productedit.aspx?view=n" title="$Resources:product, Notes" />-->
+    </siteMapNode>
+</siteMap>

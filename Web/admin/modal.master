@@ -1,0 +1,30 @@
+<%@ Master Language="C#" AutoEventWireup="true" Codebehind="modal.master.cs" Inherits="MettleSystems.dashCommerce.Web.admin.modal" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title></title>
+  <script type="text/javascript" src="../resources/overlib/overlib.js"><!-- overLIB (c) Erik Bosrup --></script>  
+</head>
+<body>
+  <form id="modalForm" runat="server">
+    <asp:scriptmanager ID="scriptManager" runat="server" EnablePartialRendering="true" />
+    <div id="allContent" runat="server">
+      <div id="modalHeaderRegion">
+        <dashCommerce:HyperLink ID="hlLogo" runat="server" SkinID="smalllogo" />
+        <hr />
+      </div>
+      <div id="divMessageCenter" runat="server"></div><br />
+      <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
+      <div id="footer">
+        <hr />
+        <asp:PlaceHolder ID="phFooter" runat="server" />
+      </div>      
+    </div>
+  </form>
+</body>
+</html>

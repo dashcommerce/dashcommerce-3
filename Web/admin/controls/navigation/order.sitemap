@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true" >
+  <siteMapNode url="~/admin/orderedit.aspx?view=r" title="$Resources:order, Receipt">
+    <siteMapNode url="~/admin/orderedit.aspx?view=t" title="$Resources:order, Transaction" />
+    <siteMapNode url="~/admin/orderedit.aspx?view=a" title="$Resources:order, Actions" />
+    <siteMapNode url="~/admin/orderedit.aspx?view=s" title="$Resources:order, Shipping" />
+    <siteMapNode url="~/admin/orderedit.aspx?view=n" title="$Resources:order, Notes" />
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,12 @@
+#MainContent {
+  margin: 0;
+  float: left;
+  width: 610px;
+  /*border: 1px solid green;*/
+}
+
+#RightContent {
+  width: 160px;
+  float: right;
+  /*border: 1px solid blue;*/
+}

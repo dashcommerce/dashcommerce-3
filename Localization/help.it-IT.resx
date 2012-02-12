@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="helpActive" xml:space="preserve">
+    <value>Indica se l\'utente è attivo.</value>
+  </data>
+  <data name="helpAddProduct" xml:space="preserve">
+    <value>[+] Aggiungi Prodotto</value>
+  </data>
+  <data name="helpAddUser" xml:space="preserve">
+    <value>[+] Aggiungi Utente</value>
+  </data>
+  <data name="helpAllowNegativeInventories" xml:space="preserve">
+    <value>Seleziona questo se non si vuole tracciare gli inventari per questo prodotto.</value>
+  </data>
+  <data name="helpAnalytics" xml:space="preserve">
+    <value>Copia e incolla qui il suo codice analitico (come Google Analytics). Questo codice sarà poi incluso in ogni pagine per aiutare ad raccogliere dati.</value>
+  </data>
+  <data name="helpApiPassword" xml:space="preserve">
+    <value>Questa è la passord per la API di PayPal necessaria per usare la API di PayPal</value>
+  </data>
+  <data name="helpApiSignature" xml:space="preserve">
+    <value>La firma per la API di PayPal (Signature) è una stringa cripatata necessaria per usare la API di PayPal.</value>
+  </data>
+  <data name="helpApiUserName" xml:space="preserve">
+    <value>Questo è lo user name della API di PayPal, necessaria per utilizzare la API di PayPal.</value>
+  </data>
+  <data name="helpBaseSku" xml:space="preserve">
+    <value>Questa è il codice di base per il prodotto a magazzino (sku). Se il prodotto ha degli attributi, allora il codice finale utilizzerà questo come base.</value>
+  </data>
+  <data name="helpBrowsingCategory" xml:space="preserve">
+    <value>Se si vuole tracciare la navigazione degli accessi alle categorie, seleziona questo.</value>
+  </data>
+  <data name="helpBrowsingProduct" xml:space="preserve">
+    <value>Se si vuole tracciare la navigazione degli accessi ai prodotti, seleziona questo.</value>
+  </data>
+  <data name="helpBusinessEmail" xml:space="preserve">
+    <value>Questa email  è l\'account per l\'utilizzo di PayPal.</value>
+  </data>
+  <data name="helpCategoryDescription" xml:space="preserve">
+    <value>La descrizione appare nella pagina della categoria. Ciò darà al visitatore del sito un\'idea dei tipi di prodotto che si potranno trovare.</value>
+  </data>
+  <data name="helpCategoryImageFile" xml:space="preserve">
+    <value>Questa immagine viene visualizzata alla sommità della pagina della categoria.</value>
+  </data>
+  <data name="helpCategoryName" xml:space="preserve">
+    <value>Queso è il nome della categoria visualizzato nella barra della navigazione.</value>
+  </data>
+  <data name="helpCollectBrowsingStatistics" xml:space="preserve">
+    <value>Selezionate questo se si vogliono mantenere delle statistiche di navigazione nel sito. Comunque, si prega di notare che se il sito è molto frequentato o molto popolare, questo può portare in un incremento notevole della dimensione del database. </value>
+  </data>
+  <data name="helpContent" xml:space="preserve">
+    <value>Questo è il contenuto della pagina. Si può scrivere ciò che si desidera.</value>
+  </data>
+  <data name="helpCurrency" xml:space="preserve">
+    <value>Selezionare la valuta da utilizzare in questo sito.</value>
+  </data>
+  <data name="helpDefaultRate" xml:space="preserve">
+    <value>Questa è la tariffa di default che verrà utilizzata nel caso non venga trovato un appropriato codice di regione.</value>
+  </data>
+  <data name="helpDescription" xml:space="preserve">
+    <value>Le parole immesse qui saranno incluse nel campo META della pagina web.</value>
+  </data>
+  <data name="helpDescriptorDescription" xml:space="preserve">
+    <value>Questo è una descrizione che serve per differenziare il prodotto. Può includere delle specifiche tecniche, funzionalità, ecc. Si possono aggiungere molteplici descrittori ad un singolo prodotto, in modo da poter separare la descrizione in qualsiasi punto.</value>
+  </data>
+  <data name="helpDescriptorTitle" xml:space="preserve">
+    <value>Il titolo della descrizione. Questo verrà mostrato sopra la Descrizione</value>
+  </data>
+  <data name="helpDisplayNarrowByManufacturer" xml:space="preserve">
+    <value>Questa opzione determina se la funzionalità "Restringi per Produttore" è mostrata nella pagina del catalogo.</value>
+  </data>
+  <data name="helpDisplaySortBy" xml:space="preserve">
+    <value>This option determines whether the Sort By widget is displayed on the catalog page.</value>
+  </data>
+  <data name="helpDisplayNarrowByPrice" xml:space="preserve">
+    <value>Questa opzione determina se la funzionalità "Restringi per Prezzo" è mostrata nella pagina del catalogo.</value>
+  </data>
+  <data name="helpDisplayRetailPrice" xml:space="preserve">
+    <value>Questa opzione determina se verrà mostrato il Prezzo di Vendita del prodotto.</value>
+  </data>
+  <data name="helpEmail" xml:space="preserve">
+    <value>L\'indirizzo email dell\'utente registrato.</value>
+  </data>
+  <data name="helpFooter" xml:space="preserve">
+    <value>Imposta il colore del piè di pagina.</value>
+  </data>
+  <data name="helpHeight" xml:space="preserve">
+    <value>L\'altezza dell\'area di intestazione. Serve per impostare un\'area dei conenuti più grande o più piccola.</value>
+  </data>
+  <data name="helpImageCaption" xml:space="preserve">
+    <value>La didascalia apparirà sotto l\'immagine nella pagina del prodotto.</value>
+  </data>
+  <data name="helpImageFile" xml:space="preserve">
+    <value>Questo è il file immagine utilizzato.</value>
+  </data>
+  <data name="helpIsLive" xml:space="preserve">
+    <value>Seleziona questo quando si sta svolgendo un test e si vuole utilizzare l\'ambiente di produzione PayPal.</value>
+  </data>
+  <data name="helpKeywords" xml:space="preserve">
+    <value>Le parole chiave inserite qui saranno incluse nel META tag di questa pagina.</value>
+  </data>
+  <data name="helpLanguage" xml:space="preserve">
+    <value>Seleziona la lingua per il sito web.</value>
+  </data>
+  <data name="helpMailRequireSsl" xml:space="preserve">
+    <value>Se il server di email necessita di SSL, assicurarsi che questo sia selezionato.</value>
+  </data>
+  <data name="helpMailSettingsFrom" xml:space="preserve">
+    <value>Questo è l\'indirizzo email utilizzato per inviare emails.</value>
+  </data>
+  <data name="helpMailSettingsHost" xml:space="preserve">
+    <value>Questo è il server email che verrà utilizzato. Spesso si presenta come "mail.tuodominio.it", ma si prega di consultare il provider di hosting per accertarsi di tale valore.</value>
+  </data>
+  <data name="helpMailSettingsPassword" xml:space="preserve">
+    <value>Questa è la password per l\'account che verrà utilizzato per autenticarsi presso il server email quando si invieranno email di sistema.</value>
+  </data>
+  <data name="helpMailSettingsPort" xml:space="preserve">
+    <value>Questa è la porta sulla quale il servizio SMTP rimane in ascolto per inviare email. Di solito questo valore è pari a 25, ma si consiglia di consultare il proprio provider di hosting se non si è sicuri di tale valore. Se si lascia bianco sarà preso 25 come default.</value>
+  </data>
+  <data name="helpMailSettingsUserName" xml:space="preserve">
+    <value>Questo è il nome dell\'utente per l\'account che verrà utilizzato per autenticarsi presso il server email quando si invieranno email di sistema.</value>
+  </data>
+  <data name="helpManufacturerName" xml:space="preserve">
+    <value>Il nome del produttore che si sta inserendo</value>
+  </data>
+  <data name="helpMenuTitle" xml:space="preserve">
+    <value>Questo è il titolo che apparirà durante la navigazione del sito. Dovrebbe essere sufficientemente corto e facilmente identificabile.</value>
+  </data>
+  <data name="helpName" xml:space="preserve">
+    <value>Il nome del prodotto.</value>
+  </data>
+  <data name="helpParentCategory" xml:space="preserve">
+    <value>Questo determina la categoria padre della categoria che si sta creando. Se si vuole che la nuova categoria sia al livello più alto, selezionare "Radice".</value>
+  </data>
+  <data name="helpParentPage" xml:space="preserve">
+    <value>Questo determina quale pagine o nodo di navigazione farà da padre alla pagina che si sta creando. Se si vuole che la nuova categoria sia al livello più alto, selezionare "Radice".</value>
+  </data>
+  <data name="helpPdtId" xml:space="preserve">
+    <value>Questo è l\'Id PDT di PayPal richiesto come parte del processo standard di PayPal.</value>
+  </data>
+  <data name="helppPayPalApiUserName" xml:space="preserve">
+    <value>Questo è il nome utente per la API di PayPal.</value>
+  </data>
+  <data name="helpRate" xml:space="preserve">
+    <value>Questa è la percentuale di tassa che sarà applicata per le vendite nella regione selezionata.</value>
+  </data>
+  <data name="helpRegionCode" xml:space="preserve">
+    <value>Questa è il codice della regione associato alla tariffa fornita. Questo fungerà come criterio principale per la ricerca.</value>
+  </data>
+  <data name="helpRequireAuthentication" xml:space="preserve">
+    <value>Se il server email richiede una autenticazione per l\'invio delle email, assicurarsi che questo sia selezionato. Nella maggior parte dei casi, lo si dovrebbe selezionare in modo da evitare email di SPAM.</value>
+  </data>
+  <data name="helpRequireSsl" xml:space="preserve">
+    <value>Selezionare questo se il sito utilizza SSL. I siti che re-dirigono il processo di pagamento verso un\'altro sito (come avviene con PayPal Standard) devono tenere questo deselezionato. Se non si è sicuri, si consiglia di mantenerlo selezionato fino a che non sarà chiaro che non serve.</value>
+  </data>
+  <data name="helpShipFromCountry" xml:space="preserve">
+    <value>Questo è lo stato da cui i pacchi verranno spediti.</value>
+  </data>
+  <data name="helpShipFromZip" xml:space="preserve">
+    <value>Questo è il CAP (Codice di avviamento postale) dell\'area da cui i pacchi verranno spediti.</value>
+  </data>
+  <data name="helpShippingBuffer" xml:space="preserve">
+    <value>Questo è un margine che è aggiunto all\'ammontare calcolato per la spedizione.</value>
+  </data>
+  <data name="helpShortDescription" xml:space="preserve">
+    <value>Una breve descrizione del prodotto.</value>
+  </data>
+  <data name="helpSimpleWeightAmountPerUnit" xml:space="preserve">
+    <value>Il costo da caricare per il trasporto per unità.</value>
+  </data>
+  <data name="helpSimpleWeightService" xml:space="preserve">
+    <value>Il nome del servizio da utilizzare.</value>
+  </data>
+  <data name="helpSiteName" xml:space="preserve">
+    <value>Questo è è il nome del sito e comparirà frequentemente nella barra del titolo.</value>
+  </data>
+  <data name="helpTagLine" xml:space="preserve">
+    <value>La TagLine del sito che apparirà nelle email inviate. Si consiglia di mettere qualcosa di accattivante.</value>
+  </data>
+  <data name="helpTheme" xml:space="preserve">
+    <value>Selezioare il tema grafico del sito.</value>
+  </data>
+  <data name="helpTitle" xml:space="preserve">
+    <value>Questo è il titolo della pagina che apparirà nella pagina del browser. Può essere abbastanza lungo e descrittivo.</value>
+  </data>
+  <data name="helpUserName" xml:space="preserve">
+    <value>Questo è il nome dell\'utente registrato.</value>
+  </data>
+  <data name="helpUseShipping" xml:space="preserve">
+    <value>Questo è settaggio di sistema ampio. Se il negozio supporta la spedizione dei prodotti, selezionare "Utilizza Spedizione".</value>
+  </data>
+  <data name="helpWidth" xml:space="preserve">
+    <value>Imposta la larghezza del sito in pixel.</value>
+  </data>
+  <data name="noHelp" xml:space="preserve">
+    <value>Nessun aiuto disponibile.</value>
+  </data>
+  <data name="helpCategoryItems" xml:space="preserve">
+    <value>Questo imposta il numero di elementi che sono mostrati nella pagina di catalogo. Si raccomanda di mantenere un numero compreso tra 6 - 12, in funzione della skin e del layout.</value>
+  </data>
+  <data name="helpCollectSearchTerms" xml:space="preserve">
+    <value>Selezionare questo se si vogliono tracciare i termini di ricerca che sono stati utilizzati nel sito.</value>
+  </data>
+  <data name="helpDatabaseName" xml:space="preserve">
+    <value>Questo è il nome del database che è stato creato sul server.</value>
+  </data>
+  <data name="helpDatabasePassword" xml:space="preserve">
+    <value>Questa è la password per l\'account utente di database.</value>
+  </data>
+  <data name="helpDatabaseServer" xml:space="preserve">
+    <value>Il nome del database dovrebbe essere fornito dal provider di hosting. Se non si è sicuri del nome, si prega di contattarlo.</value>
+  </data>
+  <data name="helpDatabaseUserName" xml:space="preserve">
+    <value>Questo è il nome dell\'account utente che ha accesso al database sul database server. Tale account è di norma creato all\'atto della creazione del database.</value>
+  </data>
+  <data name="helpLoginRequirement" xml:space="preserve">
+    <value>Si selezioni questo, quando e se si vuole che le persone si autentifichino nel sito.</value>
+  </data>
+  <data name="helpNewsFeedUrl" xml:space="preserve">
+    <value>Si può inserire qui l\'URL del feed RSS: questo feed verrà mostrato nella sezione "News" sulla pagina di dashBoard.</value>
+  </data>
+  <data name="helpProductEnabled" xml:space="preserve">
+    <value>Un prodotto è abilitato solo se tutti gli attributi, se presenti, sono stati assegnati e il codice di Magazzino (Sku) è stato salvato.  Se un prodotto non ha alcun attributo, allora il codice di base di magazzino verrà utilizzato alla stregue del codice a magazzino per il singolo elemento. Se si vuole abilitare un prodotto, si prega di abilitare la tab del codice di magazzino per essere certi che essi vengano salvati.</value>
+  </data>
+  <data name="helpSiteLogo" xml:space="preserve">
+    <value>Questo consente di selezionare il LOGO che verrà utilizzato nel sito.</value>
+  </data>
+</root>

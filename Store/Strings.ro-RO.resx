@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ShippingMethod" xml:space="preserve">
+    <value>Metodă expediere:</value>
+    <comment>Shipping Method:</comment>
+  </data>
+  <data name="lblCriticalError" xml:space="preserve">
+    <value>A apărut o eroare critică: {0}</value>
+    <comment>A critical error has occurred: {0}</comment>
+  </data>
+  <data name="PublicKey" xml:space="preserve">
+    <value>&lt;RSAKeyValue&gt;
+    &lt;Modulus&gt;2t81wME/0DhWuIrbzdeCrEXi5k7YkCzU9SL+LpOdfOub9WfbHURjqSC9Z04LvyFj0Kq04EzL1z74RoV+IR1pC8eYP31uvxz8GUHXYxQygPgKjTJgq2l0z2Fg5q6dCPiA89wefVfluZWhgdx7HuXSDA/9hUCeryI+GPwAySFPIs8=&lt;/Modulus&gt;
+    &lt;Exponent&gt;AQAB&lt;/Exponent&gt;
+&lt;/RSAKeyValue&gt;</value>
+  </data>
+  <data name="BillTo" xml:space="preserve">
+    <value>Facturare:</value>
+    <comment>Bill To:</comment>
+  </data>
+  <data name="Coupon" xml:space="preserve">
+    <value>Cupon:</value>
+    <comment>Coupon:</comment>
+  </data>
+  <data name="hdrExtendedPrice" xml:space="preserve">
+    <value>Valoare:</value>
+    <comment>Extended Price:</comment>
+  </data>
+  <data name="hdrItemName" xml:space="preserve">
+    <value>Nume produs</value>
+    <comment>Item Name</comment>
+  </data>
+  <data name="hdrItemNumber" xml:space="preserve">
+    <value>Cod produs</value>
+    <comment>Item Number</comment>
+  </data>
+  <data name="hdrPrice" xml:space="preserve">
+    <value>Preţ</value>
+    <comment>Price</comment>
+  </data>
+  <data name="hdrQuantity" xml:space="preserve">
+    <value>Cantitate</value>
+    <comment>Quantity</comment>
+  </data>
+  <data name="OrderCharged" xml:space="preserve">
+    <value>Comanda încasată.</value>
+    <comment>Order charged.</comment>
+  </data>
+  <data name="OrderDate" xml:space="preserve">
+    <value>Data comenzii:</value>
+    <comment>Order Date:</comment>
+  </data>
+  <data name="OrderItems" xml:space="preserve">
+    <value>Produse comandate:</value>
+    <comment>Order Items:</comment>
+  </data>
+  <data name="OrderNumber" xml:space="preserve">
+    <value>Număr comandă:</value>
+    <comment>Order Number:</comment>
+  </data>
+  <data name="OrderRefunded" xml:space="preserve">
+    <value>Comandă rambursată.</value>
+    <comment>Order refunded.</comment>
+  </data>
+  <data name="OrderStatus" xml:space="preserve">
+    <value>Stare comandă:</value>
+    <comment>Order Status:</comment>
+  </data>
+  <data name="PaymentInformation" xml:space="preserve">
+    <value>Informaţii plată:</value>
+    <comment>Payment Information:</comment>
+  </data>
+  <data name="PaymentMethod" xml:space="preserve">
+    <value>Metoda de plată:</value>
+    <comment>Payment Method:</comment>
+  </data>
+  <data name="ShippingAndBilling" xml:space="preserve">
+    <value>Informaţii expediere &amp; Plată:</value>
+    <comment>Shipping and Billing Information:</comment>
+  </data>
+  <data name="ShippingAndHandling" xml:space="preserve">
+    <value>Expediere:</value>
+    <comment>Shipping &amp; Handling:</comment>
+  </data>
+  <data name="ShipTo" xml:space="preserve">
+    <value>Expediere către:</value>
+    <comment>Ship To:</comment>
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotal:</value>
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>Taxe:</value>
+    <comment>Tax:</comment>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="TransactionCode" xml:space="preserve">
+    <value>Cod tranzacţie:</value>
+    <comment>Transaction Code:</comment>
+  </data>
+  <data name="UnableToDeleteDefaultProvider" xml:space="preserve">
+    <value>Imposibil de şters provider-ul implicit. Selectează un alt provider şi după aceea elimini acest provider.</value>
+    <comment>Unable to delete default provider. Please select a different default provider and then remove this provider.</comment>
+  </data>
+</root>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true" >
+    <siteMapNode url="~/admin/taxconfiguration.aspx?view=c" title="$Resources:regionCode, Configuration">
+        <siteMapNode url="~/admin/taxconfiguration.aspx?view=d" title="$Resources:regionCode, Data" />
+    </siteMapNode>
+</siteMap>

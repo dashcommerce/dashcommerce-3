@@ -1,0 +1,21 @@
+#LeftContent {
+  width: 230px;
+  float: left;
+  padding-top: 10px;
+  /*border: 1px solid red;*/
+}
+
+#MainContent{
+  margin-left: 235px;
+  margin-right: 165px;
+  padding-top: 10px;
+  width: 373px;
+  /*border: 1px solid green;*/
+}
+
+#RightContent {
+  width: 160px;
+  float: right; 
+  padding-top: 10px;
+  /*border: 1px solid blue;*/
+}

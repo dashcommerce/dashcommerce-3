@@ -1,0 +1,6 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="authenticateduser.ascx.cs" Inherits="MettleSystems.dashCommerce.Web.controls.authentication.authenticateduser" EnableViewState="false" %>
+<%@ Register TagPrefix="dashCommerce" TagName="Search" Src="~/controls/search.ascx" %>
+
+<div class="loginView">
+  <dashCommerce:Label ID="lblWelcome" runat="server" /> <dashCommerce:Label ID="lblUserName" runat="server" /> ! | <a href="<%=Page.ResolveUrl("~/cart.aspx")%>"><asp:Image ID="imgCart" runat="server" SkinID="cart" /> <dashCommerce:Label ID="lblCart" runat="server" /> <dashCommerce:Label ID="lblItemCount" runat="server" /></a> | <dashCommerce:HyperLink ID="hlMyAccount" runat="server" NavigateUrl="~/myaccount.aspx" /> | <dashCommerce:HyperLink ID="hlAdmin" runat="server" NavigateUrl="~/admin/default.aspx" Visible="false" /> | <dashCommerce:LinkButton ID="lnkLogout" CausesValidation="false" runat="server" OnClick="lnkLogout_Click" /> | <dashCommerce:Search ID="dcSearch" runat="server" />
+</div>

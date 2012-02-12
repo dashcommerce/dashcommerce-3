@@ -1,0 +1,25 @@
+# Folders #
+###########
+
+/bin
+/obj
+
+# Specific Files #
+##################
+
+sha1-checksum.bat
+Parameters.xml
+Manifest.xml
+oldAdStuff.txt
+fciv-sha1-list.bat
+
+# Compiled Source #
+###################
+
+#.dll
+#.pdb
+
+# OS Generated #
+################
+
+Thumbs.db

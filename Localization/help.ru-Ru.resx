@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="helpActive" xml:space="preserve">
+    <value>Сообщать, если пользователь активен.</value>
+  </data>
+  <data name="helpAddProduct" xml:space="preserve">
+    <value>[+] Добавить товар</value>
+  </data>
+  <data name="helpAddUser" xml:space="preserve">
+    <value>[+] Добавить пользователя</value>
+  </data>
+  <data name="helpAllowNegativeInventories" xml:space="preserve">
+    <value>Выделите, если Вы не желаете отслеживать наличие этого товара.</value>
+  </data>
+  <data name="helpAnalytics" xml:space="preserve">
+    <value>Скопируйте и вставьте свой аналитический код (такой как Google Analytics). Данный код будет включен в каждую страницу, чтобы помочь собирать данные.</value>
+  </data>
+  <data name="helpApiPassword" xml:space="preserve">
+    <value>Это пароль PayPal API, который необходим для использования PayPal API.</value>
+  </data>
+  <data name="helpApiSignature" xml:space="preserve">
+    <value>Подпись PayPal API - это зашифрованная строка, которая необходима для использования PayPal API.</value>
+  </data>
+  <data name="helpApiUserName" xml:space="preserve">
+    <value>Это имя пользователя PayPal API, которое необходимо для использования PayPal API.</value>
+  </data>
+  <data name="helpBaseSku" xml:space="preserve">
+    <value>Это основной складской номер товара. Если товар содержит атрибуты, то окончательный складской номер будет содержать эти данные.</value>
+  </data>
+  <data name="helpBrowsingCategory" xml:space="preserve">
+    <value>Отметьте, если желаете отследить, когда категория просматривается.</value>
+  </data>
+  <data name="helpBrowsingProduct" xml:space="preserve">
+    <value>Отметьте, если желаете отследить, когда товар просматривается.</value>
+  </data>
+  <data name="helpBusinessEmail" xml:space="preserve">
+    <value>Это адрес электронной почты, который используется для учетной записи PayPal.</value>
+  </data>
+  <data name="helpCategoryDescription" xml:space="preserve">
+    <value>Это описание появится на странице категории. Оно поможет посетителям понять, какие товары они здесь смогут увидеть.</value>
+  </data>
+  <data name="helpCategoryImageFile" xml:space="preserve">
+    <value>Эта картинка будет отображена на верху страницы категории.</value>
+  </data>
+  <data name="helpCategoryName" xml:space="preserve">
+    <value>Это название категории, которое будет отображено в навигаторе.</value>
+  </data>
+  <data name="helpCollectBrowsingStatistics" xml:space="preserve">
+    <value>Отметьте, если вы желаете отслеживать статистику заходов на страницы. Учтите, что если сайт часто посещаем, то это приведет к созданию большого количества записей в базе данных.</value>
+  </data>
+  <data name="helpContent" xml:space="preserve">
+    <value>Это содержимое страницы. Пишите здесь все, что желаете видеть на странице.</value>
+  </data>
+  <data name="helpCurrency" xml:space="preserve">
+    <value>Выберите валюту сайта.</value>
+  </data>
+  <data name="helpDefaultRate" xml:space="preserve">
+    <value>Это коэффициент по умолчанию, который будет использован, если нужный коэффициент региона не будет найден.</value>
+  </data>
+  <data name="helpDescription" xml:space="preserve">
+    <value>Слова, написанные здесь, будут включены в META тэг данной страницы.</value>
+  </data>
+  <data name="helpDescriptorDescription" xml:space="preserve">
+    <value>Это описание товара для виртуальной витрины. Здесь могут быть указаны различные особенности товара, описание характеристик, технические данные. Возможно добавление нескольких описаний. Это пункт можно проигнорировать.</value>
+  </data>
+  <data name="helpDescriptorTitle" xml:space="preserve">
+    <value>Заголовок описания, который будет расположен над ним.</value>
+  </data>
+  <data name="helpDisplayNarrowByManufacturer" xml:space="preserve">
+    <value>Этот параметр определяет будет ли модуль "Схожие по производителю" расположен на странице каталога.</value>
+  </data>
+  <data name="helpDisplaySortBy" xml:space="preserve">
+    <value>This option determines whether the Sort By widget is displayed on the catalog page.</value>
+  </data>
+  <data name="helpDisplayNarrowByPrice" xml:space="preserve">
+    <value>Этот параметр определяет будет ли модуль "Схожие по цене" расположен на странице каталога.</value>
+  </data>
+  <data name="helpDisplayRetailPrice" xml:space="preserve">
+    <value>Этот параметр определяет будет ли отображаться розничная цена товара.</value>
+  </data>
+  <data name="helpEmail" xml:space="preserve">
+    <value>Адрес электронной почты зарегистрированого пользователя.</value>
+  </data>
+  <data name="helpFooter" xml:space="preserve">
+    <value>Настроить цвет подошвы.</value>
+  </data>
+  <data name="helpHeight" xml:space="preserve">
+    <value>Высота шапки. Используйте для регулирования размера области.</value>
+  </data>
+  <data name="helpImageCaption" xml:space="preserve">
+    <value>Заголовок рисунка, который будет отображен под рисунком на странице товара.</value>
+  </data>
+  <data name="helpImageFile" xml:space="preserve">
+    <value>Файл используемого рисунка.</value>
+  </data>
+  <data name="helpIsLive" xml:space="preserve">
+    <value>Выделите, если Вы на стадии тестирования и желаете использовать средства PayPal.</value>
+  </data>
+  <data name="helpKeywords" xml:space="preserve">
+    <value>Ключевые слова, введенные здесь, будут включены в META тэг этой страницы.</value>
+  </data>
+  <data name="helpLanguage" xml:space="preserve">
+    <value>Выберите язык для сайта.</value>
+  </data>
+  <data name="helpMailRequireSsl" xml:space="preserve">
+    <value>Если Ваш почтовый сервер требует SSL, выделите эту опцию.</value>
+  </data>
+  <data name="helpMailSettingsFrom" xml:space="preserve">
+    <value>Этот email адрес будет использован для отправки писем.</value>
+  </data>
+  <data name="helpMailSettingsHost" xml:space="preserve">
+    <value>Это email сервер, который Вы будете использовать. Обычно он выглядит примерно так: "mail.yourdomain.com", уточните это у своего хостинг-провайдера.</value>
+  </data>
+  <data name="helpMailSettingsPassword" xml:space="preserve">
+    <value>Это пароль для учетной записи, который будет использован для входа на почтовый сервер для отправки системных писем.</value>
+  </data>
+  <data name="helpMailSettingsPort" xml:space="preserve">
+    <value>Это порт, который опрашивает служба SMTP для отправки писем. Обычно это 25 порт. Уточните это у своего хостинг-провайдера. Если проигнорируете эту опцию, то будет присвоено значение по умолчанию равное 25.</value>
+  </data>
+  <data name="helpMailSettingsUserName" xml:space="preserve">
+    <value>Это имя учетной записи, которое будет использовано для входа на почтовый сервер для отправки системных писем.</value>
+  </data>
+  <data name="helpManufacturerName" xml:space="preserve">
+    <value>Имя добавляемого производителя.</value>
+  </data>
+  <data name="helpMenuTitle" xml:space="preserve">
+    <value>Это заголовок, который будет использован для навигации по сайту. Он должен быть коротким и понятным.</value>
+  </data>
+  <data name="helpName" xml:space="preserve">
+    <value>Название товара.</value>
+  </data>
+  <data name="helpParentCategory" xml:space="preserve">
+    <value>Определяет категорию, которая является родительской для создаваемой Вами категории. Если вы желаете создать категорию верхнего уровня, то выберите "Root".</value>
+  </data>
+  <data name="helpParentPage" xml:space="preserve">
+    <value>Определяет страницу или узел, который является родительским для создаваемой Вами страницы. Если вы желаете создать страницу верхнего уровня, то выберите "Root".</value>
+  </data>
+  <data name="helpPdtId" xml:space="preserve">
+    <value>Это PayPal PDT Id, который обязателен для PayPal Standard.</value>
+  </data>
+  <data name="helppPayPalApiUserName" xml:space="preserve">
+    <value>Это имя пользователя PayPal API.</value>
+  </data>
+  <data name="helpRate" xml:space="preserve">
+    <value>Это величина пошлины, которая будет использована при покупке для приведенного кода региона.</value>
+  </data>
+  <data name="helpRegionCode" xml:space="preserve">
+    <value>Это код региона с соответствующей величиной, которая является главным критерием поиска.</value>
+  </data>
+  <data name="helpRequireAuthentication" xml:space="preserve">
+    <value>Если Ваш почтовый сервер требует аутентификации для отправки писем, то отметьте эту опцию. Рекомендуем это сделать для предотвращения почтового спама.</value>
+  </data>
+  <data name="helpRequireSsl" xml:space="preserve">
+    <value>Отметить, если сайт использует SSL. Для сайтов, которые переходят на другие сайты для осуществления процедуры оплаты (например PayPal Standard), эта опция может быть отключена. Если не уверены, оставьте опцию включенной.</value>
+  </data>
+  <data name="helpShipFromCountry" xml:space="preserve">
+    <value>Это страна, из которой товары будут отправляться.</value>
+  </data>
+  <data name="helpShipFromZip" xml:space="preserve">
+    <value>Это почтовый индекс места, откуда будут отправляться товары.</value>
+  </data>
+  <data name="helpShippingBuffer" xml:space="preserve">
+    <value>Это запас, который добавляется к вычисленной стоимости доставки.</value>
+  </data>
+  <data name="helpShortDescription" xml:space="preserve">
+    <value>Краткое описание товара.</value>
+  </data>
+  <data name="helpSimpleWeightAmountPerUnit" xml:space="preserve">
+    <value>Это стоимость, которая будет начислена за каждую единицу измерения товара при доставки.</value>
+  </data>
+  <data name="helpSimpleWeightService" xml:space="preserve">
+    <value>Название используемого сервиса.</value>
+  </data>
+  <data name="helpSiteName" xml:space="preserve">
+    <value>Это название сайта, которое обычно будет отображаться в заголовке.</value>
+  </data>
+  <data name="helpTagLine" xml:space="preserve">
+    <value>Это загоовок для писем. Сделайте его броским!!</value>
+  </data>
+  <data name="helpTheme" xml:space="preserve">
+    <value>Выберите тему сайта.</value>
+  </data>
+  <data name="helpTitle" xml:space="preserve">
+    <value>Это заголовок, который отобразится в окне баузера. Он может быть длинным и содержательным.</value>
+  </data>
+  <data name="helpUserName" xml:space="preserve">
+    <value>Это имя зарегистрированого пользователя.</value>
+  </data>
+  <data name="helpUseShipping" xml:space="preserve">
+    <value>Это широкая система настроек. Выделите, если сайт будет использовать управление доставкой товаров.</value>
+  </data>
+  <data name="helpWidth" xml:space="preserve">
+    <value>Устанавливает ширину сайта в пикселах.</value>
+  </data>
+  <data name="noHelp" xml:space="preserve">
+    <value>Помощь недоступна.</value>
+  </data>
+</root>

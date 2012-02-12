@@ -1,0 +1,1736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="adminNavSite" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="btnAddProduct" xml:space="preserve">
+    <value>Добавить товар</value>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="btnDeleteAll" xml:space="preserve">
+    <value>Удалить все</value>
+  </data>
+  <data name="btnManufacturerAdd" xml:space="preserve">
+    <value>Добавить производителя</value>
+  </data>
+  <data name="btnProcessOrder" xml:space="preserve">
+    <value>Обработка заказа</value>
+  </data>
+  <data name="btnProductTypeAdd" xml:space="preserve">
+    <value>Добавить тип товара</value>
+  </data>
+  <data name="btnRefreshProviders" xml:space="preserve">
+    <value>Обновить поставщиков</value>
+  </data>
+  <data name="btnRefundTransaction" xml:space="preserve">
+    <value>Возврат платежа</value>
+  </data>
+  <data name="btnRemoveProvider" xml:space="preserve">
+    <value>Удалить поставщика</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="btnTest" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="btnSaveInventory" xml:space="preserve">
+    <value>Сохранить список</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="btnSetDefaultProvider" xml:space="preserve">
+    <value>Задать поставщика по умолчанию</value>
+  </data>
+  <data name="btnSetProvider" xml:space="preserve">
+    <value>Задать поставщика</value>
+  </data>
+  <data name="btnUpload" xml:space="preserve">
+    <value>Загрузить</value>
+  </data>
+  <data name="chkActive" xml:space="preserve">
+    <value>Активный</value>
+  </data>
+  <data name="chkAllowNegativeInventories" xml:space="preserve">
+    <value>Разрешить отрицательное количество товара</value>
+  </data>
+  <data name="chkUseForShipping" xml:space="preserve">
+    <value>Использовать для доставки?</value>
+  </data>
+  <data name="cuwRegisterAnswerLabelText" xml:space="preserve">
+    <value>Ответ на секретный вопрос</value>
+  </data>
+  <data name="cuwRegisterCompleteStepTitle" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="cuwRegisterCompleteSuccessText" xml:space="preserve">
+    <value>Ваша учетная запись создана.</value>
+  </data>
+  <data name="cuwRegisterConfirmPasswordLabelText" xml:space="preserve">
+    <value>Подтверждение пароля</value>
+  </data>
+  <data name="cuwRegisterCreateUserButtonText" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="cuwRegisterCreateUserStepTitle" xml:space="preserve">
+    <value>Создать новую учетную запись</value>
+  </data>
+  <data name="cuwRegisterEmailLabelText" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="cuwRegisterFinishCompleteButtonText" xml:space="preserve">
+    <value>Завершить</value>
+  </data>
+  <data name="cuwRegisterPasswordLabelText" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="cuwRegisterQuestionLabelText" xml:space="preserve">
+    <value>Секретный попрос</value>
+  </data>
+  <data name="cuwRegisterUserNameLabelText" xml:space="preserve">
+    <value>Ипя пользователя</value>
+  </data>
+  <data name="exCannotRemoveDefaultProvider" xml:space="preserve">
+    <value>Это поставщик по умолчанию, который не может быть удален. Пожалуйта, создайте нового поставщика, после чего сможете удалить этого.</value>
+  </data>
+  <data name="hdrAdd" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="hdrAddRemove" xml:space="preserve">
+    <value>Добавить / Удалить</value>
+  </data>
+  <data name="hdrAdjustment" xml:space="preserve">
+    <value>Корректировка</value>
+  </data>
+  <data name="hdrAmountPerUnit" xml:space="preserve">
+    <value>Стоимость единицы товара</value>
+  </data>
+  <data name="hdrApproved" xml:space="preserve">
+    <value>Одобрено</value>
+  </data>
+  <data name="hdrAttributeType" xml:space="preserve">
+    <value>Тип атрибута</value>
+  </data>
+  <data name="hdrConfigurationControlPath" xml:space="preserve">
+    <value>Настройка пути</value>
+  </data>
+  <data name="hdrCreatedBy" xml:space="preserve">
+    <value>Изготовлен</value>
+  </data>
+  <data name="hdrCreatedDate" xml:space="preserve">
+    <value>Дата изготовления</value>
+  </data>
+  <data name="hdrCreatedOn" xml:space="preserve">
+    <value>Изготовлен на</value>
+  </data>
+  <data name="hdrDelete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="hdrDescriptor" xml:space="preserve">
+    <value>Описание (HTML для краткости)</value>
+  </data>
+  <data name="hdrDiscount" xml:space="preserve">
+    <value>Скидка</value>
+  </data>
+  <data name="hdrDisplayed" xml:space="preserve">
+    <value>Отображен</value>
+  </data>
+  <data name="hdrEdit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="hdrEmailAddress" xml:space="preserve">
+    <value>Email адрес</value>
+  </data>
+  <data name="hdrImage" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="hdrImageCaption" xml:space="preserve">
+    <value>Заголовок изображения</value>
+  </data>
+  <data name="hdrInventory" xml:space="preserve">
+    <value>Товары в наличии</value>
+  </data>
+  <data name="hdrIsRequired" xml:space="preserve">
+    <value>Обязательный</value>
+  </data>
+  <data name="hdrLastLogin" xml:space="preserve">
+    <value>Последний логин</value>
+  </data>
+  <data name="hdrLastModified" xml:space="preserve">
+    <value>Последние изменения</value>
+  </data>
+  <data name="hdrMove" xml:space="preserve">
+    <value>Переместить</value>
+  </data>
+  <data name="hdrName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="hdrOrderNumber" xml:space="preserve">
+    <value>Номер заказа</value>
+  </data>
+  <data name="hdrRate" xml:space="preserve">
+    <value>Тариф</value>
+  </data>
+  <data name="hdrRegionCode" xml:space="preserve">
+    <value>Код региона</value>
+  </data>
+  <data name="hdrReviewSample" xml:space="preserve">
+    <value>Пример отзыва</value>
+  </data>
+  <data name="hdrRoleName" xml:space="preserve">
+    <value>Имя роли</value>
+  </data>
+  <data name="hdrService" xml:space="preserve">
+    <value>Служба</value>
+  </data>
+  <data name="hdrSku" xml:space="preserve">
+    <value>Складской номер</value>
+    <comment>has no short translation// Check later if possible use the long one.</comment>
+  </data>
+  <data name="hdrSkuSuffix" xml:space="preserve">
+    <value>Добавочный складской номер</value>
+    <comment>has no short translation// Check later if possible use the long one.</comment>
+  </data>
+  <data name="hdrSortOrder" xml:space="preserve">
+    <value>Порядок сортировки</value>
+  </data>
+  <data name="hdrStatus" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="hdrSystemNotification" xml:space="preserve">
+    <value>Системное оповещение</value>
+  </data>
+  <data name="hdrTitle" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="hdrTotal" xml:space="preserve">
+    <value>Итого</value>
+  </data>
+  <data name="hdrUserName" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="hlAddProduct" xml:space="preserve">
+    <value>[+] Добавить товар</value>
+  </data>
+  <data name="hlConfigureProviders" xml:space="preserve">
+    <value>Настройка {0} Поставщиков</value>
+  </data>
+  <data name="hlEditLink" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="hlGeneralSettings" xml:space="preserve">
+    <value>Главные {0} Настройки</value>
+  </data>
+  <data name="hlLogin" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="hlMailConfiguration" xml:space="preserve">
+    <value>Конфигурация почты</value>
+  </data>
+  <data name="hlMailSettings" xml:space="preserve">
+    <value>Почтовые настройки</value>
+  </data>
+  <data name="hlManageProviders" xml:space="preserve">
+    <value>Управлять {0} Провайдерами</value>
+  </data>
+  <data name="hlMyAccount" xml:space="preserve">
+    <value>Моя учетная запись</value>
+  </data>
+  <data name="hlNotifications" xml:space="preserve">
+    <value>Оповещения</value>
+  </data>
+  <data name="hlPaymentConfiguration" xml:space="preserve">
+    <value>Настройка оплаты</value>
+  </data>
+  <data name="hlRegister" xml:space="preserve">
+    <value>Зарегистрироваться</value>
+  </data>
+  <data name="hlReview" xml:space="preserve">
+    <value>Оставьте свой отзыв!</value>
+  </data>
+  <data name="hlShippingConfiguration" xml:space="preserve">
+    <value>Настройка доставки</value>
+  </data>
+  <data name="hlTaxConfiguration" xml:space="preserve">
+    <value>Настройка пошлин</value>
+  </data>
+  <data name="lbAddNew" xml:space="preserve">
+    <value>Добавить новый</value>
+  </data>
+  <data name="lblAdd" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="lblAddNote" xml:space="preserve">
+    <value>Добавить заметку:</value>
+  </data>
+  <data name="lblAddress" xml:space="preserve">
+    <value>Адрес:</value>
+  </data>
+  <data name="lblAddUser" xml:space="preserve">
+    <value>[+] Добавить пользователя</value>
+  </data>
+  <data name="lblAdjustment" xml:space="preserve">
+    <value>Настройка:</value>
+  </data>
+  <data name="lblAmountPerUnit" xml:space="preserve">
+    <value>Количество на единицу измерения товара:</value>
+  </data>
+  <data name="lblAnalytics" xml:space="preserve">
+    <value>Аналитика:</value>
+  </data>
+  <data name="lblApiPassword" xml:space="preserve">
+    <value>API пароль:</value>
+  </data>
+  <data name="lblApiUserName" xml:space="preserve">
+    <value>API имя пользователя:</value>
+  </data>
+  <data name="lblAttributeAdministration" xml:space="preserve">
+    <value>Управление атрибутами</value>
+  </data>
+  <data name="lblAttributedAdded" xml:space="preserve">
+    <value>Атрибут добавлен.</value>
+  </data>
+  <data name="lblAttributedDeleted" xml:space="preserve">
+    <value>Атрибут удален.</value>
+  </data>
+  <data name="lblAttributeItemName" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="lblAttributesNotSaved" xml:space="preserve">
+    <value>Атрибут не был сохранен.</value>
+  </data>
+  <data name="lblAttributesSaved" xml:space="preserve">
+    <value>Атрибут сохранен.</value>
+  </data>
+  <data name="lblAttributeType" xml:space="preserve">
+    <value>Тип атрибута:</value>
+  </data>
+  <data name="lblAverageRating" xml:space="preserve">
+    <value>Средний рейтинг:</value>
+  </data>
+  <data name="lblAVSCode" xml:space="preserve">
+    <value>AVS код:</value>
+  </data>
+  <data name="lblBaseSku" xml:space="preserve">
+    <value>Sku / основной Sku:</value>
+    <comment>//Sku left not translated</comment>
+  </data>
+  <data name="lblBillingAddressTitle" xml:space="preserve">
+    <value>Платежный адрес</value>
+  </data>
+  <data name="lblBillingInformation" xml:space="preserve">
+    <value>Платежная информация</value>
+  </data>
+  <data name="lblBrowsingCategory" xml:space="preserve">
+    <value>Просмотр категории:</value>
+  </data>
+  <data name="lblBrowsingProduct" xml:space="preserve">
+    <value>Просмотр товара:</value>
+  </data>
+  <data name="lblBundleAdministration" xml:space="preserve">
+    <value>Управление группами (товаров)</value>
+  </data>
+  <data name="lblBundleSaved" xml:space="preserve">
+    <value>Группа сохранена.</value>
+  </data>
+  <data name="lblBusinessEmail" xml:space="preserve">
+    <value>Рабочий Email:</value>
+  </data>
+  <data name="lblCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="lblCart" xml:space="preserve">
+    <value>Моя корзина</value>
+  </data>
+  <data name="lblCategory" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="lblCcList" xml:space="preserve">
+    <value>Список перевозчиков:</value>
+  </data>
+  <data name="lblCity" xml:space="preserve">
+    <value>Город:</value>
+  </data>
+  <data name="lblCollectBrowsingStatistics" xml:space="preserve">
+    <value>Собирать статистику просмотров:</value>
+  </data>
+  <data name="lblConfigurationControlPath" xml:space="preserve">
+    <value>Путь панели настроек:</value>
+  </data>
+  <data name="lblConfigureProvidersDescription" xml:space="preserve">
+    <value>Конфигурация {1} Секция поставщиков позволяет настроить {0} поставщиков, которых Вы добавили на страницах Управление {1} Поставщиком. Здесь устанавливаются такие настройки, как имена пользователей и пароли для соответствующих {0} поставщиков, которых Вы загрузили в dashCommerce.</value>
+    <comment>should check the case later (nominative, dative and so on)</comment>
+  </data>
+  <data name="lblConfirmDelete" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить?</value>
+  </data>
+  <data name="lblContent" xml:space="preserve">
+    <value>Контент:</value>
+  </data>
+  <data name="lblContentManagement" xml:space="preserve">
+    <value>Управление контентом</value>
+  </data>
+  <data name="lblContentManagementDescription" xml:space="preserve">
+    <value>Управление содержимым</value>
+  </data>
+  <data name="lblContinue" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="lblCountry" xml:space="preserve">
+    <value>Страна:</value>
+  </data>
+  <data name="lblCreatedOn" xml:space="preserve">
+    <value>Создан на</value>
+  </data>
+  <data name="lblCreditCardNumber" xml:space="preserve">
+    <value>Номер кредитной карты:</value>
+  </data>
+  <data name="lblCreditCardSecurityNumber" xml:space="preserve">
+    <value>Секретный номер кредитной карты:</value>
+  </data>
+  <data name="lblCriticalError" xml:space="preserve">
+    <value>Произошла критическая ошибка: {0}</value>
+  </data>
+  <data name="lblCrossSellDeleted" xml:space="preserve">
+    <value>Перекрестное предложение удалено.</value>
+  </data>
+  <data name="lblCrossSells" xml:space="preserve">
+    <value>Вас также может заинтересовать:</value>
+  </data>
+  <data name="lblCrossSellSaved" xml:space="preserve">
+    <value>Перекрестное предложение сохранено.</value>
+  </data>
+  <data name="lblCurrency" xml:space="preserve">
+    <value>Валюта:</value>
+  </data>
+  <data name="lblCVV2Code" xml:space="preserve">
+    <value>CVV2 код:</value>
+  </data>
+  <data name="lblDefaultPaymentProviderNotSaved" xml:space="preserve">
+    <value>Поставщик платежей по умолчанию не был сохранен.</value>
+  </data>
+  <data name="lblDefaultPaymentProviderSaved" xml:space="preserve">
+    <value>Поставщик платежей по умолчанию сохранен.</value>
+  </data>
+  <data name="lblDefaultProviderInstructions" xml:space="preserve">
+    <value>Поставщик по умолчанию выделен жирным, если поставщиков несколько.</value>
+  </data>
+  <data name="lblDefaultRate" xml:space="preserve">
+    <value>Величина по умолчанию:</value>
+  </data>
+  <data name="lblDefaultShippingProviderNotSaved" xml:space="preserve">
+    <value>Поставщик по умолчанию, реализющий доставку, не был сохранен.</value>
+  </data>
+  <data name="lblDefaultShippingProviderSaved" xml:space="preserve">
+    <value>Поставщик по умолчанию, реализющий доставку, сохранен.</value>
+  </data>
+  <data name="lblDefaultTaxProviderNotSaved" xml:space="preserve">
+    <value>Поставщик пошлин по умолчанию не был сохранен.</value>
+  </data>
+  <data name="lblDefaultTaxProviderSaved" xml:space="preserve">
+    <value>Поставщик пошлин по умолчанию сохранен.</value>
+  </data>
+  <data name="lblDelete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="lblDeleteAllLogs" xml:space="preserve">
+    <value>Все записи удалены.</value>
+  </data>
+  <data name="lblDescription" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="lblDescriptorSaved" xml:space="preserve">
+    <value>Описание товара сохранено.</value>
+  </data>
+  <data name="lblDetails" xml:space="preserve">
+    <value>Детали</value>
+  </data>
+  <data name="lblDimensions" xml:space="preserve">
+    <value>Размеры:</value>
+  </data>
+  <data name="lblDiscount" xml:space="preserve">
+    <value>Скидка:</value>
+  </data>
+  <data name="lblDisplayNarrowByManufacturer" xml:space="preserve">
+    <value>Отображать блок "Схожие по производителю":</value>
+  </data>
+  <data name="lblDisplaySortBy" xml:space="preserve">
+    <value>Display Sort By Widget:</value>
+  </data>
+  <data name="lblDisplayNarrowByPrice" xml:space="preserve">
+    <value>Отображать блок "Схожие по цене":</value>
+  </data>
+  <data name="lblDisplayRetailPrice" xml:space="preserve">
+    <value>Отображать розничную цену:</value>
+  </data>
+  <data name="lblEdit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="lblEmailAddress" xml:space="preserve">
+    <value>Email адрес:</value>
+  </data>
+  <data name="lblErrorLogListing" xml:space="preserve">
+    <value>Ведение журнала ошибок</value>
+  </data>
+  <data name="lblErrorLogs" xml:space="preserve">
+    <value>Журнал ошибок</value>
+  </data>
+  <data name="lblErrorLogsDescription" xml:space="preserve">
+    <value>Содержит сведения об ошибках</value>
+  </data>
+  <data name="lblErrorMessage" xml:space="preserve">
+    <value>Произошла ошибка! Ошибка была занесена в журнал. Если проблема повторится, пожалуйста, сообщите нам!</value>
+  </data>
+  <data name="lblExpiration" xml:space="preserve">
+    <value>Окончание:</value>
+  </data>
+  <data name="lblExtendedAmount" xml:space="preserve">
+    <value>Увеличенное количество</value>
+  </data>
+  <data name="lblFeeAmount" xml:space="preserve">
+    <value>Свободное число:</value>
+  </data>
+  <data name="lblFirstName" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="lblFooterColor" xml:space="preserve">
+    <value>Цвет подошвы:</value>
+  </data>
+  <data name="lblFrom" xml:space="preserve">
+    <value>От:</value>
+  </data>
+  <data name="lblFromEmail" xml:space="preserve">
+    <value>От (email):</value>
+  </data>
+  <data name="lblFromName" xml:space="preserve">
+    <value>От (имя):</value>
+  </data>
+  <data name="lblGatewayErrors" xml:space="preserve">
+    <value>Ошибки шлюза:</value>
+  </data>
+  <data name="lblGatewayName" xml:space="preserve">
+    <value>Имя шлюза:</value>
+  </data>
+  <data name="lblGatewayResponse" xml:space="preserve">
+    <value>Ответ шлюза:</value>
+  </data>
+  <data name="lblGatewayTransactionId" xml:space="preserve">
+    <value>Id шлюза сделки:</value>
+  </data>
+  <data name="lblGeneralPaymentSettings" xml:space="preserve">
+    <value>Главные настройки платежей</value>
+  </data>
+  <data name="lblGeneralSettingsDescription" xml:space="preserve">
+    <value>Это основные настройки {0} службы. Эти настройки не зависят от {0} поставщика и применяются ко всему магазину.</value>
+  </data>
+  <data name="lblGeneralShippingSettings" xml:space="preserve">
+    <value>Главные настройки доставки</value>
+  </data>
+  <data name="lblGeneralTaxSettings" xml:space="preserve">
+    <value>Главные настройки пошлин</value>
+  </data>
+  <data name="lblGrossAmount" xml:space="preserve">
+    <value>Общая сумма:</value>
+  </data>
+  <data name="lblHeaderHeight" xml:space="preserve">
+    <value>Высота:</value>
+  </data>
+  <data name="lblHeight" xml:space="preserve">
+    <value>Высота:</value>
+  </data>
+  <data name="lblHost" xml:space="preserve">
+    <value>Хост:</value>
+  </data>
+  <data name="lblImageCaption" xml:space="preserve">
+    <value>Название изображения:</value>
+  </data>
+  <data name="lblImageFile" xml:space="preserve">
+    <value>Файл изображения:</value>
+  </data>
+  <data name="lblImageSaved" xml:space="preserve">
+    <value>Изображение сохранено.</value>
+  </data>
+  <data name="lblInstalledPaymentProviders" xml:space="preserve">
+    <value>Установленные поставщики платежей:</value>
+  </data>
+  <data name="lblInstalledShippingProviders" xml:space="preserve">
+    <value>Установленные поставщики доставки:</value>
+  </data>
+  <data name="lblInstalledTaxProviders" xml:space="preserve">
+    <value>Установленные поставщики пошлин</value>
+  </data>
+  <data name="lblInventoriesSaved" xml:space="preserve">
+    <value>Инвентаризация сохранена.</value>
+  </data>
+  <data name="lblIsApproved" xml:space="preserve">
+    <value>Одобрено:</value>
+  </data>
+  <data name="lblIsDisplayed" xml:space="preserve">
+    <value>Отображено:</value>
+  </data>
+  <data name="lblIsHtml" xml:space="preserve">
+    <value>Html:</value>
+  </data>
+  <data name="lblIsLive" xml:space="preserve">
+    <value>Существует:</value>
+  </data>
+  <data name="lblIsSystemNotification" xml:space="preserve">
+    <value>Системное сообщение:</value>
+  </data>
+  <data name="lblItem" xml:space="preserve">
+    <value>Предмет</value>
+  </data>
+  <data name="lblItemSku" xml:space="preserve">
+    <value>Sku</value>
+  </data>
+  <data name="lblKeywords" xml:space="preserve">
+    <value>Ключевые слова:</value>
+  </data>
+  <data name="lblLabel" xml:space="preserve">
+    <value>Метка:</value>
+  </data>
+  <data name="lblLanguage" xml:space="preserve">
+    <value>Язык:</value>
+  </data>
+  <data name="lblLastLogin" xml:space="preserve">
+    <value>Последний логин</value>
+  </data>
+  <data name="lblLastName" xml:space="preserve">
+    <value>Последнее имя:</value>
+  </data>
+  <data name="lblLength" xml:space="preserve">
+    <value>Длина:</value>
+  </data>
+  <data name="lblLoading" xml:space="preserve">
+    <value>Загрузка . . . пожалуйста, ждите.</value>
+  </data>
+  <data name="lblLogDate" xml:space="preserve">
+    <value>Дата записи</value>
+  </data>
+  <data name="lblLogLevel" xml:space="preserve">
+    <value>Уровень записи</value>
+  </data>
+  <data name="lblLogMessage" xml:space="preserve">
+    <value>Текст записи</value>
+  </data>
+  <data name="lblMailConfiguration" xml:space="preserve">
+    <value>Конфигурация почты</value>
+  </data>
+  <data name="lblMailConfigurationDescription" xml:space="preserve">
+    <value>Раздел "Конфигурация почты" позволяет настроить SMTP сервер и управлять уведомлениями - письмами, которые отсылаются после оформления заказов.</value>
+  </data>
+  <data name="lblMailSettingsDescription" xml:space="preserve">
+    <value>Почтовые настройки это настройки SMTP сервера, которые используются для рассылки уведомлений. Если Вы не уверены в правильности этих настроек, пожалуйста, свяжитесь со своим хостинг-провайдером.</value>
+  </data>
+  <data name="lblMailSettingsNotSaved" xml:space="preserve">
+    <value>Почтовые настройки не были сохранены.</value>
+  </data>
+  <data name="lblMailSettingsSaved" xml:space="preserve">
+    <value>Почтовые настройки сохранены.</value>
+  </data>
+  <data name="lblMailSettingsTestSucessfull" xml:space="preserve">
+    <value>Sucessfully sent test email.</value>
+  </data>
+  <data name="lblMailSettingsTestFailed" xml:space="preserve">
+    <value>Failed to send test email.</value>
+  </data>
+  <data name="lblManageProvidersDescription" xml:space="preserve">
+    <value>Секция Управление {1} Поставщиками позволяет добавлять, редактировать и удалять {0} поставщиков dashCommerce. </value>
+  </data>
+  <data name="lblManufacturer" xml:space="preserve">
+    <value>Производитель:</value>
+  </data>
+  <data name="lblManufacturerAdministration" xml:space="preserve">
+    <value>Управление производителем</value>
+  </data>
+  <data name="lblManufacturerDeleted" xml:space="preserve">
+    <value>Производитель удален.</value>
+  </data>
+  <data name="lblManufacturerSaved" xml:space="preserve">
+    <value>Производитель сохранен.</value>
+  </data>
+  <data name="lblMenuTitle" xml:space="preserve">
+    <value>Заголовок меню:</value>
+  </data>
+  <data name="lblMyAccount" xml:space="preserve">
+    <value>Моя учетная запись</value>
+  </data>
+  <data name="lblMyAccountDetails" xml:space="preserve">
+    <value>Параметры учетной записи</value>
+  </data>
+  <data name="lblMyOrders" xml:space="preserve">
+    <value>Мои заказы</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
+  <data name="lblNetAmount" xml:space="preserve">
+    <value>Вес нетто:</value>
+  </data>
+  <data name="lblNoCart" xml:space="preserve">
+    <value>Ваша корзина пуста. Вас могут заинтересовать следующие товары:</value>
+  </data>
+  <data name="lblNoDescriptors" xml:space="preserve">
+    <value>Для этого товара нет описания.</value>
+  </data>
+  <data name="lblNoErrorLogs" xml:space="preserve">
+    <value>Нету записей об ошибках.</value>
+  </data>
+  <data name="lblNoPaymentProvidersConfigured" xml:space="preserve">
+    <value>Нет настроенных поставщиков платежей. См. пункт меню 'Настройка поставщиков платежей'.</value>
+  </data>
+  <data name="lblNoPaymentProvidersInstalled" xml:space="preserve">
+    <value>Нет установленных поставщиков платежей.</value>
+  </data>
+  <data name="lblNoReviews" xml:space="preserve">
+    <value>Нет ни одного отзыва для этого товара.</value>
+  </data>
+  <data name="lblNoShippingProvidersConfigured" xml:space="preserve">
+    <value>Нет ни одного настроенного поставщика доставок. См. пункт меню 'Настройка поставщиков доставки'. Вы можете сначала осуществить основные настройки, расположенные ниже, перед тем, как настроить поставщиков доставки.</value>
+  </data>
+  <data name="lblNoShippingProvidersInstalled" xml:space="preserve">
+    <value>Нет установленных поставщиков доставки.</value>
+  </data>
+  <data name="lblNoTaxProvidersConfigured" xml:space="preserve">
+    <value>Нет настроенных поставщиков пошлин. См. пункт меню 'Настройка поставщиков пошлин'.</value>
+  </data>
+  <data name="lblNoTaxProvidersInstalled" xml:space="preserve">
+    <value>Нет установленных поставщиков пошлин.</value>
+  </data>
+  <data name="lblNotificationBody" xml:space="preserve">
+    <value>Содержание уведомления:</value>
+  </data>
+  <data name="lblNotificationEdit" xml:space="preserve">
+    <value>Редактировать уведомление</value>
+  </data>
+  <data name="lblNotificationList" xml:space="preserve">
+    <value>Список уведомления</value>
+  </data>
+  <data name="lblNotificationSaved" xml:space="preserve">
+    <value>Уведомление сохранено.</value>
+  </data>
+  <data name="lblNotificationsDescription" xml:space="preserve">
+    <value>Уведомления - это письма, сгенерированные системой для информирования Вас и поставщика об одних и тех же событиях, таких как место заказа, оплата заказа и доставка заказа.</value>
+  </data>
+  <data name="lblOrderEdit" xml:space="preserve">
+    <value>Редактировать заказ</value>
+  </data>
+  <data name="lblOrderList" xml:space="preserve">
+    <value>Список заказов</value>
+  </data>
+  <data name="lblOrderNoteSaved" xml:space="preserve">
+    <value>Заказ не сохранен.</value>
+  </data>
+  <data name="lblOrderNumber" xml:space="preserve">
+    <value>Номер заказа</value>
+  </data>
+  <data name="lblOrderRefunded" xml:space="preserve">
+    <value>Заказ оплачен</value>
+  </data>
+  <data name="lblOrderReview" xml:space="preserve">
+    <value>Обзор заказа</value>
+  </data>
+  <data name="lblOrderSummary" xml:space="preserve">
+    <value>Итог заказа</value>
+  </data>
+  <data name="lblOurPrice" xml:space="preserve">
+    <value>Наша цена:</value>
+  </data>
+  <data name="lblPageDeleted" xml:space="preserve">
+    <value>Страница удалена.</value>
+  </data>
+  <data name="lblPageSaved" xml:space="preserve">
+    <value>Страница сохранена.</value>
+  </data>
+  <data name="lblParentCategory" xml:space="preserve">
+    <value>Родительская категория.</value>
+  </data>
+  <data name="lblParentPage" xml:space="preserve">
+    <value>Родительская страница.</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="lblPaymentConfiguration" xml:space="preserve">
+    <value>Платежные настройки</value>
+  </data>
+  <data name="lblPaymentConfigurationDescription" xml:space="preserve">
+    <value>Раздел 'Платежные настройки' позволяет управлять поставщиками платежей. Вы можете настраивать поставщиков платежей и устанавливать основные настройки службы осуществления платежей.</value>
+  </data>
+  <data name="lblPaymentConfigurationNotSaved" xml:space="preserve">
+    <value>Платежные настройки не были сохранены.</value>
+  </data>
+  <data name="lblPaymentConfigurationSaved" xml:space="preserve">
+    <value>Платежные настройки сохранены.</value>
+  </data>
+  <data name="lblPaymentInformation" xml:space="preserve">
+    <value>Платежная информация</value>
+  </data>
+  <data name="lblPaymentInformationTitle" xml:space="preserve">
+    <value>Платежная информация</value>
+  </data>
+  <data name="lblPaymentMethod" xml:space="preserve">
+    <value>Способ оплаты:</value>
+  </data>
+  <data name="lblPaymentName" xml:space="preserve">
+    <value>Оплата</value>
+  </data>
+  <data name="lblPaymentProviderManagement" xml:space="preserve">
+    <value>Управление поставщиком платажей</value>
+  </data>
+  <data name="lblPayPalProDescriptionTitle" xml:space="preserve">
+    <value>Быстрая оплата PayPal Pro</value>
+  </data>
+  <data name="lblPayPalStandardDescriptionTitle" xml:space="preserve">
+    <value>PayPal Standard </value>
+  </data>
+  <data name="lblPdtId" xml:space="preserve">
+    <value>PDT ID:</value>
+  </data>
+  <data name="lblPhone" xml:space="preserve">
+    <value>Телефон:</value>
+  </data>
+  <data name="lblPleaseSelect" xml:space="preserve">
+    <value>Пожалуйста, выберите {0}:</value>
+  </data>
+  <data name="lblPleaseSupply" xml:space="preserve">
+    <value>Пожалуйста внесите {0}:</value>
+  </data>
+  <data name="lblPleaseWait" xml:space="preserve">
+    <value>Пожалуйста, ждите . . .</value>
+  </data>
+  <data name="lblPort" xml:space="preserve">
+    <value>Порт:</value>
+  </data>
+  <data name="lblPostalCode" xml:space="preserve">
+    <value>Почтовый индекс:</value>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>Цена</value>
+  </data>
+  <data name="lblProductAdd" xml:space="preserve">
+    <value>Добавить товар</value>
+  </data>
+  <data name="lblProductCategories" xml:space="preserve">
+    <value>Категории товаров</value>
+  </data>
+  <data name="lblProductCategoryDeleted" xml:space="preserve">
+    <value>Категория товаров удалена.</value>
+  </data>
+  <data name="lblProductCategoryImages" xml:space="preserve">
+    <value>Изображения категорий товаров</value>
+  </data>
+  <data name="lblProductCategorySaved" xml:space="preserve">
+    <value>Категория товаров сохранена.</value>
+  </data>
+  <data name="lblProductEdit" xml:space="preserve">
+    <value>Редактировать товар</value>
+  </data>
+  <data name="lblProductImageDeleted" xml:space="preserve">
+    <value>Изображение товара удалено.</value>
+  </data>
+  <data name="lblProductImages" xml:space="preserve">
+    <value>Изображения товара</value>
+  </data>
+  <data name="lblProductImageSaved" xml:space="preserve">
+    <value>Изображение товара сохранено.</value>
+  </data>
+  <data name="lblProductList" xml:space="preserve">
+    <value>Список товаров</value>
+  </data>
+  <data name="lblProductNotSaved" xml:space="preserve">
+    <value>Товар не был сохранен.</value>
+  </data>
+  <data name="lblProductSaved" xml:space="preserve">
+    <value>Товар схранен.</value>
+  </data>
+  <data name="lblProductType" xml:space="preserve">
+    <value>Тип товара:</value>
+  </data>
+  <data name="lblProviderSaved" xml:space="preserve">
+    <value>Поставщик сохранен.</value>
+  </data>
+  <data name="lblProviderType" xml:space="preserve">
+    <value>Тип поставщика</value>
+  </data>
+  <data name="lblQuantity" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="lblRate" xml:space="preserve">
+    <value>Величина:</value>
+  </data>
+  <data name="lblRateAdded" xml:space="preserve">
+    <value>Величина была добавлена.</value>
+  </data>
+  <data name="lblRateDeleted" xml:space="preserve">
+    <value>Величина была удалена.</value>
+  </data>
+  <data name="lblRating" xml:space="preserve">
+    <value>Рейтинг:</value>
+  </data>
+  <data name="lblRegionCode" xml:space="preserve">
+    <value>Код региона:</value>
+  </data>
+  <data name="lblRegionCodeDecriptionTitle" xml:space="preserve">
+    <value>Поставщик пошлины регионального кода</value>
+  </data>
+  <data name="lblRemoveProvider" xml:space="preserve">
+    <value>Поставщик был удален.</value>
+  </data>
+  <data name="lblRequireAuthentication" xml:space="preserve">
+    <value>Требуется аутентификафия:</value>
+  </data>
+  <data name="lblRequireSsl" xml:space="preserve">
+    <value>Требуется SSL:</value>
+  </data>
+  <data name="lblRetailPrice" xml:space="preserve">
+    <value>Розничная цена:</value>
+  </data>
+  <data name="lblRetialPrice" xml:space="preserve">
+    <value>Розничная цена:</value>
+  </data>
+  <data name="lblReview" xml:space="preserve">
+    <value>Отзыв:</value>
+  </data>
+  <data name="lblReviewSaved" xml:space="preserve">
+    <value>Отзыв сохранен.</value>
+  </data>
+  <data name="lblReviewsTitle" xml:space="preserve">
+    <value>Отзывы</value>
+  </data>
+  <data name="lblRoleAdministration" xml:space="preserve">
+    <value>Управление ролями</value>
+  </data>
+  <data name="lblRoleAdministrationDescription" xml:space="preserve">
+    <value>Позволяет осуществлять управление ролями</value>
+  </data>
+  <data name="lblRoleName" xml:space="preserve">
+    <value>Название роли:</value>
+  </data>
+  <data name="lblRoot" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="lblNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="lblTitleASC" xml:space="preserve">
+    <value>Title: Ascending</value>
+  </data>
+  <data name="lblTitleDESC" xml:space="preserve">
+    <value>Title: Descending</value>
+  </data>
+  <data name="lblPriceASC" xml:space="preserve">
+    <value>Price: Lowest First</value>
+  </data>
+  <data name="lblPriceDESC" xml:space="preserve">
+    <value>Price: Highest First</value>
+  </data>
+  <data name="lblNewest" xml:space="preserve">
+    <value>Added: Newest First</value>
+  </data>
+  <data name="lblOldest" xml:space="preserve">
+    <value>Added: Oldest First</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="lblSearchBy" xml:space="preserve">
+    <value>Искать по:</value>
+  </data>
+  <data name="lblSecurity" xml:space="preserve">
+    <value>Безопасность</value>
+  </data>
+  <data name="lblSecurityDescription" xml:space="preserve">
+    <value>Настройка потитики безопасности</value>
+  </data>
+  <data name="lblSelect" xml:space="preserve">
+    <value>-- Выбрать --</value>
+  </data>
+  <data name="lblService" xml:space="preserve">
+    <value>Служба:</value>
+  </data>
+  <data name="lblServiceAdded" xml:space="preserve">
+    <value>Служба была добавлена.</value>
+  </data>
+  <data name="lblServiceDeleted" xml:space="preserve">
+    <value>Служба была удалена.</value>
+  </data>
+  <data name="lblShipFromCountry" xml:space="preserve">
+    <value>Доставка из страны:</value>
+  </data>
+  <data name="lblShipFromZip" xml:space="preserve">
+    <value>Индекс поставщика:</value>
+  </data>
+  <data name="lblShipping" xml:space="preserve">
+    <value>Доставка и транспортировка:</value>
+  </data>
+  <data name="lblShippingAddressTitle" xml:space="preserve">
+    <value>Адрес доставки</value>
+  </data>
+  <data name="lblShippingBuffer" xml:space="preserve">
+    <value>Резерв доставки:</value>
+  </data>
+  <data name="lblShippingConfiguration" xml:space="preserve">
+    <value>Конфигурация доставки</value>
+  </data>
+  <data name="lblShippingConfigurationDescription" xml:space="preserve">
+    <value>Пункт 'Конфигурация доставки' позволяет управлять поставщиками доставки. Вы можете настраивать поставщиков доставки и устанавливать основные настройки службы осуществления доставки.</value>
+  </data>
+  <data name="lblShippingConfigurationNotSaved" xml:space="preserve">
+    <value>Конфигурация доставки не была сохранена.</value>
+  </data>
+  <data name="lblShippingConfigurationSaved" xml:space="preserve">
+    <value>Конфигурация достави сохранена.</value>
+  </data>
+  <data name="lblShippingEstimate" xml:space="preserve">
+    <value>Срок доставки:</value>
+  </data>
+  <data name="lblShippingInformation" xml:space="preserve">
+    <value>Инофрмация доставки</value>
+  </data>
+  <data name="lblShippingMethod" xml:space="preserve">
+    <value>Способ доставки</value>
+  </data>
+  <data name="lblShippingMethodTitle" xml:space="preserve">
+    <value>Способ доставки</value>
+  </data>
+  <data name="lblShippingName" xml:space="preserve">
+    <value>Доставка</value>
+  </data>
+  <data name="lblShippingProviderManagement" xml:space="preserve">
+    <value>Управление поставщиком доставки</value>
+  </data>
+  <data name="lblShippingSaved" xml:space="preserve">
+    <value>Доставка сохранена.</value>
+  </data>
+  <data name="lblShippingSettingsNotSaved" xml:space="preserve">
+    <value>Настройки доставки не были сохранены.</value>
+  </data>
+  <data name="lblShippingSettingsSaved" xml:space="preserve">
+    <value>Настройки доставки сохранены.</value>
+  </data>
+  <data name="lblShippingTrackingNumber" xml:space="preserve">
+    <value>Номер доставки:</value>
+  </data>
+  <data name="lblShortDescription" xml:space="preserve">
+    <value>Краткое описание:</value>
+  </data>
+  <data name="lblShowAll" xml:space="preserve">
+    <value>Показать все</value>
+  </data>
+  <data name="lblShowingTotals" xml:space="preserve">
+    <value>Показано {0} - {1} из {2}</value>
+  </data>
+  <data name="lblSignature" xml:space="preserve">
+    <value>API Подпись:</value>
+  </data>
+  <data name="lblSimpleWeightShippingProviderTitle" xml:space="preserve">
+    <value>Простой поставщик доставки, основанный на весе</value>
+  </data>
+  <data name="lblSiteAdministration" xml:space="preserve">
+    <value>Администрирование сайта</value>
+  </data>
+  <data name="lblSiteName" xml:space="preserve">
+    <value>Название сайта:</value>
+  </data>
+  <data name="lblSiteSettings" xml:space="preserve">
+    <value>Настройки сайта</value>
+  </data>
+  <data name="lblSiteSettingsDescription" xml:space="preserve">
+    <value>Настройки сайта</value>
+  </data>
+  <data name="lblSiteSettingsNotSaved" xml:space="preserve">
+    <value>Настройки сайта не были сохранены.</value>
+  </data>
+  <data name="lblSiteSettingsSaved" xml:space="preserve">
+    <value>Настройки сайта сохранены.</value>
+  </data>
+  <data name="lblSkuDescription" xml:space="preserve">
+    <value>Данные складские номера товаров были созданы на основе атрибутов товара, которые с ним связаны. Если вы хотите сохранить их, то нажмите кнопку 'Сохранить'.</value>
+  </data>
+  <data name="lblSkuSuffix" xml:space="preserve">
+    <value>Добавочный складской номер:</value>
+  </data>
+  <data name="lblStateOrRegion" xml:space="preserve">
+    <value>Область / Регион:</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Состояние:</value>
+  </data>
+  <data name="lblSubject" xml:space="preserve">
+    <value>Тема:</value>
+  </data>
+  <data name="lblSubTotal" xml:space="preserve">
+    <value>Подитог:</value>
+  </data>
+  <data name="lblSubTotalTop" xml:space="preserve">
+    <value>Подитог:</value>
+  </data>
+  <data name="lblTagLine" xml:space="preserve">
+    <value>Разделительная линия:</value>
+  </data>
+  <data name="lblTax" xml:space="preserve">
+    <value>Пошлина:</value>
+  </data>
+  <data name="lblTaxConfiguration" xml:space="preserve">
+    <value>Конфигурация пошлин</value>
+  </data>
+  <data name="lblTaxConfigurationDescription" xml:space="preserve">
+    <value>Пункт 'Конфигурация пошлин' позволяет управлять поставщиками пошлин. Вы можете настраивать поставщиков пошлин и устанавливать основные настройки службы пошлин.</value>
+  </data>
+  <data name="lblTaxConfigurationNotSaved" xml:space="preserve">
+    <value>Конфигурация пошлин не была сохранена.</value>
+  </data>
+  <data name="lblTaxConfigurationSaved" xml:space="preserve">
+    <value>Конфигурация пошлин сохранена.</value>
+  </data>
+  <data name="lblTaxName" xml:space="preserve">
+    <value>Пошлина</value>
+  </data>
+  <data name="lblTaxProviderManagement" xml:space="preserve">
+    <value>Управление поставщиками пошлин</value>
+  </data>
+  <data name="lblTaxType" xml:space="preserve">
+    <value>Тип пошлины:</value>
+  </data>
+  <data name="lblTheme" xml:space="preserve">
+    <value>Тема:</value>
+  </data>
+  <data name="lblTitle" xml:space="preserve">
+    <value>Заголовок:</value>
+  </data>
+  <data name="lblToList" xml:space="preserve">
+    <value>В список:</value>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Итого:</value>
+  </data>
+  <data name="lblTotalProducts" xml:space="preserve">
+    <value>Всего товаров:</value>
+  </data>
+  <data name="lblTotalSkuCountText" xml:space="preserve">
+    <value>Количество складских номеров, созданных для данного товара:</value>
+  </data>
+  <data name="lblTotalUsers" xml:space="preserve">
+    <value>Всего пользователей:</value>
+  </data>
+  <data name="lblTrackingLogs" xml:space="preserve">
+    <value>Отслеживание событий</value>
+  </data>
+  <data name="lblTrackingLogsDescription" xml:space="preserve">
+    <value>Отслеживание событий</value>
+  </data>
+  <data name="lblTransactionDate" xml:space="preserve">
+    <value>Дата сделки:</value>
+  </data>
+  <data name="lblTransactionId" xml:space="preserve">
+    <value>Id сделки:</value>
+  </data>
+  <data name="lblTransactionType" xml:space="preserve">
+    <value>Тип сделки:</value>
+  </data>
+  <data name="lblUnableToDeleteManufacturers" xml:space="preserve">
+    <value>Нельзя удалить производителя, так как есть товары, связанные с ним: {0}.</value>
+  </data>
+  <data name="lblUpdate" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="lblUpdating" xml:space="preserve">
+    <value>Обновление . . .</value>
+  </data>
+  <data name="lblUpdatingOrder" xml:space="preserve">
+    <value>Обновление заказа . . .</value>
+  </data>
+  <data name="lblUserAdministration" xml:space="preserve">
+    <value>Управление пользователем</value>
+  </data>
+  <data name="lblUserAdministrationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserName" xml:space="preserve">
+    <value>Имя пользователя:</value>
+  </data>
+  <data name="lblUserNotFound" xml:space="preserve">
+    <value>Ошибка при попытке найти пользователя: {0}</value>
+  </data>
+  <data name="lblUserUpdated" xml:space="preserve">
+    <value>Пользовательская учетная запись была обновлена.</value>
+  </data>
+  <data name="lblUseShipping" xml:space="preserve">
+    <value>Использовать доставку:</value>
+  </data>
+  <data name="lblWeight" xml:space="preserve">
+    <value>Масса:</value>
+  </data>
+  <data name="lblWelcome" xml:space="preserve">
+    <value>Добро пожаловать обратно</value>
+  </data>
+  <data name="lblWidth" xml:space="preserve">
+    <value>Ширина:</value>
+  </data>
+  <data name="lblYourRating" xml:space="preserve">
+    <value>Ваш рейтинг:</value>
+  </data>
+  <data name="lblYouSave" xml:space="preserve">
+    <value>Вы экономите:</value>
+  </data>
+  <data name="lloginCreateUserText" xml:space="preserve">
+    <value>Не зарегистрированы?</value>
+  </data>
+  <data name="lloginPasswordLabelText" xml:space="preserve">
+    <value>Пароль:&amp;nbsp;</value>
+  </data>
+  <data name="lloginPasswordRecoveryText" xml:space="preserve">
+    <value>Забыли пароль?</value>
+  </data>
+  <data name="lloginTitleText" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="lloginUserNameLabelText" xml:space="preserve">
+    <value>Имя пользователя:&amp;nbsp;</value>
+  </data>
+  <data name="pnlAddEditBundle" xml:space="preserve">
+    <value>Добавить / Редактировать Связку</value>
+  </data>
+  <data name="pnlAddManufacturer" xml:space="preserve">
+    <value>Добавить производителя</value>
+  </data>
+  <data name="pnlAddNote" xml:space="preserve">
+    <value>Добавить заметку</value>
+  </data>
+  <data name="pnlAddRegionCode" xml:space="preserve">
+    <value>Добавить код региона</value>
+  </data>
+  <data name="pnlAddRole" xml:space="preserve">
+    <value>Добавить роль</value>
+  </data>
+  <data name="pnlAddService" xml:space="preserve">
+    <value>Добавить службу</value>
+  </data>
+  <data name="pnlAddToCart" xml:space="preserve">
+    <value>В корзину</value>
+  </data>
+  <data name="pnlAddUser" xml:space="preserve">
+    <value>Добавить пользователя</value>
+  </data>
+  <data name="pnlAnalytics" xml:space="preserve">
+    <value>Аналитика</value>
+  </data>
+  <data name="pnlAssociatedAttributes" xml:space="preserve">
+    <value>Привязанные атрибуты</value>
+  </data>
+  <data name="pnlAssociatedCategories" xml:space="preserve">
+    <value>Связанные категории</value>
+  </data>
+  <data name="pnlAttributeItems" xml:space="preserve">
+    <value>Единицы атрибутов</value>
+  </data>
+  <data name="pnlAttributeTemplates" xml:space="preserve">
+    <value>Шаблоны атрибутов</value>
+  </data>
+  <data name="pnlAvailableAttributes" xml:space="preserve">
+    <value>Доступные атрибуты</value>
+  </data>
+  <data name="pnlAvailableRegionCodes" xml:space="preserve">
+    <value>Доступные коды регионов</value>
+  </data>
+  <data name="pnlAvailableServices" xml:space="preserve">
+    <value>Доступные службы</value>
+  </data>
+  <data name="pnlBrowsingLog" xml:space="preserve">
+    <value>История посещений</value>
+  </data>
+  <data name="pnlConfiguration" xml:space="preserve">
+    <value>{0} Конфигурация</value>
+  </data>
+  <data name="pnlConfigurationOverview" xml:space="preserve">
+    <value>Обзор конфигурации</value>
+  </data>
+  <data name="pnlConfiguredPaymentProviders" xml:space="preserve">
+    <value>Настроенные поставщики платежей</value>
+  </data>
+  <data name="pnlConfiguredShippingProviders" xml:space="preserve">
+    <value>Настроенные поставщики доставки</value>
+  </data>
+  <data name="pnlConfiguredTaxProviders" xml:space="preserve">
+    <value>Настроенные поставщики пошлин</value>
+  </data>
+  <data name="pnlCrossSells" xml:space="preserve">
+    <value>Перекрестные предложения</value>
+  </data>
+  <data name="pnlCurrentAttributes" xml:space="preserve">
+    <value>Текущие атрибуты</value>
+  </data>
+  <data name="pnlCurrentBundles" xml:space="preserve">
+    <value>Текущие связки</value>
+  </data>
+  <data name="pnlCurrentCategories" xml:space="preserve">
+    <value>Текущие категории</value>
+  </data>
+  <data name="pnlCurrentErrorLogs" xml:space="preserve">
+    <value>Журнал текущих ошибок</value>
+  </data>
+  <data name="pnlCurrentPages" xml:space="preserve">
+    <value>Текущие страницы</value>
+  </data>
+  <data name="pnlEditAttribute" xml:space="preserve">
+    <value>Добавить / Редактировать Атрибут</value>
+  </data>
+  <data name="pnlEditCategory" xml:space="preserve">
+    <value>Добавить / Редактировать Категорию</value>
+  </data>
+  <data name="pnlEditPage" xml:space="preserve">
+    <value>Добавить / Редактировать Страницу</value>
+  </data>
+  <data name="pnlEditUser" xml:space="preserve">
+    <value>Редактировать пользователя</value>
+  </data>
+  <data name="pnlFavoriteCategories" xml:space="preserve">
+    <value>Любимые категории</value>
+  </data>
+  <data name="pnlFavoriteProducts" xml:space="preserve">
+    <value>Любимые товары</value>
+  </data>
+  <data name="pnlFooter" xml:space="preserve">
+    <value>Подошва</value>
+  </data>
+  <data name="pnlGeneralLayout" xml:space="preserve">
+    <value>Главный макет</value>
+  </data>
+  <data name="pnlGeneralProductInformation" xml:space="preserve">
+    <value>Основная информация о товаре</value>
+  </data>
+  <data name="pnlGeneralSettings" xml:space="preserve">
+    <value>Основные настройки</value>
+  </data>
+  <data name="pnlGlobalization" xml:space="preserve">
+    <value>Глобализация</value>
+  </data>
+  <data name="pnlHeader" xml:space="preserve">
+    <value>Шапка</value>
+  </data>
+  <data name="pnlImageManagement" xml:space="preserve">
+    <value>Управление изображением</value>
+  </data>
+  <data name="pnlMailConfiguration" xml:space="preserve">
+    <value>Конфигурация почты</value>
+  </data>
+  <data name="pnlMailSettings" xml:space="preserve">
+    <value>Настройки почты</value>
+  </data>
+  <data name="pnlManufacturerList" xml:space="preserve">
+    <value>Список производителей</value>
+  </data>
+  <data name="pnlMessageCenter" xml:space="preserve">
+    <value>Центр сообщений</value>
+  </data>
+  <data name="pnlNarrowByManufacturer" xml:space="preserve">
+    <value>Схожие по производителю</value>
+  </data>
+  <data name="pnlNarrowByPrice" xml:space="preserve">
+    <value>Схожие по цене</value>
+  </data>
+  <data name="pnlSortBy" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="pnlNews" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="pnlNoteList" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+  <data name="pnlNotes" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+  <data name="pnlNotificationDetails" xml:space="preserve">
+    <value>Подробности уведомления</value>
+  </data>
+  <data name="pnlOrderList" xml:space="preserve">
+    <value>Лист заказов</value>
+  </data>
+  <data name="pnlOrderSearch" xml:space="preserve">
+    <value>Поиск заказа</value>
+  </data>
+  <data name="pnlPaymentProviders" xml:space="preserve">
+    <value>Конфигурация поставщика платежей</value>
+  </data>
+  <data name="pnlPayPalProConfiguration" xml:space="preserve">
+    <value>Конфигурация поставщика платежей PayPal Pro</value>
+  </data>
+  <data name="pnlPayPalStandardConfiguration" xml:space="preserve">
+    <value>Конфигурация поставщика платежей PayPal Standard</value>
+  </data>
+  <data name="pnlProductDescriptors" xml:space="preserve">
+    <value>Дескрипторы товара</value>
+  </data>
+  <data name="pnlProductImages" xml:space="preserve">
+    <value>Изображения товара</value>
+  </data>
+  <data name="pnlProductList" xml:space="preserve">
+    <value>Товары</value>
+  </data>
+  <data name="pnlProductReviews" xml:space="preserve">
+    <value>Отзывы о товаре</value>
+  </data>
+  <data name="pnlProductSearch" xml:space="preserve">
+    <value>Поиск товара</value>
+  </data>
+  <data name="pnlProviderDetails" xml:space="preserve">
+    <value>Детали поставщика</value>
+  </data>
+  <data name="pnlProviderList" xml:space="preserve">
+    <value>Доступные поставщики</value>
+  </data>
+  <data name="pnlQuickStats" xml:space="preserve">
+    <value>Быстрая статистика</value>
+  </data>
+  <data name="pnlRegionCodeConfiguration" xml:space="preserve">
+    <value>Конфигурация поставщика региональных кодов</value>
+  </data>
+  <data name="pnlReview" xml:space="preserve">
+    <value>Отзыв</value>
+  </data>
+  <data name="pnlRoleList" xml:space="preserve">
+    <value>Список ролей</value>
+  </data>
+  <data name="pnlRoles" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="pnlShipping" xml:space="preserve">
+    <value>Доставка</value>
+  </data>
+  <data name="pnlShippingProviders" xml:space="preserve">
+    <value>Конфигурация поставщиков доставки</value>
+  </data>
+  <data name="pnlSimpleWeightConfiguration" xml:space="preserve">
+    <value>Конфигурация простого поставщика доставки, основанного на массе</value>
+  </data>
+  <data name="pnlSimpleWeightData" xml:space="preserve">
+    <value>Простая служба масс / Количество на ед. измерения Данные</value>
+  </data>
+  <data name="pnlSiteOverview" xml:space="preserve">
+    <value>Обзор сайта</value>
+  </data>
+  <data name="pnlSkuListing" xml:space="preserve">
+    <value>Пречень складских номеров</value>
+  </data>
+  <data name="pnlTaxProviders" xml:space="preserve">
+    <value>Конфигурация поставщиков пошлин</value>
+  </data>
+  <data name="pnlToDo" xml:space="preserve">
+    <value>Сделать</value>
+  </data>
+  <data name="pnlUserList" xml:space="preserve">
+    <value>Список пользователей</value>
+  </data>
+  <data name="pnlUserSearch" xml:space="preserve">
+    <value>Поиск пользователя</value>
+  </data>
+  <data name="pnlWidgets" xml:space="preserve">
+    <value>Штучки</value>
+  </data>
+  <data name="prPasswordRecoverAnswerLabelText" xml:space="preserve">
+    <value>Ответ:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverQuestionFailureText" xml:space="preserve">
+    <value>Ваш ответ не подтвержден. Попробуйте еще раз.</value>
+  </data>
+  <data name="prPasswordRecoverQuestionInstructionText" xml:space="preserve">
+    <value>Ответьте на следующий попрос, чтобы получить пароль!</value>
+  </data>
+  <data name="prPasswordRecoverQuestionLabelText" xml:space="preserve">
+    <value>Вопрос:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverQuestionTitleText" xml:space="preserve">
+    <value>Подтверждение идентификации</value>
+  </data>
+  <data name="prPasswordRecoverSubmitButtonText" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="prPasswordRecoverSuccessText" xml:space="preserve">
+    <value>Ваш пароль был отправлен.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameFailureText" xml:space="preserve">
+    <value>Невозможно получить доступ к Вашей информации. Пожалуйста, попробуйте еще раз.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameInstructionText" xml:space="preserve">
+    <value>Введите имя пользователя, чтобы получить его пароль.</value>
+  </data>
+  <data name="prPasswordRecoverUserNameLabelText" xml:space="preserve">
+    <value>Имя пользователя:&amp;nbsp;</value>
+  </data>
+  <data name="prPasswordRecoverUserNameTitleText" xml:space="preserve">
+    <value>Забыли пароль?</value>
+  </data>
+  <data name="rfvAmountPerUnit" xml:space="preserve">
+    <value>Пожалуйста, укажите количество за единицу измерения.</value>
+  </data>
+  <data name="rfvApiPassword" xml:space="preserve">
+    <value>Пожалуйста, укажите API пароль.</value>
+  </data>
+  <data name="rfvApiSignature" xml:space="preserve">
+    <value>Пожалуйста, укажите API подпись.</value>
+  </data>
+  <data name="rfvApiUserName" xml:space="preserve">
+    <value>Пожалуйста, укажите имя пользователя API.</value>
+  </data>
+  <data name="rfvBusinessEmail" xml:space="preserve">
+    <value>Пожалуйста, укажите рабочий Email.</value>
+  </data>
+  <data name="rfvName" xml:space="preserve">
+    <value>Пожалуйста, укажите имя</value>
+  </data>
+  <data name="rfvPdtId" xml:space="preserve">
+    <value>Пожалуйста, укажите PDT Id.</value>
+  </data>
+  <data name="rfvRate" xml:space="preserve">
+    <value>Пожалуйста, укажите величину.</value>
+  </data>
+  <data name="rfvRegionCode" xml:space="preserve">
+    <value>Пожалуйста, укажите код региона.</value>
+  </data>
+  <data name="rfvService" xml:space="preserve">
+    <value>Пожалуйста, укажите службу.</value>
+  </data>
+  <data name="rfvTitle" xml:space="preserve">
+    <value> Пожалуйста, укажите заголовок</value>
+  </data>
+  <data name="titleAddUser" xml:space="preserve">
+    <value>dashCommerce :: Добавить пользователя</value>
+  </data>
+  <data name="titleCart" xml:space="preserve">
+    <value>dashCommerce :: Корзина</value>
+  </data>
+  <data name="titleCheckout" xml:space="preserve">
+    <value>Cart</value>
+    <comment>Cart</comment>
+  </data>
+  <data name="titleContentManagement" xml:space="preserve">
+    <value>dashCommerce :: Управление контентом</value>
+  </data>
+  <data name="titleDashBoard" xml:space="preserve">
+    <value>dashCommerce :: Панель инструментов</value>
+  </data>
+  <data name="titleEditNotification" xml:space="preserve">
+    <value>dashCommerce :: Уведомления :: Редактировать уведомление</value>
+  </data>
+  <data name="titleEditUser" xml:space="preserve">
+    <value>dashCommerce :: Редактировать пользователя</value>
+  </data>
+  <data name="titleErrorLogs" xml:space="preserve">
+    <value>dashCommerce :: Журнал ошибок</value>
+  </data>
+  <data name="titleImageSelector" xml:space="preserve">
+    <value>dashCommerce :: Выбрать изображения</value>
+  </data>
+  <data name="titleLoading" xml:space="preserve">
+    <value>dashCommerce :: Загрузка . . .</value>
+  </data>
+  <data name="titleMailSettings" xml:space="preserve">
+    <value>dashCommerce :: Почтовые настройки</value>
+  </data>
+  <data name="titleModalError" xml:space="preserve">
+    <value>dashCommerce :: Ошибка</value>
+  </data>
+  <data name="titleNotifications" xml:space="preserve">
+    <value>dashCommerce :: Уведомления</value>
+  </data>
+  <data name="titlePaymentConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Конфигурация поставщика платежей</value>
+  </data>
+  <data name="titlePaymentProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Управление поставщиком платежей</value>
+  </data>
+  <data name="titlePaymentSettings" xml:space="preserve">
+    <value>dashCommerce :: Платежные настройки</value>
+  </data>
+  <data name="titleProductAttributes" xml:space="preserve">
+    <value>dashCommerce :: Атрибуты товара</value>
+  </data>
+  <data name="titleProductCategories" xml:space="preserve">
+    <value>dashCommerce :: Категории товаров</value>
+  </data>
+  <data name="titleProductListing" xml:space="preserve">
+    <value>dashCommerce :: Перечень товаров</value>
+  </data>
+  <data name="titleProductManufacturers" xml:space="preserve">
+    <value>dashCommerce :: Производители товаров</value>
+  </data>
+  <data name="titleRoleAdministration" xml:space="preserve">
+    <value>dashCommerce :: Безопасность :: Управление ролями</value>
+  </data>
+  <data name="titleShippingConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Конфигурация поставщика доставки</value>
+  </data>
+  <data name="titleShippingProviderManagement" xml:space="preserve">
+    <value>dashCommerce :: Управление поставщиком доставки</value>
+  </data>
+  <data name="titleShippingSettings" xml:space="preserve">
+    <value>dashCommerce :: Настройки доставки</value>
+  </data>
+  <data name="titleSiteSettingsAnalytics" xml:space="preserve">
+    <value>dashCommerce :: Настойки сайта :: Аналитика</value>
+  </data>
+  <data name="titleSiteSettingsBrowsingLog" xml:space="preserve">
+    <value>dashCommerce :: Настойки сайта :: Журнал посещений</value>
+  </data>
+  <data name="titleSiteSettingsFooter" xml:space="preserve">
+    <value>dashCommerce :: Настойки сайта :: Подошва</value>
+  </data>
+  <data name="titleSiteSettingsGeneralLayout" xml:space="preserve">
+    <value>dashCommerce :: Настойки сайта :: Главный макет</value>
+  </data>
+  <data name="titleSiteSettingsGlobalization" xml:space="preserve">
+    <value>dashCommerce :: Настойки сайта :: Глобализация</value>
+  </data>
+  <data name="titleSiteSettingsHeader" xml:space="preserve">
+    <value>dashCommerce :: Настойки сайта :: Шапка</value>
+  </data>
+  <data name="titleSiteSettingsWidgets" xml:space="preserve">
+    <value>dashCommerce :: Настойки сайта :: Штучки</value>
+  </data>
+  <data name="titleTaxConfiguration" xml:space="preserve">
+    <value>dashCommerce :: Конфигурация поставщика пошлин</value>
+  </data>
+  <data name="titleTaxProviderManagement" xml:space="preserve">
+    <value>dashCommerce ::  Управление поставщиком пошлин</value>
+  </data>
+  <data name="titleTaxSettings" xml:space="preserve">
+    <value>dashCommerce :: Настройки пошлин</value>
+  </data>
+  <data name="titleTrackingLogs" xml:space="preserve">
+    <value>dashCommerce :: Отследить события</value>
+  </data>
+  <data name="titleUserAdministration" xml:space="preserve">
+    <value>dashCommerce :: Безопасность :: Администрирование пользователей</value>
+  </data>
+</root>
