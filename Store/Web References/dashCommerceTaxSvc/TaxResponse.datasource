@@ -6,5 +6,5 @@
     cause the file to be unrecognizable by the program.
 -->
 <GenericObjectDataSource DisplayName="TaxResponse" Version="1.0" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
-   <TypeInfo>MettleSystems.dashCommerce.Store.dashCommerceTaxSvc.TaxResponse</TypeInfo>
+   <TypeInfo>MettleSystems.dashCommerce.Store.dashCommerceTaxSvc.TaxResponse, Web References.dashCommerceTaxSvc.Reference.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</TypeInfo>
 </GenericObjectDataSource>
