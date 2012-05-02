@@ -1,8 +1,16 @@
 # Folders #
 ###########
 
-/bin
-/obj
+bin
+obj
+
+# Visual Studio Files #
+#######################
+
+*.suo
+*.csproj.user
+TestResult.xml
+
 
 # Specific Files #
 ##################
@@ -16,10 +24,13 @@ fciv-sha1-list.bat
 # Compiled Source #
 ###################
 
-#.dll
-#.pdb
+*.dll
+*.pdb
+
+
 
 # OS Generated #
 ################
 
 Thumbs.db
+*.DS_Store
