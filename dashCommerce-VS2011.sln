@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Web Developer Express 11
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD44ADC5-FFC1-4CAD-8E6A-162EB1DA618C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD44ADC5-FFC1-4CAD-8E6A-162EB1DA618C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD44ADC5-FFC1-4CAD-8E6A-162EB1DA618C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD44ADC5-FFC1-4CAD-8E6A-162EB1DA618C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD44ADC5-FFC1-4CAD-8E6A-162EB1DA618C}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{FD44ADC5-FFC1-4CAD-8E6A-162EB1DA618C}.Test|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
