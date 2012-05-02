@@ -1877,11 +1877,9 @@
     <Content Include="transforms\catalogNavigation.xslt" />
     <Content Include="transforms\categoryMenu.xslt" />
     <Content Include="transforms\pageMenu.xslt" />
-    <Content Include="connectionString.Release.config" />
     <Content Include="transforms\siteNavigation.xslt" />
     <Content Include="admin\controls\navigation\order.sitemap" />
     <Content Include="install\install.master" />
-    <Content Include="connectionString.Debug.config" />
     <Content Include="download.ashx" />
     <Content Include="admin\controls\navigation\vatrate.sitemap" />
     <Content Include="connectionString.config" />
@@ -2792,8 +2790,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PostBuildEvent>if exist "$(ProjectDir)connectionString.$(ConfigurationName).config" (copy "$(ProjectDir)connectionString.$(ConfigurationName).config" "$(ProjectDir)connectionString.config")
-
-if exist "$(ProjectDir)Web.$(ConfigurationName).config" (copy "$(ProjectDir)Web.$(ConfigurationName).config" "$(ProjectDir)Web.config")</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
