@@ -32,15 +32,5 @@ namespace MettleSystems.dashCommerce.Store.Properties {
                 return ((string)(this["MettleSystems_dashCommerce_Store_PayPalSvc_PayPalAPIInterfaceService"]));
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://webservices.dashcommerce.com/tax/taxbasic.asmx")]
-        public string MettleSystems_dashCommerce_Store_dashCommerceTaxSvc_TaxBasic {
-            get {
-                return ((string)(this["MettleSystems_dashCommerce_Store_dashCommerceTaxSvc_TaxBasic"]));
-            }
-        }
     }
 }
