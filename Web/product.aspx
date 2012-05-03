@@ -53,7 +53,7 @@
       <table class="defaultTable">
         <tr>
           <td colspan="2">
-            <asp:Menu ID="categoryCrumbs" runat="server" SkinID="breadcrumbs" DataSourceID="xmlDataSource" Orientation="Horizontal" StaticDisplayLevels="1" EnableViewState="false">
+            <asp:Menu ID="categoryCrumbs" runat="server" SkinID="breadcrumbs" DataSourceID="xmlDataSource" Orientation="Horizontal" StaticDisplayLevels="1" EnableViewState="false" RenderingMode="Table">
               <DataBindings>
                 <asp:MenuItemBinding DataMember="MenuItem" NavigateUrlField="NavigateUrl" TextField="Text" ValueField="Value" ToolTipField="ToolTip" />
               </DataBindings>
@@ -88,6 +88,7 @@
           </td>
         </tr>
         <tr>
+         <td>
           <asp:DataList ID="dlImages" runat="server" EnableViewState="false" RepeatColumns="3" RepeatLayout="Table" RepeatDirection="Horizontal" CssClass="productImageList">
             <ItemTemplate>
               <div class="imageBox" style="margin: 10px 10px 10px 10px">
@@ -97,6 +98,7 @@
               </div>
             </ItemTemplate>
           </asp:DataList>
+         </td>
         </tr>
         <tr>
           <td colspan="2">

@@ -30,7 +30,7 @@
         </div>
         <dashCommerce:HyperLink ID="hlLogo" runat="server" SkinID="sitelogo" EnableViewState="false" />
           <div class="contentMenu">
-            <asp:Menu runat="server" ID="siteMenu" SkinID="menu" Orientation="Horizontal" StaticDisplayLevels="1" DataSourceID="xmlDataSource" EnableViewState="false" >
+            <asp:Menu runat="server" ID="siteMenu" SkinID="menu" Orientation="Horizontal" StaticDisplayLevels="1" DataSourceID="xmlDataSource" EnableViewState="false" RenderingMode="Table" >
               <DynamicMenuStyle CssClass="dynamicMenuStyle" />
               <LevelMenuItemStyles>
                 <asp:MenuItemStyle CssClass="siteLevel1" />

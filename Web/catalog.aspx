@@ -16,7 +16,7 @@
     <table class="defaultTable">
       <tr>
         <td>
-          <asp:Menu ID="categoryCrumbs" runat="server" SkinID="breadcrumbs" DataSourceID="xmlDataSource" Orientation="Horizontal" StaticDisplayLevels="1">
+          <asp:Menu ID="categoryCrumbs" runat="server" SkinID="breadcrumbs" DataSourceID="xmlDataSource" Orientation="Horizontal" StaticDisplayLevels="1" RenderingMode="Table">
             <DataBindings>
               <asp:MenuItemBinding DataMember="MenuItem" NavigateUrlField="NavigateUrl" TextField="Text" ValueField="Value" ToolTipField="ToolTip" />
             </DataBindings>
