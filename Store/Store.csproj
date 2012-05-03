@@ -257,11 +257,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
-    <Compile Include="Web References\dashCommerceTaxSvc\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
     <Compile Include="Web References\PayPalSvc\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -315,7 +310,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Web References\dashCommerceTaxSvc\taxbasic.wsdl" />
     <None Include="Web References\PayPalSvc\AddressVerifyResponseType.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
@@ -326,6 +320,12 @@
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\PayPalSvc\BillUserResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\CancelRecoupResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\CompleteRecoupResponseType.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\PayPalSvc\CoreComponentTypes.xsd">
@@ -341,6 +341,9 @@
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\PayPalSvc\DoAuthorizationResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\DoCancelResponseType.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\PayPalSvc\DoCaptureResponseType.datasource">
@@ -382,6 +385,12 @@
     <None Include="Web References\PayPalSvc\EnterBoardingResponseType.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
+    <None Include="Web References\PayPalSvc\ExecuteCheckoutOperationsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\ExternalRememberMeOptOutResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
     <None Include="Web References\PayPalSvc\GetAccessPermissionDetailsResponseType.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
@@ -413,6 +422,9 @@
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\PayPalSvc\GetTransactionDetailsResponseType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayPalSvc\InitiateRecoupResponseType.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
     <None Include="Web References\PayPalSvc\ManagePendingTransactionStatusResponseType.datasource">
@@ -501,17 +513,6 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="https://webservices.dashcommerce.com/tax/taxbasic.asmx">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\dashCommerceTaxSvc\</RelPath>
-      <UpdateFromURL>https://webservices.dashcommerce.com/tax/taxbasic.asmx</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>MettleSystems_dashCommerce_Store_dashCommerceTaxSvc_TaxBasic</CachedSettingsPropName>
-    </WebReferenceUrl>
     <WebReferenceUrl Include="https://www.paypal.com/wsdl/PayPalSvc.wsdl">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\PayPalSvc\</RelPath>
@@ -525,14 +526,6 @@
     </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Web References\dashCommerceTaxSvc\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <None Include="Web References\dashCommerceTaxSvc\taxbasic.disco" />
-    <None Include="Web References\dashCommerceTaxSvc\TaxResponse.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </None>
     <None Include="Web References\PayPalSvc\BMButtonSearchResponseType.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>

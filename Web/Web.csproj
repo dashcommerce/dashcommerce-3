@@ -1882,7 +1882,9 @@
     <Content Include="install\install.master" />
     <Content Include="download.ashx" />
     <Content Include="admin\controls\navigation\vatrate.sitemap" />
-    <Content Include="connectionString.config" />
+    <Content Include="connectionString.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="fckeditor\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.cfm" />
     <None Include="fckeditor\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.php" />
     <None Include="fckeditor\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.pl" />
@@ -1946,7 +1948,9 @@
     <Content Include="install\scripts\tables.sql" />
     <Content Include="install\scripts\views.sql" />
     <None Include="resources\overlib\makemini.pl" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
