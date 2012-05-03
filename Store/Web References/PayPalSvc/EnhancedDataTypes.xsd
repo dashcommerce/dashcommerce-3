@@ -4,4 +4,13 @@
   <xs:complexType name="EnhancedPaymentDataType" />
   <xs:complexType name="EnhancedItemDataType" />
   <xs:complexType name="EnhancedPaymentInfoType" />
+  <xs:element name="EnhancedInitiateRecoupRequestDetails" type="ns:EnhancedInitiateRecoupRequestDetailsType" />
+  <xs:element name="EnhancedCompleteRecoupRequestDetails" type="ns:EnhancedCompleteRecoupRequestDetailsType" />
+  <xs:element name="EnhancedCompleteRecoupResponseDetails" type="ns:EnhancedCompleteRecoupResponseDetailsType" />
+  <xs:element name="EnhancedCancelRecoupRequestDetails" type="ns:EnhancedCancelRecoupRequestDetailsType" />
+  <xs:complexType name="EnhancedInitiateRecoupRequestDetailsType" />
+  <xs:complexType name="EnhancedCompleteRecoupRequestDetailsType" />
+  <xs:complexType name="EnhancedCompleteRecoupResponseDetailsType" />
+  <xs:complexType name="EnhancedCancelRecoupRequestDetailsType" />
+  <xs:complexType name="EnhancedPayerInfoType" />
 </xs:schema>

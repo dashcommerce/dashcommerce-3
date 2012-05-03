@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ed="urn:ebay:apis:EnhancedDataTypes" xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:cc="urn:ebay:apis:CoreComponentTypes" xmlns:ns="urn:ebay:api:PayPalAPI" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ns:version="65.0" targetNamespace="urn:ebay:api:PayPalAPI" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:ed="urn:ebay:apis:EnhancedDataTypes" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:cc="urn:ebay:apis:CoreComponentTypes" xmlns:ns="urn:ebay:api:PayPalAPI" xmlns:ebl="urn:ebay:apis:eBLBaseComponents" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ns:version="89.0" targetNamespace="urn:ebay:api:PayPalAPI" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:ebay:api:PayPalAPI">
       <xsd:import schemaLocation="CoreComponentTypes.xsd" namespace="urn:ebay:apis:CoreComponentTypes" />
@@ -618,11 +618,7 @@
       </xsd:complexType>
       <xsd:complexType name="BMSetInventoryResponseType">
         <xsd:complexContent mixed="false">
-          <xsd:extension base="ebl:AbstractResponseType">
-            <xsd:sequence>
-              <xsd:element name="TransactionID" type="xsd:string" />
-            </xsd:sequence>
-          </xsd:extension>
+          <xsd:extension base="ebl:AbstractResponseType" />
         </xsd:complexContent>
       </xsd:complexType>
       <xsd:element name="BMGetInventoryRequest" type="ns:BMGetInventoryRequestType" />
@@ -763,6 +759,38 @@ Character length and limitations: 255 single-byte alphanumeric characters
 </xsd:documentation>
                 </xsd:annotation>
               </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="1" name="RetryUntil" type="xsd:dateTime">
+                <xsd:annotation>
+                  <xsd:documentation>The maximum time till which refund must be tried.
+									<br /><br />
+									Optional
+									</xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="1" name="RefundSource" type="ebl:RefundSourceCodeType">
+                <xsd:annotation>
+                  <xsd:documentation>The type of funding source for refund.
+									<br /><br />
+									Optional
+									</xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="1" name="RefundAdvice" type="xsd:boolean">
+                <xsd:annotation>
+                  <xsd:documentation>Flag to indicate that the customer was already given store credit for a given transaction. This will allow us to make sure we do not double refund.
+									<br /><br /><b>Optional</b></xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="1" ref="ebl:MerchantStoreDetails">
+                <xsd:annotation>
+                  <xsd:documentation>To pass the Merchant store information<br /><br /><b>Optional</b></xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="unbounded" ref="ebl:RefundItemDetails">
+                <xsd:annotation>
+                  <xsd:documentation>Information about the individual details of the items to be refunded.<br /><b>Optional</b></xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
             </xsd:sequence>
           </xsd:extension>
         </xsd:complexContent>
@@ -801,8 +829,91 @@ Character length and limitations:17 single-byte characters
                   <xsd:documentation>Total of all previous refunds</xsd:documentation>
                 </xsd:annotation>
               </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="1" ref="ebl:RefundInfo">
+                <xsd:annotation>
+                  <xsd:documentation>Contains Refund Payment status information.</xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="1" name="ReceiptData" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>Any general information like offer details that is reinstated or any other marketing data</xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
             </xsd:sequence>
           </xsd:extension>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:element name="InitiateRecoupRequest" type="ns:InitiateRecoupRequestType" />
+      <xsd:element name="InitiateRecoupResponse" type="ns:InitiateRecoupResponseType" />
+      <xsd:element name="InitiateRecoupReq">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="ns:InitiateRecoupRequest" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="InitiateRecoupRequestType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractRequestType">
+            <xsd:sequence>
+              <xsd:element minOccurs="1" maxOccurs="1" ref="ed:EnhancedInitiateRecoupRequestDetails" />
+            </xsd:sequence>
+          </xsd:extension>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="InitiateRecoupResponseType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractResponseType" />
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:element name="CompleteRecoupRequest" type="ns:CompleteRecoupRequestType" />
+      <xsd:element name="CompleteRecoupResponse" type="ns:CompleteRecoupResponseType" />
+      <xsd:element name="CompleteRecoupReq">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="ns:CompleteRecoupRequest" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="CompleteRecoupRequestType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractRequestType">
+            <xsd:sequence>
+              <xsd:element minOccurs="1" maxOccurs="1" ref="ed:EnhancedCompleteRecoupRequestDetails" />
+            </xsd:sequence>
+          </xsd:extension>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="CompleteRecoupResponseType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractResponseType">
+            <xsd:sequence>
+              <xsd:element minOccurs="1" maxOccurs="1" ref="ed:EnhancedCompleteRecoupResponseDetails" />
+            </xsd:sequence>
+          </xsd:extension>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:element name="CancelRecoupRequest" type="ns:CancelRecoupRequestType" />
+      <xsd:element name="CancelRecoupResponse" type="ns:CancelRecoupResponseType" />
+      <xsd:element name="CancelRecoupReq">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="ns:CancelRecoupRequest" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="CancelRecoupRequestType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractRequestType">
+            <xsd:sequence>
+              <xsd:element minOccurs="1" maxOccurs="1" ref="ed:EnhancedCancelRecoupRequestDetails" />
+            </xsd:sequence>
+          </xsd:extension>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="CancelRecoupResponseType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractResponseType" />
         </xsd:complexContent>
       </xsd:complexType>
       <xsd:element name="GetTransactionDetailsRequest" type="ns:GetTransactionDetailsRequestType" />
@@ -946,6 +1057,22 @@ Character length and limitations: 19 single-byte characters maximum
 <br /><br />
 Optional
 </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="1" name="StoreID" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>Search by Store Id. It is mandatory field if Terminal Id is specified as one of the search parameters.
+<br /><br />
+Optional
+									</xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="1" name="TerminalID" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>Search by Store Id and Terminal Id. If the Terminal Id field is specified as one of the search parameters, then there should be a valid Store Id value set in the StoreID field.
+<br /><br />
+Optional
+									</xsd:documentation>
                 </xsd:annotation>
               </xsd:element>
               <xsd:element minOccurs="0" maxOccurs="1" name="PayerName" type="ebl:PersonNameType">
@@ -1651,7 +1778,7 @@ Character length and limitations: 20 single-byte characters
         <xsd:complexContent mixed="false">
           <xsd:extension base="ebl:AbstractResponseType">
             <xsd:sequence>
-              <xsd:element minOccurs="1" maxOccurs="1" name="Token" type="ebl:ExpressCheckoutTokenType">
+              <xsd:element minOccurs="0" maxOccurs="1" name="Token" type="ebl:ExpressCheckoutTokenType">
                 <xsd:annotation>
                   <xsd:documentation>A timestamped token by which you identify to PayPal that you are processing this payment with Express Checkout. The token expires after three hours. If you set Token in the SetExpressCheckoutRequest, the value of Token in the response is identical to the value in the request. 
 								<br /><br />
@@ -1659,6 +1786,33 @@ Character length and limitations: 20 single-byte characters
 </xsd:documentation>
                 </xsd:annotation>
               </xsd:element>
+            </xsd:sequence>
+          </xsd:extension>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:element name="ExecuteCheckoutOperationsRequest" type="ns:ExecuteCheckoutOperationsRequestType" />
+      <xsd:element name="ExecuteCheckoutOperationsResponse" type="ns:ExecuteCheckoutOperationsResponseType" />
+      <xsd:element name="ExecuteCheckoutOperationsReq">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="ns:ExecuteCheckoutOperationsRequest" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="ExecuteCheckoutOperationsRequestType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractRequestType">
+            <xsd:sequence>
+              <xsd:element minOccurs="1" maxOccurs="1" ref="ebl:ExecuteCheckoutOperationsRequestDetails" />
+            </xsd:sequence>
+          </xsd:extension>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ExecuteCheckoutOperationsResponseType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractResponseType">
+            <xsd:sequence>
+              <xsd:element minOccurs="1" maxOccurs="1" ref="ebl:ExecuteCheckoutOperationsResponseDetails" />
             </xsd:sequence>
           </xsd:extension>
         </xsd:complexContent>
@@ -1853,8 +2007,47 @@ Character length and limitations: 20 single-byte characters
               </xsd:element>
               <xsd:element minOccurs="0" maxOccurs="1" name="FMFDetails" type="ebl:FMFDetailsType" />
               <xsd:element minOccurs="0" maxOccurs="1" name="ThreeDSecureResponse" type="ebl:ThreeDSecureResponseType" />
+              <xsd:element minOccurs="0" maxOccurs="1" name="PaymentAdviceCode" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+							    	Response code from the processor when a recurring transaction is declined.
+						  		</xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
             </xsd:sequence>
           </xsd:extension>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:element name="DoCancelRequest" type="ns:DoCancelRequestType" />
+      <xsd:element name="DoCancelResponse" type="ns:DoCancelResponseType" />
+      <xsd:element name="DoCancelReq">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="ns:DoCancelRequest" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="DoCancelRequestType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractRequestType">
+            <xsd:sequence>
+              <xsd:element minOccurs="1" maxOccurs="1" name="CancelMsgSubID" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>Msg Sub Id that was used for the orginal operation. </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element minOccurs="1" maxOccurs="1" name="APIType" type="ebl:APIType">
+                <xsd:annotation>
+                  <xsd:documentation>Original API's type</xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:extension>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="DoCancelResponseType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractResponseType" />
         </xsd:complexContent>
       </xsd:complexType>
       <xsd:element name="DoCaptureRequest" type="ns:DoCaptureRequestType" />
@@ -1930,6 +2123,11 @@ Dynamic descriptor is used for merchant to provide detail of a transaction appea
 										<br /><br /><b>Optional</b><br /><br />
 Character length and limits: &lt;18 characters alphanumeric characters
 </xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="1" ref="ebl:MerchantStoreDetails">
+                <xsd:annotation>
+                  <xsd:documentation>To pass the Merchant store information<br /><br /><b>Optional</b></xsd:documentation>
                 </xsd:annotation>
               </xsd:element>
             </xsd:sequence>
@@ -2685,6 +2883,45 @@ Character length and limitations: 20 single-byte characters
           </xsd:extension>
         </xsd:complexContent>
       </xsd:complexType>
+      <xsd:element name="ExternalRememberMeOptOutRequest" type="ns:ExternalRememberMeOptOutRequestType" />
+      <xsd:element name="ExternalRememberMeOptOutResponse" type="ns:ExternalRememberMeOptOutResponseType" />
+      <xsd:element name="ExternalRememberMeOptOutReq">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="ns:ExternalRememberMeOptOutRequest" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="ExternalRememberMeOptOutRequestType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractRequestType">
+            <xsd:sequence>
+              <xsd:element minOccurs="1" maxOccurs="1" name="ExternalRememberMeID" type="xsd:string">
+                <xsd:annotation>
+                  <xsd:documentation>
+										The merchant passes in the ExternalRememberMeID to identify the user to opt out.  This is a 17-character
+										alphanumeric (encrypted) string that identifies the buyer's remembered login with a merchant and has
+										meaning only to the merchant.
+										<br /><br /><b>Required</b><br /><br /></xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+              <xsd:element minOccurs="0" maxOccurs="1" name="ExternalRememberMeOwnerDetails" type="ebl:ExternalRememberMeOwnerDetailsType">
+                <xsd:annotation>
+                  <xsd:documentation>
+										E-mail address or secure merchant account ID of merchant to associate with
+										external remember-me.
+									</xsd:documentation>
+                </xsd:annotation>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:extension>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ExternalRememberMeOptOutResponseType">
+        <xsd:complexContent mixed="false">
+          <xsd:extension base="ebl:AbstractResponseType" />
+        </xsd:complexContent>
+      </xsd:complexType>
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="RequesterCredentials">
@@ -2695,6 +2932,24 @@ Character length and limitations: 20 single-byte characters
   </wsdl:message>
   <wsdl:message name="RefundTransactionResponse">
     <wsdl:part name="RefundTransactionResponse" element="ns:RefundTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="InitiateRecoupRequest">
+    <wsdl:part name="InitiateRecoupRequest" element="ns:InitiateRecoupReq" />
+  </wsdl:message>
+  <wsdl:message name="InitiateRecoupResponse">
+    <wsdl:part name="InitiateRecoupResponse" element="ns:InitiateRecoupResponse" />
+  </wsdl:message>
+  <wsdl:message name="CompleteRecoupRequest">
+    <wsdl:part name="CompleteRecoupRequest" element="ns:CompleteRecoupReq" />
+  </wsdl:message>
+  <wsdl:message name="CompleteRecoupResponse">
+    <wsdl:part name="CompleteRecoupResponse" element="ns:CompleteRecoupResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelRecoupRequest">
+    <wsdl:part name="CancelRecoupRequest" element="ns:CancelRecoupReq" />
+  </wsdl:message>
+  <wsdl:message name="CancelRecoupResponse">
+    <wsdl:part name="CancelRecoupResponse" element="ns:CancelRecoupResponse" />
   </wsdl:message>
   <wsdl:message name="GetTransactionDetailsRequest">
     <wsdl:part name="GetTransactionDetailsRequest" element="ns:GetTransactionDetailsReq" />
@@ -2840,6 +3095,12 @@ Character length and limitations: 20 single-byte characters
   <wsdl:message name="SetExpressCheckoutResponse">
     <wsdl:part name="SetExpressCheckoutResponse" element="ns:SetExpressCheckoutResponse" />
   </wsdl:message>
+  <wsdl:message name="ExecuteCheckoutOperationsRequest">
+    <wsdl:part name="ExecuteCheckoutOperationsRequest" element="ns:ExecuteCheckoutOperationsReq" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteCheckoutOperationsResponse">
+    <wsdl:part name="ExecuteCheckoutOperationsResponse" element="ns:ExecuteCheckoutOperationsResponse" />
+  </wsdl:message>
   <wsdl:message name="GetExpressCheckoutDetailsRequest">
     <wsdl:part name="GetExpressCheckoutDetailsRequest" element="ns:GetExpressCheckoutDetailsReq" />
   </wsdl:message>
@@ -2857,6 +3118,12 @@ Character length and limitations: 20 single-byte characters
   </wsdl:message>
   <wsdl:message name="ManagePendingTransactionStatusResponse">
     <wsdl:part name="ManagePendingTransactionStatusResponse" element="ns:ManagePendingTransactionStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="DoCancelRequest">
+    <wsdl:part name="DoCancelRequest" element="ns:DoCancelReq" />
+  </wsdl:message>
+  <wsdl:message name="DoCancelResponse">
+    <wsdl:part name="DoCancelResponse" element="ns:DoCancelResponse" />
   </wsdl:message>
   <wsdl:message name="DoCaptureRequest">
     <wsdl:part name="DoCaptureRequest" element="ns:DoCaptureReq" />
@@ -2990,10 +3257,28 @@ Character length and limitations: 20 single-byte characters
   <wsdl:message name="ReverseTransactionResponse">
     <wsdl:part name="ReverseTransactionResponse" element="ns:ReverseTransactionResponse" />
   </wsdl:message>
+  <wsdl:message name="ExternalRememberMeOptOutRequest">
+    <wsdl:part name="ExternalRememberMeOptOutRequest" element="ns:ExternalRememberMeOptOutReq" />
+  </wsdl:message>
+  <wsdl:message name="ExternalRememberMeOptOutResponse">
+    <wsdl:part name="ExternalRememberMeOptOutResponse" element="ns:ExternalRememberMeOptOutResponse" />
+  </wsdl:message>
   <wsdl:portType name="PayPalAPIInterface">
     <wsdl:operation name="RefundTransaction">
       <wsdl:input message="ns:RefundTransactionRequest" />
       <wsdl:output message="ns:RefundTransactionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="InitiateRecoup">
+      <wsdl:input message="ns:InitiateRecoupRequest" />
+      <wsdl:output message="ns:InitiateRecoupResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CompleteRecoup">
+      <wsdl:input message="ns:CompleteRecoupRequest" />
+      <wsdl:output message="ns:CompleteRecoupResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelRecoup">
+      <wsdl:input message="ns:CancelRecoupRequest" />
+      <wsdl:output message="ns:CancelRecoupResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTransactionDetails">
       <wsdl:input message="ns:GetTransactionDetailsRequest" />
@@ -3117,6 +3402,10 @@ Character length and limitations: 20 single-byte characters
       <wsdl:input message="ns:SetExpressCheckoutRequest" />
       <wsdl:output message="ns:SetExpressCheckoutResponse" />
     </wsdl:operation>
+    <wsdl:operation name="ExecuteCheckoutOperations">
+      <wsdl:input message="ns:ExecuteCheckoutOperationsRequest" />
+      <wsdl:output message="ns:ExecuteCheckoutOperationsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetExpressCheckoutDetails">
       <wsdl:input message="ns:GetExpressCheckoutDetailsRequest" />
       <wsdl:output message="ns:GetExpressCheckoutDetailsResponse" />
@@ -3128,6 +3417,10 @@ Character length and limitations: 20 single-byte characters
     <wsdl:operation name="ManagePendingTransactionStatus">
       <wsdl:input message="ns:ManagePendingTransactionStatusRequest" />
       <wsdl:output message="ns:ManagePendingTransactionStatusResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DoCancel">
+      <wsdl:input message="ns:DoCancelRequest" />
+      <wsdl:output message="ns:DoCancelResponse" />
     </wsdl:operation>
     <wsdl:operation name="DoCapture">
       <wsdl:input message="ns:DoCaptureRequest" />
@@ -3193,10 +3486,47 @@ Character length and limitations: 20 single-byte characters
       <wsdl:input message="ns:ReverseTransactionRequest" />
       <wsdl:output message="ns:ReverseTransactionResponse" />
     </wsdl:operation>
+    <wsdl:operation name="ExternalRememberMeOptOut">
+      <wsdl:input message="ns:ExternalRememberMeOptOutRequest" />
+      <wsdl:output message="ns:ExternalRememberMeOptOutResponse" />
+    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="PayPalAPISoapBinding" type="ns:PayPalAPIInterface">
     <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="RefundTransaction">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InitiateRecoup">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CompleteRecoup">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelRecoup">
       <wsdlsoap:operation soapAction="" />
       <wsdl:input>
         <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
@@ -3540,6 +3870,17 @@ Character length and limitations: 20 single-byte characters
         <wsdlsoap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="ExecuteCheckoutOperations">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetExpressCheckoutDetails">
       <wsdlsoap:operation soapAction="" />
       <wsdl:input>
@@ -3563,6 +3904,17 @@ Character length and limitations: 20 single-byte characters
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ManagePendingTransactionStatus">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoCancel">
       <wsdlsoap:operation soapAction="" />
       <wsdl:input>
         <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
@@ -3739,6 +4091,17 @@ Character length and limitations: 20 single-byte characters
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="ReverseTransaction">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExternalRememberMeOptOut">
       <wsdlsoap:operation soapAction="" />
       <wsdl:input>
         <wsdlsoap:header message="ns:RequesterCredentials" part="RequesterCredentials" use="literal" />
