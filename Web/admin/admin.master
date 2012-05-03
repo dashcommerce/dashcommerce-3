@@ -18,7 +18,7 @@
         <dashCommerce:HyperLink ID="hlLogo" runat="server" SkinID="logo" />
         <dashCommerce:Label ID="lblSiteAdministration" runat="server" SkinId="adminHeader" />
         <div class="mainMenu">
-          <asp:Menu ID="adminMenu" runat="server" CssClass="adminMenu" Orientation="Horizontal" DataSourceID="smdsAdminMenu" StaticDisplayLevels="2" SkinID="menu" OnMenuItemDataBound="OnMenuItemDataBound">
+          <asp:Menu ID="adminMenu" runat="server" CssClass="adminMenu" Orientation="Horizontal" DataSourceID="smdsAdminMenu" StaticDisplayLevels="2" SkinID="menu" OnMenuItemDataBound="OnMenuItemDataBound" RenderingMode="Table">
             <DynamicMenuStyle CssClass="dynamicMenuStyle" />
             <LevelMenuItemStyles>
               <asp:MenuItemStyle CssClass="level1" />
