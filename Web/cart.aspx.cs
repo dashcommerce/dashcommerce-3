@@ -57,7 +57,7 @@ namespace MettleSystems.dashCommerce.Web {
         order = new OrderController().FetchOrder(WebUtility.GetUserName());
         PaymentServiceSettings providers = PaymentService.FetchConfiguredPaymentProviders();
         if (providers != null) {
-          if (providers.DefaultProvider == "PayPalProPaymentProvider" || !(string.IsNullOrEmpty(providers.ProviderSettingsCollection["PayPalProPaymentProvider"].Parameters[PayPalProPaymentProvider.BUSINESS_EMAIL]))) {
+          if (providers.DefaultProvider == "PayPalProPaymentProvider" && !(string.IsNullOrEmpty(providers.ProviderSettingsCollection["PayPalProPaymentProvider"].Parameters[PayPalProPaymentProvider.BUSINESS_EMAIL]))) {
             pnlExpressCheckout.Visible = true;
           }
         }
