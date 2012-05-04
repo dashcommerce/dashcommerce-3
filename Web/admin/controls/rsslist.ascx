@@ -6,18 +6,18 @@
 <br />
 <div id="news">
   <table class="feedTable">
-  <asp:Repeater ID="Repeater1" runat="server">
+  <asp:Repeater ID="rptrItems" runat="server">
       <ItemTemplate>
           <tr>
               <td class="rssFeedLink">
-                  <a target="article" href='<%# DataBinder.Eval(Container.DataItem, "link") %>'>
-                   <%# DataBinder.Eval(Container.DataItem, "title") %> </a>
+                  <a target="article" href='<%# DataBinder.Eval(Container.DataItem, "links[0].uri") %>'>
+                   <%# DataBinder.Eval(Container.DataItem, "title.text") %> </a>
                </td>
 
           </tr>
           <tr>
                <td class="rssFeedDescription">
-                  <span><%# DataBinder.Eval(Container.DataItem, "description") %></span>
+                  <span><%# DataBinder.Eval(Container.DataItem, "content.text") %></span>
                </td>
           </tr>
       </ItemTemplate>

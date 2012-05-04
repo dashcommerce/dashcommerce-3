@@ -26,7 +26,9 @@ THE SOFTWARE.
 using System;
 using System.Data;
 using System.Net;
+using System.ServiceModel.Syndication;
 using System.Web;
+using System.Xml;
 using MettleSystems.dashCommerce.Core;
 using MettleSystems.dashCommerce.Store.Web.Controls;
 
@@ -48,48 +50,19 @@ namespace MettleSystems.dashCommerce.Web.admin.controls {
     /// <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
     protected void Page_Load(object sender, EventArgs e) {
       try {
-        //DataSet rssData = RefreshFeed();
-
-        //object[] channelItems = rssData.Tables[1].Rows[0].ItemArray;
-        //int titleColumn = rssData.Tables[1].Columns["title"].Ordinal;
-        //int descriptionColumn = rssData.Tables[1].Columns["description"].Ordinal;
-
-        //lblFeedTitle.Text = channelItems.GetValue(titleColumn).ToString();
-        //lblFeedDescription.Text = channelItems.GetValue(descriptionColumn).ToString();
-
-        //if (rssData.Tables.Count > 2) { // are there any items in the feed?
-        //  Repeater1.DataSource = rssData.Tables[2];
-        //  Repeater1.DataBind();
-        //}
+          XmlReader reader = XmlReader.Create(this.NewsFeedUrl);
+          SyndicationFeed feed = SyndicationFeed.Load(reader);
+          lblFeedTitle.Text = feed.Title.Text;
+          rssLink.NavigateUrl = HttpUtility.UrlPathEncode(this.NewsFeedUrl);
+          rptrItems.DataSource = feed.Items;
+          rptrItems.DataBind();
+          reader.Close();
       }
       catch (Exception ex) {
         Logger.Error(typeof(rsslist).Name + ".Page_Load", ex);
         base.MasterPage.MessageCenter.DisplayCriticalMessage(ex.Message);
       }
     }
-
-    #endregion
-
-    #region Methods
-
-    #region Private
-
-    /// <summary>
-    /// Refreshes the feed.
-    /// </summary>
-    /// <returns></returns>
-    private DataSet RefreshFeed() {
-      rssLink.NavigateUrl = HttpUtility.UrlPathEncode(this.NewsFeedUrl);
-
-      HttpWebRequest rssFeed = (HttpWebRequest)WebRequest.Create(this.NewsFeedUrl);
-
-      DataSet rssData = new DataSet();
-      rssData.ReadXml(rssFeed.GetResponse().GetResponseStream());
-
-      return rssData;
-    }
-
-    #endregion
 
     #endregion
 

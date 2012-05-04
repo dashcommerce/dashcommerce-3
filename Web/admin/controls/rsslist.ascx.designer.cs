@@ -31,13 +31,13 @@ namespace MettleSystems.dashCommerce.Web.admin.controls {
         protected global::MettleSystems.dashCommerce.Controls.Label lblFeedDescription;
         
         /// <summary>
-        /// Repeater1 control.
+        /// rptrItems control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater Repeater1;
+        protected global::System.Web.UI.WebControls.Repeater rptrItems;
         
         /// <summary>
         /// rssLink control.
