@@ -72,9 +72,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Dependencies\FredCK.FCKeditorV2.dll</HintPath>
     </Reference>
-    <Reference Include="Intelligencia.UrlRewriter, Version=2.0.0.1, Culture=neutral, PublicKeyToken=0573f3650687980d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Dependencies\Intelligencia.UrlRewriter.dll</HintPath>
+    <Reference Include="Intelligencia.UrlRewriter_NETv4">
+      <HintPath>..\Dependencies\Intelligencia.UrlRewriter_NETv4.dll</HintPath>
     </Reference>
     <Reference Include="SubSonic, Version=2.0.3.22971, Culture=neutral, PublicKeyToken=eadb47849839a332, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

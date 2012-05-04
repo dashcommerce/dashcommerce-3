@@ -33,7 +33,7 @@ namespace MettleSystems.dashCommerce.Web {
 
     #region Const
 
-    private const string REWRITE_URL_TEMPLATE = "{0}-{1}_{2}.aspx{3}";
+    private const string REWRITE_URL_TEMPLATE = "{0}/{1}/{2}{3}";
     private const string REWRITE_URL_CONFIG_NAME = "rewriteUrlTemplate";
     //private const bool USE_REWRITE = true;//TODO: Move to SiteSettings
     private const string REWRITE_REPLACE_SPACES = "-";//TODO: Move to SiteSettings
