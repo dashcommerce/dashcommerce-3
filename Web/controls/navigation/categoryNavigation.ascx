@@ -1,5 +1,5 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="categoryNavigation.ascx.cs" Inherits="MettleSystems.dashCommerce.Web.controls.categoryNavigation" EnableViewState="false" %>
-<asp:Menu runat="server" ID="categoryMenu" Orientation="Vertical" StaticDisplayLevels="1" DataSourceID="xmlDataSource" CssClass="categoryMenu" >
+<asp:Menu runat="server" ID="categoryMenu" Orientation="Vertical" StaticDisplayLevels="1" DataSourceID="xmlDataSource" CssClass="categoryMenu" RenderingMode="Table" >
   <DynamicMenuStyle CssClass="dynamicMenuStyle" />
   <LevelMenuItemStyles>
     <asp:MenuItemStyle CssClass="categoryLevel1" />
