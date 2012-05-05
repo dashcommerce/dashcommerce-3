@@ -5,8 +5,8 @@
  * Licensed under the MIT License: http://www.opensource.org/licenses/mit-license.php
 */
 
-var tb_pathToImage = "resources/jquery/loading.gif";
-var tb_pathToThickbox = "resources/jquery/";
+var tb_pathToImage = "../../resources/jquery/loading.gif";
+var tb_pathToThickbox = "../../resources/jquery/";
 
 /*!!!!!!!!!!!!!!!!! edit below this line at your own risk !!!!!!!!!!!!!!!!!!!!!!!*/
 

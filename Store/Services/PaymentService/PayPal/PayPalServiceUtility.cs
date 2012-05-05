@@ -55,7 +55,7 @@ namespace MettleSystems.dashCommerce.Store.Services.PaymentService.PayPal {
     public static string PayPalVersionNumber {
       get {
         //return "3.3"; 
-        return "63.0";
+        return "89.0";
       }
     }
 

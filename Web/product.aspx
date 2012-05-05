@@ -5,9 +5,9 @@
 <%@ Register TagPrefix="dashCommerce" TagName="CrossSells" Src="~/controls/catalogList.ascx" %>
 <%@ Register TagPrefix="dashCommerce" TagName="Review" Src="~/controls/navigation/review.ascx" %>
 <asp:Content ContentPlaceHolderID="head" runat="server" ID="phHeader">
- <script type="text/javascript" src="resources/jquery/jquery-1.3.2.min.js"></script>
- <script type="text/javascript" src="resources/jquery/jquery.thickbox.js"></script>
- <link type="text/css" rel="stylesheet" href="resources/jquery/jquery.thickbox.css" media="screen" />
+<script type="text/javascript" src="../../resources/jquery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="../../resources/jquery/jquery.thickbox.js"></script>
+<link type="text/css" rel="stylesheet" href="../../resources/jquery/jquery.thickbox.css" media="screen" />
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
   <div id="threeColumnLeftContent">
@@ -92,7 +92,7 @@
           <asp:DataList ID="dlImages" runat="server" EnableViewState="false" RepeatColumns="3" RepeatLayout="Table" RepeatDirection="Horizontal" CssClass="productImageList">
             <ItemTemplate>
               <div class="imageBox" style="margin: 10px 10px 10px 10px">
-               <dashCommerce:HyperLink id="hlImage" runat="server" EnableViewState="false" CssClass="thickbox" Target="_blank" NavigateUrl='<%# Eval("Attributes[BigImageUrl]") %>' rel='<%# Eval("Attributes[rel]") %>' title='<%# Eval("Attributes[title]") %>'>
+               <dashCommerce:HyperLink id="hlImage" CssClass="thickbox" runat="server" EnableViewState="false" NavigateUrl='<%# Eval("Attributes[BigImageUrl]") %>' rel='<%# Eval("Attributes[rel]") %>' title='<%# Eval("Attributes[title]") %>'>
                  <asp:Image ID="img" runat="server" EnableViewState="false" ImageUrl='<%# Eval("ImageUrl") %>' AlternateText='<%# Eval("Attributes[title]") %>' Height='<%# Eval("Height") %>' Width='<%# Eval("Width") %>' />
                </dashCommerce:HyperLink>
               </div>

@@ -1597,6 +1597,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="repository\site\logo.gif" />
+    <Content Include="resources\jquery\slimbox2.css" />
+    <Content Include="resources\jquery\slimbox2.js" />
     <Content Include="site.master" />
   </ItemGroup>
   <ItemGroup>
