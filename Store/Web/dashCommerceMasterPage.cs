@@ -25,6 +25,7 @@ THE SOFTWARE.
 #endregion
 using System;
 using System.Text;
+using System.Web;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
@@ -60,6 +61,13 @@ namespace MettleSystems.dashCommerce.Store.Web {
 
         allContent.Controls.Add(hlpwdby);
         allContent.Controls.Add(new LiteralControl("<br/><br/>"));
+
+        HttpContext.Current.Response.Headers.Add(this.HeaderTitle, this.ApplicationName);
+
+        var htmlMeta = new HtmlMeta();
+        htmlMeta.Name = this.MetaGen;
+        htmlMeta.Content = this.ApplicationName;
+        this.Page.Header.Controls.Add(htmlMeta);
 
         base.Render(writer);
       }
@@ -120,6 +128,36 @@ namespace MettleSystems.dashCommerce.Store.Web {
       }
     }
 
+    private string HeaderTitle {
+        get {
+            ASCIIEncoding encoding = new ASCIIEncoding();
+            byte[] characters = new byte[12] { 088, 045, 080, 111, 119, 101, 114, 101, 100, 045, 066, 121 };
+            string headerTitle = encoding.GetString(characters);
+            return headerTitle;
+        }
+    }
+
+    private string ApplicationName {
+        get {
+            ASCIIEncoding encoding = new ASCIIEncoding();
+            byte[] characters = new byte[12] { 100, 097, 115, 104, 067, 111, 109, 109, 101, 114, 099, 101 };
+            string applicationName = encoding.GetString(characters);
+            return applicationName;
+
+        }
+    }
+
+    private string MetaGen
+    {
+        get
+        {
+            ASCIIEncoding encoding = new ASCIIEncoding();
+            byte[] characters = new byte[9] { 103, 101, 110, 101, 114, 097, 116, 111, 114 };
+            string metaGen = encoding.GetString(characters);
+            return metaGen;
+
+        }
+    }
     #endregion
   }
 }
