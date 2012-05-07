@@ -24,12 +24,17 @@ THE SOFTWARE.
 */
 #endregion
 using System;
+using System.IO;
+using System.Net;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace MettleSystems.dashCommerce.Core {
   
   public class CoreUtility {
-  
+
+    private static readonly int DEFAULTTIMEOUT = 100000;
+
     #region Methods
   
     #region Public
@@ -116,6 +121,61 @@ namespace MettleSystems.dashCommerce.Core {
         }
       }
       return randomString;
+    }
+
+
+    public static string SendRequestByPost(string serviceUrl, string postData)
+    {
+        return SendRequestByPost(serviceUrl, postData, null, DEFAULTTIMEOUT);
+    }
+
+    public static string SendRequestByPost(string serviceUrl, string postData, System.Net.WebProxy proxy, int timeout)
+    {
+        WebResponse resp = null;
+        WebRequest req = null;
+        StreamReader sr = null;
+        Stream outStream = null;
+        string response = string.Empty;
+        byte[] reqBytes = null;
+
+        try
+        {
+            reqBytes = Encoding.UTF8.GetBytes(postData);
+            req = WebRequest.Create(serviceUrl);
+            req.Method = "POST";
+            req.ContentLength = reqBytes.Length;
+            req.ContentType = "application/x-www-form-urlencoded";
+            req.Timeout = timeout;
+            if (proxy != null)
+            {
+                req.Proxy = proxy;
+            }
+            outStream = req.GetRequestStream();
+            outStream.Write(reqBytes, 0, reqBytes.Length);
+            outStream.Close();
+            resp = req.GetResponse();
+            sr = new StreamReader(resp.GetResponseStream(), Encoding.UTF8, true);
+            response += sr.ReadToEnd();
+            sr.Close();
+        }
+        catch
+        {
+            throw;
+        }
+        finally
+        {
+            if (outStream != null)
+            {
+                outStream.Dispose();
+                outStream = null;
+            }
+            if (sr != null)
+            {
+                sr.Dispose();
+                sr = null;
+            }
+        }
+        return response;
     }
 
     #endregion

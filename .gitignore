@@ -11,6 +11,10 @@ obj
 *.csproj.user
 TestResult.xml
 
+# Specific Folders #
+####################
+Web/repository/product
+
 
 # Specific Files #
 ##################

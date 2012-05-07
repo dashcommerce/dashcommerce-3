@@ -98,6 +98,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\controls\configuration\paymentproviders\authorizenetconfiguration.ascx" />
     <Content Include="Global.asax" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +149,13 @@
     </Compile>
     <Compile Include="admin\controls\configuration\couponproviders\percentoffconfiguration.ascx.designer.cs">
       <DependentUpon>percentoffconfiguration.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\configuration\paymentproviders\authorizenetconfiguration.ascx.cs">
+      <DependentUpon>authorizenetconfiguration.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\configuration\paymentproviders\authorizenetconfiguration.ascx.designer.cs">
+      <DependentUpon>authorizenetconfiguration.ascx</DependentUpon>
     </Compile>
     <Compile Include="admin\controls\configuration\paymentproviders\nullpaymentconfiguration.ascx.cs">
       <DependentUpon>nullpaymentconfiguration.ascx</DependentUpon>
@@ -1597,8 +1605,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="repository\site\logo.gif" />
-    <Content Include="resources\jquery\slimbox2.css" />
-    <Content Include="resources\jquery\slimbox2.js" />
     <Content Include="site.master" />
   </ItemGroup>
   <ItemGroup>
