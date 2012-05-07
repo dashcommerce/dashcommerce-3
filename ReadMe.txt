@@ -8,8 +8,8 @@ If you have any questions, comments, or concern, please leave them in the dashCo
 In order to run  dashCommerce, you will need the following installed on your server / computer:
 
 Windows 7
-Internet Information Service (IIS)
-Microsoft .NET Framework 4.5
+Internet Information Service 7.5 (IIS 7.5)
+Microsoft .NET Framework 4.0
 SQL Server 2005 Express Edition or higher
 
 If you are going to develop with dashCommerce, then you will also need Microsoft Visual Studio 2011.
