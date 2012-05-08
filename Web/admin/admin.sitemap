@@ -51,8 +51,6 @@
       </siteMapNode>
     </siteMapNode>
     <siteMapNode url="~/admin/overview.aspx?view=help" title="$Resources:adminNav, Help" tooltip="$Resources:adminNavTooltips, Help">
-      <siteMapNode url="http://dashcommerce.org/forums/" title="$Resources:adminNav, CommunityForums" target="_blank" tooltip="$Resources:adminNavTooltips, CommunityForums" />
-      <siteMapNode url="http://dashcommerce.org/files/14/default.aspx" title="$Resources:adminNav, Documentation" target="_blank" tooltip="$Resources:adminNavTooltips, Documentation"/>
       <siteMapNode url="http://dashcommerce.org" title="$Resources:adminNav, dashCommerceorg" target="_blank" tooltip="$Resources:adminNavTooltips, dashCommerceorg"/>
       <siteMapNode url="http://dashcommerce.com" title="$Resources:adminNav, dashCommercecom" target="_blank" tooltip="$Resources:adminNavTooltips, dashCommercecom"/>
       <siteMapNode url="~/admin/about.aspx" title="$Resources:adminNav, About" tooltip="$Resources:adminNavTooltips, About"/>
