@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Configuration" xml:space="preserve">
     <value>Configuration</value>
@@ -284,5 +284,14 @@
   </data>
   <data name="Help" xml:space="preserve">
     <value>Help</value>
+  </data>
+  <data name="PaymentSolutions" xml:space="preserve">
+    <value>Payment Solutions</value>
+  </data>
+  <data name="GeneralPaymentProviderSettingsDescription" xml:space="preserve">
+    <value>These are the general settings for the payment service. These settings are not payment provider specific and apply at the store level.</value>
+  </data>
+  <data name="PaymentSolutionsDescription" xml:space="preserve">
+    <value>Sign Up for Your Preferred Payment Solution!</value>
   </data>
 </root>

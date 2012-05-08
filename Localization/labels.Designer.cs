@@ -1276,6 +1276,15 @@ namespace MettleSystems.dashCommerce.Localization.resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sign Up for Authorize.Net.
+        /// </summary>
+        internal static string hlAuthorizeNetPaymentSolution {
+            get {
+                return ResourceManager.GetString("hlAuthorizeNetPaymentSolution", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Community Forums.
         /// </summary>
         internal static string hlCommunityForums {
@@ -1479,6 +1488,15 @@ namespace MettleSystems.dashCommerce.Localization.resources {
         internal static string hlPayPalAcceleratedSetup {
             get {
                 return ResourceManager.GetString("hlPayPalAcceleratedSetup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign Up For PayPal.
+        /// </summary>
+        internal static string hlPayPalPaymentSolution {
+            get {
+                return ResourceManager.GetString("hlPayPalPaymentSolution", resourceCulture);
             }
         }
         
@@ -4030,6 +4048,15 @@ namespace MettleSystems.dashCommerce.Localization.resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to dashCommerce supports the following payment solutions. Please select which payment solution you would like to use and we will help sign you up with that payment solution..
+        /// </summary>
+        internal static string lblPaymentSolutions {
+            get {
+                return ResourceManager.GetString("lblPaymentSolutions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to * September 2007 Jupiter Research study of payment preferences online..
         /// </summary>
         internal static string lblPayPaAcceleratedNote {
@@ -6420,6 +6447,15 @@ namespace MettleSystems.dashCommerce.Localization.resources {
         internal static string pnlPaymentSelection {
             get {
                 return ResourceManager.GetString("pnlPaymentSelection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Payment Solutions.
+        /// </summary>
+        internal static string pnlPaymentSolutions {
+            get {
+                return ResourceManager.GetString("pnlPaymentSolutions", resourceCulture);
             }
         }
         

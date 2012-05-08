@@ -99,6 +99,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin\controls\configuration\paymentproviders\authorizenetconfiguration.ascx" />
+    <Content Include="admin\controls\configuration\paymentproviders\paymentsolutions.ascx" />
+    <Content Include="admin\paymentsolutions.aspx" />
     <Content Include="Global.asax" />
   </ItemGroup>
   <ItemGroup>
@@ -170,6 +172,13 @@
     </Compile>
     <Compile Include="admin\controls\configuration\paymentproviders\paymentselection.ascx.designer.cs">
       <DependentUpon>paymentselection.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\configuration\paymentproviders\paymentsolutions.ascx.cs">
+      <DependentUpon>paymentsolutions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\configuration\paymentproviders\paymentsolutions.ascx.designer.cs">
+      <DependentUpon>paymentsolutions.ascx</DependentUpon>
     </Compile>
     <Compile Include="admin\controls\configuration\paymentproviders\paypalacceleratedboarding.ascx.cs">
       <DependentUpon>paypalacceleratedboarding.ascx</DependentUpon>
@@ -691,6 +700,13 @@
     </Compile>
     <Compile Include="admin\paymentsettings.aspx.designer.cs">
       <DependentUpon>paymentsettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\paymentsolutions.aspx.cs">
+      <DependentUpon>paymentsolutions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\paymentsolutions.aspx.designer.cs">
+      <DependentUpon>paymentsolutions.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\productedit.aspx.cs">
       <DependentUpon>productedit.aspx</DependentUpon>

@@ -34,7 +34,8 @@
         <siteMapNode url="~/admin/mailsettings.aspx" title="$Resources:adminNav, MailSettings" />
       </siteMapNode>
       <siteMapNode url="~/admin/overview.aspx?view=pc" title="$Resources:adminNav, PaymentConfiguration" >
-        <siteMapNode url="~/admin/paymentsettings.aspx" title="$Resources:adminNav, GeneralPaymentProviderSettings" />
+        <siteMapNode url="~/admin/paymentsolutions.aspx" title="$Resources:adminNav, PaymentSolutions" description="$Resources:adminNav, PaymentSolutionsDescription" />
+        <siteMapNode url="~/admin/paymentsettings.aspx" title="$Resources:adminNav, GeneralPaymentProviderSettings" description="$Resources:adminNav, GeneralPaymentProviderSettingsDescription" />
         <siteMapNode url="~/admin/paymentconfiguration.aspx" title="$Resources:adminNav, ConfigurePaymentProviders" />
         <siteMapNode url="~/admin/paymentprovidermanagement.aspx" title="$Resources:adminNav, ManagePaymentProviders" />
       </siteMapNode>
