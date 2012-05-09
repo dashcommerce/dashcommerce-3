@@ -1,3 +1,18 @@
+########################
+# dashCommerce License #
+########################
+
+dashCommerce is licensed under the following license. If you do not accept the terms, please discontinue the use of dashCommerce and uninstall dashCommerce.
+
+Your license to the dashCommerce source and/or binaries is governed by the Reciprocal Public License 1.5 (RPL1.5) license as described here: 
+
+http://www.opensource.org/licenses/rpl1.5.txt
+
+If you do not wish to release the source of software you build using dashCommerce, you may purchase a site license, which will allow you to deploy dashCommerce for the use in 1 web store using 1 URL. You may purchase a site license here:
+
+http://LinktoPurchaseHere
+
+
 Open the .sln file and build the solution. Once you have built the solution, create an application in IIS and have it's root pointing at the Web folder.
 
 You can then run the installer, located at http://<yourdomain>/install/install.aspx. This installer will run you through the process of installing the database and the necessary database objects.

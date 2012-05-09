@@ -2515,13 +2515,13 @@
     <value>You have the following assemblies in your application:</value>
   </data>
   <data name="lblCopyright" xml:space="preserve">
-    <value>dashCommerce&amp;reg; is Copyright &amp;copy; 2008-2011 Mettle Systems LLC. All Rights Reserved.</value>
+    <value>dashCommerce&amp;reg; is Copyright &amp;copy; 2008-2012 Mettle Systems LLC. All Rights Reserved.</value>
   </data>
   <data name="lblLicenseAgreement" xml:space="preserve">
     <value>dashCommerce is licensed under the following license. If you do not accept the terms, please discontinue the use of dashCommerce and uninstall dashCommerce.</value>
   </data>
   <data name="lblStoreNotice" xml:space="preserve">
-    <value>dashCommerce is highly customizable. You can select different providers for your store and you can customize the skins. If you don't find what you are looking for, please visit the &lt;a href="http://www.dashcommerce.com" target="_blank"&gt;dashCommerce Store&lt;/a&gt; for additional add-ons to your dashCommerce store. At the  &lt;a href="http://www.dashcommerce.com" target="_blank"&gt;dashCommerce Store&lt;/a&gt;, you will find the following:&lt;ul&gt;&lt;li&gt;Hosting Services&lt;/li&gt;&lt;li&gt;Payment Providers&lt;/li&gt;&lt;li&gt;Shipping Providers&lt;/li&gt;&lt;li&gt;Tax Providers&lt;/li&gt;&lt;li&gt;Commercial Licenses&lt;/li&gt;&lt;li&gt;Support Packages&lt;/li&gt;&lt;li&gt;dashCommerce Utilities&lt;/li&gt;&lt;li&gt;. . . and much more!&lt;/li&gt;&lt;/ul&gt;</value>
+    <value>dashCommerce is highly customizable. You can select different providers for your store and you can customize the skins.</value>
   </data>
   <data name="lblTrademark" xml:space="preserve">
     <value>dashCommerce, and the dashCommerce logo are registered trademarks of Mettle Systems LLC. Mettle Systems LLC logos and trademarks may not be used without prior written consent.</value>

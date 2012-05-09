@@ -1689,7 +1689,9 @@
     <Content Include="admin\admin.master" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="admin\admin.sitemap" />
+    <Content Include="admin\admin.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="admin\default.aspx" />
   </ItemGroup>
   <ItemGroup>

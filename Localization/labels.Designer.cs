@@ -2230,7 +2230,7 @@ namespace MettleSystems.dashCommerce.Localization.resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to dashCommerce&amp;reg; is Copyright &amp;copy; 2008-2011 Mettle Systems LLC. All Rights Reserved..
+        ///   Looks up a localized string similar to dashCommerce&amp;reg; is Copyright &amp;copy; 2008-2012 Mettle Systems LLC. All Rights Reserved..
         /// </summary>
         internal static string lblCopyright {
             get {
@@ -5164,7 +5164,7 @@ namespace MettleSystems.dashCommerce.Localization.resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to dashCommerce is highly customizable. You can select different providers for your store and you can customize the skins. If you don&apos;t find what you are looking for, please visit the &lt;a href=&quot;http://www.dashcommerce.com&quot; target=&quot;_blank&quot;&gt;dashCommerce Store&lt;/a&gt; for additional add-ons to your dashCommerce store. At the  &lt;a href=&quot;http://www.dashcommerce.com&quot; target=&quot;_blank&quot;&gt;dashCommerce Store&lt;/a&gt;, you will find the following:&lt;ul&gt;&lt;li&gt;Hosting Services&lt;/li&gt;&lt;li&gt;Payment Providers&lt;/li&gt;&lt;li&gt;Shipping Providers&lt;/li&gt;&lt;li&gt;Tax [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to dashCommerce is highly customizable. You can select different providers for your store and you can customize the skins..
         /// </summary>
         internal static string lblStoreNotice {
             get {

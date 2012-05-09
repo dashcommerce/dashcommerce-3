@@ -690,3 +690,7 @@
 	position:absolute; 
 	margin-top:3px
 }
+
+a img {
+    border: none;
+}
