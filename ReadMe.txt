@@ -8,9 +8,11 @@ Your license to the dashCommerce source and/or binaries is governed by the Recip
 
 http://www.opensource.org/licenses/rpl1.5.txt
 
-If you do not wish to release the source of software you build using dashCommerce, you may purchase a site license, which will allow you to deploy dashCommerce for the use in 1 web store using 1 URL. You may purchase a site license here:
+If you do not wish to release the source of software you build using dashCommerce, you may purchase a site license, which will allow you to deploy dashCommerce for use in 1 web store defined as using 1 URL. You may purchase a site license here:
 
-http://LinktoPurchaseHere
+http://www.dashcommerce.org/license.html
+
+##################################################################################
 
 
 Open the .sln file and build the solution. Once you have built the solution, create an application in IIS and have it's root pointing at the Web folder.
