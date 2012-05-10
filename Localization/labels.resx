@@ -2518,7 +2518,25 @@
     <value>dashCommerce&amp;reg; is Copyright &amp;copy; 2008-2012 Mettle Systems LLC. All Rights Reserved.</value>
   </data>
   <data name="lblLicenseAgreement" xml:space="preserve">
-    <value>dashCommerce is licensed under the following license. If you do not accept the terms, please discontinue the use of dashCommerce and uninstall dashCommerce.</value>
+    <value>dashCommerce is licensed under the following license. If you do not accept the terms,
+            please discontinue the use of dashCommerce and uninstall dashCommerce.
+            &lt;br /&gt;
+            &lt;br /&gt;
+            Your license to the dashCommerce source and/or binaries is governed by the Reciprocal
+            Public License 1.5 (RPL1.5) license as described here:
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;a href="http://www.opensource.org/licenses/rpl1.5.txt" target="_new"&gt;http://www.opensource.org/licenses/rpl1.5.txt
+            &lt;/a&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+           &lt;strong&gt; If you do not wish to release the source of software you build using dashCommerce,
+            you may purchase a site license, which will allow you to deploy dashCommerce for
+            use in 1 web store defined as using 1 URL. You may purchase a site license here:&lt;/strong&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;a href="http://www.dashcommerce.org/license.html" target="_new"&gt;http://www.dashcommerce.org/license.html
+            &lt;/a&gt;</value>
   </data>
   <data name="lblStoreNotice" xml:space="preserve">
     <value>dashCommerce is highly customizable. You can select different providers for your store and you can customize the skins.</value>

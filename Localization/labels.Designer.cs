@@ -3274,7 +3274,15 @@ namespace MettleSystems.dashCommerce.Localization.resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to dashCommerce is licensed under the following license. If you do not accept the terms, please discontinue the use of dashCommerce and uninstall dashCommerce..
+        ///   Looks up a localized string similar to dashCommerce is licensed under the following license. If you do not accept the terms,
+        ///            please discontinue the use of dashCommerce and uninstall dashCommerce.
+        ///            &lt;br /&gt;
+        ///            &lt;br /&gt;
+        ///            Your license to the dashCommerce source and/or binaries is governed by the Reciprocal
+        ///            Public License 1.5 (RPL1.5) license as described here:
+        ///            &lt;br /&gt;
+        ///            &lt;br /&gt;
+        ///            &lt;a href=&quot;http://www.opensource.org/licenses/rpl1.5.txt&quot; target=&quot;_new&quot;&gt;http://www.o [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string lblLicenseAgreement {
             get {

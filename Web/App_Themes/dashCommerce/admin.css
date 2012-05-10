@@ -264,3 +264,14 @@ tr.row:hover, tr.over td {
   font-weight: bold;
   margin-left: 20px;  
 }
+
+#leftcontent {
+    width: 700px;
+}
+
+#rightcontent {
+    width:  240px;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+}
