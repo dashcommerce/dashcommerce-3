@@ -5,10 +5,10 @@
   <dashCommerce:Label ID="lblPaymentSolutions" runat="server" />
   <br />
   <br />
-  <asp:HyperLink ID="hlPayPalPaymentSolution" Text="Sign Up for PayPal" runat="server" NavigateUrl="https://www.paypal.com/us/mrb/pal=NAG62FTSWGJ5W" Target="_blank"/>
+  <a href="https://www.paypal.com/us/mrb/pal=NAG62FTSWGJ5W" target="_blank" onmouseover="window.status='Sign Up for PayPal!';return true;" onmouseout="window.status=''; return true;">Sign Up for PayPal</a>
   <br />
   <br />
-  <asp:HyperLink ID="hlAuthorizeNetPaymentSolution" Text="Sign Up for Authorize.Net" runat="server" CssClass="submodal-800-600" NavigateUrl="https://ems.authorize.net/oap/home.aspx?SalesRepID=98&ResellerID=12191" />
+  <a href="https://ems.authorize.net/oap/home.aspx?SalesRepID=98&ResellerID=12191" target="_blank" onmouseover="window.status='Sign Up for Authorize.Net!';return true;" onmouseout="window.status=''; return true;">Sign Up for Authorize.Net</a>
   <br />
   <br />
   <div class="rightAlign">
