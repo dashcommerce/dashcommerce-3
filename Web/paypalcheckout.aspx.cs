@@ -338,7 +338,7 @@ namespace MettleSystems.dashCommerce.Web {
     /// <param name="sender">The source of the event.</param>
     /// <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
     protected void btnProcessOrder_Click(object sender, EventArgs e) {
-      order.IPAddress = Request.UserHostAddress;
+      order.IPAddress = Request.UserHostAddress == "::1" || Request.UserHostAddress == "127.0.0.1" ? "127.0.0.1" : Request.UserHostAddress;
       order.Save(WebUtility.GetUserName());
 
       string returnUrl = Utility.GetSiteRoot() + "/paypal/pdthandler.aspx";

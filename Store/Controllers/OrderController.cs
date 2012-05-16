@@ -404,7 +404,7 @@ namespace MettleSystems.dashCommerce.Store {
     /// <returns></returns>
     public static Transaction Charge(Order order, string userName) {
       //update the order with IP
-      order.IPAddress = HttpContext.Current.Request.UserHostAddress;
+      order.IPAddress = HttpContext.Current.Request.UserHostAddress == "::1" || HttpContext.Current.Request.UserHostAddress == "127.0.0.1" ? "127.0.0.1" : HttpContext.Current.Request.UserHostAddress;
       PaymentService paymentService = new PaymentService();
       Transaction transaction = paymentService.Charge(order);
       order.OrderStatusDescriptorId = (int)OrderStatus.ReceivedPaymentProcessingOrder;
@@ -824,7 +824,7 @@ namespace MettleSystems.dashCommerce.Store {
         order.OrderNumber = CoreUtility.Generate4By4MaskedString();
         order.OrderStatusDescriptorId = (int)OrderStatus.NotProcessed;
         order.UserName = userName;
-        order.IPAddress = HttpContext.Current.Request.UserHostAddress;
+        order.IPAddress = HttpContext.Current.Request.UserHostAddress == "::1" || HttpContext.Current.Request.UserHostAddress == "127.0.0.1" ? "127.0.0.1" : HttpContext.Current.Request.UserHostAddress;
         order.Save(userName);
         orderId = order.OrderId;
       }
