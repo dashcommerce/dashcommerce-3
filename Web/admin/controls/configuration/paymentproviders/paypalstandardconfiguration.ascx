@@ -14,7 +14,7 @@
     <br />
     <asp:Literal ID="ltDescription" runat="server" />
   </dashCommerce:Panel>
-  <asp:CollapsiblePanelExtender ID="cpeDescription" runat="server"  TargetControlID="pnlDescription" ExpandControlID="pnlDescriptionTitle" CollapseControlID="pnlDescriptionTitle" ImageControlID="imgToggle" ExpandDirection="Vertical" Collapsed="true" CollapsedImage="~/App_Themes/dashCommerce/images/icons/down.gif" ExpandedImage="~/App_Themes/dashCommerce/images/icons/up.gif" />
+  <asp:CollapsiblePanelExtender ID="cpeDescription" runat="server"  TargetControlID="pnlDescription" ExpandControlID="pnlDescriptionTitle" CollapseControlID="pnlDescriptionTitle" ImageControlID="imgToggle" ExpandDirection="Vertical" Collapsed="false" SkinID="withImage" />
   <br />
   <dashCommerce:Label ID="lblBusinessEmail" runat="server" CssClass="label" /><br />
   <asp:TextBox ID="txtBusinessEmail" runat="server" CssClass="longtextbox" />&nbsp;<dashCommerce:HelpLink ID="helpBusinessEmail" runat="server" NavigateUrl="javascript:void(0);" /><br /><br />

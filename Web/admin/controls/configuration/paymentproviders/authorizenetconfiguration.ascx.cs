@@ -99,7 +99,7 @@ namespace MettleSystems.dashCommerce.Web.admin.controls.configuration.paymentpro
       pnlSettings.GroupingText = "Authorize.NET Configuration";
       lblApiTransactionKey.Text = "API Transaction Key:";
       lblApiUserName.Text = "API UserName:";
-      lblDescriptionTitle.Text = "Authorize.NET Description";
+      lblDescriptionTitle.Text = "Authorize.NET";
       lblIsInTestMode.Text = "Is In Test Mode:";
       lblIsLive.Text = "Is Live:";
       btnSave.Text = "Save";

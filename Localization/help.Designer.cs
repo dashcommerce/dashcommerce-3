@@ -133,7 +133,7 @@ namespace MettleSystems.dashCommerce.Localization.resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This is the PayPal API Username required to use the PayPal API..
+        ///   Looks up a localized string similar to This is the API Username required to use the payment provider API..
         /// </summary>
         internal static string helpApiUserName {
             get {
@@ -538,6 +538,15 @@ namespace MettleSystems.dashCommerce.Localization.resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Having the account in Test Mode can allow a merchant or developer to test their website/software implementation without submitting live transactions. While in Test Mode, transactions will not be saved to the database or be viewable in search results or reports..
+        /// </summary>
+        internal static string helpIsInTestMode {
+            get {
+                return ResourceManager.GetString("helpIsInTestMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select this if you are ready to go live with your site..
         /// </summary>
         internal static string helpIsLive {
@@ -561,6 +570,15 @@ namespace MettleSystems.dashCommerce.Localization.resources {
         internal static string helpLanguage {
             get {
                 return ResourceManager.GetString("helpLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Transaction Key associated with this account. You get this from Authorize.Net..
+        /// </summary>
+        internal static string helplApiTransactionKey {
+            get {
+                return ResourceManager.GetString("helplApiTransactionKey", resourceCulture);
             }
         }
         

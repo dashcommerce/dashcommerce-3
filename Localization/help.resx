@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="helpActive" xml:space="preserve">
     <value>Indicates if the user is active.</value>
@@ -139,7 +139,7 @@
     <value>The PayPal API Signature is an encrypted string required to use the PayPal API.</value>
   </data>
   <data name="helpApiUserName" xml:space="preserve">
-    <value>This is the PayPal API Username required to use the PayPal API.</value>
+    <value>This is the API Username required to use the payment provider API.</value>
   </data>
   <data name="helpBaseSku" xml:space="preserve">
     <value>This is the base Sku for the product. If the product has attributes, then the final sku will use this as the base.</value>
@@ -464,5 +464,11 @@
   </data>
   <data name="helpCouponPercentOff" xml:space="preserve">
     <value>This is the percentage off you wish to be applied for the coupon. This should be entered in decimal form. For example, for a 10% coupon, you would enter .10.</value>
+  </data>
+  <data name="helpIsInTestMode" xml:space="preserve">
+    <value>Having the account in Test Mode can allow a merchant or developer to test their website/software implementation without submitting live transactions. While in Test Mode, transactions will not be saved to the database or be viewable in search results or reports.</value>
+  </data>
+  <data name="helplApiTransactionKey" xml:space="preserve">
+    <value>The Transaction Key associated with this account. You get this from Authorize.Net.</value>
   </data>
 </root>

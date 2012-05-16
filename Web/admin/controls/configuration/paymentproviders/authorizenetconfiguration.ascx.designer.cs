@@ -94,13 +94,13 @@ namespace MettleSystems.dashCommerce.Web.admin.controls.configuration.paymentpro
         protected global::System.Web.UI.WebControls.TextBox txtApiUserName;
         
         /// <summary>
-        /// hlApiUserNameHelp control.
+        /// helpApiUserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlApiUserNameHelp;
+        protected global::MettleSystems.dashCommerce.Controls.HelpLink helpApiUserName;
         
         /// <summary>
         /// imgApiUserNameHelp control.
@@ -130,13 +130,13 @@ namespace MettleSystems.dashCommerce.Web.admin.controls.configuration.paymentpro
         protected global::System.Web.UI.WebControls.TextBox txtApiTransactionKey;
         
         /// <summary>
-        /// hlApiTransactionKeyHelp control.
+        /// helplApiTransactionKey control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlApiTransactionKeyHelp;
+        protected global::MettleSystems.dashCommerce.Controls.HelpLink helplApiTransactionKey;
         
         /// <summary>
         /// Image1 control.
@@ -166,13 +166,13 @@ namespace MettleSystems.dashCommerce.Web.admin.controls.configuration.paymentpro
         protected global::System.Web.UI.WebControls.CheckBox chkIsInTestMode;
         
         /// <summary>
-        /// hlIsInTestModeHelp control.
+        /// helpIsInTestMode control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlIsInTestModeHelp;
+        protected global::MettleSystems.dashCommerce.Controls.HelpLink helpIsInTestMode;
         
         /// <summary>
         /// Image2 control.
@@ -202,13 +202,13 @@ namespace MettleSystems.dashCommerce.Web.admin.controls.configuration.paymentpro
         protected global::System.Web.UI.WebControls.CheckBox chkIsLive;
         
         /// <summary>
-        /// hlIsLiveHelp control.
+        /// helpIsLive control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlIsLiveHelp;
+        protected global::MettleSystems.dashCommerce.Controls.HelpLink helpIsLive;
         
         /// <summary>
         /// Image3 control.

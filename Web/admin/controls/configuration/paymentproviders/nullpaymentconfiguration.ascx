@@ -16,7 +16,7 @@
     <br />
     <asp:Literal ID="ltDescription" runat="server" />
   </dashCommerce:Panel>
-  <asp:CollapsiblePanelExtender ID="cpeDescription" runat="server"  TargetControlID="pnlDescription" ExpandControlID="pnlDescriptionTitle" CollapseControlID="pnlDescriptionTitle" ImageControlID="imgToggle" ExpandDirection="Vertical" Collapsed="true" SkinID="withImage"  />
+  <asp:CollapsiblePanelExtender ID="cpeDescription" runat="server"  TargetControlID="pnlDescription" ExpandControlID="pnlDescriptionTitle" CollapseControlID="pnlDescriptionTitle" ImageControlID="imgToggle" ExpandDirection="Vertical" Collapsed="false" SkinID="withImage"  />
   <br />
   <dashCommerce:Button ID="btnSave" runat="server" OnClick="btnSave_Click" />
 </dashCommerce:Panel>
