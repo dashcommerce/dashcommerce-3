@@ -474,7 +474,7 @@ DlgDocCharSetGR		: "Грецька",
 DlgDocCharSetJP		: "Японська",
 DlgDocCharSetKR		: "Корейська",
 DlgDocCharSetTR		: "Турецька",
-DlgDocCharSetUN		: "Юнікод (UTF-8)",
+DlgDocCharSetUN		: "�нікод (UTF-8)",
 DlgDocCharSetWE		: "Західно-европейская",
 DlgDocCharSetOther	: "Інше кодування набору символів",
 
