@@ -1,3 +1,22 @@
+Welcome to dashCommerce!
+
+dashCommerce is a flexible and robust ASP.NET Open Source e-commerce application that you can use to set up your online store. dashCommerce has been available since early 2008 and has been used in countless online stores and is wildly successful. “How successful?” you might ask? Well, dashCommerce can has the following achievements to its credit:
+	1.) Was recognized by PayPal as a Top 25 integration within 1.5 years of being launched.
+	2.) Is licensed by the US Government for use in creating online stores for the Armed Services.
+	3.) Used throughout the world to generate many millions of dollars in revenue.
+
+You can use dashCommerce to sell both physical and digital goods via the internet. 
+
+You will need to sign up with a payment provider in order to use dashCommerce. You can sign up for the following payment providers online, right now!
+
+Sign up for PayPal - https://www.paypal.com/us/mrb/pal=NAG62FTSWGJ5W
+
+Sign up for Authorize.Net - https://ems.authorize.net/oap/home.aspx?SalesRepID=98&ResellerID=12191
+
+Best of luck to you in creating your online store!
+
+
+
 ########################
 # dashCommerce License #
 ########################
