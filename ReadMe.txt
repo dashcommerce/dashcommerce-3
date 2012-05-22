@@ -3,8 +3,8 @@ Welcome to dashCommerce!
 dashCommerce is a flexible and robust ASP.NET Open Source e-commerce application that you can use to set up your online store. dashCommerce has been available since early 2008 and has been used in countless online stores and is wildly successful. "How successful?" you might ask? Well, dashCommerce can has the following achievements to its credit:
 	
   1.) Was recognized by PayPal as a Top 25 integration within 1.5 years of being launched.
-	2.) Is licensed by the US Government for use in creating online stores for the Armed Services.
-	3.) Used throughout the world to generate many millions of dollars in revenue.
+  2.) Is licensed by the US Government for use in creating online stores for the Armed Services.
+  3.) Used throughout the world to generate many millions of dollars in revenue.
 
 You can use dashCommerce to sell both physical and digital goods via the internet. 
 
