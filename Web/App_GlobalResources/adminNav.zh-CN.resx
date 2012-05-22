@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Configuration" xml:space="preserve">
-    <value>配置</value>
+    <value>配�</value>
   </data>
   <data name="ConfigurePaymentProviders" xml:space="preserve">
-    <value>配置付款提供程序</value>
+    <value>配�付款提供程序</value>
   </data>
   <data name="ConfigureShippingProviders" xml:space="preserve">
-    <value>配置运送提供程序</value>
+    <value>配�运送提供程序</value>
   </data>
   <data name="ConfigureTaxProviders" xml:space="preserve">
-    <value>配置税收提供程序</value>
+    <value>配�税收提供程序</value>
   </data>
   <data name="ContentManagement" xml:space="preserve">
-    <value>内容管理</value>
+    <value>内��理</value>
   </data>
   <data name="Default" xml:space="preserve">
     <value>dashBoard</value>
@@ -139,40 +139,40 @@
     <value>错误日志</value>
   </data>
   <data name="GeneralPaymentProviderSettings" xml:space="preserve">
-    <value>常用付款方式设定</value>
+    <value>常用付款方式��</value>
   </data>
   <data name="GeneralShippingProviderSettings" xml:space="preserve">
-    <value>常用配送方式设定</value>
+    <value>常用配送方式��</value>
   </data>
   <data name="GeneralTaxProviderSettings" xml:space="preserve">
-    <value>常用税收策略设定</value>
+    <value>常用税收策略��</value>
   </data>
   <data name="MailConfiguration" xml:space="preserve">
-    <value>邮箱管理</value>
+    <value>���理</value>
   </data>
   <data name="MailSettings" xml:space="preserve">
-    <value>邮件设定</value>
+    <value>�件��</value>
   </data>
   <data name="ManagePaymentProviders" xml:space="preserve">
-    <value>设定付款方式</value>
+    <value>��付款方式</value>
   </data>
   <data name="ManageShippingProviders" xml:space="preserve">
-    <value>设定配送方式</value>
+    <value>��配送方式</value>
   </data>
   <data name="ManageTaxProviders" xml:space="preserve">
-    <value>设定税收设定</value>
+    <value>��税收��</value>
   </data>
   <data name="Notifications" xml:space="preserve">
     <value>通知</value>
   </data>
   <data name="OrderSearch" xml:space="preserve">
-    <value>订单搜索</value>
+    <value>�单搜索</value>
   </data>
   <data name="PaymentConfiguration" xml:space="preserve">
-    <value>付款设定</value>
+    <value>付款��</value>
   </data>
   <data name="PayPalPaymentConfiguration" xml:space="preserve">
-    <value>PayPal 付款设定</value>
+    <value>PayPal 付款��</value>
   </data>
   <data name="ProductAttributes" xml:space="preserve">
     <value>商品属性</value>
@@ -184,16 +184,16 @@
     <value>商品对比</value>
   </data>
   <data name="ProductCategories" xml:space="preserve">
-    <value>商品目录</value>
+    <value>商品�录</value>
   </data>
   <data name="ProductCoupons" xml:space="preserve">
     <value>优惠商品</value>
   </data>
   <data name="ProductListing" xml:space="preserve">
-    <value>商品目录</value>
+    <value>商品�录</value>
   </data>
   <data name="ProductManagement" xml:space="preserve">
-    <value>商品管理</value>
+    <value>商品�理</value>
   </data>
   <data name="ProductManufacturers" xml:space="preserve">
     <value>商品制造商</value>
@@ -208,30 +208,30 @@
     <value>返回主页</value>
   </data>
   <data name="RoleAdministration" xml:space="preserve">
-    <value>角色管理</value>
+    <value>角色�理</value>
   </data>
   <data name="Sales" xml:space="preserve">
-    <value>销售人员</value>
+    <value>销�人员</value>
   </data>
   <data name="Security" xml:space="preserve">
-    <value>安全性</value>
+    <value>�全性</value>
   </data>
   <data name="ShippingConfiguration" xml:space="preserve">
-    <value>配送设定</value>
+    <value>配送��</value>
   </data>
   <data name="Site" xml:space="preserve">
     <value>网站</value>
   </data>
   <data name="SiteSettings" xml:space="preserve">
-    <value>网站设定</value>
+    <value>网站��</value>
   </data>
   <data name="TaxConfiguration" xml:space="preserve">
-    <value>税收设定</value>
+    <value>税收��</value>
   </data>
   <data name="TrackingLogs" xml:space="preserve">
-    <value>跟踪记录</value>
+    <value>跟踪�录</value>
   </data>
   <data name="UserAdministration" xml:space="preserve">
-    <value>用户管理</value>
+    <value>用户�理</value>
   </data>
 </root>

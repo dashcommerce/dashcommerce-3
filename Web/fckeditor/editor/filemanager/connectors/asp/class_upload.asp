@@ -37,11 +37,11 @@
 ' 文件名:	NetRube_Upload.asp
 ' 版本:		NetRube Upload Class Version 2.3 Build 20070528
 ' 作者:		NetRube(网络乡巴佬)
-' 电子邮件:	NetRube@126.com
+' 电子�件:	NetRube@126.com
 ' 日期:		2007年05月28日
 ' 声明:		文件上传类
 '			本上传类可以自由使用，但请保留此版权声明信息
-'			如果您对本上传类进行修改增强，
+'			如果您对本上传类进行�改增强，
 '			请发送一份给俺。
 '**********************************************
 
@@ -126,12 +126,12 @@ Class NetRube_Upload
 		'Thankful long(yrl031715@163.com)
 		'Fix upload large file.
 		'**********************************************
-		' 修正作者：long
-		' 联系邮件: yrl031715@163.com
-		' 修正时间：2007年5月6日
-		' 修正说明：由于iis6的Content-Length 头信息中包含的请求长度超过了 AspMaxRequestEntityAllowed 的值（默认200K）, IIS 将返回一个 403 错误信息.
-		'          直接导致在iis6下调试FCKeditor上传功能时，一旦文件超过200K,上传文件时文件管理器失去响应，受此影响，文件的快速上传功能也存在在缺陷。
-		'          在参考 宝玉 的 Asp无组件上传带进度条 演示程序后作出如下修改，以修正在iis6下的错误。
+		' �正作者：long
+		' 联系�件: yrl031715@163.com
+		' �正时间：2007年5月6日
+		' �正说明：由于iis6的Content-Length 头信息中包含的请求长度超过了 AspMaxRequestEntityAllowed 的值（默�200K）, IIS 将返回一个 403 错误信息.
+		'          直接导致在iis6下调试FCKeditor上传功能时，一旦文件超过200K,上传文件时文件�理器失去响应，受此影响，文件的快速上传功能也存在在缺陷。
+		'          在参考 �玉 的 Asp无组件上传带进度条 演示程序后作出如下�改，以�正在iis6下的错误。
 
 		Dim nTotalBytes, nPartBytes, ReadBytes
 		ReadBytes = 0

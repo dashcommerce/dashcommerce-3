@@ -154,7 +154,7 @@
     <value>C'est le compte de courrier électronique que vous employez pour votre compte de PayPal.</value>
   </data>
   <data name="helpCategoryDescription" xml:space="preserve">
-    <value>La description apparaîtra à la page de catégorie. Ceci donnera à des visiteurs à votre site une idée des types de produits qu'ils trouveront dans la catégorie.</value>
+    <value>La description appara�tra à la page de catégorie. Ceci donnera à des visiteurs à votre site une idée des types de produits qu'ils trouveront dans la catégorie.</value>
   </data>
   <data name="helpCategoryImageFile" xml:space="preserve">
     <value>Cette image sera montré au dessus de la page de catégorie.</value>
@@ -205,7 +205,7 @@
     <value>La taille du secteur d'en-tête. Ajustez ceci à un plus grand ou plus petit secteur du contenu.</value>
   </data>
   <data name="helpImageCaption" xml:space="preserve">
-    <value>La légende d'image apparaîtra au-dessous de l'image à la page de produit.</value>
+    <value>La légende d'image appara�tra au-dessous de l'image à la page de produit.</value>
   </data>
   <data name="helpImageFile" xml:space="preserve">
     <value>Cette image est utilisée.</value>
@@ -241,7 +241,7 @@
     <value>Le nom du fabricant que vous vous ajoutez.</value>
   </data>
   <data name="helpMenuTitle" xml:space="preserve">
-    <value>C'est le titre qui apparaîtra dans la navigation du site. Ceci devrait être assez court et facilement identifiable.</value>
+    <value>C'est le titre qui appara�tra dans la navigation du site. Ceci devrait être assez court et facilement identifiable.</value>
   </data>
   <data name="helpName" xml:space="preserve">
     <value>Le nom du produit.</value>
@@ -289,16 +289,16 @@
     <value>Le nom du service à employer.</value>
   </data>
   <data name="helpSiteName" xml:space="preserve">
-    <value>C'est le nom du site, cela apparaîtra fréquemment dans la barre de titre.</value>
+    <value>C'est le nom du site, cela appara�tra fréquemment dans la barre de titre.</value>
   </data>
   <data name="helpTagLine" xml:space="preserve">
-    <value>Votre TagLine apparaîtra dans vos email. Rendez lui quelque chose entraînante ! !</value>
+    <value>Votre TagLine appara�tra dans vos email. Rendez lui quelque chose entra�nante ! !</value>
   </data>
   <data name="helpTheme" xml:space="preserve">
     <value>Choisissez le thème pour le site.</value>
   </data>
   <data name="helpTitle" xml:space="preserve">
-    <value>C'est le titre de la page qui paraîtra dans la fenêtre de navigateur. Ceci peut être assez long et descriptif.</value>
+    <value>C'est le titre de la page qui para�tra dans la fenêtre de navigateur. Ceci peut être assez long et descriptif.</value>
   </data>
   <data name="helpUserName" xml:space="preserve">
     <value>C'est le nom d'utilisateur de l'utilisateur enregistré.</value>

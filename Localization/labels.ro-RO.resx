@@ -387,11 +387,11 @@
     <comment>Browsing Log Listing</comment>
   </data>
   <data name="lblCategoryItems" xml:space="preserve">
-    <value>Numărul de elemente de afişat în pagina catalog:</value>
+    <value>Numărul de elemente de afişat �n pagina catalog:</value>
     <comment>Number of items to display on catalog page:</comment>
   </data>
   <data name="lblDefaultCategorySorting" xml:space="preserve">
-    <value>Metoda implicită de sortare a produselor în pagina catalog:</value>
+    <value>Metoda implicită de sortare a produselor �n pagina catalog:</value>
     <comment>Default sorting of products on catalog page:</comment>
   </data>
   <data name="lblCategoryListing" xml:space="preserve">
@@ -403,11 +403,11 @@
     <comment>Collect Search Terms:</comment>
   </data>
   <data name="lblCompleteInstructions" xml:space="preserve">
-    <value>Instalarea dashCommerce a fost încheiată. &lt;strong&gt;Ar trebui eliminat acest folder de instalare de pe sit pt a nu fi rulat din nou.&lt;/strong&gt; Acum poţi să te loghezi cu contul de Administrator ce tocmai a fost creat şi să incepi încărcarea de produse!&lt;/p&gt;</value>
+    <value>Instalarea dashCommerce a fost �ncheiată. &lt;strong&gt;Ar trebui eliminat acest folder de instalare de pe sit pt a nu fi rulat din nou.&lt;/strong&gt; Acum poţi să te loghezi cu contul de Administrator ce tocmai a fost creat şi să incepi �ncărcarea de produse!&lt;/p&gt;</value>
     <comment>&lt;p&gt;The installation of dashCommerce has been completed! &lt;strong&gt;You should now remove this install folder from your site to ensure it is not run again.&lt;/strong&gt; You may now login with the Administrator account you just created and begin loading your site with products!&lt;/p&gt;</comment>
   </data>
   <data name="lblConnectionStringInstructions" xml:space="preserve">
-    <value>&lt;p&gt;&lt;strong&gt;Înainte de a începe&lt;/strong&gt;, copy şi paste şirul de conectare de mai jos în fişierul connectionString.config. Pur şi simplu înlocuieşte linia ce conţine: &lt;br/&gt;&lt;br/&gt;&lt;span style="font-family: Courier New"&gt; &amp;lt;add name="dashCommerce" connectionString="SOMETEXT"  providerName="System.Data.SqlClient" /&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; cu următoarea:&lt;/p&gt;</value>
+    <value>&lt;p&gt;&lt;strong&gt;Înainte de a �ncepe&lt;/strong&gt;, copy şi paste şirul de conectare de mai jos �n fişierul connectionString.config. Pur şi simplu �nlocuieşte linia ce conţine: &lt;br/&gt;&lt;br/&gt;&lt;span style="font-family: Courier New"&gt; &amp;lt;add name="dashCommerce" connectionString="SOMETEXT"  providerName="System.Data.SqlClient" /&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; cu următoarea:&lt;/p&gt;</value>
     <comment>&lt;p&gt;&lt;strong&gt;Before proceeding&lt;/strong&gt;, please copy and paste the connection string below into the connectionString.config file. Simply replace the line that has:&lt;br/&gt;&lt;br/&gt;&lt;span style="font-family: Courier New"&gt; &amp;lt;add name="dashCommerce" connectionString="SOMETEXT"  providerName="System.Data.SqlClient" /&amp;gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; with the following:&lt;/p&gt;</comment>
   </data>
   <data name="lblCoupon" xml:space="preserve">
@@ -419,7 +419,7 @@
     <comment>Coupon Code:</comment>
   </data>
   <data name="lblCouponDescription" xml:space="preserve">
-    <value>Secţiunea Cupoane permite adăugarea şi editarea cupoanelor utilizate în acest magazin.</value>
+    <value>Secţiunea Cupoane permite adăugarea şi editarea cupoanelor utilizate �n acest magazin.</value>
     <comment>The Coupon section allows you to add and edit coupons for use by your store.</comment>
   </data>
   <data name="lblCouponInformation" xml:space="preserve">
@@ -483,7 +483,7 @@
     <comment>Enable Reviews:</comment>
   </data>
   <data name="lblShowShippingOnCart" xml:space="preserve">
-    <value>Afişare expediere în Coş:</value>
+    <value>Afişare expediere �n Coş:</value>
     <comment>Display Shipping on Cart:</comment>
   </data>
   <data name="lblEditRegion" xml:space="preserve">
@@ -519,7 +519,7 @@
     <comment>Is Single Use:</comment>
   </data>
   <data name="lblLanguagePack" xml:space="preserve">
-    <value>dashCommerce e localizabil, aşa că dacă doreşti să instalezi o anumită limbă în baza de date (şi ea există) selecteaz-o mai jos.</value>
+    <value>dashCommerce e localizabil, aşa că dacă doreşti să instalezi o anumită limbă �n baza de date (şi ea există) selecteaz-o mai jos.</value>
     <comment>dashCommerce is localizable, so if you want to install a specific language pack to your database (and that language pack exists) then select the language below.</comment>
   </data>
   <data name="lblLogInfo" xml:space="preserve">
@@ -535,11 +535,11 @@
     <comment>Long Cache:</comment>
   </data>
   <data name="lblManageCouponProviderDescription" xml:space="preserve">
-    <value>Secţiunea Administrare Provideri Cupoane permite adăugarea de Provideri de Cupoane aşa încât magazinul să îi poată folosi pt a oferi reduceri clienţilor.</value>
+    <value>Secţiunea Administrare Provideri Cupoane permite adăugarea de Provideri de Cupoane aşa �ncât magazinul să �i poată folosi pt a oferi reduceri clienţilor.</value>
     <comment>The Manage Coupon Providers section allows you to add additional coupon providers to your store, that your store can then use to offer discounts to your customers.</comment>
   </data>
   <data name="lblMembershipInstructions" xml:space="preserve">
-    <value>&lt;p&gt;Se va crea acum contul de Administrator ce va permite administrarea dashCommerce.&lt;/p&gt;&lt;p&gt;Păstreză informaţiile despre acest cont într-o locaţie sigură şi nu face publică.&lt;/p&gt;</value>
+    <value>&lt;p&gt;Se va crea acum contul de Administrator ce va permite administrarea dashCommerce.&lt;/p&gt;&lt;p&gt;Păstreză informaţiile despre acest cont �ntr-o locaţie sigură şi nu face publică.&lt;/p&gt;</value>
     <comment>&lt;p&gt;You will now create the Administrator account which will allow you administer dashCommerce.&lt;/p&gt;&lt;p&gt;Please keep this account information in a safe location and do not give it out.&lt;/p&gt;</comment>
   </data>
   <data name="lblNewsFeedUrl" xml:space="preserve">
@@ -586,7 +586,7 @@
     <comment>Page Template:</comment>
   </data>
   <data name="lblPayPalStandardRefundInstructions" xml:space="preserve">
-    <value>Tranzacţiile PayPal Standard trebuie să fie rambursate în situl web PayPal. Totuşi, odată rambursată tranzacţia prin PayPal, va trebui efectuat un ramburs şi aici pt a avea comanda în sincron.</value>
+    <value>Tranzacţiile PayPal Standard trebuie să fie rambursate �n situl web PayPal. Totuşi, odată rambursată tranzacţia prin PayPal, va trebui efectuat un ramburs şi aici pt a avea comanda �n sincron.</value>
     <comment>PayPal Standard transactions need to be refunded via the PayPal website. However, once you refund the transaction through PayPal, you should perform a refund here as well to keep the order in sync.</comment>
   </data>
   <data name="lblPercentOff" xml:space="preserve">
@@ -598,15 +598,15 @@
     <comment>Percent Off Coupon</comment>
   </data>
   <data name="lblProductAttributesDescription" xml:space="preserve">
-    <value>Secţiunea Atribute Produs permite crearea de atribute ce pot fi asociate cu produsele şi utilizate în procesul de comandă. Acestea sunt atribute de produs ca de exemplu mărime, culoare, etc.</value>
+    <value>Secţiunea Atribute Produs permite crearea de atribute ce pot fi asociate cu produsele şi utilizate �n procesul de comandă. Acestea sunt atribute de produs ca de exemplu mărime, culoare, etc.</value>
     <comment>The Product Attributes section allows you to create attributes that can be associated with your products and used in the ordering process. These are product attributes such as sizes, colors, etc.</comment>
   </data>
   <data name="lblProductCategoriesDescription" xml:space="preserve">
-    <value>Secţiunea Categorii Produs permite crearea de categorii ce determină navigarea în magazin şi permit asocierea produselor cu categorii.</value>
+    <value>Secţiunea Categorii Produs permite crearea de categorii ce determină navigarea �n magazin şi permit asocierea produselor cu categorii.</value>
     <comment>The Product Categories section allows you to create categories that drive your store navigation and allows you to associate products with categories.</comment>
   </data>
   <data name="lblProductCouponsDescription" xml:space="preserve">
-    <value>Secţiunea Cupoane Produs permite crearea de cupoane ce vor fi utilizate în magazin. Clienţii vor putea folosi aceste coduri de cupoane pt a beneficia de reduceri când cumpără din magazin.</value>
+    <value>Secţiunea Cupoane Produs permite crearea de cupoane ce vor fi utilizate �n magazin. Clienţii vor putea folosi aceste coduri de cupoane pt a beneficia de reduceri când cumpără din magazin.</value>
     <comment>The Product Coupons sections allows you to create coupons for use by your store. Your clients can then use the coupon codes to receive discounts when shopping your store.</comment>
   </data>
   <data name="lblDeletedFromServer" xml:space="preserve">
@@ -696,7 +696,7 @@
     <value>Url:</value>
   </data>
   <data name="lblWelcomeInstructions" xml:space="preserve">
-    <value>&lt;p&gt;Acest asistent de instalare te va ajuta în instalarea Centrul de Mesaje este locul unde se afişează rezultatele acţiunilor de instalare.&lt;/p&gt;&lt;p&gt;Deci, la treabă  . . . &lt;/p&gt;</value>
+    <value>&lt;p&gt;Acest asistent de instalare te va ajuta �n instalarea Centrul de Mesaje este locul unde se afişează rezultatele acţiunilor de instalare.&lt;/p&gt;&lt;p&gt;Deci, la treabă  . . . &lt;/p&gt;</value>
     <comment>&lt;p&gt;This installation wizard will guide you through the installation of dashCommerce.&lt;/p&gt;&lt;p&gt;The Message Center is where you receive feedback about the actions taken by the installer.&lt;/p&gt;&lt;p&gt;So, let's not waste any time . . . &lt;/p&gt;</comment>
   </data>
   <data name="pnlAddRegion" xml:space="preserve">
@@ -926,7 +926,7 @@
     <comment>Images</comment>
   </data>
   <data name="chkShowdCCopyright" xml:space="preserve">
-    <value>Inserează "dashCommerce" în meta tag-uri</value>
+    <value>Inserează "dashCommerce" �n meta tag-uri</value>
     <comment>Insert dashCommerce into Meta Tags</comment>
   </data>
   <data name="lblCopyrightText" xml:space="preserve">
@@ -964,7 +964,7 @@
     <comment>License Key:</comment>
   </data>
   <data name="lblMaximumProductsToAddToCart" xml:space="preserve">
-    <value>Maxim "Adăugare în Coş":</value>
+    <value>Maxim "Adăugare �n Coş":</value>
     <comment>"Add to Cart" Maximum:</comment>
   </data>
   <data name="lblPaymentProviderError" xml:space="preserve">
@@ -1045,11 +1045,11 @@
     <comment>Error Log Search</comment>
   </data>
   <data name="pnlPendingOrders" xml:space="preserve">
-    <value>Comenzi noi / în aşteptare</value>
+    <value>Comenzi noi / �n aşteptare</value>
     <comment>Pending / New Orders</comment>
   </data>
   <data name="lblLicenseAgreementInstructions" xml:space="preserve">
-    <value>Te rog vizualizează Acceptul Licenţei dashCommerce şi selectează "De acord" pt a acepta termenii Licenţei dashCommerce. Dacă nu acepţi aceşti termeni, te rog opreşte instalarea şi înlătură dashCommerce.</value>
+    <value>Te rog vizualizează Acceptul Licenţei dashCommerce şi selectează "De acord" pt a acepta termenii Licenţei dashCommerce. Dacă nu acepţi aceşti termeni, te rog opreşte instalarea şi �nlătură dashCommerce.</value>
     <comment>Please review the dashCommerce License Agreement and select "I Agree" to accept the terms of the dashCommerce License. If you do not accept the terms, please discontinue the install and remove dashCommerce.</comment>
   </data>
   <data name="pnlLicenseAgreement" xml:space="preserve">
@@ -1061,15 +1061,15 @@
     <comment>dashCommerce :: Install :: License Agreement</comment>
   </data>
   <data name="chkAgreeToLicense" xml:space="preserve">
-    <value>Sunt de acord cu termenii şi condiţiile de mai sus aşa cum descrise şi în Licenţa dashCommerce Store şi Licenţa dashCommerce Core.</value>
+    <value>Sunt de acord cu termenii şi condiţiile de mai sus aşa cum descrise şi �n Licenţa dashCommerce Store şi Licenţa dashCommerce Core.</value>
     <comment>I Agree to the Terms and Conditions as set forth in the dashCommerce Store License and the dashCommerce Core License, noted above.</comment>
   </data>
   <data name="chkUseConnectionStringConfig" xml:space="preserve">
-    <value>Folosire setări existente în connectionString.config</value>
+    <value>Folosire setări existente �n connectionString.config</value>
     <comment>Use settings in connectionString.config.</comment>
   </data>
   <data name="lblVersionCheckInstructions" xml:space="preserve">
-    <value>Acum se va face o verificare a versiunii cu baza de date pt a determina ce versiune de dashCommerce este instalată. Upgrade-urile vor fi executate începând cu versiunea 3.0 RC până la versiunea curentă. Dacă versiunea determinată nu este corectă, continuă cu mare atenţie şi asigură-te că ai o copie de rezervă a bazei de date.</value>
+    <value>Acum se va face o verificare a versiunii cu baza de date pt a determina ce versiune de dashCommerce este instalată. Upgrade-urile vor fi executate �ncepând cu versiunea 3.0 RC până la versiunea curentă. Dacă versiunea determinată nu este corectă, continuă cu mare atenţie şi asigură-te că ai o copie de rezervă a bazei de date.</value>
     <comment>A version check will now be performed against your database in order to determine which version of dashCommerce you have installed. Upgrades will be performed from version 3.0 RC to the current version. If the version we determine is not correct, then please proceed with caution and ensure you run the upgrade against a backup version of your database before proceeding.</comment>
   </data>
   <data name="pnlVersionCheckSetup" xml:space="preserve">
@@ -1139,7 +1139,7 @@
     <comment>Product Downloads</comment>
   </data>
   <data name="btnAddToCart" xml:space="preserve">
-    <value>Adaugă în Coş</value>
+    <value>Adaugă �n Coş</value>
     <comment>Add To Cart</comment>
   </data>
   <data name="lblDownloadsTitle" xml:space="preserve">
@@ -1151,7 +1151,7 @@
     <comment>About dashCommerce</comment>
   </data>
   <data name="lblAssembliesTitle" xml:space="preserve">
-    <value>Există următoarele Assemblies în aplicaţie:</value>
+    <value>Există următoarele Assemblies �n aplicaţie:</value>
     <comment>You have the following assemblies in your application:</comment>
   </data>
   <data name="lblCopyright" xml:space="preserve">
@@ -1192,7 +1192,7 @@
     <comment>I would like to reinstall the database.</comment>
   </data>
   <data name="lblCartChanged" xml:space="preserve">
-    <value>Coşul de cumpărături a fost modificat. Aceasta se întâmplă în mod normal fluctuaţiilor din inventar. Te rog revizuieşte conţinutul coşului pt a te asigura că comanda corespunde cu nevoile tale.</value>
+    <value>Coşul de cumpărături a fost modificat. Aceasta se �ntâmplă �n mod normal fluctuaţiilor din inventar. Te rog revizuieşte conţinutul coşului pt a te asigura că comanda corespunde cu nevoile tale.</value>
     <comment>Your cart has been modified. This is normally due to inventory fluctuations in the normal course of business. Please review your cart to ensure the order will fulfill your needs.</comment>
   </data>
   <data name="pnlDashCommerceTaxProviderConfiguration" xml:space="preserve">
@@ -1212,7 +1212,7 @@
     <comment>Customer Information</comment>
   </data>
   <data name="lblCustomerInformationDescription" xml:space="preserve">
-    <value>Secţiunea Informaţii Client permite executarea de acţiuni în numele clientului. Acestea sunt funcţii de mentenanţă.</value>
+    <value>Secţiunea Informaţii Client permite executarea de acţiuni �n numele clientului. Acestea sunt funcţii de mentenanţă.</value>
     <comment>The Customer Information section allows you to perform some action on behalf of a user. These are primarily maintenance functions.</comment>
   </data>
   <data name="pnlCustomerServiceConfiguration" xml:space="preserve">
@@ -1355,7 +1355,7 @@
     <comment>User Name</comment>
   </data>
   <data name="exCannotRemoveDefaultProvider" xml:space="preserve">
-    <value>Acesta este providerul implicit. Selecteză un alt provider şi după aceea înlătură-l pe acesta.</value>
+    <value>Acesta este providerul implicit. Selecteză un alt provider şi după aceea �nlătură-l pe acesta.</value>
     <comment>This provider is the default provider. Please select a different default provider and then try removing this provider.</comment>
   </data>
   <data name="hdrAdd" xml:space="preserve">
@@ -1705,7 +1705,7 @@
     <comment>Configuration Control Path:</comment>
   </data>
   <data name="lblConfigureProvidersDescription" xml:space="preserve">
-    <value>Secţiunea Configurare Furnizori {1} permite să administrezi detaliile furnizorilor specifici {0} ce au fost adăugaţi în ecranele Administrare Furnizori {1}. Aici se setează elemente cum ar fi nume şi parole pentru furnizorii respectivi {0} ce au fost încărcaţi în dashCommerce.</value>
+    <value>Secţiunea Configurare Furnizori {1} permite să administrezi detaliile furnizorilor specifici {0} ce au fost adăugaţi �n ecranele Administrare Furnizori {1}. Aici se setează elemente cum ar fi nume şi parole pentru furnizorii respectivi {0} ce au fost �ncărcaţi �n dashCommerce.</value>
     <comment>The Configure {1} Providers section allows you to administer the details of the specific {0} providers you have added through the Manage {1} Provider screens. Here you will set things such as usernames and passwords for the respective {0} providers you have loaded into dashCommerce.</comment>
   </data>
   <data name="lblConfirmDelete" xml:space="preserve">
@@ -1744,7 +1744,7 @@
     <comment>Credit Card Security Number:</comment>
   </data>
   <data name="lblCrossSellDeleted" xml:space="preserve">
-    <value>Vânzare încrucişată stearsă.</value>
+    <value>Vânzare �ncrucişată stearsă.</value>
     <comment>Cross sell deleted.</comment>
   </data>
   <data name="lblCrossSells" xml:space="preserve">
@@ -1752,7 +1752,7 @@
     <comment>You may also be interested in:</comment>
   </data>
   <data name="lblCrossSellSaved" xml:space="preserve">
-    <value>Vânzare încrucişată salvată.</value>
+    <value>Vânzare �ncrucişată salvată.</value>
     <comment>Cross sell saved.</comment>
   </data>
   <data name="lblCurrency" xml:space="preserve">
@@ -1772,7 +1772,7 @@
     <comment>The default payment provider has been saved.</comment>
   </data>
   <data name="lblDefaultProviderInstructions" xml:space="preserve">
-    <value>Provider-ul implicit, dacă există, este afişat îngroşat.</value>
+    <value>Provider-ul implicit, dacă există, este afişat �ngroşat.</value>
     <comment>The default provider, if any, is identified in bold.</comment>
   </data>
   <data name="lblDefaultRate" xml:space="preserve">
@@ -1862,7 +1862,7 @@
     <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
   </data>
   <data name="lblErrorMessage" xml:space="preserve">
-    <value>Hopaa! A apărut o eroare. Eroarea a fost înregistrată. Dacă problema reapare, vă rugăm contactaţi-ne.</value>
+    <value>Hopaa! A apărut o eroare. Eroarea a fost �nregistrată. Dacă problema reapare, vă rugăm contactaţi-ne.</value>
     <comment>Oops! An error has occurred. This error has been logged. If the problem persists, please contact us!</comment>
   </data>
   <data name="lblExpiration" xml:space="preserve">
@@ -1918,7 +1918,7 @@
     <comment>General Payment Settings</comment>
   </data>
   <data name="lblGeneralSettingsDescription" xml:space="preserve">
-    <value>Acestea sunt setări generale pentru serviciul {0}. Ele nu sunt specifice provider-ului {0} şi se aplică la nivelul întregului magazin.</value>
+    <value>Acestea sunt setări generale pentru serviciul {0}. Ele nu sunt specifice provider-ului {0} şi se aplică la nivelul �ntregului magazin.</value>
     <comment>These are the general settings for the {0} service. These settings are not {0} provider specific and apply at the store level.</comment>
   </data>
   <data name="lblGeneralShippingSettings" xml:space="preserve">
@@ -2024,7 +2024,7 @@
     <comment>Length:</comment>
   </data>
   <data name="lblLoading" xml:space="preserve">
-    <value>Se încarcă . . . aşteptaţi vă rog.</value>
+    <value>Se �ncarcă . . . aşteptaţi vă rog.</value>
     <comment>Loading . . . please wait.</comment>
   </data>
   <data name="lblLogDate" xml:space="preserve">
@@ -2112,7 +2112,7 @@
     <comment>Net Amount:</comment>
   </data>
   <data name="lblNoCart" xml:space="preserve">
-    <value>Nu este nimic în cărucior. S-ar putea să te intereseze următoarele produse:</value>
+    <value>Nu este nimic �n cărucior. S-ar putea să te intereseze următoarele produse:</value>
     <comment>There is nothing in your cart. You may be interested in the following items:</comment>
   </data>
   <data name="lblNoDescriptors" xml:space="preserve">
@@ -2120,7 +2120,7 @@
     <comment>There are no descriptors for this product.</comment>
   </data>
   <data name="lblNoErrorLogs" xml:space="preserve">
-    <value>Nu există erori înregistrate.</value>
+    <value>Nu există erori �nregistrate.</value>
     <comment>There are no error logs.</comment>
   </data>
   <data name="lblNoPaymentProvidersConfigured" xml:space="preserve">
@@ -2136,7 +2136,7 @@
     <comment>There are no reviews for this product.</comment>
   </data>
   <data name="lblNoShippingProvidersConfigured" xml:space="preserve">
-    <value>Nu există provideri de expediere configuraţi. Vezi opţiunea din meniu  'Configurare provideri expediere'. Poţi să setezi opţiunile din Setări Generale de mai jos, înainte de a configura providerii expediere.</value>
+    <value>Nu există provideri de expediere configuraţi. Vezi opţiunea din meniu  'Configurare provideri expediere'. Poţi să setezi opţiunile din Setări Generale de mai jos, �nainte de a configura providerii expediere.</value>
     <comment>There are no shipping providers configured. Please see the 'Configure Shipping Providers' menu option. You may set the General Settings options below before configuring the shipping providers.</comment>
   </data>
   <data name="lblNoShippingProvidersInstalled" xml:space="preserve">
@@ -2773,7 +2773,7 @@
     <comment>You Save:</comment>
   </data>
   <data name="lloginCreateUserText" xml:space="preserve">
-    <value>Nu eşti înregistrat?</value>
+    <value>Nu eşti �nregistrat?</value>
     <comment>Not Registered?</comment>
   </data>
   <data name="lloginPasswordLabelText" xml:space="preserve">
@@ -2881,7 +2881,7 @@
     <comment>Configured Tax Providers</comment>
   </data>
   <data name="pnlCrossSells" xml:space="preserve">
-    <value>Vânzări încrucişate</value>
+    <value>Vânzări �ncrucişate</value>
     <comment>Cross-Sells</comment>
   </data>
   <data name="pnlCurrentAttributes" xml:space="preserve">
@@ -2933,7 +2933,7 @@
     <comment>Footer</comment>
   </data>
   <data name="pnlGeneralLayout" xml:space="preserve">
-    <value>Aşezare în pagină generală</value>
+    <value>Aşezare �n pagină generală</value>
     <comment>General Layout</comment>
   </data>
   <data name="pnlGeneralProductInformation" xml:space="preserve">
@@ -3117,11 +3117,11 @@
     <comment>Answer:&amp;nbsp;</comment>
   </data>
   <data name="prPasswordRecoverQuestionFailureText" xml:space="preserve">
-    <value>Răspunsul nu a putut fi verificat. Mai încearcă.</value>
+    <value>Răspunsul nu a putut fi verificat. Mai �ncearcă.</value>
     <comment>Your answer could not be verified. Please try again.</comment>
   </data>
   <data name="prPasswordRecoverQuestionInstructionText" xml:space="preserve">
-    <value>Răspunde la următoarea întrebare pt. a primi parola!</value>
+    <value>Răspunde la următoarea �ntrebare pt. a primi parola!</value>
     <comment>Answer the following question to receive your password!</comment>
   </data>
   <data name="prPasswordRecoverQuestionLabelText" xml:space="preserve">
@@ -3141,7 +3141,7 @@
     <comment>Your password has been sent to you.</comment>
   </data>
   <data name="prPasswordRecoverUserNameFailureText" xml:space="preserve">
-    <value>Nu a fost posibilă regărirea informaţiilor. Mai încercaţi.</value>
+    <value>Nu a fost posibilă regărirea informaţiilor. Mai �ncercaţi.</value>
     <comment>We were unable to access your information. Please try again.</comment>
   </data>
   <data name="prPasswordRecoverUserNameInstructionText" xml:space="preserve">
@@ -3237,7 +3237,7 @@
     <comment>dashCommerce :: Image Selector</comment>
   </data>
   <data name="titleLoading" xml:space="preserve">
-    <value>dashCommerce :: Se încarcă . . .</value>
+    <value>dashCommerce :: Se �ncarcă . . .</value>
     <comment>dashCommerce :: Loading . . .</comment>
   </data>
   <data name="titleMailSettings" xml:space="preserve">
@@ -3309,7 +3309,7 @@
     <comment>dashCommerce :: Setări sit :: Footer</comment>
   </data>
   <data name="titleSiteSettingsGeneralLayout" xml:space="preserve">
-    <value>dashCommerce :: Setări sit :: Aşezare generală în pagină</value>
+    <value>dashCommerce :: Setări sit :: Aşezare generală �n pagină</value>
     <comment>dashCommerce :: Site Settings :: General Layout</comment>
   </data>
   <data name="titleSiteSettingsGlobalization" xml:space="preserve">
