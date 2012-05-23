@@ -63,12 +63,13 @@ namespace MettleSystems.dashCommerce.Web.install.controls {
         if (rdoNewOrExistingDatabase.SelectedItem.Text.Equals("Create a New Database")) {
             InstallUtility.CreateDatabase(txtDatabaseName.Text.Trim(), GetMasterConnectionString());
         }
-        string connectionString = GetConnectionString();
-        InstallUtility.SetConnectionString("dashCommerce", connectionString);
-        //Session["ConnectionString"] = connectionString;
-        //if (chkUseConnectionStringConfig.Checked) {
-        //  base.Step++;
-        //}
+        if (!chkUseConnectionStringConfig.Checked) {
+          string connectionString = GetConnectionString();
+          InstallUtility.SetConnectionString("dashCommerce", connectionString);
+        }
+        else {
+          base.Step++;
+        }
         Response.Redirect(string.Format("~/install/install.aspx?step={0}&selected_language={1}", this.Step + 1, ddlLanguage.SelectedValue), true);
       }
       catch(Exception ex) {
