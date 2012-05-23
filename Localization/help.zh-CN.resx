@@ -130,7 +130,7 @@
     <value>如果不想追踪此商品的存货清单请选择此选项 </value>
   </data>
   <data name="helpAnalytics" xml:space="preserve">
-    <value>复制并粘贴分析代码（例如google analyse）. 每个页面将会包括这�代码去�你收集信息</value>
+    <value>复制并粘贴分析代码（例如google analyse）. 每个页面将会包括这段代码去帮你收集信息</value>
   </data>
   <data name="helpApiPassword" xml:space="preserve">
     <value>使用PayPal API 之前需要PayPal API 密码</value>
@@ -145,55 +145,55 @@
     <value>这是商品的基本存货清单，如果商品有一些属性，则最终的清单数会以这个为基础</value>
   </data>
   <data name="helpBrowsingCategory" xml:space="preserve">
-    <value>如果你想跟踪一个�录被浏览的�录，请选择这个</value>
+    <value>如果你想跟踪一个目录被浏览的记录，请选择这个</value>
   </data>
   <data name="helpBrowsingProduct" xml:space="preserve">
-    <value>如果你想跟踪一个产品被浏览的�录，请选择这个</value>
+    <value>如果你想跟踪一个产品被浏览的记录，请选择这个</value>
   </data>
   <data name="helpBusinessEmail" xml:space="preserve">
-    <value>你的油�帐户将被用做PayPal的帐户</value>
+    <value>你的油箱帐户将被用做PayPal的帐户</value>
   </data>
   <data name="helpCategoryDescription" xml:space="preserve">
-    <value>这�关于�录的描述会出现在主页上. 这会�助用户第一时间浏览到�录中感兴趣的商品</value>
+    <value>这段关于目录的描述会出现在主页上. 这会帮助用户第一时间浏览到目录中感兴趣的商品</value>
   </data>
   <data name="helpCategoryImageFile" xml:space="preserve">
-    <value>这张图片会出现在�录的最顶层</value>
+    <value>这张图片会出现在目录的最顶层</value>
   </data>
   <data name="helpCategoryName" xml:space="preserve">
-    <value>这个�录的名称会出现在导航区域</value>
+    <value>这个目录的名称会出现在导航区域</value>
   </data>
   <data name="helpCollectBrowsingStatistics" xml:space="preserve">
-    <value>如果你想浏览统�信息，请选择此项.注意：如果这个网站浏览量很大，会造成一个些额外的效率方面的损失</value>
+    <value>如果你想浏览统计信息，请选择此项.注意：如果这个网站浏览量很大，会造成一个些额外的效率方面的损失</value>
   </data>
   <data name="helpContent" xml:space="preserve">
-    <value>这是页面的内�，你可以写任何你想写的东西</value>
+    <value>这是页面的内容，你可以写任何你想写的东西</value>
   </data>
   <data name="helpCurrency" xml:space="preserve">
     <value>选择货币种类</value>
   </data>
   <data name="helpDefaultRate" xml:space="preserve">
-    <value>如果没有选择所在地区或者信息丢失则会用默�的汇率取代</value>
+    <value>如果没有选择所在地区或者信息丢失则会用默认的汇率取代</value>
   </data>
   <data name="helpDescription" xml:space="preserve">
     <value>输入在这个区域的字符会被包含在 页面的META tag 里面</value>
   </data>
   <data name="helpDescriptorDescription" xml:space="preserve">
-    <value>这�描述性的文字是用来展示以及区别产品信息的，包括技术规格，特点等等，依照个人喜欢，还可以把这部分内�分多次加入</value>
+    <value>这段描述性的文字是用来展示以及区别产品信息的，包括技术规格，特点等等，依照个人喜欢，还可以把这部分内容分多次加入</value>
   </data>
   <data name="helpDescriptorTitle" xml:space="preserve">
-    <value>描述性语言的标题，�会出现在描述性语言的顶部</value>
+    <value>描述性语言的标题，它会出现在描述性语言的顶部</value>
   </data>
   <data name="helpDisplayNarrowByManufacturer" xml:space="preserve">
-    <value>这个选项决�通过产品制造商查找商品的功能是否出现在�录的页面上</value>
+    <value>这个选项决定通过产品制造商查找商品的功能是否出现在目录的页面上</value>
   </data>
   <data name="helpDisplaySortBy" xml:space="preserve">
     <value>This option determines whether the Sort By widget is displayed on the catalog page.</value>
   </data>
   <data name="helpDisplayNarrowByPrice" xml:space="preserve">
-    <value>这个选项决�通过价格范围查找商品的功能是否出现在�录的页面上</value>
+    <value>这个选项决定通过价格范围查找商品的功能是否出现在目录的页面上</value>
   </data>
   <data name="helpDisplayRetailPrice" xml:space="preserve">
-    <value>这个选项决�是否显示折后的价格</value>
+    <value>这个选项决定是否显示折后的价格</value>
   </data>
   <data name="helpEmail" xml:space="preserve">
     <value>注册用户的Email地址</value>
@@ -202,7 +202,7 @@
     <value>页脚的颜色</value>
   </data>
   <data name="helpHeight" xml:space="preserve">
-    <value>标题栏的高度，你可以调整�的大小</value>
+    <value>标题栏的高度，你可以调整它的大小</value>
   </data>
   <data name="helpImageCaption" xml:space="preserve">
     <value>在商品的页面上图片的标题会出现在图片的下方</value>
@@ -214,43 +214,43 @@
     <value>当你已经测试并准备移植PayBal时使用</value>
   </data>
   <data name="helpKeywords" xml:space="preserve">
-    <value>输入在这个区域的关�字会被包含在页面的META标签之间</value>
+    <value>输入在这个区域的关键字会被包含在页面的META标签之间</value>
   </data>
   <data name="helpLanguage" xml:space="preserve">
     <value>选择网站的语言</value>
   </data>
   <data name="helpMailRequireSsl" xml:space="preserve">
-    <value>如果你的服务器需要SSL,请选择�</value>
+    <value>如果你的服务器需要SSL,请选择它</value>
   </data>
   <data name="helpMailSettingsFrom" xml:space="preserve">
-    <value>这个用来发送�件时候使用的油�</value>
+    <value>这个用来发送邮件时候使用的油箱</value>
   </data>
   <data name="helpMailSettingsHost" xml:space="preserve">
-    <value>这是你使用的Email服务器，大多数情况下�的样式为"mail.yourdomain.com",如果不��，请联系服务提供商</value>
+    <value>这是你使用的Email服务器，大多数情况下它的样式为"mail.yourdomain.com",如果不确定，请联系服务提供商</value>
   </data>
   <data name="helpMailSettingsPassword" xml:space="preserve">
-    <value>这个用来发送�件时候使用的密码</value>
+    <value>这个用来发送邮件时候使用的密码</value>
   </data>
   <data name="helpMailSettingsPort" xml:space="preserve">
-    <value>这是用来发送�件时SMTP使用的端口号.默�情况下是25,如果你不��请联系你的服务商</value>
+    <value>这是用来发送邮件时SMTP使用的端口号.默认情况下是25,如果你不确定请联系你的服务商</value>
   </data>
   <data name="helpMailSettingsUserName" xml:space="preserve">
-    <value>这个用来发送�件时候使用的用户名</value>
+    <value>这个用来发送邮件时候使用的用户名</value>
   </data>
   <data name="helpManufacturerName" xml:space="preserve">
     <value>你要添加的制造商名称</value>
   </data>
   <data name="helpMenuTitle" xml:space="preserve">
-    <value>这个标题会出现在导航栏，必须�短</value>
+    <value>这个标题会出现在导航栏，必须简短</value>
   </data>
   <data name="helpName" xml:space="preserve">
     <value>商品的名称</value>
   </data>
   <data name="helpParentCategory" xml:space="preserve">
-    <value>这个决�了当前创建的�录的父�录,如果你希望这个�录在顶层，则选择"根"</value>
+    <value>这个决定了当前创建的目录的父目录,如果你希望这个目录在顶层，则选择"根"</value>
   </data>
   <data name="helpParentPage" xml:space="preserve">
-    <value>这个决�了当前创建的页面的父节点，如果你希望当前创建的页面在最顶层，则选择“根”</value>
+    <value>这个决定了当前创建的页面的父节点，如果你希望当前创建的页面在最顶层，则选择“根”</value>
   </data>
   <data name="helpPdtId" xml:space="preserve">
     <value>当进行标准PayPal处理的时候PayPal PDT Id是必需的</value>
@@ -259,28 +259,28 @@
     <value>这是PayPal API 用户名</value>
   </data>
   <data name="helpRate" xml:space="preserve">
-    <value>这是税收比率，�在购买商品时与区域代码结合起来使用</value>
+    <value>这是税收比率，它在购买商品时与区域代码结合起来使用</value>
   </data>
   <data name="helpRegionCode" xml:space="preserve">
     <value>这是区域代码以及相关的汇率.这会是主要的查询标准</value>
   </data>
   <data name="helpRequireAuthentication" xml:space="preserve">
-    <value>如果你的油�服务器在发送�件是需要验证，请选择此选项.大多数情况下,你需要选择此选项来阻止垃圾�件</value>
+    <value>如果你的油箱服务器在发送邮件是需要验证，请选择此选项.大多数情况下,你需要选择此选项来阻止垃圾邮件</value>
   </data>
   <data name="helpRequireSsl" xml:space="preserve">
-    <value>如果你的网站需要SSL请选择此选项，对于需要导向另外的网站去处理付款(例如使用PayBal)则�保选择. </value>
+    <value>如果你的网站需要SSL请选择此选项，对于需要导向另外的网站去处理付款(例如使用PayBal)则确保选择. </value>
   </data>
   <data name="helpShipFromCountry" xml:space="preserve">
-    <value>包裹被配送出去的国�.</value>
+    <value>包裹被配送出去的国家.</value>
   </data>
   <data name="helpShipFromZip" xml:space="preserve">
-    <value>这是包裹被配送出去的�政编码.</value>
+    <value>这是包裹被配送出去的邮政编码.</value>
   </data>
   <data name="helpShippingBuffer" xml:space="preserve">
-    <value>�是被用来��配送数量使用的</value>
+    <value>它是被用来计算配送数量使用的</value>
   </data>
   <data name="helpShortDescription" xml:space="preserve">
-    <value>商品�短的描述</value>
+    <value>商品简短的描述</value>
   </data>
   <data name="helpSimpleWeightAmountPerUnit" xml:space="preserve">
     <value>在配送时每单位的数量</value>
@@ -292,7 +292,7 @@
     <value>这是网站的名称，并且会一直出现在标题栏</value>
   </data>
   <data name="helpTagLine" xml:space="preserve">
-    <value>你的 TagLine 会显示在你的�件里面. ���短易�!!</value>
+    <value>你的 TagLine 会显示在你的邮件里面. 让它简短易记!!</value>
   </data>
   <data name="helpTheme" xml:space="preserve">
     <value>选择网站的样式</value>
@@ -304,12 +304,12 @@
     <value>注册用户的用户名</value>
   </data>
   <data name="helpUseShipping" xml:space="preserve">
-    <value>这是系统级别的��，如果你的商店需要配送商品，那么请选择使用配送</value>
+    <value>这是系统级别的设置，如果你的商店需要配送商品，那么请选择使用配送</value>
   </data>
   <data name="helpWidth" xml:space="preserve">
-    <value>��网站的�度（以象素为单位）</value>
+    <value>设置网站的宽度（以象素为单位）</value>
   </data>
   <data name="noHelp" xml:space="preserve">
-    <value>没有可用的�助</value>
+    <value>没有可用的帮助</value>
   </data>
 </root>

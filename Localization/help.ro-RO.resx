@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="helpCategoryItems" xml:space="preserve">
-    <value>Aici se setează numărul de elemente afişate �n pagina catalog. Se recomandă ca acest număr să fie �ntre 6 - 12, funcţie de layout şi skin.</value>
+    <value>Aici se setează numărul de elemente afişate în pagina catalog. Se recomandă ca acest număr să fie între 6 - 12, funcţie de layout şi skin.</value>
     <comment>This sets the number of items that are displayed in the catalog page. We recommend keeping this number between 6 - 12, depending on your skin and layout.</comment>
   </data>
   <data name="helpCollectSearchTerms" xml:space="preserve">
-    <value>Selectează aici pentru a urmări cuvintele căutate �n acest sit.</value>
+    <value>Selectează aici pentru a urmări cuvintele căutate în acest sit.</value>
     <comment>If you would like to track the search terms that are searched on the site, then select this.</comment>
   </data>
   <data name="helpDatabaseName" xml:space="preserve">
@@ -142,7 +142,7 @@
     <comment>This is the name of the user account that has access to the database server. This account is usually created when creating the database.</comment>
   </data>
   <data name="helpDisplayNarrowByCategory" xml:space="preserve">
-    <value>Această opţiune determină dacă widget-ul "Filtrare după subcategorie" e afişat �n pagina catalog.</value>
+    <value>Această opţiune determină dacă widget-ul "Filtrare după subcategorie" e afişat în pagina catalog.</value>
     <comment>This option determines whether the narrow by sub-category widget is displayed on the catalog page.</comment>
   </data>
   <data name="helpDisplayRatings" xml:space="preserve">
@@ -154,23 +154,23 @@
     <comment>This option determines whether the shipping options is displayed on cart.</comment>
   </data>
   <data name="helpLoginRequirement" xml:space="preserve">
-    <value>Selectează aici dacă e nevoie ca clienţii să se logheze �n sit.</value>
+    <value>Selectează aici dacă e nevoie ca clienţii să se logheze în sit.</value>
     <comment>Select if and when you will require people to log into the site.</comment>
   </data>
   <data name="helpLongCache" xml:space="preserve">
-    <value>Durata �n secunde a cache+ului de lungă durată.</value>
+    <value>Durata în secunde a cache+ului de lungă durată.</value>
     <comment>The length, in seconds, of the long cache duration.</comment>
   </data>
   <data name="helpNewsFeedUrl" xml:space="preserve">
-    <value>URL-ul unui feed RSS se poate introduce aici. Acesta va fi afişat �n secţiunea "News" a paginii de control (dashBoard).</value>
+    <value>URL-ul unui feed RSS se poate introduce aici. Acesta va fi afişat în secţiunea "News" a paginii de control (dashBoard).</value>
     <comment>You may enter the URL for an RSS feed here and that feed will be displayed in the "News" section on the dashBoard page.</comment>
   </data>
   <data name="helpNormalCache" xml:space="preserve">
-    <value>Durata �n secunde a cache-ului de durată medie.</value>
+    <value>Durata în secunde a cache-ului de durată medie.</value>
     <comment>The length, in seconds, of the normal cache duration.</comment>
   </data>
   <data name="helpPageTemplate" xml:space="preserve">
-    <value>Acesta e şablonul ce pagina �l va folosi când va fi creată.</value>
+    <value>Acesta e şablonul ce pagina îl va folosi când va fi creată.</value>
     <comment>This is the template that the page will use when being created.</comment>
   </data>
   <data name="helpProductEnabled" xml:space="preserve">
@@ -186,7 +186,7 @@
     <comment>This is the title for the content region.</comment>
   </data>
   <data name="helpShortCache" xml:space="preserve">
-    <value>Durata �n secunde a cache+ului de termen scurt.</value>
+    <value>Durata în secunde a cache+ului de termen scurt.</value>
     <comment>The length, in seconds, of the short cache duration.</comment>
   </data>
   <data name="helpShowTitle" xml:space="preserve">
@@ -194,7 +194,7 @@
     <comment>Select this if you want the title for the content region to be displayed.</comment>
   </data>
   <data name="helpSiteLogo" xml:space="preserve">
-    <value>Acesta permite selectarea logo-ului ce va fi afişat �n sit.</value>
+    <value>Acesta permite selectarea logo-ului ce va fi afişat în sit.</value>
     <comment>This allows you to select the logo that will be used for the site.</comment>
   </data>
   <data name="helpSortOrder" xml:space="preserve">
@@ -202,11 +202,11 @@
     <comment>Determines the sort order for the element.</comment>
   </data>
   <data name="helpTemplateRegion" xml:space="preserve">
-    <value>Bazat pe şablonul de pagină, acum se poate selecta �n care regiune şablon această zonă de conţinut să apară.</value>
+    <value>Bazat pe şablonul de pagină, acum se poate selecta în care regiune şablon această zonă de conţinut să apară.</value>
     <comment>Based on the Page Template, you can now select in which Template Region you want this content area to appear.</comment>
   </data>
   <data name="helpUseCache" xml:space="preserve">
-    <value>Cache-ul poate mări viteza de răspuns a sitului web prin păstrarea câtorva informaţii �n memorie. E bine a se folosi cache+ul dacă ai un număr mare de produse. Totuşi �n momentul dezvoltării sau instalării acesta ar trebui oprit pt ca schimbările să se reflecte imediat �n pagini.</value>
+    <value>Cache-ul poate mări viteza de răspuns a sitului web prin păstrarea câtorva informaţii în memorie. E bine a se folosi cache+ul dacă ai un număr mare de produse. Totuşi în momentul dezvoltării sau instalării acesta ar trebui oprit pt ca schimbările să se reflecte imediat în pagini.</value>
     <comment>Caching can increase the speed of your website by keeping some of the site information in memory. You should use caching if you have large product catalogs or if you want your site to respond quicker. When developing, you should keep caching off as the changes you make on the administrative side of the site may not be reflected immediately.</comment>
   </data>
   <data name="helpGenerateThumbs" xml:space="preserve">
@@ -214,7 +214,7 @@
     <comment>Will automatically create thumbnails for product and catalog pages.</comment>
   </data>
   <data name="helpCopyrightText" xml:space="preserve">
-    <value>Textul ce va fi pus �n meta tag-ul Copyright. Dacă e blanc, se va folosi Numele Sitului.</value>
+    <value>Textul ce va fi pus în meta tag-ul Copyright. Dacă e blanc, se va folosi Numele Sitului.</value>
     <comment>The text that will be put into the copyright Meta Tag. If blank it will use the Site Name.</comment>
   </data>
   <data name="helphShowdCCopyright" xml:space="preserve">
@@ -222,15 +222,15 @@
     <comment>Insert "dashCommerce" into the page Generator Meta Tag.</comment>
   </data>
   <data name="helpSiteDescription" xml:space="preserve">
-    <value>Descrierea sitului ce va fi inclusă �n tag-ul meta "Description".</value>
+    <value>Descrierea sitului ce va fi inclusă în tag-ul meta "Description".</value>
     <comment>Site Description that will be put into the description Meta Tag.</comment>
   </data>
   <data name="helpSiteKeywords" xml:space="preserve">
-    <value>Aceasta e o listă de cuvinte cheie pentru sit ce vor fi incluse �n tag-ul meta "kezword".</value>
+    <value>Aceasta e o listă de cuvinte cheie pentru sit ce vor fi incluse în tag-ul meta "kezword".</value>
     <comment>A comma delimited list of keywords for the site that will be put into the keyword Meta Tag.</comment>
   </data>
   <data name="helpMaximumProductsToAddToCart" xml:space="preserve">
-    <value>Pentru magazinele cu inventar mare, aceasta va restricţiona lista derulantă la numărul de produse ce pot fi adăugate �n coş.</value>
+    <value>Pentru magazinele cu inventar mare, aceasta va restricţiona lista derulantă la numărul de produse ce pot fi adăugate în coş.</value>
     <comment>For stores that carry high inventories, this will restrict the drop down list for the amount of products that can be added to the cart.</comment>
   </data>
   <data name="helpFilter" xml:space="preserve">
@@ -266,7 +266,7 @@
     <comment>This is the Type of Product. You can use this to do certain things based on the product type.</comment>
   </data>
   <data name="helpLicenseKey" xml:space="preserve">
-    <value>Aceasta este cheia de licenţă ce este creată când se achiziţionează dashCommerce Tax Web Service de la dashCommerce.com. Aceasta va fi disponibilă �n pagina My Account din dashCommerce.com.</value>
+    <value>Aceasta este cheia de licenţă ce este creată când se achiziţionează dashCommerce Tax Web Service de la dashCommerce.com. Aceasta va fi disponibilă în pagina My Account din dashCommerce.com.</value>
     <comment>This is the License Key that is created when you purchased the dashCommerce Tax Web Service at dashCommerce.com. You will get this from the My Account page at dashCommerce.com.</comment>
   </data>
   <data name="helpPassword" xml:space="preserve">
@@ -274,15 +274,15 @@
     <comment>This is your password for the dashCommerce.com web site.</comment>
   </data>
   <data name="helpProviderConfigurationControlPath" xml:space="preserve">
-    <value>Aceasta este calea către controlul de configurare a providerului ales. Majoritatea acestora se află �n "~/admin/control/configuration/...". Verifică şi alţi provideri pentru a vedea cum se procedează.</value>
+    <value>Aceasta este calea către controlul de configurare a providerului ales. Majoritatea acestora se află în "~/admin/control/configuration/...". Verifică şi alţi provideri pentru a vedea cum se procedează.</value>
     <comment>This is the path to the configuration control that is tied to your provider. Most of these will live in "~/admin/control/configuration/...". Check other providers to see how this is done.</comment>
   </data>
   <data name="helpProviderDescription" xml:space="preserve">
-    <value>Aceasta este o descriere a providerului. Ea va apare �n pagina de configurare a providerului, aşa că e bine să o faceţi cât mai detaliat cu putinţă.</value>
+    <value>Aceasta este o descriere a providerului. Ea va apare în pagina de configurare a providerului, aşa că e bine să o faceţi cât mai detaliat cu putinţă.</value>
     <comment>This is a description of the provider. This will appear on the provider configuration page, so it is a good idea to make this as detailed as you can.</comment>
   </data>
   <data name="helpProviderName" xml:space="preserve">
-    <value>Acesta e numele clasei (tipului) providerului. În cazul �n care providerul a fost cumpărat, vânzătorul ar trebui să furnizeze aceste informaţii.</value>
+    <value>Acesta e numele clasei (tipului) providerului. În cazul în care providerul a fost cumpărat, vânzătorul ar trebui să furnizeze aceste informaţii.</value>
     <comment>This should be the name of the class of the provider. In the case where you have purchased the provider, the provider vendor should be able to supply this information.</comment>
   </data>
   <data name="helpUser" xml:space="preserve">
@@ -306,7 +306,7 @@
     <comment>Select this if you do not wish to track inventories for this product.</comment>
   </data>
   <data name="helpAnalytics" xml:space="preserve">
-    <value>Copiază &amp; lipeşte codul (script) de analiză aici (cum ar fi Google Analytics). Acest cod va fi inclus �n fiecare pagină pentru a colecta date.</value>
+    <value>Copiază &amp; lipeşte codul (script) de analiză aici (cum ar fi Google Analytics). Acest cod va fi inclus în fiecare pagină pentru a colecta date.</value>
     <comment>Copy and past your analytics code here (such as Google Analytics). This code will then be included in each page to help you collect data.</comment>
   </data>
   <data name="helpApiPassword" xml:space="preserve">
@@ -338,35 +338,35 @@
     <comment>This is the email account you use for your PayPal account.</comment>
   </data>
   <data name="helpCategoryDescription" xml:space="preserve">
-    <value>Descrierea va apare pe pagina de categorii. Aceasta va da vizitatorilor sitului o idee despre tipurile de produse ce se găsesc �n acea categorie.</value>
+    <value>Descrierea va apare pe pagina de categorii. Aceasta va da vizitatorilor sitului o idee despre tipurile de produse ce se găsesc în acea categorie.</value>
     <comment>The description will appear on the category page. This will give visitors to your site an idea of the types of products they will find in the category.</comment>
   </data>
   <data name="helpCategoryImageFile" xml:space="preserve">
-    <value>Acest fişier imagine va fi afişat �n susul paginii de categorie.</value>
+    <value>Acest fişier imagine va fi afişat în susul paginii de categorie.</value>
     <comment>This image file will be displayed at the top of the category page.</comment>
   </data>
   <data name="helpCategoryName" xml:space="preserve">
-    <value>Acesta este numele categoriei ca va fi afişat �n meniul de navigare.</value>
+    <value>Acesta este numele categoriei ca va fi afişat în meniul de navigare.</value>
     <comment>This is the name of the category that will be displayed in the navigation.</comment>
   </data>
   <data name="helpCollectBrowsingStatistics" xml:space="preserve">
-    <value>Selectează dacă doreşti să colectezi statistici despre vizite. Totuşi, dacă situl are mulţi vizitatori se poate ajunge la un număr foarte mare de �nregistrări �n baza de date.</value>
+    <value>Selectează dacă doreşti să colectezi statistici despre vizite. Totuşi, dacă situl are mulţi vizitatori se poate ajunge la un număr foarte mare de înregistrări în baza de date.</value>
     <comment>Select this if you would like to collect browsing statistics. However, please note that if the site is frequently crawled or very popular, this can result in a lot of database records being created.</comment>
   </data>
   <data name="helpContent" xml:space="preserve">
-    <value>Acesta este conţinutul paginii. Scrie aici tot ce doreşti să apară �n pagină.</value>
+    <value>Acesta este conţinutul paginii. Scrie aici tot ce doreşti să apară în pagină.</value>
     <comment>This is the content of the page. Write whatever you want on the page in here.</comment>
   </data>
   <data name="helpCurrency" xml:space="preserve">
-    <value>Selectează moneda �n sit.</value>
+    <value>Selectează moneda în sit.</value>
     <comment>Select the currency for the site.</comment>
   </data>
   <data name="helpDefaultRate" xml:space="preserve">
-    <value>Aceasta este rata implicită ce va fi folosită �n caz că nu este găsit un cod de regiune corespunzător.</value>
+    <value>Aceasta este rata implicită ce va fi folosită în caz că nu este găsit un cod de regiune corespunzător.</value>
     <comment>The is the default rate that will be used in the event that an appropriate region code is not found.</comment>
   </data>
   <data name="helpDescription" xml:space="preserve">
-    <value>Cuvintele introduse aici vor fi incluse �n tagurile META ale acestei pagini.</value>
+    <value>Cuvintele introduse aici vor fi incluse în tagurile META ale acestei pagini.</value>
     <comment>The words entered here will be included in the META tag included in this page.</comment>
   </data>
   <data name="helpDescriptorDescription" xml:space="preserve">
@@ -394,7 +394,7 @@
     <comment>This option determines whether the product Retail Price is displayed.</comment>
   </data>
   <data name="helpEmail" xml:space="preserve">
-    <value>Adresa de email a utilizatorului �nregistrat.</value>
+    <value>Adresa de email a utilizatorului înregistrat.</value>
     <comment>The email address of the registered user.</comment>
   </data>
   <data name="helpFooter" xml:space="preserve">
@@ -406,7 +406,7 @@
     <comment>The height of the header area. Adjust this for a larger or smaller content area.</comment>
   </data>
   <data name="helpImageCaption" xml:space="preserve">
-    <value>Captura de imagine va apare sub imagine �n pagina produsului.</value>
+    <value>Captura de imagine va apare sub imagine în pagina produsului.</value>
     <comment>The image caption will appear below the image on the product page.</comment>
   </data>
   <data name="helpImageFile" xml:space="preserve">
@@ -414,11 +414,11 @@
     <comment>This is the image file used.</comment>
   </data>
   <data name="helpIsLive" xml:space="preserve">
-    <value>Selectează acesta când ai terminat testările şi vrei să foloseşti PayPal �ntr-un mediu de producţie.</value>
+    <value>Selectează acesta când ai terminat testările şi vrei să foloseşti PayPal într-un mediu de producţie.</value>
     <comment>Select this when you are through testing and wish to use the PayPal production environment.</comment>
   </data>
   <data name="helpKeywords" xml:space="preserve">
-    <value>Cuvintele cheie de aici vor fi incluse �n tag-ul META inclus �n această pagină.</value>
+    <value>Cuvintele cheie de aici vor fi incluse în tag-ul META inclus în această pagină.</value>
     <comment>The keywords entered here will be included in the META tag included in this page.</comment>
   </data>
   <data name="helpLanguage" xml:space="preserve">
@@ -450,11 +450,11 @@
     <comment>This is the user name of the account that will be used to log into your mail server when sending system emails.</comment>
   </data>
   <data name="helpManufacturerName" xml:space="preserve">
-    <value>Numele fabricantului care �l adaugi.</value>
+    <value>Numele fabricantului care îl adaugi.</value>
     <comment>The name of the manufacturer you are adding.</comment>
   </data>
   <data name="helpMenuTitle" xml:space="preserve">
-    <value>Acesta este titlul ce va apare �n meniul de navigare al sitului. Acesta ar trebui să fie scurt şi uşor de identificat.</value>
+    <value>Acesta este titlul ce va apare în meniul de navigare al sitului. Acesta ar trebui să fie scurt şi uşor de identificat.</value>
     <comment>This is the title that will appear in the site navigation. This should be pretty short and easily identifiable.</comment>
   </data>
   <data name="helpName" xml:space="preserve">
@@ -486,7 +486,7 @@
     <comment>This is the region code associated with the provided rate.This will act as the primary lookup criteria.</comment>
   </data>
   <data name="helpRequireAuthentication" xml:space="preserve">
-    <value>Selectează aici dacă serverul de mail necesită autentificare pentru a trimite mesaje.De obicei, este selectată astfel �ncât previne spam-ul.</value>
+    <value>Selectează aici dacă serverul de mail necesită autentificare pentru a trimite mesaje.De obicei, este selectată astfel încât previne spam-ul.</value>
     <comment>If your mail server requires authentication in order to send email, ensure this is selected. In most cases, you should have this selected as it will help prevent email SPAM.</comment>
   </data>
   <data name="helpRequireSsl" xml:space="preserve">
@@ -522,7 +522,7 @@
     <comment>This is the name of the site and will frequently appear in the title bar.</comment>
   </data>
   <data name="helpTagLine" xml:space="preserve">
-    <value>Acesta este sloganul ce va apare �n mailuri. Găseşte unul cât mai atrăgător.</value>
+    <value>Acesta este sloganul ce va apare în mailuri. Găseşte unul cât mai atrăgător.</value>
     <comment>Your TagLine will appear in your emails. Make it something catchy!!</comment>
   </data>
   <data name="helpTheme" xml:space="preserve">
@@ -530,11 +530,11 @@
     <comment>Select the theme for the site.</comment>
   </data>
   <data name="helpTitle" xml:space="preserve">
-    <value>Acesta este titlul paginii ce va apare �n fereastra browserului. Poate fi destul de lung...</value>
+    <value>Acesta este titlul paginii ce va apare în fereastra browserului. Poate fi destul de lung...</value>
     <comment>This is the title of the page that will appear in browser window. This can be pretty long and descriptive.</comment>
   </data>
   <data name="helpUserName" xml:space="preserve">
-    <value>Acesta este numele de utilizator al utilizatorului �nregistrat.</value>
+    <value>Acesta este numele de utilizator al utilizatorului înregistrat.</value>
     <comment>This is the user name of the registered user.</comment>
   </data>
   <data name="helpUseShipping" xml:space="preserve">
@@ -542,7 +542,7 @@
     <comment>This is a system wide setting. If your store will require the shipping of products, then select Use Shipping.</comment>
   </data>
   <data name="helpWidth" xml:space="preserve">
-    <value>Stabileşte lăţimea sitului �n pixeli.</value>
+    <value>Stabileşte lăţimea sitului în pixeli.</value>
     <comment>Sets the width of the site in pixels.</comment>
   </data>
   <data name="noHelp" xml:space="preserve">

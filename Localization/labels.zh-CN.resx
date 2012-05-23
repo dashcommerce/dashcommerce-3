@@ -136,7 +136,7 @@
     <value>添加制造商</value>
   </data>
   <data name="btnProcessOrder" xml:space="preserve">
-    <value>下�单</value>
+    <value>下订单</value>
   </data>
   <data name="btnProductTypeAdd" xml:space="preserve">
     <value>添加商品类型</value>
@@ -166,10 +166,10 @@
     <value>搜索</value>
   </data>
   <data name="btnSetDefaultProvider" xml:space="preserve">
-    <value>�为默�的提供程序</value>
+    <value>设为默认的提供程序</value>
   </data>
   <data name="btnSetProvider" xml:space="preserve">
-    <value>��提供程序</value>
+    <value>设置提供程序</value>
   </data>
   <data name="btnUpload" xml:space="preserve">
     <value>上传</value>
@@ -178,22 +178,22 @@
     <value>有效状态</value>
   </data>
   <data name="chkAllowNegativeInventories" xml:space="preserve">
-    <value>允�清单为负</value>
+    <value>允许清单为负</value>
   </data>
   <data name="chkUseForShipping" xml:space="preserve">
     <value>用来配送商品？</value>
   </data>
   <data name="cuwRegisterAnswerLabelText" xml:space="preserve">
-    <value>�全答案</value>
+    <value>安全答案</value>
   </data>
   <data name="cuwRegisterCompleteStepTitle" xml:space="preserve">
-    <value>�成</value>
+    <value>完成</value>
   </data>
   <data name="cuwRegisterCompleteSuccessText" xml:space="preserve">
     <value>成功创建帐户</value>
   </data>
   <data name="cuwRegisterConfirmPasswordLabelText" xml:space="preserve">
-    <value>��密码</value>
+    <value>确认密码</value>
   </data>
   <data name="cuwRegisterCreateUserButtonText" xml:space="preserve">
     <value>继续</value>
@@ -211,13 +211,13 @@
     <value>密码</value>
   </data>
   <data name="cuwRegisterQuestionLabelText" xml:space="preserve">
-    <value>�全�题</value>
+    <value>安全问题</value>
   </data>
   <data name="cuwRegisterUserNameLabelText" xml:space="preserve">
     <value>用户名</value>
   </data>
   <data name="exCannotRemoveDefaultProvider" xml:space="preserve">
-    <value>这是默�的提供程序，在移除�之前请选择另外一个提供程序</value>
+    <value>这是默认的提供程序，在移除它之前请选择另外一个提供程序</value>
   </data>
   <data name="hdrAdd" xml:space="preserve">
     <value>添加</value>
@@ -238,7 +238,7 @@
     <value>属性类型</value>
   </data>
   <data name="hdrConfigurationControlPath" xml:space="preserve">
-    <value>配�控件路径</value>
+    <value>配置控件路径</value>
   </data>
   <data name="hdrCreatedBy" xml:space="preserve">
     <value>创建者是</value>
@@ -283,7 +283,7 @@
     <value>上次登陆</value>
   </data>
   <data name="hdrLastModified" xml:space="preserve">
-    <value>上次�改时间</value>
+    <value>上次修改时间</value>
   </data>
   <data name="hdrMove" xml:space="preserve">
     <value>移动</value>
@@ -292,7 +292,7 @@
     <value>名称</value>
   </data>
   <data name="hdrOrderNumber" xml:space="preserve">
-    <value>�单号</value>
+    <value>订单号</value>
   </data>
   <data name="hdrRate" xml:space="preserve">
     <value>比率</value>
@@ -316,7 +316,7 @@
     <value>存货单位后缀</value>
   </data>
   <data name="hdrSortOrder" xml:space="preserve">
-    <value>排列�单</value>
+    <value>排列订单</value>
   </data>
   <data name="hdrStatus" xml:space="preserve">
     <value>状态</value>
@@ -337,25 +337,25 @@
     <value>[+] 添加产品</value>
   </data>
   <data name="hlConfigureProviders" xml:space="preserve">
-    <value>配�{0}提供者</value>
+    <value>配置{0}提供者</value>
   </data>
   <data name="hlEditLink" xml:space="preserve">
     <value>编辑</value>
   </data>
   <data name="hlGeneralSettings" xml:space="preserve">
-    <value>通用{0} ��</value>
+    <value>通用{0} 设置</value>
   </data>
   <data name="hlLogin" xml:space="preserve">
     <value>登陆</value>
   </data>
   <data name="hlMailConfiguration" xml:space="preserve">
-    <value>��配�</value>
+    <value>邮箱配置</value>
   </data>
   <data name="hlMailSettings" xml:space="preserve">
-    <value>����</value>
+    <value>邮箱设置</value>
   </data>
   <data name="hlManageProviders" xml:space="preserve">
-    <value>�理{0}提供程序</value>
+    <value>管理{0}提供程序</value>
   </data>
   <data name="hlMyAccount" xml:space="preserve">
     <value>我的帐户</value>
@@ -364,19 +364,19 @@
     <value>通知</value>
   </data>
   <data name="hlPaymentConfiguration" xml:space="preserve">
-    <value>付款配�</value>
+    <value>付款配置</value>
   </data>
   <data name="hlRegister" xml:space="preserve">
     <value>注册</value>
   </data>
   <data name="hlReview" xml:space="preserve">
-    <value>回顾�</value>
+    <value>回顾它</value>
   </data>
   <data name="hlShippingConfiguration" xml:space="preserve">
-    <value>配送方式��</value>
+    <value>配送方式设定</value>
   </data>
   <data name="hlTaxConfiguration" xml:space="preserve">
-    <value>税收政策��</value>
+    <value>税收政策设定</value>
   </data>
   <data name="lbAddNew" xml:space="preserve">
     <value>添加新</value>
@@ -409,7 +409,7 @@
     <value>API 用户名:</value>
   </data>
   <data name="lblAttributeAdministration" xml:space="preserve">
-    <value>属性�理</value>
+    <value>属性管理</value>
   </data>
   <data name="lblAttributedAdded" xml:space="preserve">
     <value>属性添加成功</value>
@@ -445,13 +445,13 @@
     <value>付款信息</value>
   </data>
   <data name="lblBrowsingCategory" xml:space="preserve">
-    <value>浏览�录</value>
+    <value>浏览目录</value>
   </data>
   <data name="lblBrowsingProduct" xml:space="preserve">
     <value>浏览商品</value>
   </data>
   <data name="lblBundleAdministration" xml:space="preserve">
-    <value>Bundle �理</value>
+    <value>Bundle 管理</value>
   </data>
   <data name="lblBundleSaved" xml:space="preserve">
     <value>Bundle 保存成功</value>
@@ -463,10 +463,10 @@
     <value>取消</value>
   </data>
   <data name="lblCart" xml:space="preserve">
-    <value>购物�</value>
+    <value>购物篮</value>
   </data>
   <data name="lblCategory" xml:space="preserve">
-    <value>�录</value>
+    <value>目录</value>
   </data>
   <data name="lblCcList" xml:space="preserve">
     <value>Cc 列表:</value>
@@ -475,22 +475,22 @@
     <value>城市:</value>
   </data>
   <data name="lblCollectBrowsingStatistics" xml:space="preserve">
-    <value>浏览量统�:</value>
+    <value>浏览量统计:</value>
   </data>
   <data name="lblConfigurationControlPath" xml:space="preserve">
-    <value>配�控件路径:</value>
+    <value>配置控件路径:</value>
   </data>
   <data name="lblConfigureProvidersDescription" xml:space="preserve">
-    <value>在通过{1}提供程序页面添加{0}提供程序后，你可以通过{1}提供者节去�理{0}的详细信息。在此种情况下，你可以为相对应的{0}提供程序��用户名和密码</value>
+    <value>在通过{1}提供程序页面添加{0}提供程序后，你可以通过{1}提供者节去管理{0}的详细信息。在此种情况下，你可以为相对应的{0}提供程序设置用户名和密码</value>
   </data>
   <data name="lblConfirmDelete" xml:space="preserve">
-    <value>��删除吗？</value>
+    <value>确定删除吗？</value>
   </data>
   <data name="lblContent" xml:space="preserve">
-    <value>内�:</value>
+    <value>内容:</value>
   </data>
   <data name="lblContentManagement" xml:space="preserve">
-    <value>内��理</value>
+    <value>内容管理</value>
   </data>
   <data name="lblContentManagementDescription" xml:space="preserve">
     <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
@@ -499,7 +499,7 @@
     <value>继续</value>
   </data>
   <data name="lblCountry" xml:space="preserve">
-    <value>国�:</value>
+    <value>国家:</value>
   </data>
   <data name="lblCreatedOn" xml:space="preserve">
     <value>创建于:</value>
@@ -508,7 +508,7 @@
     <value>信用卡号码:</value>
   </data>
   <data name="lblCreditCardSecurityNumber" xml:space="preserve">
-    <value>信用卡�全号码:</value>
+    <value>信用卡安全号码:</value>
   </data>
   <data name="lblCriticalError" xml:space="preserve">
     <value>一个重要的错误发生在: {0}</value>
@@ -529,28 +529,28 @@
     <value>CVV2 Code:</value>
   </data>
   <data name="lblDefaultPaymentProviderNotSaved" xml:space="preserve">
-    <value>默�的付款方式没有保存.</value>
+    <value>默认的付款方式没有保存.</value>
   </data>
   <data name="lblDefaultPaymentProviderSaved" xml:space="preserve">
-    <value>默�的付款方式保存成功.</value>
+    <value>默认的付款方式保存成功.</value>
   </data>
   <data name="lblDefaultProviderInstructions" xml:space="preserve">
-    <value>默�的付款方式以加粗显示.</value>
+    <value>默认的付款方式以加粗显示.</value>
   </data>
   <data name="lblDefaultRate" xml:space="preserve">
-    <value>默�的比率:</value>
+    <value>默认的比率:</value>
   </data>
   <data name="lblDefaultShippingProviderNotSaved" xml:space="preserve">
-    <value>默�的配送方式没有保存.</value>
+    <value>默认的配送方式没有保存.</value>
   </data>
   <data name="lblDefaultShippingProviderSaved" xml:space="preserve">
-    <value>默�的配送方式已经保存过了.</value>
+    <value>默认的配送方式已经保存过了.</value>
   </data>
   <data name="lblDefaultTaxProviderNotSaved" xml:space="preserve">
-    <value>默�的税收策略没有保存.</value>
+    <value>默认的税收策略没有保存.</value>
   </data>
   <data name="lblDefaultTaxProviderSaved" xml:space="preserve">
-    <value>默�的税收策略已经保存过了.</value>
+    <value>默认的税收策略已经保存过了.</value>
   </data>
   <data name="lblDelete" xml:space="preserve">
     <value>删除</value>
@@ -574,13 +574,13 @@
     <value>折扣:</value>
   </data>
   <data name="lblDisplayNarrowByManufacturer" xml:space="preserve">
-    <value>显示与特�制造商相关:</value>
+    <value>显示与特定制造商相关:</value>
   </data>
   <data name="lblDisplaySortBy" xml:space="preserve">
     <value>Display Sort By Widget:</value>
   </data>
   <data name="lblDisplayNarrowByPrice" xml:space="preserve">
-    <value>显示与特�的价格相关:</value>
+    <value>显示与特定的价格相关:</value>
   </data>
   <data name="lblDisplayRetailPrice" xml:space="preserve">
     <value>显示折后价格:</value>
@@ -604,7 +604,7 @@
     <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
   </data>
   <data name="lblErrorMessage" xml:space="preserve">
-    <value>有错误发生，如果仍然无法继续，请联系�理员，谢谢</value>
+    <value>有错误发生，如果仍然无法继续，请联系管理员，谢谢</value>
   </data>
   <data name="lblExpiration" xml:space="preserve">
     <value>过期:</value>
@@ -643,16 +643,16 @@
     <value>Gateway 事务 Id:</value>
   </data>
   <data name="lblGeneralPaymentSettings" xml:space="preserve">
-    <value>常用付款��</value>
+    <value>常用付款设定</value>
   </data>
   <data name="lblGeneralSettingsDescription" xml:space="preserve">
-    <value>这些是{0}服务的常用��。这些��没有指�特�的提供程序，�们能够被应用到商店的层次</value>
+    <value>这些是{0}服务的常用设置。这些设置没有指定特定的提供程序，它们能够被应用到商店的层次</value>
   </data>
   <data name="lblGeneralShippingSettings" xml:space="preserve">
-    <value>常用配送方式��</value>
+    <value>常用配送方式设定</value>
   </data>
   <data name="lblGeneralTaxSettings" xml:space="preserve">
-    <value>常用税收��</value>
+    <value>常用税收设定</value>
   </data>
   <data name="lblGrossAmount" xml:space="preserve">
     <value>粗略的总数:</value>
@@ -676,13 +676,13 @@
     <value>图片保存成功</value>
   </data>
   <data name="lblInstalledPaymentProviders" xml:space="preserve">
-    <value>�装了的付款提供程序:</value>
+    <value>安装了的付款提供程序:</value>
   </data>
   <data name="lblInstalledShippingProviders" xml:space="preserve">
-    <value>�装了的税收提供程序:</value>
+    <value>安装了的税收提供程序:</value>
   </data>
   <data name="lblInstalledTaxProviders" xml:space="preserve">
-    <value>�装税收提供程序成功</value>
+    <value>安装税收提供程序成功</value>
   </data>
   <data name="lblInventoriesSaved" xml:space="preserve">
     <value>存货清单保存成功</value>
@@ -709,7 +709,7 @@
     <value>商品列表</value>
   </data>
   <data name="lblKeywords" xml:space="preserve">
-    <value>关�字:</value>
+    <value>关键字:</value>
   </data>
   <data name="lblLabel" xml:space="preserve">
     <value>标签:</value>
@@ -739,19 +739,19 @@
     <value>登入信息</value>
   </data>
   <data name="lblMailConfiguration" xml:space="preserve">
-    <value>��配�</value>
+    <value>邮箱配置</value>
   </data>
   <data name="lblMailConfigurationDescription" xml:space="preserve">
-    <value>��配�节允�你配�你的SMTP 服务器以及允�你�理通知，例如下�单以后的通知</value>
+    <value>邮箱配置节允许你配置你的SMTP 服务器以及允许你管理通知，例如下订单以后的通知</value>
   </data>
   <data name="lblMailSettingsDescription" xml:space="preserve">
-    <value>����是你的SMTP服务器的��，这个服务器是用来发送通知的.如果你不知道怎样��，请联系你的主机的服务提供商.</value>
+    <value>邮箱设置是你的SMTP服务器的设置，这个服务器是用来发送通知的.如果你不知道怎样设定，请联系你的主机的服务提供商.</value>
   </data>
   <data name="lblMailSettingsNotSaved" xml:space="preserve">
-    <value>����保存失败</value>
+    <value>邮箱设置保存失败</value>
   </data>
   <data name="lblMailSettingsSaved" xml:space="preserve">
-    <value>����保存成功.</value>
+    <value>邮箱设置保存成功.</value>
   </data>
   <data name="lblMailSettingsTestSucessfull" xml:space="preserve">
     <value>Sucessfully sent test email.</value>
@@ -760,13 +760,13 @@
     <value>Failed to send test email.</value>
   </data>
   <data name="lblManageProvidersDescription" xml:space="preserve">
-    <value>通过{1} 提供程序节允�你添加，编辑，以及删除{0}相应的提供程序</value>
+    <value>通过{1} 提供程序节允许你添加，编辑，以及删除{0}相应的提供程序</value>
   </data>
   <data name="lblManufacturer" xml:space="preserve">
     <value>制造商:</value>
   </data>
   <data name="lblManufacturerAdministration" xml:space="preserve">
-    <value>制造商�理</value>
+    <value>制造商管理</value>
   </data>
   <data name="lblManufacturerDeleted" xml:space="preserve">
     <value>制造商删除成功</value>
@@ -784,7 +784,7 @@
     <value>我的帐户详细信息</value>
   </data>
   <data name="lblMyOrders" xml:space="preserve">
-    <value>我的�单</value>
+    <value>我的订单</value>
   </data>
   <data name="lblName" xml:space="preserve">
     <value>名称:</value>
@@ -793,7 +793,7 @@
     <value>Net 数量:</value>
   </data>
   <data name="lblNoCart" xml:space="preserve">
-    <value>您的购物�是空的. 您可能还感兴趣以下商品:</value>
+    <value>您的购物篮是空的. 您可能还感兴趣以下商品:</value>
   </data>
   <data name="lblNoDescriptors" xml:space="preserve">
     <value>此商品没有添加描述</value>
@@ -802,25 +802,25 @@
     <value>没有错误日志</value>
   </data>
   <data name="lblNoPaymentProvidersConfigured" xml:space="preserve">
-    <value>没有�装付款提供程序. 请选择  '配�付款提供程序' 菜单选项进行配�</value>
+    <value>没有安装付款提供程序. 请选择  '配置付款提供程序' 菜单选项进行配置</value>
   </data>
   <data name="lblNoPaymentProvidersInstalled" xml:space="preserve">
-    <value>没有�装付款提供程序</value>
+    <value>没有安装付款提供程序</value>
   </data>
   <data name="lblNoReviews" xml:space="preserve">
     <value>这个商品没有被评价过</value>
   </data>
   <data name="lblNoShippingProvidersConfigured" xml:space="preserve">
-    <value>没有配�配送提供程序.请选择'配�配送提供程序'菜单选项。您可以在配�配送提供程序之前��基本的��.</value>
+    <value>没有配置配送提供程序.请选择'配置配送提供程序'菜单选项。您可以在配置配送提供程序之前设置基本的设置.</value>
   </data>
   <data name="lblNoShippingProvidersInstalled" xml:space="preserve">
-    <value>没有�装陪送提供程序.</value>
+    <value>没有安装陪送提供程序.</value>
   </data>
   <data name="lblNoTaxProvidersConfigured" xml:space="preserve">
-    <value>没有配�税收提供程序.请查看 '配�税收提供程序' 菜单选项.</value>
+    <value>没有配置税收提供程序.请查看 '配置税收提供程序' 菜单选项.</value>
   </data>
   <data name="lblNoTaxProvidersInstalled" xml:space="preserve">
-    <value>没有�装税收提供程序.</value>
+    <value>没有安装税收提供程序.</value>
   </data>
   <data name="lblNotificationBody" xml:space="preserve">
     <value>通知主体:</value>
@@ -835,28 +835,28 @@
     <value>通知保存成功</value>
   </data>
   <data name="lblNotificationsDescription" xml:space="preserve">
-    <value>系统产生的通告是用来通知您以及您的�户发生了某些事情，例如下了�单，等等</value>
+    <value>系统产生的通告是用来通知您以及您的客户发生了某些事情，例如下了订单，等等</value>
   </data>
   <data name="lblOrderEdit" xml:space="preserve">
-    <value>编辑�单</value>
+    <value>编辑订单</value>
   </data>
   <data name="lblOrderList" xml:space="preserve">
-    <value>�单列表</value>
+    <value>订单列表</value>
   </data>
   <data name="lblOrderNoteSaved" xml:space="preserve">
-    <value>�单保存失败</value>
+    <value>订单保存失败</value>
   </data>
   <data name="lblOrderNumber" xml:space="preserve">
-    <value>�单号</value>
+    <value>订单号</value>
   </data>
   <data name="lblOrderRefunded" xml:space="preserve">
-    <value>�单退回成功</value>
+    <value>订单退回成功</value>
   </data>
   <data name="lblOrderReview" xml:space="preserve">
-    <value>�单回顾</value>
+    <value>订单回顾</value>
   </data>
   <data name="lblOrderSummary" xml:space="preserve">
-    <value>�单摘要</value>
+    <value>订单摘要</value>
   </data>
   <data name="lblOurPrice" xml:space="preserve">
     <value>我们的价格:</value>
@@ -868,7 +868,7 @@
     <value>页面保存成功.</value>
   </data>
   <data name="lblParentCategory" xml:space="preserve">
-    <value>父�录:</value>
+    <value>父目录:</value>
   </data>
   <data name="lblParentPage" xml:space="preserve">
     <value>父页面:</value>
@@ -877,16 +877,16 @@
     <value>密码:</value>
   </data>
   <data name="lblPaymentConfiguration" xml:space="preserve">
-    <value>付款配�</value>
+    <value>付款配置</value>
   </data>
   <data name="lblPaymentConfigurationDescription" xml:space="preserve">
-    <value>付款配�节允�你�理付款提供程序，你可以�理并配�你的配送提供程序以及相应的付款服务��.</value>
+    <value>付款配置节允许你管理付款提供程序，你可以管理并配置你的配送提供程序以及相应的付款服务设置.</value>
   </data>
   <data name="lblPaymentConfigurationNotSaved" xml:space="preserve">
-    <value>付款配�保存失败.</value>
+    <value>付款配置保存失败.</value>
   </data>
   <data name="lblPaymentConfigurationSaved" xml:space="preserve">
-    <value>付款配�保存成功.</value>
+    <value>付款配置保存成功.</value>
   </data>
   <data name="lblPaymentInformation" xml:space="preserve">
     <value>付款信息</value>
@@ -901,7 +901,7 @@
     <value>付款</value>
   </data>
   <data name="lblPaymentProviderManagement" xml:space="preserve">
-    <value>付款提供程序�理</value>
+    <value>付款提供程序管理</value>
   </data>
   <data name="lblPayPalProDescriptionTitle" xml:space="preserve">
     <value>PayPal 专业版以及结帐Express版本</value>
@@ -928,7 +928,7 @@
     <value>端口:</value>
   </data>
   <data name="lblPostalCode" xml:space="preserve">
-    <value>�政编码:</value>
+    <value>邮政编码:</value>
   </data>
   <data name="lblPrice" xml:space="preserve">
     <value>价格</value>
@@ -937,16 +937,16 @@
     <value>添加商品</value>
   </data>
   <data name="lblProductCategories" xml:space="preserve">
-    <value>商品�录</value>
+    <value>商品目录</value>
   </data>
   <data name="lblProductCategoryDeleted" xml:space="preserve">
-    <value>商品�录删除成功</value>
+    <value>商品目录删除成功</value>
   </data>
   <data name="lblProductCategoryImages" xml:space="preserve">
-    <value>商品�录图片</value>
+    <value>商品目录图片</value>
   </data>
   <data name="lblProductCategorySaved" xml:space="preserve">
-    <value>商品�录保存成功</value>
+    <value>商品目录保存成功</value>
   </data>
   <data name="lblProductEdit" xml:space="preserve">
     <value>编辑商品</value>
@@ -1009,7 +1009,7 @@
     <value>需要 SSL:</value>
   </data>
   <data name="lblRetailPrice" xml:space="preserve">
-    <value>零�价格:</value>
+    <value>零售价格:</value>
   </data>
   <data name="lblRetialPrice" xml:space="preserve">
     <value>折后价格:</value>
@@ -1024,7 +1024,7 @@
     <value>回顾</value>
   </data>
   <data name="lblRoleAdministration" xml:space="preserve">
-    <value>权限�理</value>
+    <value>权限管理</value>
   </data>
   <data name="lblRoleAdministrationDescription" xml:space="preserve">
     <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
@@ -1063,7 +1063,7 @@
     <value>搜索条件:</value>
   </data>
   <data name="lblSecurity" xml:space="preserve">
-    <value>�全性</value>
+    <value>安全性</value>
   </data>
   <data name="lblSecurityDescription" xml:space="preserve">
     <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
@@ -1081,10 +1081,10 @@
     <value>服务已经被删除.</value>
   </data>
   <data name="lblShipFromCountry" xml:space="preserve">
-    <value>配送所在国�:</value>
+    <value>配送所在国家:</value>
   </data>
   <data name="lblShipFromZip" xml:space="preserve">
-    <value>配送所在�编:</value>
+    <value>配送所在邮编:</value>
   </data>
   <data name="lblShipping" xml:space="preserve">
     <value>配送&amp;处理</value>
@@ -1096,19 +1096,19 @@
     <value>配送处理期</value>
   </data>
   <data name="lblShippingConfiguration" xml:space="preserve">
-    <value>配送配�</value>
+    <value>配送配置</value>
   </data>
   <data name="lblShippingConfigurationDescription" xml:space="preserve">
-    <value>配送配�节允�你�理配送提供程序，你可以�理并配�你的配送提供程序以及相应的配送服务��.</value>
+    <value>配送配置节允许你管理配送提供程序，你可以管理并配置你的配送提供程序以及相应的配送服务设置.</value>
   </data>
   <data name="lblShippingConfigurationNotSaved" xml:space="preserve">
-    <value>配送��保存失败.</value>
+    <value>配送设置保存失败.</value>
   </data>
   <data name="lblShippingConfigurationSaved" xml:space="preserve">
-    <value>配送��保存成功.</value>
+    <value>配送设置保存成功.</value>
   </data>
   <data name="lblShippingEstimate" xml:space="preserve">
-    <value>配送估�:</value>
+    <value>配送估计:</value>
   </data>
   <data name="lblShippingInformation" xml:space="preserve">
     <value>配送信息</value>
@@ -1123,22 +1123,22 @@
     <value>配送</value>
   </data>
   <data name="lblShippingProviderManagement" xml:space="preserve">
-    <value>配送提供程序�理</value>
+    <value>配送提供程序管理</value>
   </data>
   <data name="lblShippingSaved" xml:space="preserve">
     <value>配送保存成功.</value>
   </data>
   <data name="lblShippingSettingsNotSaved" xml:space="preserve">
-    <value>配送��保存失败.</value>
+    <value>配送设置保存失败.</value>
   </data>
   <data name="lblShippingSettingsSaved" xml:space="preserve">
-    <value>配送��保存成功.</value>
+    <value>配送设置保存成功.</value>
   </data>
   <data name="lblShippingTrackingNumber" xml:space="preserve">
     <value>配送跟踪号:</value>
   </data>
   <data name="lblShortDescription" xml:space="preserve">
-    <value>�短描述:</value>
+    <value>简短描述:</value>
   </data>
   <data name="lblShowAll" xml:space="preserve">
     <value>查看所有</value>
@@ -1153,22 +1153,22 @@
     <value>轻量商品配送提供程序标题</value>
   </data>
   <data name="lblSiteAdministration" xml:space="preserve">
-    <value>网站�理</value>
+    <value>网站管理</value>
   </data>
   <data name="lblSiteName" xml:space="preserve">
     <value>网站名称:</value>
   </data>
   <data name="lblSiteSettings" xml:space="preserve">
-    <value>网站��</value>
+    <value>网站设定</value>
   </data>
   <data name="lblSiteSettingsDescription" xml:space="preserve">
     <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
   </data>
   <data name="lblSiteSettingsNotSaved" xml:space="preserve">
-    <value>网站��保存失败.</value>
+    <value>网站设置保存失败.</value>
   </data>
   <data name="lblSiteSettingsSaved" xml:space="preserve">
-    <value>网站��保存成功.</value>
+    <value>网站设置保存成功.</value>
   </data>
   <data name="lblSkuDescription" xml:space="preserve">
     <value>The following Sku's were created for this product based on the attribute's that are associated with this product. If you wish to save them, then then click the "Save" button.</value>
@@ -1177,7 +1177,7 @@
     <value>商品清单后缀:</value>
   </data>
   <data name="lblStateOrRegion" xml:space="preserve">
-    <value>国�/地区:</value>
+    <value>国家/地区:</value>
   </data>
   <data name="lblStatus" xml:space="preserve">
     <value>状态:</value>
@@ -1198,13 +1198,13 @@
     <value>税收:</value>
   </data>
   <data name="lblTaxConfiguration" xml:space="preserve">
-    <value>税收配�</value>
+    <value>税收配置</value>
   </data>
   <data name="lblTaxConfigurationDescription" xml:space="preserve">
     <value>The Tax Configuration section allows you to administer tax providers. You can manage and configure tax providers as well as set general settings for the tax service.</value>
   </data>
   <data name="lblTaxConfigurationNotSaved" xml:space="preserve">
-    <value>税收配�没有保存成功.</value>
+    <value>税收配置没有保存成功.</value>
   </data>
   <data name="lblTaxConfigurationSaved" xml:space="preserve">
     <value>税收</value>
@@ -1213,7 +1213,7 @@
     <value>税收:</value>
   </data>
   <data name="lblTaxProviderManagement" xml:space="preserve">
-    <value>税收提供程序�理:</value>
+    <value>税收提供程序管理:</value>
   </data>
   <data name="lblTaxType" xml:space="preserve">
     <value>税收种类:</value>
@@ -1264,10 +1264,10 @@
     <value>更新中 . . .</value>
   </data>
   <data name="lblUpdatingOrder" xml:space="preserve">
-    <value>更新�单 . . .</value>
+    <value>更新订单 . . .</value>
   </data>
   <data name="lblUserAdministration" xml:space="preserve">
-    <value>用户�理</value>
+    <value>用户管理</value>
   </data>
   <data name="lblUserAdministrationDescription" xml:space="preserve">
     <value>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla commodo vulputate odio. Proin eget libero. Cras tristique velit sit amet massa facilisis ultricies. Sed aliquet diam placerat ligula. Suspendisse vitae velit vitae ipsum molestie pretium. Mauris luctus lacus sit amet magna. Cras sapien magna, mattis eu, pulvinar a, rutrum in, lorem. Duis consequat viverra turpis. Duis scelerisque ligula vitae dui. Nam tincidunt pede id massa.</value>
@@ -1291,7 +1291,7 @@
     <value>欢迎回来</value>
   </data>
   <data name="lblWidth" xml:space="preserve">
-    <value>�度:</value>
+    <value>宽度:</value>
   </data>
   <data name="lblYourRating" xml:space="preserve">
     <value>您的等级是:</value>
@@ -1306,7 +1306,7 @@
     <value>密码:&amp;nbsp;</value>
   </data>
   <data name="lloginPasswordRecoveryText" xml:space="preserve">
-    <value>忘�密码?</value>
+    <value>忘记密码?</value>
   </data>
   <data name="lloginTitleText" xml:space="preserve">
     <value>登陆</value>
@@ -1333,7 +1333,7 @@
     <value>添加服务</value>
   </data>
   <data name="pnlAddToCart" xml:space="preserve">
-    <value>添加到购物�</value>
+    <value>添加到购物篮</value>
   </data>
   <data name="pnlAddUser" xml:space="preserve">
     <value>添加用户</value>
@@ -1345,7 +1345,7 @@
     <value>相关属性</value>
   </data>
   <data name="pnlAssociatedCategories" xml:space="preserve">
-    <value>相关�录</value>
+    <value>相关目录</value>
   </data>
   <data name="pnlAttributeItems" xml:space="preserve">
     <value>可用Items</value>
@@ -1366,19 +1366,19 @@
     <value>浏览日志</value>
   </data>
   <data name="pnlConfiguration" xml:space="preserve">
-    <value>{0} 配�</value>
+    <value>{0} 配置</value>
   </data>
   <data name="pnlConfigurationOverview" xml:space="preserve">
-    <value>配�概要</value>
+    <value>配置概要</value>
   </data>
   <data name="pnlConfiguredPaymentProviders" xml:space="preserve">
-    <value>已配�的付款提供程序</value>
+    <value>已配置的付款提供程序</value>
   </data>
   <data name="pnlConfiguredShippingProviders" xml:space="preserve">
-    <value>已配�的配送方式提供程序</value>
+    <value>已配置的配送方式提供程序</value>
   </data>
   <data name="pnlConfiguredTaxProviders" xml:space="preserve">
-    <value>已配�的税款提供程序</value>
+    <value>已配置的税款提供程序</value>
   </data>
   <data name="pnlCrossSells" xml:space="preserve">
     <value>Cross-Sells</value>
@@ -1402,7 +1402,7 @@
     <value>添加/编辑属性</value>
   </data>
   <data name="pnlEditCategory" xml:space="preserve">
-    <value>添加/编辑产品�录</value>
+    <value>添加/编辑产品目录</value>
   </data>
   <data name="pnlEditPage" xml:space="preserve">
     <value>添加/编辑页面</value>
@@ -1426,7 +1426,7 @@
     <value>产品基本信息</value>
   </data>
   <data name="pnlGeneralSettings" xml:space="preserve">
-    <value>基本��</value>
+    <value>基本设置</value>
   </data>
   <data name="pnlGlobalization" xml:space="preserve">
     <value>全球化</value>
@@ -1435,13 +1435,13 @@
     <value>标头</value>
   </data>
   <data name="pnlImageManagement" xml:space="preserve">
-    <value>图片�理</value>
+    <value>图片管理</value>
   </data>
   <data name="pnlMailConfiguration" xml:space="preserve">
-    <value>油�配�</value>
+    <value>油箱配置</value>
   </data>
   <data name="pnlMailSettings" xml:space="preserve">
-    <value>油���</value>
+    <value>油箱设定</value>
   </data>
   <data name="pnlManufacturerList" xml:space="preserve">
     <value>制造商列表</value>
@@ -1471,19 +1471,19 @@
     <value>通知详细信息</value>
   </data>
   <data name="pnlOrderList" xml:space="preserve">
-    <value>�单列表</value>
+    <value>订单列表</value>
   </data>
   <data name="pnlOrderSearch" xml:space="preserve">
-    <value>�单搜索</value>
+    <value>订单搜索</value>
   </data>
   <data name="pnlPaymentProviders" xml:space="preserve">
-    <value>Payment 提供程序配�</value>
+    <value>Payment 提供程序配置</value>
   </data>
   <data name="pnlPayPalProConfiguration" xml:space="preserve">
-    <value>PayPal 专业付款提供程序配�</value>
+    <value>PayPal 专业付款提供程序配置</value>
   </data>
   <data name="pnlPayPalStandardConfiguration" xml:space="preserve">
-    <value>PayPal付款提供程序配�</value>
+    <value>PayPal付款提供程序配置</value>
   </data>
   <data name="pnlProductDescriptors" xml:space="preserve">
     <value>商品描述</value>
@@ -1510,7 +1510,7 @@
     <value>快速开始</value>
   </data>
   <data name="pnlRegionCodeConfiguration" xml:space="preserve">
-    <value>区域税收提供程序配�</value>
+    <value>区域税收提供程序配置</value>
   </data>
   <data name="pnlReview" xml:space="preserve">
     <value>回顾</value>
@@ -1525,10 +1525,10 @@
     <value>配送</value>
   </data>
   <data name="pnlShippingProviders" xml:space="preserve">
-    <value>配送方式配�</value>
+    <value>配送方式配置</value>
   </data>
   <data name="pnlSimpleWeightConfiguration" xml:space="preserve">
-    <value>轻重量商品运送服务配�</value>
+    <value>轻重量商品运送服务配置</value>
   </data>
   <data name="pnlSimpleWeightData" xml:space="preserve">
     <value>轻重量商品服务 / AmountPerUnit Data</value>
@@ -1540,7 +1540,7 @@
     <value>商品清单</value>
   </data>
   <data name="pnlTaxProviders" xml:space="preserve">
-    <value>税收提供程序配�</value>
+    <value>税收提供程序配置</value>
   </data>
   <data name="pnlToDo" xml:space="preserve">
     <value>To Do</value>
@@ -1558,16 +1558,16 @@
     <value>答案:&amp;nbsp;</value>
   </data>
   <data name="prPasswordRecoverQuestionFailureText" xml:space="preserve">
-    <value>您的答案不正�，请重试！</value>
+    <value>您的答案不正确，请重试！</value>
   </data>
   <data name="prPasswordRecoverQuestionInstructionText" xml:space="preserve">
-    <value>正�回答以下�题来获取您的密码!</value>
+    <value>正确回答以下问题来获取您的密码!</value>
   </data>
   <data name="prPasswordRecoverQuestionLabelText" xml:space="preserve">
-    <value>�题:&amp;nbsp;</value>
+    <value>问题:&amp;nbsp;</value>
   </data>
   <data name="prPasswordRecoverQuestionTitleText" xml:space="preserve">
-    <value>身份��</value>
+    <value>身份确认</value>
   </data>
   <data name="prPasswordRecoverSubmitButtonText" xml:space="preserve">
     <value>提交</value>
@@ -1585,7 +1585,7 @@
     <value>用户名:&amp;nbsp;</value>
   </data>
   <data name="prPasswordRecoverUserNameTitleText" xml:space="preserve">
-    <value>忘�密码?</value>
+    <value>忘记密码?</value>
   </data>
   <data name="rfvAmountPerUnit" xml:space="preserve">
     <value>请提供每单位的数量.</value>
@@ -1624,14 +1624,14 @@
     <value>dashCommerce :: 添加用户</value>
   </data>
   <data name="titleCart" xml:space="preserve">
-    <value>购物�</value>
+    <value>购物篮</value>
   </data>
   <data name="titleCheckout" xml:space="preserve">
     <value>Cart</value>
     <comment>Cart</comment>
   </data>
   <data name="titleContentManagement" xml:space="preserve">
-    <value>dashCommerce :: 内��理</value>
+    <value>dashCommerce :: 内容管理</value>
   </data>
   <data name="titleDashBoard" xml:space="preserve">
     <value>dashCommerce :: dashBoard</value>
@@ -1652,7 +1652,7 @@
     <value>dashCommerce :: 加载...</value>
   </data>
   <data name="titleMailSettings" xml:space="preserve">
-    <value>dashCommerce :: 油���</value>
+    <value>dashCommerce :: 油箱设定</value>
   </data>
   <data name="titleModalError" xml:space="preserve">
     <value>dashCommerce :: 错误</value>
@@ -1661,19 +1661,19 @@
     <value>dashCommerce :: 通知</value>
   </data>
   <data name="titlePaymentConfiguration" xml:space="preserve">
-    <value>dashCommerce :: 付款方式配�</value>
+    <value>dashCommerce :: 付款方式配置</value>
   </data>
   <data name="titlePaymentProviderManagement" xml:space="preserve">
-    <value>dashCommerce :: 付款方式�理</value>
+    <value>dashCommerce :: 付款方式管理</value>
   </data>
   <data name="titlePaymentSettings" xml:space="preserve">
-    <value>dashComemrce :: 付款方式��</value>
+    <value>dashComemrce :: 付款方式设定</value>
   </data>
   <data name="titleProductAttributes" xml:space="preserve">
     <value>dashCommerce :: 商品属性</value>
   </data>
   <data name="titleProductCategories" xml:space="preserve">
-    <value>dashCommerce :: 商品�录</value>
+    <value>dashCommerce :: 商品目录</value>
   </data>
   <data name="titleProductListing" xml:space="preserve">
     <value>dashCommerce :: 商品清单</value>
@@ -1682,51 +1682,51 @@
     <value>dashCommerce :: 产品制造商</value>
   </data>
   <data name="titleRoleAdministration" xml:space="preserve">
-    <value>dashCommerce :: �全性:: 权限�理</value>
+    <value>dashCommerce :: 安全性:: 权限管理</value>
   </data>
   <data name="titleShippingConfiguration" xml:space="preserve">
     <value>dashCommerce :: 配送方式提供者</value>
   </data>
   <data name="titleShippingProviderManagement" xml:space="preserve">
-    <value>dashCommerce :: 配送方式提供者�理</value>
+    <value>dashCommerce :: 配送方式提供者管理</value>
   </data>
   <data name="titleShippingSettings" xml:space="preserve">
-    <value>dashCommerce :: 配送方式��</value>
+    <value>dashCommerce :: 配送方式设定</value>
   </data>
   <data name="titleSiteSettingsAnalytics" xml:space="preserve">
-    <value>dashCommerce :: 网站�� :: 分析</value>
+    <value>dashCommerce :: 网站设定 :: 分析</value>
   </data>
   <data name="titleSiteSettingsBrowsingLog" xml:space="preserve">
-    <value>dashCommerce :: 网站�� :: 浏览日志</value>
+    <value>dashCommerce :: 网站设定 :: 浏览日志</value>
   </data>
   <data name="titleSiteSettingsFooter" xml:space="preserve">
-    <value>dashCommerce :: 网站�� :: 页脚</value>
+    <value>dashCommerce :: 网站设定 :: 页脚</value>
   </data>
   <data name="titleSiteSettingsGeneralLayout" xml:space="preserve">
-    <value>dashCommerce :: 网站�� :: 常用布局</value>
+    <value>dashCommerce :: 网站设定 :: 常用布局</value>
   </data>
   <data name="titleSiteSettingsGlobalization" xml:space="preserve">
-    <value>dashCommerce :: 网站�� :: 全球化</value>
+    <value>dashCommerce :: 网站设定 :: 全球化</value>
   </data>
   <data name="titleSiteSettingsHeader" xml:space="preserve">
-    <value>dashCommerce :: 网站�� :: 标题头</value>
+    <value>dashCommerce :: 网站设定 :: 标题头</value>
   </data>
   <data name="titleSiteSettingsWidgets" xml:space="preserve">
-    <value>dashCommerce :: 网站�� :: 布局</value>
+    <value>dashCommerce :: 网站设定 :: 布局</value>
   </data>
   <data name="titleTaxConfiguration" xml:space="preserve">
-    <value>dashCommerce :: 税率提供程序配�</value>
+    <value>dashCommerce :: 税率提供程序配置</value>
   </data>
   <data name="titleTaxProviderManagement" xml:space="preserve">
-    <value>dashCommerce ::税率提供程序�理</value>
+    <value>dashCommerce ::税率提供程序管理</value>
   </data>
   <data name="titleTaxSettings" xml:space="preserve">
-    <value>dashComerce :: 税率��</value>
+    <value>dashComerce :: 税率设定</value>
   </data>
   <data name="titleTrackingLogs" xml:space="preserve">
     <value>dashCommerce :: 跟踪日志</value>
   </data>
   <data name="titleUserAdministration" xml:space="preserve">
-    <value>dashCommerce :: �全性:: 用户�理</value>
+    <value>dashCommerce :: 安全性:: 用户管理</value>
   </data>
 </root>

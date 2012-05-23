@@ -146,7 +146,7 @@
     <comment>Quantity</comment>
   </data>
   <data name="OrderCharged" xml:space="preserve">
-    <value>Comanda �ncasată.</value>
+    <value>Comanda încasată.</value>
     <comment>Order charged.</comment>
   </data>
   <data name="OrderDate" xml:space="preserve">
