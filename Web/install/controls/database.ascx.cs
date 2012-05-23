@@ -60,16 +60,18 @@ namespace MettleSystems.dashCommerce.Web.install.controls {
     /// <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
     protected override void btnNext_Click(object sender, EventArgs e) {
       try {
-        if (rdoNewOrExistingDatabase.SelectedItem.Text.Equals("Create a New Database")) {
+        if (rdoNewOrExistingDatabase.SelectedItem != null) {
+          if (rdoNewOrExistingDatabase.SelectedItem.Text.Equals("Create a New Database")) {
             InstallUtility.CreateDatabase(txtDatabaseName.Text.Trim(), GetMasterConnectionString());
+          }
         }
         if (!chkUseConnectionStringConfig.Checked) {
           string connectionString = GetConnectionString();
           InstallUtility.SetConnectionString("dashCommerce", connectionString);
         }
-        else {
-          base.Step++;
-        }
+        //else {
+        //  base.Step++;
+        //}
         Response.Redirect(string.Format("~/install/install.aspx?step={0}&selected_language={1}", this.Step + 1, ddlLanguage.SelectedValue), true);
       }
       catch(Exception ex) {
