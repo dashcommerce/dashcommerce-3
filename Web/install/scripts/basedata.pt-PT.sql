@@ -189,6 +189,8 @@ INSERT [dbo].[dashCommerce_Store_Provider] ([ProviderId], [ProviderTypeId], [Nam
 &lt;/p&gt;', N'~/admin/controls/configuration/shippingproviders/simpleweightconfiguration.ascx', N'SYSTEM', N'SYSTEM')
 INSERT [dbo].[dashCommerce_Store_Provider] ([ProviderId], [ProviderTypeId], [Name], [Description], [ConfigurationControlPath], [CreatedBy], [ModifiedBy]) VALUES (4, 2, N'RegionCodeTaxProvider', N'&lt;div&gt;The RegionCodeTaxProvider will allow you to apply taxes to an order based on the a region code. By default, the RegionCodeTaxProvider will calculate the tax based on the PostalCode of the order.&lt;/div&gt;', N'~/admin/controls/configuration/taxproviders/regioncodeconfiguration.ascx', N'SYSTEM', N'SYSTEM')
 INSERT [dbo].[dashCommerce_Store_Provider] ([ProviderId], [ProviderTypeId], [Name], [Description], [ConfigurationControlPath], [CreatedBy], [ModifiedBy]) VALUES (5, 4, N'PercentOffCouponProvider', N'&lt;p&gt;The PercentOffCouponProvider will apply a percentage discount to the order.&lt;/p&gt;', N'~/admin/controls/configuration/couponproviders/percentoffconfiguration.ascx', N'SYSTEM', N'SYSTEM')
+INSERT [dbo].[dashCommerce_Store_Provider] ([ProviderId], [ProviderTypeId], [Name], [Description], [ConfigurationControlPath], [CreatedBy], [ModifiedBy]) VALUES (6, 1, N'NullPaymentProvider', N'The NullPaymentProvider can be used to simulate transactions. For example, this payment provider could be used to evaluate dashCommerce without having to register with a payment provider. The NullPaymentProvider could also be used to submit orders that will then be paid for later, in person for instance.', N'~/admin/controls/configuration/paymentproviders/nullpaymentconfiguration.ascx', N'SYSTEM', N'SYSTEM')
+INSERT [dbo].[dashCommerce_Store_Provider] ([ProviderId], [ProviderTypeId], [Name], [Description], [ConfigurationControlPath], [CreatedBy], [ModifiedBy]) VALUES (7, 1, N'AuthorizeNetPaymentProvider', N'The &lt;a href=&quot;https://ems.authorize.net/oap/home.aspx?SalesRepID=98&amp;amp;ResellerID=12191&quot; target=&quot;_blank&quot;&gt;Authorize.Net Payment Provider&lt;/a&gt; can be used to process transactions through Authorize.Net. You will need to &lt;a href=&quot;https://ems.authorize.net/oap/home.aspx?SalesRepID=98&amp;amp;ResellerID=12191&quot; target=&quot;_blank&quot;&gt;register with Authorize.Net&lt;/a&gt; and obtain an API User Id and an API TransactionKey in order to use their service.', N'~/admin/controls/configuration/paymentproviders/authorizenetconfiguration.ascx', N'INSTALLER', N'INSTALLER')
 SET IDENTITY_INSERT [dbo].[dashCommerce_Store_Provider] OFF
 GO
 
@@ -314,41 +316,44 @@ GO
 
 /****** Object:  Table [dbo].[dashCommerce_Content_SimpleHtml]    Script Date: 04/06/2008 14:27:59 ******/
 SET IDENTITY_INSERT [dbo].[dashCommerce_Content_SimpleHtml] ON
-INSERT [dbo].[dashCommerce_Content_SimpleHtml] ([SimpleHtmlId], [RegionId], [Html], [CreatedBy], [ModifiedBy]) VALUES (1, 1, N'&lt;div&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.mettlesystems.com&quot;&gt;&lt;font size=&quot;2&quot;&gt;Mettle Systems LLC&lt;/font&gt;&lt;/a&gt;&lt;font size=&quot;2&quot;&gt;, the creators of dashCommerce, have partnered with PayPal to give you a complete e-commerce and all-in-one payment solution using PayPal Website Payments Pro with Express Checkout.&lt;/font&gt;&lt;/div&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Accept credit card payments without requiring the buyer to have a PayPal account. &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Get PayPal''s industry-leading security fraud-prevention systems. &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Take advantage of PayPal''s comprehensive online reports that help you measure sales and manage your business easily. &lt;/font&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;font size=&quot;2&quot;&gt;Step 1: Set Up a Verified PayPal Business Account&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font size=&quot;2&quot;&gt;If you don''t have an existing PayPal account:&lt;/font&gt;&lt;/p&gt;
-&lt;ol&gt;
-    &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.paypal.com/us/mrb/pal=NAG62FTSWGJ5W&quot;&gt;&lt;span class=&quot;payPalLink&quot;&gt;&lt;font size=&quot;2&quot;&gt;Go to Paypal&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;&lt;font size=&quot;2&quot;&gt; &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Click Sign Up Today. &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Set up an account for Business Owners. &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Follow the instructions on the PayPal site. &lt;/font&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;font size=&quot;2&quot;&gt;If you already have a Personal or Premier account:&lt;/font&gt;&lt;/p&gt;
-&lt;ol&gt;
-    &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.paypal.com/us/mrb/pal=NAG62FTSWGJ5W&quot;&gt;&lt;span class=&quot;payPalLink&quot;&gt;&lt;font size=&quot;2&quot;&gt;Go to Paypal&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;&lt;font size=&quot;2&quot;&gt; &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Click the Upgrade your Account link. &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Click the Upgrade Now button. &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Choose to upgrade to a Business account and follow instructions to complete the upgrade. &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;If you haven''t already, add a bank account to become a Verified member. Follow the instructions on the PayPal site. (This process may take 2-3 business days.) &lt;/font&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;&lt;font size=&quot;2&quot;&gt;Step 2: Apply for Website Payments Pro&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font size=&quot;2&quot;&gt;Get the features of an internet merchant account and payment gateway with Website Payments Pro. Control your checkout from start to finish by integrating PayPal Website Payments Pro with dashCommerce.&lt;/font&gt;&lt;/p&gt;
-&lt;ol&gt;
-    &lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.paypal.com/us/mrb/pal=NAG62FTSWGJ5W&quot;&gt;&lt;span class=&quot;payPalLink&quot;&gt;&lt;font size=&quot;2&quot;&gt;Go to Paypal&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;&lt;font size=&quot;2&quot;&gt; &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Login to your PayPal Business Account &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Click the Merchant Services tab. &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Click Website Payments Pro (U.S. Only). &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Click Sign Up Now. &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Fill in your information, and submit your application. Approval takes between 24 and 48 hours. &lt;/font&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;font size=&quot;2&quot;&gt;Once approved, accept the Pro billing agreement. Check the Getting Started section on the upper left of your account overview page. &lt;/font&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;&lt;font size=&quot;2&quot;&gt;Step 3: Get your API Account Name, API Account Password, and the API Signature.&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;font size=&quot;2&quot;&gt;Step 4: Configure the Payment System.&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;', N'SYSTEM', N'SYSTEM')
+INSERT [dbo].[dashCommerce_Content_SimpleHtml] ([SimpleHtmlId], [RegionId], [Html], [CreatedBy], [ModifiedBy]) VALUES (1, 1, N'&lt;p&gt;
+	&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+	&lt;a href=&quot;http://www.dashcommerce.org&quot;&gt;&lt;strong&gt;Welcome to dashCommerce!&lt;/strong&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	dashCommerce is a flexible and robust ASP.NET Open Source e-commerce application that you can use to set up your online store. dashCommerce has been available since early 2008 and has been used in countless online stores and is wildly successful. &amp;ldquo;How successful?&amp;rdquo; you might ask? Well, dashCommerce has the following achievements to its credit:&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	1.)&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt; &lt;/span&gt;Was recognized by PayPal as a Top 25 integration within 1.5 years of being launched.&lt;/div&gt;
+&lt;div&gt;
+	2.)&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt; &lt;/span&gt;Is licensed by the US Government for use in creating online stores for the Armed Services.&lt;/div&gt;
+&lt;div&gt;
+	3.)&lt;span class=&quot;Apple-tab-span&quot; style=&quot;white-space:pre&quot;&gt; &lt;/span&gt;Used throughout the world to generate many millions of dollars in revenue.&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	You can use dashCommerce to sell both physical and digital goods via the internet.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	You will need to sign up with a payment provider in order to use dashCommerce. You can sign up for the following payment providers online, right now!&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&lt;a href=&quot;https://www.paypal.com/us/mrb/pal=NAG62FTSWGJ5W&quot; target=&quot;_blank&quot;&gt;Sign up for PayPal&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&lt;a href=&quot;https://ems.authorize.net/oap/home.aspx?SalesRepID=98&amp;amp;ResellerID=12191&quot; target=&quot;_blank&quot;&gt;Sign up for Authorize.Net&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	Best of luck to you in creating your online store!&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;', N'SYSTEM', N'SYSTEM')
 SET IDENTITY_INSERT [dbo].[dashCommerce_Content_SimpleHtml] OFF
 GO
 
