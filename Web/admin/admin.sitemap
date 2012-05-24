@@ -52,7 +52,7 @@
     </siteMapNode>
     <siteMapNode url="~/admin/overview.aspx?view=help" title="$Resources:adminNav, Help" tooltip="$Resources:adminNavTooltips, Help">
       <siteMapNode url="http://dashcommerce.org" title="$Resources:adminNav, dashCommerceorg" target="_blank" tooltip="$Resources:adminNavTooltips, dashCommerceorg"/>
-      <siteMapNode url="http://dashcommerce.com" title="$Resources:adminNav, dashCommercecom" target="_blank" tooltip="$Resources:adminNavTooltips, dashCommercecom"/>
+      <!--<siteMapNode url="http://dashcommerce.com" title="$Resources:adminNav, dashCommercecom" target="_blank" tooltip="$Resources:adminNavTooltips, dashCommercecom"/>-->
       <siteMapNode url="~/admin/about.aspx" title="$Resources:adminNav, About" tooltip="$Resources:adminNavTooltips, About"/>
     </siteMapNode>
     <siteMapNode url="~/default.aspx" title="$Resources:adminNav, ReturnToSite"/>
