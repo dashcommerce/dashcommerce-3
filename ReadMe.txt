@@ -14,7 +14,7 @@ Sign up for PayPal - https://www.paypal.com/us/mrb/pal=NAG62FTSWGJ5W
 
 Sign up for Authorize.Net - https://ems.authorize.net/oap/home.aspx?SalesRepID=98&ResellerID=12191
 
-Best of luck to you in creating your online store!
+Best of luck to you in creating your online store!!
 
 
 
