@@ -1,0 +1,5 @@
+.gitattributes export-ignore
+.gitignore export-ignore
+Manifest.xml export-ignore
+Parameters.xml export-ignore
+dashCommerce-VS2011.v11.suo export-ignore
