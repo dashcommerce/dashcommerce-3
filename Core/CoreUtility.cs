@@ -19,8 +19,10 @@ http://www.dashcommerce.org/license.html
 using System;
 using System.IO;
 using System.Net;
+using System.Security;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Web;
 
 namespace MettleSystems.dashCommerce.Core {
   
@@ -97,8 +99,6 @@ namespace MettleSystems.dashCommerce.Core {
       return randomString;
     }
 
-
-
     /// <summary>
     /// Generates a 4 by 4 masked string.
     /// </summary>
@@ -115,7 +115,6 @@ namespace MettleSystems.dashCommerce.Core {
       }
       return randomString;
     }
-
 
     public static string SendRequestByPost(string serviceUrl, string postData)
     {
@@ -169,6 +168,26 @@ namespace MettleSystems.dashCommerce.Core {
             }
         }
         return response;
+    }
+
+    public static AspNetHostingPermissionLevel GetCurrentTrustLevel() {
+      foreach (var trustLevel in new[] {
+                                                 AspNetHostingPermissionLevel.Unrestricted,
+                                                 AspNetHostingPermissionLevel.High,
+                                                 AspNetHostingPermissionLevel.Medium,
+                                                 AspNetHostingPermissionLevel.Low,
+                                                 AspNetHostingPermissionLevel.Minimal }) {
+        try {
+          new AspNetHostingPermission(trustLevel).Demand();
+        }
+        catch (SecurityException) {
+          continue;
+        }
+
+        return trustLevel;
+      }
+
+      return AspNetHostingPermissionLevel.None;
     }
 
     #endregion

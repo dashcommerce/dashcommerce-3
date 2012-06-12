@@ -106,7 +106,10 @@
     <Compile Include="Controllers\Generated\StateOrRegionController.cs" />
     <Compile Include="Controllers\LogController.cs" />
     <Compile Include="Controllers\StateOrRegionController.cs" />
+    <Compile Include="DeferredEqualityComparer.cs" />
+    <Compile Include="EnumerableExtensions.cs" />
     <Compile Include="Globalization\CultureComparer.cs" />
+    <Compile Include="HashCodeCombiner.cs" />
     <Compile Include="ImageProcess.cs" />
     <Compile Include="IO\FileWriter.cs" />
     <Compile Include="Logger.cs" />
@@ -127,6 +130,7 @@
     <Compile Include="Serialization\Serializer.cs" />
     <Compile Include="CoreUtility.cs" />
     <Compile Include="SiteSettings.cs" />
+    <Compile Include="StringExtensions.cs" />
     <Compile Include="Validator.cs" />
     <Compile Include="WriteLockDisposable.cs" />
   </ItemGroup>
