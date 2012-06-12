@@ -2780,6 +2780,7 @@
     <Content Include="storeclosed.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Plugins\Core\" />
     <Folder Include="repository\category\" />
     <Folder Include="repository\content\Image\" />
     <Folder Include="repository\download\" />
