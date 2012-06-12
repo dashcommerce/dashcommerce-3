@@ -10,5 +10,8 @@ namespace MettleSystems.dashCommerce.Core {
       return (str == null) || (str.Trim().Length == 0);
     }
 
+    public static bool InvariantEquals(this string compare, string compareTo) {
+      return String.Equals(compare, compareTo, StringComparison.InvariantCultureIgnoreCase);
+    }
   }
 }

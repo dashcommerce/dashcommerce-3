@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Web;
+using System.Web.Compilation;
 using System.Web.Hosting;
 using System.Web.Util;
 using MettleSystems.dashCommerce.Core.Plugins;
@@ -16,58 +18,257 @@ namespace MettleSystems.dashCommerce.Core.Plugins {
   public class PluginManager {
 
     private static readonly ReaderWriterLockSlim Locker = new ReaderWriterLockSlim();
-    private static DirectoryInfo shadowCopyFolder;
-    private static bool? isFullTrust;
-    private static DirectoryInfo pluginFolder;
-    private static PluginManagerShadowCopyType pluginManagerShadowCopyType;
+    private static DirectoryInfo _shadowCopyFolder;
+    private static bool? _isFullTrust;
+    private static DirectoryInfo _pluginFolder;
+    private static PluginManagerShadowCopyType _shadowCopyType;
     public const string CUSTOM_PLUGINS = "CustomPlugins";
     private static string _pluginsHash;
+    public static IEnumerable<PluginDefinition> ReferencedPlugins { get; private set; }
+
 
     public static void Initialize() {
       using (new WriteLockDisposable(Locker)) {
         var pluginPath = HostingEnvironment.MapPath("~/App_Plugins");
-        pluginFolder = new DirectoryInfo(pluginPath);
+        _pluginFolder = new DirectoryInfo(pluginPath);
 
         //Default to the bin directory
-        shadowCopyFolder = new DirectoryInfo(HostingEnvironment.MapPath("~/bin"));
+        _shadowCopyFolder = new DirectoryInfo(HostingEnvironment.MapPath("~/bin"));
 
-        if (pluginManagerShadowCopyType == PluginManagerShadowCopyType.OverrideDefaultFolder) {
+        if (_shadowCopyType == PluginManagerShadowCopyType.OverrideDefaultFolder) {
           var shadowCopyPath = HostingEnvironment.MapPath("~/App_Plugins/bin");
-          shadowCopyFolder = new DirectoryInfo(shadowCopyPath);
+          _shadowCopyFolder = new DirectoryInfo(shadowCopyPath);
         }
-        else if (IsFullTrust() && pluginManagerShadowCopyType == PluginManagerShadowCopyType.UseDynamicFolder) {
-          shadowCopyFolder = new DirectoryInfo(AppDomain.CurrentDomain.DynamicDirectory);
+        else if (IsFullTrust() && _shadowCopyType == PluginManagerShadowCopyType.UseDynamicFolder) {
+          _shadowCopyFolder = new DirectoryInfo(AppDomain.CurrentDomain.DynamicDirectory);
         }
 
+        var referencedPlugins = new List<PluginDefinition>();
         var pluginFiles = Enumerable.Empty<FileInfo>();
 
         try {
-          Directory.CreateDirectory(pluginFolder.FullName);
-          if (pluginManagerShadowCopyType != PluginManagerShadowCopyType.UseDynamicFolder) {
-            Directory.CreateDirectory(shadowCopyFolder.FullName);
+          Directory.CreateDirectory(_pluginFolder.FullName);
+          if (_shadowCopyType != PluginManagerShadowCopyType.UseDynamicFolder) {
+            Directory.CreateDirectory(_shadowCopyFolder.FullName);
           }
-          Directory.CreateDirectory(Path.Combine(pluginFolder.FullName, CUSTOM_PLUGINS));
+          Directory.CreateDirectory(Path.Combine(_pluginFolder.FullName, CUSTOM_PLUGINS));
 
-          pluginFiles = pluginFolder.GetFiles("*.dll", SearchOption.AllDirectories)
+          pluginFiles = _pluginFolder.GetFiles("*.dll", SearchOption.AllDirectories)
             .ToArray()
             .Where(x => x.Directory.Parent != null)
             .ToList();
-
-
         }
         catch (Exception ex) {
           Logger.LogException("Failed to load plugins.", ex, Logger.LogMessageType.Error);
         }
 
+        try {
+          //Detect if there are any changes to plugins and perform any cleanup if in full trust using the dynamic folder
+          if (DetectAndCleanStalePlugins(pluginFiles, _shadowCopyFolder)) {
+            //if plugins changes have been detected, then shadow copy and re-save the cache files
+
+
+            //shadow copy files
+            referencedPlugins
+                .AddRange(pluginFiles.Select(plug =>
+                    new PluginDefinition(plug,
+                        GetPackageFolderFromPluginDll(plug),
+                        PerformFileDeployAndRegistration(plug, true),
+                        plug.Directory.Parent.Name == "Core")));
+
+            //save our plugin hash value
+            WriteCachePluginsHash(pluginFiles);
+            //save our plugins list
+            WriteCachePluginsList(pluginFiles);
+
+            var codeBase = typeof(PluginManager).Assembly.CodeBase;
+            var uri = new Uri(codeBase);
+            var path = uri.LocalPath;
+            var binFolder = Path.GetDirectoryName(path);
+
+            if (_shadowCopyFolder.FullName.InvariantEquals(binFolder)) {
+            }
+          }
+          else {
+
+            referencedPlugins
+                .AddRange(pluginFiles.Select(plug =>
+                    new PluginDefinition(plug,
+                        GetPackageFolderFromPluginDll(plug),
+                        PerformFileDeployAndRegistration(plug, false),
+                        plug.Directory.Parent.Name == "Core")));
+          }
+        }
+        catch (UnauthorizedAccessException) {
+          //throw the exception if its UnauthorizedAccessException as this will 
+          //be because we cannot copy to the shadow copy folder, or update the dashCommerce plugin hash/list files.
+          throw;
+        }
+        catch (Exception ex) {
+          var fail = new ApplicationException("Could not initialise plugin folder", ex);
+        }
+
+        ReferencedPlugins = referencedPlugins;
+
       }
     }
 
+
+    private static void WriteCachePluginsList(IEnumerable<FileInfo> plugins) {
+      var sb = new StringBuilder();
+      foreach (var f in plugins) {
+        sb.AppendLine(f.Name);
+      }
+
+      var dir = Directory.CreateDirectory(Path.Combine(_pluginFolder.FullName, "Cache"));
+      File.WriteAllText(Path.Combine(dir.FullName, "dashCommerce-plugins.list"), sb.ToString(), Encoding.UTF8);
+
+      //Now, write this file to the shadow copy folder for information purposes. For example, if it is default (~/bin) 
+      //then at least people will have a file to reference to look at what has been shadow copied vs what is part
+      //of their project.
+
+      File.WriteAllText(Path.Combine(_shadowCopyFolder.FullName, "dashCommerce-plugins-list.txt"),
+          "This file lists all of the dashCommerce plugin DLL files that have been shadow copied to this folder.\r\n"
+          + sb.ToString(),
+          Encoding.UTF8);
+    }
+
+    private static Assembly PerformFileDeployAndRegistration(FileInfo plug, bool performShadowCopy) {
+      if (plug.Directory.Parent == null)
+        throw new InvalidOperationException("The plugin directory for the " + plug.Name +
+                                            " file exists in a folder outside of the allowed dashCommerce folder heirarchy");
+
+      FileInfo shadowCopiedPlug;
+
+      Assembly shadowCopiedAssembly;
+      if (!IsFullTrust()) {
+        shadowCopiedPlug = InitializeMediumTrust(plug, _shadowCopyFolder, performShadowCopy);
+        shadowCopiedAssembly = Assembly.Load(AssemblyName.GetAssemblyName(shadowCopiedPlug.FullName));
+      }
+      else {
+        shadowCopiedPlug = InitializeFullTrust(plug, _shadowCopyFolder, performShadowCopy);
+        shadowCopiedAssembly = Assembly.Load(AssemblyName.GetAssemblyName(shadowCopiedPlug.FullName));
+        if (_shadowCopyType == PluginManagerShadowCopyType.UseDynamicFolder) {
+          //add the reference to the build manager if copying to CodeGen
+          BuildManager.AddReferencedAssembly(shadowCopiedAssembly);
+        }
+      }
+
+      return shadowCopiedAssembly;
+    }
+
+    private static FileInfo InitializeFullTrust(FileInfo plug, DirectoryInfo shadowCopyPlugFolder, bool performShadowCopy) {
+      var shadowCopiedPlug = new FileInfo(Path.Combine(shadowCopyPlugFolder.FullName, plug.Name));
+      //if instructed to not perform the copy, just return the path to where it is supposed to be
+      if (!performShadowCopy && shadowCopiedPlug.Exists)
+        return shadowCopiedPlug;
+
+
+      try {
+        File.Copy(plug.FullName, shadowCopiedPlug.FullName, true);
+      }
+      catch (UnauthorizedAccessException) {
+        throw new UnauthorizedAccessException(string.Format("Access to the path '{0}' is denied, ensure that read, write and modify permissions are allowed.", shadowCopiedPlug.Directory.FullName));
+      }
+      catch (IOException) {
+        //this occurs when the files are locked,
+        //for some reason devenv locks plugin files some times and for another crazy reason you are allowed to rename them
+        //which releases the lock, so that it what we are doing here, once it's renamed, we can re-shadow copy
+
+
+        try {
+          //If all else fails during the cleanup and we cannot copy over so we need to rename with a GUID
+          var dotDeleteFile = GetNewDotDeleteName(shadowCopiedPlug);
+          File.Move(shadowCopiedPlug.FullName, dotDeleteFile);
+        }
+        catch (UnauthorizedAccessException) {
+          throw new UnauthorizedAccessException(string.Format("Access to the path '{0}' is denied, ensure that read, write and modify permissions are allowed.", shadowCopiedPlug.Directory.FullName));
+        }
+        catch (IOException) {
+          throw;
+        }
+        //ok, we've made it this far, now retry the shadow copy
+        File.Copy(plug.FullName, shadowCopiedPlug.FullName, true);
+      }
+      return shadowCopiedPlug;
+    }
+
+    private static FileInfo InitializeMediumTrust(FileInfo plug, DirectoryInfo shadowCopyPlugFolder, bool performShadowCopy) {
+      var shouldCopy = true;
+      var shadowCopiedPlug = new FileInfo(Path.Combine(shadowCopyPlugFolder.FullName, plug.Name));
+      //if instructed to not perform the copy, just return the path to where it is supposed to be
+      if (!performShadowCopy && shadowCopiedPlug.Exists)
+        return shadowCopiedPlug;
+
+
+      //check if a shadow copied file already exists and if it does, check if its updated, if not don't copy
+      if (shadowCopiedPlug.Exists) {
+        if (shadowCopiedPlug.CreationTimeUtc.Ticks == plug.CreationTimeUtc.Ticks) {
+          shouldCopy = false;
+        }
+      }
+
+      if (shouldCopy) {
+        try {
+          File.Copy(plug.FullName, shadowCopiedPlug.FullName, true);
+        }
+        catch (UnauthorizedAccessException) {
+          throw new UnauthorizedAccessException(string.Format("Access to the path '{0}' is denied, ensure that read, write and modify permissions are allowed.", shadowCopiedPlug.Directory.FullName));
+        }
+        catch (IOException) {
+          //this occurs when the files are locked,
+          //for some reason devenv locks plugin files some times and for another crazy reason you are allowed to rename them
+          //which releases the lock, so that it what we are doing here, once it's renamed, we can re-shadow copy
+          try {
+            var dotDeleteFile = GetNewDotDeleteName(shadowCopiedPlug);
+            File.Move(shadowCopiedPlug.FullName, dotDeleteFile);
+          }
+          catch (UnauthorizedAccessException) {
+            throw new UnauthorizedAccessException(string.Format("Access to the path '{0}' is denied, ensure that read, write and modify permissions are allowed.", shadowCopiedPlug.Directory.FullName));
+          }
+          catch (IOException) {
+            throw;
+          }
+          try {
+            //ok, we've made it this far, now retry the shadow copy
+            File.Copy(plug.FullName, shadowCopiedPlug.FullName, true);
+          }
+          catch (UnauthorizedAccessException) {
+            throw new UnauthorizedAccessException(string.Format("Access to the path '{0}' is denied, ensure that read, write and modify permissions are allowed.", shadowCopiedPlug.Directory.FullName));
+          }
+        }
+      }
+
+      return shadowCopiedPlug;
+    }
+
+    private static string GetPackageFolderFromPluginDll(FileInfo pluginDll) {
+      if (!IsPackageLibFolder(pluginDll.Directory)) {
+        throw new DirectoryNotFoundException("The file specified does not exist in the lib folder for a package");
+      }
+      //we know this folder structure is correct now so return the directory. parent  \bin\..\{PackageName}
+      return pluginDll.Directory.Parent.FullName;
+    }
+
+    private static bool IsPackageLibFolder(DirectoryInfo folder) {
+      if (folder.Name != "lib") return false;
+      if (folder.Parent == null) return false;
+      return IsPackagePluginFolder(folder.Parent) || (folder.Parent != null && folder.Parent.Name == "Core");
+    }
+
     private static long GetCachePluginsHash() {
-      var filePath = Path.Combine(pluginFolder.FullName, "Cache", "dashCommerce-plugins.hash");
+      var filePath = Path.Combine(_pluginFolder.FullName, "Cache", "dashCommerce-plugins.hash");
       if (!File.Exists(filePath))
         return 0;
       var hash = File.ReadAllText(filePath, Encoding.UTF8);
       return ConvertPluginsHash(hash);
+    }
+
+    internal static bool IsPackagePluginFolder(DirectoryInfo folder) {
+      if (folder.Parent == null) return false;
+      if (folder.Parent.Name != CUSTOM_PLUGINS) return false;
+      return true;
+      //return PackageFolderNameHasId(folder.Parent.Name);
     }
 
     internal static IEnumerable<FileInfo> GetCachePluginsList(DirectoryInfo pluginFolder) {
@@ -98,11 +299,9 @@ namespace MettleSystems.dashCommerce.Core.Plugins {
     }
 
     internal static bool CleanupPlugin(FileInfo f) {
-      //LogHelper.TraceIfEnabled<PluginManager>("Cleaning up stale plugin " + f.FullName);
-
       //this is a special case, people may have been usign the CodeGen folder before so we need to cleanup those
       //files too even if we are no longer using it
-      if (IsFullTrust() && pluginManagerShadowCopyType != PluginManagerShadowCopyType.UseDynamicFolder) {
+      if (IsFullTrust() && _shadowCopyType != PluginManagerShadowCopyType.UseDynamicFolder) {
         CleanupDotDeletePluginFiles(new FileInfo(Path.Combine(AppDomain.CurrentDomain.DynamicDirectory, f.Name + ".delete")));
       }
 
@@ -125,7 +324,6 @@ namespace MettleSystems.dashCommerce.Core.Plugins {
         throw new UnauthorizedAccessException(string.Format("Access to the path '{0}' is denied, ensure that read, write and modify permissions are allowed.", Path.GetDirectoryName(newName)));
       }
       catch (IOException) {
-       // LogHelper.TraceIfEnabled<PluginManager>(f.FullName + " rename failed, cannot remove stale plugin");
         throw;
       }
 
@@ -135,7 +333,6 @@ namespace MettleSystems.dashCommerce.Core.Plugins {
       }
       catch { }
 
-      //LogHelper.TraceIfEnabled<PluginManager>("Stale plugin " + f.FullName + " failed to cleanup successfully, a .delete file has been created for it");
       return false;
     }
 
@@ -149,7 +346,6 @@ namespace MettleSystems.dashCommerce.Core.Plugins {
           File.Delete(dotDelete);
       }
       catch {
-        //LogHelper.TraceIfEnabled<PluginManager>("Cannot remove file " + dotDelete + " it is locked, renaming to .delete file with GUID");
         //cannot delete, so we will need to use a GUID
         dotDelete = pluginFile.FullName + Guid.NewGuid().ToString("N") + ".delete";
       }
@@ -199,10 +395,9 @@ namespace MettleSystems.dashCommerce.Core.Plugins {
 
       //check if anything has been changed, or if we are in debug mode then always perform cleanup
       if (ConvertPluginsHash(GetPluginsHash(plugins)) != GetCachePluginsHash()) {
-        //LogHelper.TraceIfEnabled<PluginManager>("Plugin changes detected in hash");
 
         //we need to combine the old plugins list with the new ones and clean them out from the shadow copy folder 
-        var combinedList = plugins.Concat(GetCachePluginsList(pluginFolder))
+        var combinedList = plugins.Concat(GetCachePluginsList(_pluginFolder))
             .Select(x => new FileInfo(Path.Combine(shadowCopyFolder.FullName, x.Name)))
             .DistinctBy(x => x.FullName)
             .ToArray();
@@ -218,7 +413,7 @@ namespace MettleSystems.dashCommerce.Core.Plugins {
     }
 
     private static void WriteCachePluginsHash(IEnumerable<FileInfo> plugins) {
-      var dir = Directory.CreateDirectory(Path.Combine(pluginFolder.FullName, "Cache"));
+      var dir = Directory.CreateDirectory(Path.Combine(_pluginFolder.FullName, "Cache"));
       File.WriteAllText(Path.Combine(dir.FullName, "dashCommerce-plugins.hash"), GetPluginsHash(plugins), Encoding.UTF8);
     }
 
@@ -235,10 +430,10 @@ namespace MettleSystems.dashCommerce.Core.Plugins {
     }
 
     private static bool IsFullTrust() {
-      if (!isFullTrust.HasValue) {
-        isFullTrust = CoreUtility.GetCurrentTrustLevel() == AspNetHostingPermissionLevel.Unrestricted;
+      if (!_isFullTrust.HasValue) {
+        _isFullTrust = CoreUtility.GetCurrentTrustLevel() == AspNetHostingPermissionLevel.Unrestricted;
       }
-      return isFullTrust.Value;
+      return _isFullTrust.Value;
     }
 
   }
