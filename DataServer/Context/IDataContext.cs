@@ -6,22 +6,22 @@ namespace MettleSystems.DataServer.Context {
 
     #region IDataContext Members
 
-    public string Name {
+    string Name {
       get;
       set;
     }
 
-    public int ApplicationId {
+    int ApplicationId {
       get;
       set;
     }
 
-    public string CachePrefix {
+    string CachePrefix {
       get;
       set;
     }
 
-    public object CultureId {
+    object CultureId {
       get;
       set;
     }

@@ -106,7 +106,6 @@
     <Compile Include="Controllers\Generated\StateOrRegionController.cs" />
     <Compile Include="Controllers\LogController.cs" />
     <Compile Include="Controllers\StateOrRegionController.cs" />
-    <Compile Include="Data\IRepository.cs" />
     <Compile Include="DeferredEqualityComparer.cs" />
     <Compile Include="EnumerableExtensions.cs" />
     <Compile Include="Globalization\CultureComparer.cs" />
