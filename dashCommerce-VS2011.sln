@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Web Developer Express 11
+# Visual Studio Express 2012 for Web
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{CB88158F-6CF7-4BF0-ADDF-5C253C95B749}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization", "Localization\Localization.csproj", "{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}"
@@ -12,6 +12,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj", "{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Test", "Core.Test\Core.Test.csproj", "{F314499B-FF64-4AE3-A412-C932DD25FD7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServer", "DataServer\DataServer.csproj", "{47913248-A01D-4039-A517-CE8F47D8A37E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServer.Test", "DataServer.Test\DataServer.Test.csproj", "{3ED67A20-90B4-4834-8595-735984417041}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +32,18 @@ Global
 		{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}.Test|Any CPU.ActiveCfg = Test|Any CPU
 		{1A07F4A0-010B-4EAE-8019-90173FBF8AC5}.Test|Any CPU.Build.0 = Test|Any CPU
+		{3ED67A20-90B4-4834-8595-735984417041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED67A20-90B4-4834-8595-735984417041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED67A20-90B4-4834-8595-735984417041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED67A20-90B4-4834-8595-735984417041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED67A20-90B4-4834-8595-735984417041}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED67A20-90B4-4834-8595-735984417041}.Test|Any CPU.Build.0 = Release|Any CPU
+		{47913248-A01D-4039-A517-CE8F47D8A37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47913248-A01D-4039-A517-CE8F47D8A37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47913248-A01D-4039-A517-CE8F47D8A37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47913248-A01D-4039-A517-CE8F47D8A37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47913248-A01D-4039-A517-CE8F47D8A37E}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{47913248-A01D-4039-A517-CE8F47D8A37E}.Test|Any CPU.Build.0 = Release|Any CPU
 		{78B0F950-2D9C-414F-8241-4C70DD898C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{78B0F950-2D9C-414F-8241-4C70DD898C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B0F950-2D9C-414F-8241-4C70DD898C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -50,6 +68,12 @@ Global
 		{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}.Test|Any CPU.ActiveCfg = Test|Any CPU
 		{E1A3F418-E830-4DE0-9E97-E1AF6EB9BA6F}.Test|Any CPU.Build.0 = Test|Any CPU
+		{F314499B-FF64-4AE3-A412-C932DD25FD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F314499B-FF64-4AE3-A412-C932DD25FD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F314499B-FF64-4AE3-A412-C932DD25FD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F314499B-FF64-4AE3-A412-C932DD25FD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F314499B-FF64-4AE3-A412-C932DD25FD7F}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{F314499B-FF64-4AE3-A412-C932DD25FD7F}.Test|Any CPU.Build.0 = Release|Any CPU
 		{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEC09476-24CD-4A8B-8D1A-FFEF7ADA1650}.Release|Any CPU.ActiveCfg = Release|Any CPU
