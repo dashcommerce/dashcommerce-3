@@ -1,6 +1,6 @@
 ï»¿#region dashCommerce License
 /*
-dashCommerce® is Copyright © 2008-2012 Mettle Systems LLC. All Rights Reserved.
+dashCommerceï¿½ is Copyright ï¿½ 2008-2012 Mettle Systems LLC. All Rights Reserved.
 
 
 dashCommerce, and the dashCommerce logo are registered trademarks of Mettle Systems LLC. Mettle Systems LLC logos and trademarks may not be used without prior written consent.
@@ -43,7 +43,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// This will make that the menu should reinsert itself on the next page request
     /// </summary>
     public static void RefreshCategoryMenuCollection() {
-      CacheHelper.RemoveCacheObject<string>(CACHE_CATEGORY);
+      CacheService.RemoveCacheObject<string>(CACHE_CATEGORY);
     }
 
     /// <summary>
@@ -52,28 +52,28 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <param name="categoryID">The categoryID.</param>
     public static void RemoveCategoryInfoFromCache(int categoryID) {
-      CacheHelper.RemoveCacheObject<Category>(string.Format(CACHE_CATEGORY_BYID, categoryID));
+      CacheService.RemoveCacheObject<Category>(string.Format(CACHE_CATEGORY_BYID, categoryID));
     }
 
     /// <summary>
     /// Refreshes the category breadcrumbs from the cache
     /// </summary>
     public static void RefreshCategoryBreadCrumbs(int categoryId) {
-      CacheHelper.RemoveCacheObject<DataSet>(string.Format(CACHE_CATEGORY_CRUMBS, categoryId));         
+      CacheService.RemoveCacheObject<DataSet>(string.Format(CACHE_CATEGORY_CRUMBS, categoryId));         
     }
 
     /// <summary>
     /// Refreshes the associated product categories from the cache
     /// </summary>
     public static void RefreshProductAssociatedCategories(int productId) {
-      CacheHelper.RemoveCacheObject<CategoryCollection>(string.Format(CACHE_CATEGORY_PRODUCT_CRUMBS, productId));
+      CacheService.RemoveCacheObject<CategoryCollection>(string.Format(CACHE_CATEGORY_PRODUCT_CRUMBS, productId));
     }
 
     /// <summary>
     /// Refreshes the associated product categories from the cache
     /// </summary>
     public static void RefreshAllCategories() {
-      CacheHelper.RemoveCacheObject<CategoryCollection>(CACHE_CATEGORYCOLLECTION);
+      CacheService.RemoveCacheObject<CategoryCollection>(CACHE_CATEGORYCOLLECTION);
     }
 
     #endregion
@@ -85,7 +85,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <returns></returns>
     public static string GetCategoryMenu() {
-      return CacheHelper.CacheObject<string>(delegate { return new CategoryController().FetchCategoryList().GetXml(); },
+      return CacheService.CacheObject<string>(delegate { return new CategoryController().FetchCategoryList().GetXml(); },
           CACHE_CATEGORY, CacheLength.GetLongCacheTime, CacheItemPriority.High);
     }
 
@@ -95,7 +95,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="categoryID">The category ID.</param>
     /// <returns></returns>
     public static Category GetCategoryInfo(int categoryID) {
-      return CacheHelper.CacheObject<Category>(delegate { return new Category(categoryID); },
+      return CacheService.CacheObject<Category>(delegate { return new Category(categoryID); },
           string.Format(CACHE_CATEGORY_BYID, categoryID), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -105,7 +105,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="categoryID">The category ID.</param>
     /// <returns></returns>
     public static DataSet FetchCategoryBreadCrumbs(int categoryID) {
-      return CacheHelper.CacheObject<DataSet>(delegate { return new CategoryController().FetchCategoryBreadCrumbs(categoryID); },
+      return CacheService.CacheObject<DataSet>(delegate { return new CategoryController().FetchCategoryBreadCrumbs(categoryID); },
           string.Format(CACHE_CATEGORY_CRUMBS, categoryID), CacheLength.GetDefaultCacheTime, CacheItemPriority.Normal);
     }
 
@@ -115,7 +115,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="productID">The product ID.</param>
     /// <returns></returns>
     public static CategoryCollection FetchAssociatedCategoriesByProductId(int productID) {
-      return CacheHelper.CacheObject<CategoryCollection>(delegate { return new ProductController().FetchAssociatedCategoriesByProductId(productID); },
+      return CacheService.CacheObject<CategoryCollection>(delegate { return new ProductController().FetchAssociatedCategoriesByProductId(productID); },
           string.Format(CACHE_CATEGORY_PRODUCT_CRUMBS, productID), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -123,7 +123,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// Gets all the site categores
     /// </summary>
     public static CategoryCollection AllCategories() {
-      return CacheHelper.CacheObject<CategoryCollection>(delegate { return new CategoryController().FetchAll(); }, CACHE_CATEGORYCOLLECTION, CacheLength.GetDefaultCacheTime, CacheItemPriority.Normal);
+      return CacheService.CacheObject<CategoryCollection>(delegate { return new CategoryController().FetchAll(); }, CACHE_CATEGORYCOLLECTION, CacheLength.GetDefaultCacheTime, CacheItemPriority.Normal);
     }
 
     #endregion

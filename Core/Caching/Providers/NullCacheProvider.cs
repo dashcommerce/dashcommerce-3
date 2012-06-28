@@ -16,41 +16,38 @@ If you do not wish to release the source of software you build using dashCommerc
 http://www.dashcommerce.org/license.html 
 */
 #endregion
-using System.Web.Caching;
-using MettleSystems.dashCommerce.Core.Caching.Manager;
 
-namespace MettleSystems.dashCommerce.Content.Caching {
-  public class PageMenuCache {
+namespace MettleSystems.dashCommerce.Core.Caching.Providers {
+  public class NullCacheProvider : ICacheProvider {
 
-    #region Constants
+    #region ICacheProvider Members
 
-    private const string CACHE_PAGEMENU = "PageController_PageMenu";
-
-    #endregion
-
-    #region Methods
-
-    #region Public
-
-    /// <summary>
-    /// Gets the page menu.
-    /// </summary>
-    /// <returns></returns>
-    public static string GetPageMenu() {
-      return CacheService.CacheObject<string>(delegate {
-        return new PageController().FetchPageList().GetXml();
-      }, CACHE_PAGEMENU, CacheLength.GetLongCacheTime, CacheItemPriority.AboveNormal);
+    public object this[string key] {
+      get {
+        return null;
+      }
     }
 
-    /// <summary>
-    /// Refreshes the menu page collection in the cache.
-    /// This will make that the menu should reinsert itself on the next page request
-    /// </summary>
-    public static void RefreshMenuPageCollection() {
-      CacheService.RemoveCacheObject<string>(CACHE_PAGEMENU);
+    public object Get(string itemKey) {
+      return null;
     }
 
-    #endregion
+    public void ClearCache() {
+    }
+
+    public void Remove(string itemKey) {
+    }
+
+    public void Insert(string keyString, object value, int cacheDurationInSeconds, System.Web.Caching.CacheItemPriority priority) {
+    }
+
+    public System.Collections.IDictionaryEnumerator GetEnumerator() {
+      return new System.Collections.Hashtable().GetEnumerator();
+    }
+
+    public int GetCount() {
+        return 0;
+    }
 
     #endregion
 

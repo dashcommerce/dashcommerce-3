@@ -1,6 +1,6 @@
 ï»¿#region dashCommerce License
 /*
-dashCommerce® is Copyright © 2008-2012 Mettle Systems LLC. All Rights Reserved.
+dashCommerceï¿½ is Copyright ï¿½ 2008-2012 Mettle Systems LLC. All Rights Reserved.
 
 
 dashCommerce, and the dashCommerce logo are registered trademarks of Mettle Systems LLC. Mettle Systems LLC logos and trademarks may not be used without prior written consent.
@@ -38,7 +38,7 @@ namespace MettleSystems.dashCommerce.Content.Caching {
     /// </summary>
     /// <param name="pageId">The page ID.</param>
     public static void RemovePageByID(int pageId) {
-      CacheHelper.RemoveCacheObject<Page>(MakePageItemKey(pageId));
+      CacheService.RemoveCacheObject<Page>(MakePageItemKey(pageId));
     }
 
     /// <summary>
@@ -47,7 +47,7 @@ namespace MettleSystems.dashCommerce.Content.Caching {
     /// <param name="pageId">The page ID.</param>
     /// <returns></returns>
     public static Page GetPageByID(int pageId) {
-      return CacheHelper.CacheObject<Page>(delegate {
+      return CacheService.CacheObject<Page>(delegate {
         Page pageItem = new Page(pageId);
         return !pageItem.IsNew ? pageItem : null;
       }, MakePageItemKey(pageId), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
@@ -58,7 +58,7 @@ namespace MettleSystems.dashCommerce.Content.Caching {
     /// </summary>
     /// <returns></returns>
     public static Page GetDefaultPage() {
-      return CacheHelper.CacheObject<Page>(delegate {
+      return CacheService.CacheObject<Page>(delegate {
         Page pageItem = new PageController().FetchDefaultPage();
         if(pageItem != null) {
           return !pageItem.IsNew ? pageItem : null;

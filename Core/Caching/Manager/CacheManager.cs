@@ -1,6 +1,6 @@
 ï»¿#region dashCommerce License
 /*
-dashCommerce® is Copyright © 2008-2012 Mettle Systems LLC. All Rights Reserved.
+dashCommerceï¿½ is Copyright ï¿½ 2008-2012 Mettle Systems LLC. All Rights Reserved.
 
 
 dashCommerce, and the dashCommerce logo are registered trademarks of Mettle Systems LLC. Mettle Systems LLC logos and trademarks may not be used without prior written consent.
@@ -245,7 +245,7 @@ namespace MettleSystems.dashCommerce.Core.Caching.Manager {
     /// <param name="key">The key.</param>
     /// <returns></returns>
     private static string MakeKey(TKey key) {
-       return key + "|" + typeof(TKey).ToString() + key.GetHashCode();
+       return key + "::" + typeof(TKey).ToString() + key.GetHashCode();
     }
 
     #endregion
@@ -367,9 +367,9 @@ namespace MettleSystems.dashCommerce.Core.Caching.Manager {
       /// <param name="useCache">if set to <c>true</c> [use cache].</param>
       private ICacheProvider SetCacheSettings(bool useCache) {
           if (useCache)
-              return new HttpRuntimeCache();
+              return new HttpRuntimeCacheProvider();
           else
-              return new NullCache();
+              return new NullCacheProvider();
       }
       #endregion
 

@@ -38,7 +38,7 @@ namespace MettleSystems.dashCommerce.Core.Caching {
     /// Removes the site settings from cache.
     /// </summary>
     public static void RemoveSiteSettingsFromCache() {
-      CacheHelper.RemoveCacheObject<SiteSettings>(CACHE_DC_SITE_SETTINGS);
+      CacheService.RemoveCacheObject<SiteSettings>(CACHE_DC_SITE_SETTINGS);
     }
 
     /// <summary>
@@ -47,7 +47,7 @@ namespace MettleSystems.dashCommerce.Core.Caching {
     /// <returns></returns>
     public static SiteSettings GetSiteSettings() {
       //There should be some caching here even if the site has disabled caching. (there are to many calls to SiteSettings)
-      return CacheHelper.CacheObject<SiteSettings>(delegate {
+      return CacheService.CacheObject<SiteSettings>(delegate {
         SiteSettings siteSettings = SiteSettings.Load();
         if (siteSettings == null) {
           siteSettings = new SiteSettings();

@@ -1,6 +1,6 @@
 ï»¿#region dashCommerce License
 /*
-dashCommerce® is Copyright © 2008-2012 Mettle Systems LLC. All Rights Reserved.
+dashCommerceï¿½ is Copyright ï¿½ 2008-2012 Mettle Systems LLC. All Rights Reserved.
 
 
 dashCommerce, and the dashCommerce logo are registered trademarks of Mettle Systems LLC. Mettle Systems LLC logos and trademarks may not be used without prior written consent.
@@ -50,8 +50,8 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <param name="categoryId">The Category Id to remove from the cache.</param>
     public static void RemoveProductsByCategoryIdFromCache(int categoryId) {
-      CacheHelper.RemoveCacheObject<ProductCollection>(string.Format(CACHE_PRODUCTCOLLECTION_CAT, categoryId));
-      CacheHelper.RemoveAllCacheObjectStartWith(string.Format(CACHE_PRODUCTCOLLECTION_CAT, categoryId));
+      CacheService.RemoveCacheObject<ProductCollection>(string.Format(CACHE_PRODUCTCOLLECTION_CAT, categoryId));
+      CacheService.RemoveAllCacheObjectStartWith(string.Format(CACHE_PRODUCTCOLLECTION_CAT, categoryId));
 
     }
 
@@ -61,7 +61,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="categoryId">The category id.</param>
     /// <returns></returns>
     public static ProductCollection GetProductsByCategoryId(int categoryId) {
-      return CacheHelper.CacheObject<ProductCollection>(delegate { return new ProductController().FetchProductsByCategoryId(categoryId); },
+      return CacheService.CacheObject<ProductCollection>(delegate { return new ProductController().FetchProductsByCategoryId(categoryId); },
           string.Format(CACHE_PRODUCTCOLLECTION_CAT, categoryId), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -72,7 +72,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="manufacturerId">The manufacturer id.</param>
     /// <returns></returns>
     public static ProductCollection GetProductsByCategoryIdManufacture(int categoryId, int manufacturerId) {
-      return CacheHelper.CacheObject<ProductCollection>(delegate { return new ProductController().FetchProductsByCategoryIdAndManufacturerId(categoryId, manufacturerId); },
+      return CacheService.CacheObject<ProductCollection>(delegate { return new ProductController().FetchProductsByCategoryIdAndManufacturerId(categoryId, manufacturerId); },
           string.Format(CACHE_PRODUCTCOLLECTION_CAT_MAN, categoryId, manufacturerId), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -85,7 +85,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="priceEnd">The price end.</param>
     /// <returns></returns>
     public static ProductCollection GetProductsByCategoryIdPriceRange(int categoryId, Decimal priceStart, Decimal priceEnd) {
-      return CacheHelper.CacheObject<ProductCollection>(delegate { return new ProductController().FetchProductsByCategoryIdAndPriceRange(categoryId, priceStart, priceEnd); },
+      return CacheService.CacheObject<ProductCollection>(delegate { return new ProductController().FetchProductsByCategoryIdAndPriceRange(categoryId, priceStart, priceEnd); },
           string.Format(CACHE_PRODUCTCOLLECTION_CAT_PRANGE, categoryId, priceStart, priceEnd), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -102,7 +102,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <param name="productId">The Product Id to remove from the cache.</param>
     public static void RemoveProductFromCache(int productId) {
-      CacheHelper.RemoveCacheObject<Product>(string.Format(CACHE_PRODUCT, productId));
+      CacheService.RemoveCacheObject<Product>(string.Format(CACHE_PRODUCT, productId));
       RemoveImageCollectionFromCache(productId);
       RemoveReviewCollectionFromCache(productId);
       RemoveDescriptorCollectionFromCache(productId);
@@ -115,7 +115,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="productId">The ProductId.</param>
     /// <returns></returns>
     public static Product GetProductByProductID(int productId) {
-      return CacheHelper.CacheObject<Product>(delegate {
+      return CacheService.CacheObject<Product>(delegate {
         Product cacheData = new Product(productId);
         return !cacheData.IsNew ? cacheData : null;
       }, string.Format(CACHE_PRODUCT, productId), CacheLength.GetDefaultCacheTime, CacheItemPriority.Default);
@@ -130,7 +130,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <param name="productId">The Product Id to remove from the cache.</param>
     public static void RemoveReviewCollectionFromCache(int productId) {
-      CacheHelper.RemoveCacheObject<ReviewCollection>(string.Format(CACHE_REVIEWCOLLECTION, productId));
+      CacheService.RemoveCacheObject<ReviewCollection>(string.Format(CACHE_REVIEWCOLLECTION, productId));
     }
 
     /// <summary>
@@ -139,7 +139,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="productId">The productId.</param>
     /// <returns></returns>
     public static ReviewCollection GetReviewCollectionByProductID(int productId) {
-      return CacheHelper.CacheObject<ReviewCollection>(delegate { return new ReviewController().FetchByProductIdAndIsApproved(productId); },
+      return CacheService.CacheObject<ReviewCollection>(delegate { return new ReviewController().FetchByProductIdAndIsApproved(productId); },
           string.Format(CACHE_REVIEWCOLLECTION, productId), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -152,7 +152,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <param name="productId">The Product Id to remove from the cache.</param>
     public static void RemoveDescriptorCollectionFromCache(int productId) {
-      CacheHelper.RemoveCacheObject<DescriptorCollection>(string.Format(CACHE_DISCRIPTORCOLLECTION, productId));
+      CacheService.RemoveCacheObject<DescriptorCollection>(string.Format(CACHE_DISCRIPTORCOLLECTION, productId));
     }
 
     /// <summary>
@@ -161,7 +161,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="product">The product.</param>
     /// <returns></returns>
     public static DescriptorCollection GetDescriptorCollectionByProduct(Product product) {
-      return CacheHelper.CacheObject<DescriptorCollection>(delegate { return product.DescriptorRecords(); },
+      return CacheService.CacheObject<DescriptorCollection>(delegate { return product.DescriptorRecords(); },
           string.Format(CACHE_DISCRIPTORCOLLECTION, product.ProductId), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -174,7 +174,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <param name="productId">The Product Id to remove from the cache.</param>
     public static void RemoveCrossSellCollectionFromCache(int productId) {
-      CacheHelper.RemoveCacheObject<ProductCollection>(string.Format(CACHE_CROSSSELLCOLLECTION, productId));
+      CacheService.RemoveCacheObject<ProductCollection>(string.Format(CACHE_CROSSSELLCOLLECTION, productId));
     }
 
     /// <summary>
@@ -183,7 +183,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="productId">The product Id.</param>
     /// <returns></returns>
     public static ProductCollection GetCrossSellCollectionByProduct(int productId) {
-      return CacheHelper.CacheObject<ProductCollection>(delegate { return new ProductController().FetchProductCrossSells(productId); },
+      return CacheService.CacheObject<ProductCollection>(delegate { return new ProductController().FetchProductCrossSells(productId); },
           string.Format(CACHE_CROSSSELLCOLLECTION, productId), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -196,7 +196,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <param name="productId">The Product Id to remove from the cache.</param>
     public static void RemoveImageCollectionFromCache(int productId) {
-      CacheHelper.RemoveCacheObject<ImageCollection>(string.Format(CACHE_IMAGECOLLECTION, productId));
+      CacheService.RemoveCacheObject<ImageCollection>(string.Format(CACHE_IMAGECOLLECTION, productId));
     }
 
     /// <summary>
@@ -205,7 +205,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="product">The Product.</param>
     /// <returns></returns>
     public static ImageCollection GetImageCollectionByProduct(Product product) {
-      return CacheHelper.CacheObject<ImageCollection>(delegate { return product.ImageRecords(); },
+      return CacheService.CacheObject<ImageCollection>(delegate { return product.ImageRecords(); },
           string.Format(CACHE_IMAGECOLLECTION, product.ProductId), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -218,7 +218,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <param name="productId">The Product Id to remove from the cache.</param>
     public static void RemoveAssociatedAttributeCollectionFromCache(int productId) {
-      CacheHelper.RemoveCacheObject<AssociatedAttributeCollection>(string.Format(CACHE_ASSOCIATED_ATTRIBUTECOLLECTION, productId));
+      CacheService.RemoveCacheObject<AssociatedAttributeCollection>(string.Format(CACHE_ASSOCIATED_ATTRIBUTECOLLECTION, productId));
     }
 
     /// <summary>
@@ -227,7 +227,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// <param name="productId">The Product.</param>
     /// <returns></returns>
     public static AssociatedAttributeCollection GetAssociatedAttributeCollectionByProduct(int productId) {
-      return CacheHelper.CacheObject<AssociatedAttributeCollection>(delegate { return new ProductController().FetchAssociatedAttributesByProductId(productId); },
+      return CacheService.CacheObject<AssociatedAttributeCollection>(delegate { return new ProductController().FetchAssociatedAttributesByProductId(productId); },
           string.Format(CACHE_ASSOCIATED_ATTRIBUTECOLLECTION, productId), CacheLength.GetDefaultCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -239,7 +239,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// Removes the SKU from the cache.
     /// </summary>
     public static void RemoveSKUFromCache(string sku) {
-      CacheHelper.RemoveCacheObject<Sku>(string.Format(CACHE_SKU, sku));
+      CacheService.RemoveCacheObject<Sku>(string.Format(CACHE_SKU, sku));
     }
 
     /// <summary>
@@ -247,7 +247,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <returns></returns>
     public static Sku GetSKU(string sku) {
-      return CacheHelper.CacheObject<Sku>(delegate { return new Sku(Sku.Columns.SkuX, sku); },
+      return CacheService.CacheObject<Sku>(delegate { return new Sku(Sku.Columns.SkuX, sku); },
         string.Format(CACHE_SKU, sku), CacheLength.GetShortCacheTime, CacheItemPriority.BelowNormal);
     }
 
@@ -263,7 +263,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// Removes the MostPopularProducts from the cache.
     /// </summary>
     public static void RemoveMostPopularProductsFromCache() {
-      CacheHelper.RemoveCacheObject<ProductCollection>(CACHE_MOST_POPULAR_PRODUCTS);
+      CacheService.RemoveCacheObject<ProductCollection>(CACHE_MOST_POPULAR_PRODUCTS);
     }
 
     /// <summary>
@@ -271,7 +271,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <returns></returns>
     public static ProductCollection GetMostPopularProducts() {
-      return CacheHelper.CacheObject<ProductCollection>(delegate { return new ProductController().FetchMostPopularProducts(); },
+      return CacheService.CacheObject<ProductCollection>(delegate { return new ProductController().FetchMostPopularProducts(); },
           CACHE_MOST_POPULAR_PRODUCTS, CacheLength.GetDefaultCacheTime, CacheItemPriority.Default);
     }
 

@@ -34,7 +34,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// Removes the MostPopularProducts from the cache.
     /// </summary>
     public static void RemoveMailSettings() {
-      CacheHelper.RemoveCacheObject<MailSettings>(CACHE_MAILSETTINGS);
+      CacheService.RemoveCacheObject<MailSettings>(CACHE_MAILSETTINGS);
     }
 
     /// <summary>
@@ -42,7 +42,7 @@ namespace MettleSystems.dashCommerce.Store.Caching {
     /// </summary>
     /// <returns></returns>
     public static MailSettings GetMailSettings() {
-      return CacheHelper.CacheObject<MailSettings>(delegate { return MailSettings.Load(); }, CACHE_MAILSETTINGS, CacheLength.GetDefaultCacheTime, CacheItemPriority.Default);
+      return CacheService.CacheObject<MailSettings>(delegate { return MailSettings.Load(); }, CACHE_MAILSETTINGS, CacheLength.GetDefaultCacheTime, CacheItemPriority.Default);
     }
 
     #endregion
