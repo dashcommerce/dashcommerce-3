@@ -18,7 +18,6 @@ namespace MettleSystems.DataServer {
     }
 
     public ISessionFactory GetSessionFactory() {
-      //TODO: NEED TO ADD CACHING HERE
       if (_dataContext == null || _dataContext.ApplicationId == 0) {
         return Fluently.Configure()
           .Database(GetSystemPersistenceConfigurer())

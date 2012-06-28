@@ -20,8 +20,6 @@ using System;
 using System.Text.RegularExpressions;
 using System.Web.Caching;
 
-using MettleSystems.dashCommerce.Core.Caching.Manager;
-
 namespace MettleSystems.dashCommerce.Core.Caching {
   public static class CacheService {
     #region Delegates

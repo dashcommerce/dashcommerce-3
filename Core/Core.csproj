@@ -90,10 +90,12 @@
     <Compile Include="..\SolutionInfo.cs">
       <Link>Properties\SolutionInfo.cs</Link>
     </Compile>
+    <Compile Include="Caching\CacheLength.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Caching\ICacheService.cs" />
     <Compile Include="Caching\CacheService.cs" />
-    <Compile Include="Caching\Manager\CacheLength.cs" />
-    <Compile Include="Caching\Manager\CacheManager.cs" />
+    <Compile Include="Caching\CacheManager.cs" />
     <Compile Include="Caching\Providers\HttpRuntimeCacheProvider.cs" />
     <Compile Include="Caching\Providers\ICacheProvider.cs" />
     <Compile Include="Caching\Providers\NullCacheProvider.cs" />

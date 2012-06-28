@@ -18,7 +18,7 @@ http://www.dashcommerce.org/license.html
 #endregion
 
 using System.Web.Caching;
-using MettleSystems.dashCommerce.Core.Caching.Manager;
+
 using MettleSystems.dashCommerce.Store;
 
 namespace MettleSystems.dashCommerce.Core.Caching {
