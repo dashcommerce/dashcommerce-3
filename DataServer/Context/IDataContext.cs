@@ -2,7 +2,7 @@
 
 
 namespace MettleSystems.DataServer.Context {
-  partial interface IDataContext {
+  public partial interface IDataContext {
 
     #region IDataContext Members
 

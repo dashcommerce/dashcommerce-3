@@ -482,9 +482,9 @@
       <Project>{78B0F950-2D9C-414F-8241-4C70DD898C46}</Project>
       <Name>Controls</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Core\Core.csproj">
+    <ProjectReference Include="..\Core\dashCommerce.Core.csproj">
       <Project>{CB88158F-6CF7-4BF0-ADDF-5C253C95B749}</Project>
-      <Name>Core</Name>
+      <Name>dashCommerce.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

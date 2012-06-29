@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3ED67A20-90B4-4834-8595-735984417041}</ProjectGuid>
+    <ProjectGuid>{F314499B-FF64-4AE3-A412-C932DD25FD7F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MettleSystems.DataServer.Test</RootNamespace>
-    <AssemblyName>MettleSystems.DataServer.Test</AssemblyName>
+    <RootNamespace>MettleSystems.dashCommerce.Core.Test</RootNamespace>
+    <AssemblyName>MettleSystems.dashCommerce.Core.Test</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -35,9 +35,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="StructureMap">
-      <HintPath>..\Dependencies\StructureMap.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -56,23 +53,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="DataServerTest.cs" />
-    <Compile Include="DataServerTestRegistry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DataServer\DataServer.csproj">
-      <Project>{47913248-a01d-4039-a517-ce8f47d8a37e}</Project>
-      <Name>DataServer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Framework.Core\Framework.Core.csproj">
-      <Project>{0aa70d8d-d097-4740-bff2-761f7c94844f}</Project>
-      <Name>Framework.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MultiTenant.Core\MultiTenant.Core.csproj">
-      <Project>{01458008-beb9-492b-8c98-5b6c86c93778}</Project>
-      <Name>MultiTenant.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

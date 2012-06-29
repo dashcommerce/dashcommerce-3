@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47913248-A01D-4039-A517-CE8F47D8A37E}</ProjectGuid>
+    <ProjectGuid>{0AA70D8D-D097-4740-BFF2-761F7C94844F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MettleSystems.DataServer</RootNamespace>
-    <AssemblyName>MettleSystems.DataServer</AssemblyName>
+    <RootNamespace>MettleSystems.Framework.Core</RootNamespace>
+    <AssemblyName>MettleSystems.Framework.Core</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,20 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FluentNHibernate">
-      <HintPath>..\Dependencies\FluentNHibernate.dll</HintPath>
-    </Reference>
-    <Reference Include="HibernatingRhinos.Profiler.Appender">
-      <HintPath>..\Dependencies\HibernatingRhinos.Profiler.Appender.dll</HintPath>
-    </Reference>
-    <Reference Include="NHibernate">
-      <HintPath>..\Dependencies\NHibernate.dll</HintPath>
-    </Reference>
-    <Reference Include="StructureMap">
-      <HintPath>..\Dependencies\StructureMap.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
@@ -53,22 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context\DataContext.cs" />
-    <Compile Include="Context\IDataContext.cs" />
-    <Compile Include="Conventions\SystemAutomappingConvention.cs" />
-    <Compile Include="DataService.cs" />
-    <Compile Include="IDataService.cs" />
-    <Compile Include="IRepository.cs" />
+    <Compile Include="Caching\CacheService.cs" />
+    <Compile Include="Caching\ICacheService.cs" />
+    <Compile Include="Caching\Providers\HttpRuntimeCacheProvider.cs" />
+    <Compile Include="Caching\Providers\ICacheProvider.cs" />
+    <Compile Include="Caching\Providers\NullCacheProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository.cs" />
-    <Compile Include="SessionFactory.cs" />
-    <Compile Include="SessionFactoryCache.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Framework.Core\Framework.Core.csproj">
-      <Project>{0aa70d8d-d097-4740-bff2-761f7c94844f}</Project>
-      <Name>Framework.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

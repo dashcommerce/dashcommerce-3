@@ -26,7 +26,7 @@ namespace MettleSystems.DataServer {
               .AutoMappings
               .Add(new AutoPersistenceModel(
                 new SystemAutomappingConvention())
-                .AddEntityAssembly(Assembly.GetExecutingAssembly()));
+                .AddEntityAssembly(Assembly.LoadWithPartialName("MettleSystems.MultiTenant.Core")));
           
           }).BuildSessionFactory();
       }

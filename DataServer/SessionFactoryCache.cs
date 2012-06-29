@@ -1,7 +1,7 @@
 ﻿using System;
 
 using MettleSystems.DataServer.Context;
-using MettleSystems.dashCommerce.Core.Caching;
+using MettleSystems.Framework.Core.Caching;
 using StructureMap;
 using NHibernate;
 using System.Web.Caching;
@@ -24,15 +24,12 @@ namespace MettleSystems.DataServer {
     }
 
     internal ISessionFactory GetSessionFactory() {
-      ISessionFactory sessionFactory = null;
       string cacheKey = GetCacheKey();
-      //TODO: CMC - Add to cache
-      //ISessionFactory sessionFactory = _cacheService.Get(cacheKey) as ISessionFactory;
+      ISessionFactory sessionFactory = _cacheService.Get(cacheKey) as ISessionFactory;
       if (sessionFactory == null) {
         SessionFactory _sessionFactory = new SessionFactory(_dataContext);
         sessionFactory = _sessionFactory.GetSessionFactory();
-        //TODO: CMC - Add to cache
-        //_cacheService.Insert(cacheKey, sessionFactory, 604800, CacheItemPriority.High);
+        _cacheService.Insert(cacheKey, sessionFactory, 604800, CacheItemPriority.High);
       }
       return sessionFactory;
     }
