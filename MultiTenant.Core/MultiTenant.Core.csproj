@@ -50,7 +50,7 @@
     <Compile Include="Models\Entities\Client.cs" />
     <Compile Include="Models\Entities\DatabaseConfiguration.cs" />
     <Compile Include="Models\Entities\Entity.cs" />
-    <Compile Include="Models\Entities\Validation.cs" />
+    <Compile Include="Validation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

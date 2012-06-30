@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Reflection;
 using System.Web;
 using System.Web.Configuration;
@@ -7,6 +8,7 @@ using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using MettleSystems.DataServer.Context;
 using MettleSystems.DataServer.Conventions;
+using MettleSystems.MultiTenant.Core.Models.Entities;
 using NHibernate;
 
 namespace MettleSystems.DataServer {
@@ -22,12 +24,10 @@ namespace MettleSystems.DataServer {
       if (_dataContext == null || _dataContext.ApplicationId == 0) {
         return Fluently.Configure()
           .Database(GetSystemPersistenceConfigurer())
-          .Mappings(mappings => { 
+          .Mappings(mappings => {
             mappings
               .AutoMappings
-              .Add(new AutoPersistenceModel(
-                new SystemAutomappingConvention())
-                .AddEntityAssembly(Assembly.LoadWithPartialName("MettleSystems.MultiTenant.Core")));
+              .Add(AutoMap.AssemblyOf<Application>(new SystemAutomappingConvention()));
           
           }).BuildSessionFactory();
       }
@@ -40,8 +40,9 @@ namespace MettleSystems.DataServer {
     }
 
     private IPersistenceConfigurer GetSystemPersistenceConfigurer() {
-      var webConfiguration = WebConfigurationManager.OpenWebConfiguration("~");
-      string databaseType = webConfiguration.AppSettings.Settings["databaseType"].Value;
+      //var webConfiguration = WebConfigurationManager.OpenWebConfiguration("~");
+      //string databaseType = webConfiguration.AppSettings.Settings["databaseType"].Value;
+      var databaseType = ConfigurationManager.AppSettings["databaseType"];
       IPersistenceConfigurer persistenceConfigurer = null; ;
       switch (databaseType) { 
         case "MSSQL2008":
@@ -49,6 +50,9 @@ namespace MettleSystems.DataServer {
           break;
         case "ORACLE":
           persistenceConfigurer = OracleDataClientConfiguration.Oracle10.ConnectionString(connectionString => connectionString.FromConnectionStringWithKey("DataServer.System"));
+          break;
+        default:
+          persistenceConfigurer = MsSqlConfiguration.MsSql2008.ConnectionString(connectionString => connectionString.FromConnectionStringWithKey("DataServer.System"));
           break;
       }
       

@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Context\DataContext.cs" />
     <Compile Include="Context\IDataContext.cs" />
+    <Compile Include="Conventions\PrimaryKeyConvention.cs" />
     <Compile Include="Conventions\SystemAutomappingConvention.cs" />
     <Compile Include="DataService.cs" />
     <Compile Include="IDataService.cs" />
@@ -69,6 +70,15 @@
       <Project>{0aa70d8d-d097-4740-bff2-761f7c94844f}</Project>
       <Name>Framework.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MultiTenant.Core\MultiTenant.Core.csproj">
+      <Project>{01458008-beb9-492b-8c98-5b6c86c93778}</Project>
+      <Name>MultiTenant.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
