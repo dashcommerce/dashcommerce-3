@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+using System.Web;
 using System.Web.Configuration;
 using FluentNHibernate.Automapping;
 using FluentNHibernate.Cfg;

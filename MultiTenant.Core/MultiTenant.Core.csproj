@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Iesi.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="NHibernate.Validator">
       <HintPath>..\Dependencies\NHibernate.Validator.dll</HintPath>
     </Reference>
@@ -44,9 +48,9 @@
   <ItemGroup>
     <Compile Include="Models\Entities\Application.cs" />
     <Compile Include="Models\Entities\Client.cs" />
-    <Compile Include="Models\Entities\ClientApplicationMap.cs" />
     <Compile Include="Models\Entities\DatabaseConfiguration.cs" />
     <Compile Include="Models\Entities\Entity.cs" />
+    <Compile Include="Models\Entities\Validation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
