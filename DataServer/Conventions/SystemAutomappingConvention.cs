@@ -7,7 +7,7 @@ using FluentNHibernate.Automapping;
 
 namespace MettleSystems.DataServer.Conventions {
 
-  internal class SystemAutomappingConvention : DefaultAutomappingConfiguration {
+  internal class SystemAutomappingConfiguration : DefaultAutomappingConfiguration {
 
     public override bool IsId(Member member) {
       return member.Name == member.DeclaringType.Name + "Id";

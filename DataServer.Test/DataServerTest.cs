@@ -16,7 +16,7 @@ namespace MettleSystems.DataServer.Test {
 
     [TestMethod]
     public void System_IDataServerTest() {
-      ObjectFactory.GetInstance<IDataService<DatabaseConfiguration>>();
+      var dataService = ObjectFactory.GetInstance<IDataService<DatabaseConfiguration>>();
       var databaseConfiguration = new DatabaseConfiguration {
         ApplicationId = 1,
         CacheRegionPrefix = "test",
@@ -29,7 +29,10 @@ namespace MettleSystems.DataServer.Test {
         Server = "test",
         UserId = "test"
       };
+      
       Assert.IsTrue(databaseConfiguration.IsValid());
+      dataService.Save(databaseConfiguration);
+      Assert.IsTrue(databaseConfiguration.DatabaseConfigurationId > 0);
     }
   }
 }
