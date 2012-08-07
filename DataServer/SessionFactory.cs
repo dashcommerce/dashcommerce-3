@@ -29,7 +29,8 @@ namespace MettleSystems.DataServer {
           .Mappings(mappings => {
             mappings
               .AutoMappings
-              .Add(AutoMap.AssemblyOf<Application>(new SystemAutomappingConfiguration()));
+              .Add(AutoMap.AssemblyOf<Application>(new SystemAutomappingConfiguration())
+              .Conventions.Setup(convention => convention.Add(new SystemClassConvention())));
           
           }).BuildSessionFactory();
         //TODO: Need to add NHibernate Validation
@@ -61,7 +62,9 @@ namespace MettleSystems.DataServer {
       }
     }
 
+
     private List<Assembly> GetAssemblies() {
+      //TODO: Probably need to pull this from configuration
       string[] files = Directory.GetFiles(".", "*.dll");
       var assemblies = new List<Assembly>(files.Length);
       for (int i = 0; i < files.Length; i++) {

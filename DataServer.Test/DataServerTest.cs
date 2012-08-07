@@ -9,14 +9,22 @@ namespace MettleSystems.DataServer.Test {
   [TestClass]
   public class DataServerTest {
 
+    private IDataService<DatabaseConfiguration> dataService;
+
     [TestInitialize]
     public void TestInitialize() {
       ObjectFactory.Initialize(c => c.AddRegistry(new DataServerTestRegistry()));
+      dataService = ObjectFactory.GetInstance<IDataService<DatabaseConfiguration>>();
+    }
+
+    [TestCleanup]
+    public void TestCleanup() { 
+    
     }
 
     [TestMethod]
     public void System_IDataServerTest() {
-      var dataService = ObjectFactory.GetInstance<IDataService<DatabaseConfiguration>>();
+      
       var databaseConfiguration = new DatabaseConfiguration {
         ApplicationId = 1,
         CacheRegionPrefix = "test",

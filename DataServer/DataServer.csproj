@@ -56,6 +56,7 @@
     <Compile Include="Context\DataContext.cs" />
     <Compile Include="Context\IDataContext.cs" />
     <Compile Include="Conventions\SystemAutomappingConvention.cs" />
+    <Compile Include="Conventions\SystemClassConvention.cs" />
     <Compile Include="DataService.cs" />
     <Compile Include="IDataService.cs" />
     <Compile Include="IRepository.cs" />
