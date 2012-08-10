@@ -13,6 +13,7 @@ namespace MettleSystems.DataServer {
 
     T Get(object id);
     T Load(object id);
+    void Delete(object obj);
     IList<T> FindAll(DetachedCriteria criteria);
     T LoadByName(string name);
 

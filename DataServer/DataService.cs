@@ -46,6 +46,10 @@ namespace MettleSystems.DataServer {
       return _repository.Load(id);
     }
 
+    public void Delete(object obj) {
+      _repository.Delete(obj);
+    }
+
     public void Save(object obj) {
       _repository.Save(obj);
     }

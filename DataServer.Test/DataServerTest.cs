@@ -3,23 +3,26 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using StructureMap;
 using MettleSystems.DataServer;
+using MettleSystems.DataServer.Context;
 using MettleSystems.MultiTenant.Core.Models.Entities;
 
 namespace MettleSystems.DataServer.Test {
   [TestClass]
   public class DataServerTest {
 
-    private IDataService<DatabaseConfiguration> dataService;
+    private IDataService<DatabaseConfiguration> systemDataService;
 
     [TestInitialize]
     public void TestInitialize() {
       ObjectFactory.Initialize(c => c.AddRegistry(new DataServerTestRegistry()));
-      dataService = ObjectFactory.GetInstance<IDataService<DatabaseConfiguration>>();
+      systemDataService = ObjectFactory.GetInstance<IDataService<DatabaseConfiguration>>();
+
+
     }
 
     [TestCleanup]
     public void TestCleanup() { 
-    
+      //dataService.
     }
 
     [TestMethod]
@@ -39,8 +42,16 @@ namespace MettleSystems.DataServer.Test {
       };
       
       Assert.IsTrue(databaseConfiguration.IsValid());
-      dataService.Save(databaseConfiguration);
+      systemDataService.Save(databaseConfiguration);
       Assert.IsTrue(databaseConfiguration.DatabaseConfigurationId > 0);
+      systemDataService.Delete(databaseConfiguration);
+    }
+
+    [TestMethod]
+    public void Application_IDataServerTest() {
+
+      var databaseConfiguration = systemDataService.LoadByName("dashCommerce");
+      Assert.IsTrue(databaseConfiguration != null);
     }
   }
 }

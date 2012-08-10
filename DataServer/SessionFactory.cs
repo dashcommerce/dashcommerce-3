@@ -54,7 +54,9 @@ namespace MettleSystems.DataServer {
           .Database(GetApplicationPersistenceConfigurer(databaseConfiguration))
           .Mappings(mappings => {
             foreach (Assembly assembly in assemblyList) {
-              mappings.AutoMappings.Add(AutoMap.Assemblies(new SystemAutomappingConfiguration(), assemblyList.ToArray()));
+              mappings
+                .AutoMappings
+                .Add(AutoMap.Assemblies(new SystemAutomappingConfiguration(), assemblyList.ToArray()));
             }
           }).BuildSessionFactory();
 

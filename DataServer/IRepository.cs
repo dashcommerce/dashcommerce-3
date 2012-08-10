@@ -11,15 +11,16 @@ namespace MettleSystems.DataServer {
     //object Load(object id);
     //IList<object> FindAll(DetachedCriteria criteria);
     void Save(object obj);
-    void Dispose();
-
     T Get(object id);
     T Load(object id);
+    void Delete(object obj);
     IList<T> FindAll(DetachedCriteria criteria);
     T LoadByName(string name);
 
     IQueryable<T> Find();
     IQueryable<T> Find(int id);
     IQueryable<T> Find(Expression<Func<T, bool>> expression);
+
+    void Dispose();
   }
 }

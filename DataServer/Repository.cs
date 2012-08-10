@@ -22,7 +22,6 @@ namespace MettleSystems.DataServer {
     #region Constructors
 
     public Repository(IDataContext dataContext) {
-      //_sessionFactory = new Configuration().Configure().BuildSessionFactory();
       _sessionFactory = new SessionFactoryCache(dataContext).GetSessionFactory();
       _session = _sessionFactory.OpenSession();
       //TODO: CMC - Fix the CultureId parameter.
@@ -66,19 +65,6 @@ namespace MettleSystems.DataServer {
 
     public T Load(object id) {
       try {
-
-        //TODO: CMC - This doesn't work, so what's the dillio?
-
-        //T obj = default(T);
-        //using (_session = _sessionFactory.OpenSession()) {
-        //  using (_transaction = _session.BeginTransaction()) {
-        //    obj = _session.Load<T>(id);
-        //    _transaction.Commit();
-        //    _transaction = null;
-        //  }
-        //}
-        //return obj;
-
         T obj = default(T);
         _transaction = _session.BeginTransaction();
         obj = _session.Load<T>(id);
@@ -94,16 +80,27 @@ namespace MettleSystems.DataServer {
       }
     }
 
-    public void Save(object obj) {
+    public void Delete(object obj) {
       try {
-        //using (_session = _sessionFactory.OpenSession()) {
-        //  using (_transaction = _session.BeginTransaction()) {
         _transaction = _session.BeginTransaction();
-        _session.Save(obj);
+        _session.Delete(obj);
         _transaction.Commit();
         _transaction = null;
-        //  }
-        //}
+      }
+      catch {
+        if (_transaction != null) {
+          _transaction.Rollback();
+        }
+      
+      }
+    }
+
+    public void Save(object obj) {
+      try {
+        _transaction = _session.BeginTransaction();
+        _session.SaveOrUpdate(obj);
+        _transaction.Commit();
+        _transaction = null;
       }
       catch {
         if (_transaction != null) {
