@@ -118,6 +118,7 @@
     <Compile Include="ImageProcess.cs" />
     <Compile Include="IO\FileWriter.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="Models\Entities\Log.cs" />
     <Compile Include="Models\Generated\ConfigurationDatum.cs" />
     <Compile Include="Models\Generated\Country.cs" />
     <Compile Include="Models\Generated\Log.cs" />

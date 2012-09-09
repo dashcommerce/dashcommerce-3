@@ -9,17 +9,14 @@ namespace MettleSystems.DataServer {
 
   public interface IDataService<T> {
 
-    void Save(object obj);
-
-    T Get(object id);
-    T Load(object id);
+    T Find(object id);
+    T Find(Expression<Func<T, bool>> criteria);
+    IList<T> FindAll();
+    IList<T> FindAll(Expression<Func<T, bool>> criteria);
+    void Save(T item);
     void Delete(object obj);
-    IList<T> FindAll(DetachedCriteria criteria);
-    T LoadByName(string name);
-
-    IQueryable<T> Find();
-    IQueryable<T> Find(int id);
-    IQueryable<T> Find(Expression<Func<T, bool>> expression);
+    void Delete(T item);
+    void Dispose();
 
   }
 

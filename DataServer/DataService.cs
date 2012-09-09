@@ -16,7 +16,7 @@ namespace MettleSystems.DataServer {
   /// Data Server performs all of the database operations.
   /// </summary>
   /// <typeparam name="T"></typeparam>
-  public class DataService<T> : IDataService<T>, IDisposable {
+  public class DataService<T> : IDataService<T>, IDisposable  where T : class {
 
     #region Member Variables
 
@@ -38,42 +38,33 @@ namespace MettleSystems.DataServer {
 
     #region Methods
 
-    public T Get(object id) {
-      return _repository.Get(id);
+    public T Find(object id) {
+      return _repository.Find(id);
     }
 
-    public T Load(object id) {
-      return _repository.Load(id);
+    public T Find(Expression<Func<T, bool>> criteria) {
+      return _repository.Find(criteria);
+    }
+
+    public IList<T> FindAll() {
+      return _repository.FindAll();
+    }
+
+    public IList<T> FindAll(Expression<Func<T, bool>> criteria) {
+      return _repository.FindAll(criteria);
+    }
+
+    public void Save(T item) {
+      _repository.Save(item);
     }
 
     public void Delete(object obj) {
       _repository.Delete(obj);
     }
 
-    public void Save(object obj) {
-      _repository.Save(obj);
+    public void Delete(T item) {
+      _repository.Delete(item);
     }
-
-    public IList<T> FindAll(DetachedCriteria criteria) {
-      return _repository.FindAll(criteria);
-    }
-
-    public T LoadByName(string name) {
-      return _repository.LoadByName(name);
-    }
-
-    public IQueryable<T> Find() {
-      return _repository.Find();
-    }
-
-    public IQueryable<T> Find(int id) {
-      return _repository.Find(id);
-    }
-
-    public IQueryable<T> Find(Expression<Func<T, bool>> expression) {
-      return _repository.Find(expression);
-    }
-
 
     #endregion
 

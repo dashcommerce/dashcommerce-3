@@ -49,8 +49,7 @@ namespace MettleSystems.DataServer.Test {
 
     [TestMethod]
     public void Application_IDataServerTest() {
-
-      var databaseConfiguration = systemDataService.LoadByName("dashCommerce");
+      var databaseConfiguration = systemDataService.Find(p => p.Name == "dashCommerce");
       Assert.IsTrue(databaseConfiguration != null);
     }
   }

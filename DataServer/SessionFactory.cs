@@ -40,7 +40,9 @@ namespace MettleSystems.DataServer {
         //do the lookup and build up the _sessionFactory
         SessionFactoryCache sessionFactoryCache = new SessionFactoryCache(null);
         ISessionFactory systemSessionFactory = sessionFactoryCache.GetSessionFactory();
+        //
         //TODO: CMC - Use IDataServer for this?
+        //
         var databaseConfiguration =
           systemSessionFactory.OpenSession().CreateQuery(
             string.Format("from DatabaseConfiguration where ApplicationId = {0} and Name = '{1}' and CacheRegionPrefix = '{2}'",
